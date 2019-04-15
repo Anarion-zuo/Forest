@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Numeric">
+      <UniqueIdentifier>{eba383b5-cecc-4d62-8ea4-b5c4a47b0824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric">
+      <UniqueIdentifier>{1df17903-3ef4-4a52-b9b1-3b2d1c77d38d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Number">
+      <UniqueIdentifier>{1d5276d3-0bbc-4374-909d-fd89e7ef02d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data Structures">
+      <UniqueIdentifier>{9ae695c4-7c7a-4a25-a3bb-da903588d489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Structures">
+      <UniqueIdentifier>{a7e64e1f-81c3-4264-99d4-97f3b0b9fc89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data Structures\Trees">
+      <UniqueIdentifier>{81cb6abe-30b2-4216-85ea-5c7e1745eb7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Array.cpp">
+      <Filter>Source Files\Numeric</Filter>
+    </ClCompile>
+    <ClCompile Include="Array_Statics.cpp">
+      <Filter>Source Files\Numeric</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Integer.h">
+      <Filter>Header Files\Numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="Float.h">
+      <Filter>Header Files\Numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>Header Files\Numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Statics.h">
+      <Filter>Header Files\Numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="heap.hpp">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="sized_heap.hpp">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.hpp">
+      <Filter>Header Files\Data Structures\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Binary_Tree.hpp">
+      <Filter>Header Files\Data Structures\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="AVL_Tree.hpp">
+      <Filter>Header Files\Data Structures\Trees</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

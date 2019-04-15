@@ -20,14 +20,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Array.cpp" />
-    <ClCompile Include="Float.cpp" />
-    <ClCompile Include="Integer.cpp" />
+    <ClCompile Include="Array_Statics.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
+    <ClInclude Include="Array_Statics.h" />
+    <ClInclude Include="AVL_Tree.hpp" />
+    <ClInclude Include="Binary_Tree.hpp" />
     <ClInclude Include="Float.h" />
+    <ClInclude Include="heap.hpp" />
     <ClInclude Include="Integer.h" />
+    <ClInclude Include="sized_heap.hpp" />
+    <ClInclude Include="TreeNode.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

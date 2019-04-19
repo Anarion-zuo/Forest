@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
 #include <limits>
+#include <string>
 
 const double equ_tolerance = std::numeric_limits<double>::epsilon() * 10;
 
@@ -18,6 +19,7 @@ protected:
 	void mover(const size_t& index, const size_t& step);
 	static inline bool equ(const double& a, const double& b);
 public:
+	Array() {}
 	Array(const size_t& s) : c(new double[s] {0}), size(s), length(size) {}
 	Array(const std::vector<double>& v) : c(new double[v.size()]), size(v.size()), length(size) {
 		for (size_t i = 0; i < size; ++i) {
@@ -29,7 +31,14 @@ public:
 			c[i] = a.c[i];
 		}
 	}
+	Array(const Array* a) : c(new double[a->size]), size(a->size), length(size) {
+		for (size_t i = 0; i < size; ++i) {
+			c[i] = a->c[i];
+		}
+	}
 	~Array() { if (c)  delete[] c; }
+
+	std::string to_csv();
 
 	void resize(const size_t& n);
 	void push_back(const double& n);
@@ -39,14 +48,14 @@ public:
 
 	void operator= (const std::vector<double>& v);
 	void operator= (const Array& a);
-	Array& operator+ (const Array& a) const;
-	Array& operator- (const Array& a) const;
-	Array& operator* (const Array& a) const;
-	Array& operator/ (const Array& a) const;
-	Array& operator+ (const double& a) const;
-	Array& operator- (const double& a) const;
-	Array& operator* (const double& a) const;
-	Array& operator/ (const double& a) const;
+	Array* operator+ (const Array& a) const;
+	Array* operator- (const Array& a) const;
+	Array* operator* (const Array& a) const;
+	Array* operator/ (const Array& a) const;
+	Array* operator+ (const double& a) const;
+	Array* operator- (const double& a) const;
+	Array* operator* (const double& a) const;
+	Array* operator/ (const double& a) const;
 	bool operator== (const Array& a) const;
 	inline bool operator!= (const Array& a) const;
 	double& operator[] (const size_t& index) const;
@@ -61,5 +70,6 @@ public:
 	double percentage(const double& a) const;
 	double mode() const;
 	void centrolize();
+	double variance();
 	void standardize();
 };

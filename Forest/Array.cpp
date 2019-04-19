@@ -1,10 +1,29 @@
 #include "Array.h"
 
+std::string Array::to_csv() {
+	if (!length)  throw "Trying to print null array.";
+	std::string p;
+	for (size_t i = 0; i < length; ++i) {
+		p += std::to_string(c[i]);
+		if (i != length - 1) {
+			p += ',';
+		}
+	}
+	return p;
+}
+
 #pragma region structure operations
 void Array::resize(const size_t& n) {
 	double* cc = new double[n];
-	for (size_t i = 0; i < n; i++) {
+	size_t nn = n < size ? n : size;
+	for (size_t i = 0; i < nn; i++) {
 		cc[i] = c[i];
+	}
+	if (nn > size) {
+		for (size_t i = 0; i < size; ++i)
+		{
+			cc[i + nn] = 0;
+		}
 	}
 	delete[] c;
 	c = cc;
@@ -90,80 +109,80 @@ void Array::operator= (const std::vector<double>& v) {
 double& Array::operator[] (const size_t& index) const {
 	return c[index];
 }
-Array& Array::operator+(const Array& a) const
+Array* Array::operator+(const Array& a) const
 {
 	if (length != a.length)  throw "Array operation with inconsistent length.";
 	Array* p = new Array(length);
 	for (size_t i = 0; i < length; ++i) {
 		p->c[i] = c[i] + a.c[i];
 	}
-	return *p;
+	return p;
 }
 
-Array& Array::operator+(const double& a) const
+Array* Array::operator+(const double& a) const
 {
 	Array * p = new Array(length);
 	for (size_t i = 0; i < length; ++i) {
 		p->c[i] = c[i] + a;
 	}
-	return *p;
+	return p;
 }
 
-Array& Array::operator-(const Array& a) const
+Array* Array::operator-(const Array& a) const
 {
 	if (length != a.length)  throw "Array operation with inconsistent length.";
 	Array * p = new Array(length);
 	for (size_t i = 0; i < length; ++i) {
 		p->c[i] = c[i] - a.c[i];
 	}
-	return *p;
+	return p;
 }
 
-Array& Array::operator-(const double& a) const
+Array* Array::operator-(const double& a) const
 {
 	Array* p = new Array(length);
 	for (size_t i = 0; i < length; ++i) {
 		p->c[i] = c[i] - a;
 	}
-	return *p;
+	return p;
 }
 
-Array& Array::operator*(const Array& a) const
+Array* Array::operator*(const Array& a) const
 {
 	if (length != a.length)  throw "Array operation with inconsistent length.";
 	Array * p = new Array(length);
 	for (size_t i = 0; i < length; ++i) {
 		p->c[i] = c[i] * a.c[i];
 	}
-	return *p;
+	return p;
 }
 
-Array& Array::operator*(const double& a) const
+Array* Array::operator*(const double& a) const
 {
 	Array* p = new Array(length);
 	for (size_t i = 0; i < length; ++i) {
 		p->c[i] = c[i] * a;
 	}
-	return *p;
+	return p;
 }
 
-Array& Array::operator/(const Array& a) const
+Array* Array::operator/(const Array& a) const
 {
 	if (length != a.length)  throw "Array operation with inconsistent length.";
 	Array * p = new Array(length);
 	for (size_t i = 0; i < length; ++i) {
 		p->c[i] = c[i] / a.c[i];
 	}
-	return *p;
+	return p;
 }
 
-Array& Array::operator/(const double& a) const
+Array* Array::operator/(const double& a) const
 {
 	Array* p = new Array(length);
 	for (size_t i = 0; i < length; ++i) {
 		p->c[i] = c[i] / a;
 	}
-	return *p;
+	return p;
 }
 
 bool Array::operator!=(const Array& a) const
@@ -221,17 +240,42 @@ double Array::norm(const double& n) const
 
 double Array::midval() const
 {
-
+	return 0;
 }
 
 double Array::percentage(const double& a) const
 {
-
+	return 0;
 }
 
 double Array::mode() const
 {
+	return 0;
+}
 
+void Array::centrolize()
+{
+	double m = mean();
+	for (size_t i = 0; i < length; i++) {
+		c[i] -= m;
+	}
+}
+
+double Array::variance() {
+	double m = mean(), res = 0;
+	for (size_t i = 0; i < length; i++) {
+		res += pow((c[i] - m), 2);
+	}
+	return res;
+}
+
+void Array::standardize()
+{
+	centrolize();
+	double v = sqrt(variance());
+	for (size_t i = 0; i < length; i++) {
+		c[i] /= v;
+	}
 }
 
 #pragma endregion

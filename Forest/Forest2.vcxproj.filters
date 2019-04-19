@@ -31,31 +31,40 @@
     <Filter Include="Header Files\Data Structures\Trees">
       <UniqueIdentifier>{81cb6abe-30b2-4216-85ea-5c7e1745eb7f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Data Structures\Cache">
+      <UniqueIdentifier>{df4f6b31-49ed-4bd7-a131-7eb5ff06041c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Matrix">
+      <UniqueIdentifier>{a45b58cc-d6ce-42fa-887a-3a819965053a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Matrix">
+      <UniqueIdentifier>{2f3c2c24-dac3-4e79-9632-6b64809cf3c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numeric\Array">
+      <UniqueIdentifier>{9c3d521a-b5ad-4a60-a418-68834fb691ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numeric\Array">
+      <UniqueIdentifier>{59fd4af2-297b-420a-98d1-b43e311aec81}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files\Numeric\Matrix</Filter>
+    </ClCompile>
     <ClCompile Include="Array.cpp">
-      <Filter>Source Files\Numeric</Filter>
+      <Filter>Source Files\Numeric\Array</Filter>
     </ClCompile>
     <ClCompile Include="Array_Statics.cpp">
-      <Filter>Source Files\Numeric</Filter>
+      <Filter>Source Files\Numeric\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="iArray.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Integer.h">
-      <Filter>Header Files\Numeric</Filter>
-    </ClInclude>
-    <ClInclude Include="Float.h">
-      <Filter>Header Files\Numeric</Filter>
-    </ClInclude>
-    <ClInclude Include="Array.h">
-      <Filter>Header Files\Numeric</Filter>
-    </ClInclude>
-    <ClInclude Include="Array_Statics.h">
-      <Filter>Header Files\Numeric</Filter>
-    </ClInclude>
     <ClInclude Include="heap.hpp">
       <Filter>Header Files\Data Structures</Filter>
     </ClInclude>
@@ -70,6 +79,21 @@
     </ClInclude>
     <ClInclude Include="AVL_Tree.hpp">
       <Filter>Header Files\Data Structures\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Fixed_sized_AVL.hpp">
+      <Filter>Header Files\Data Structures\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files\Numeric\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>Header Files\Numeric\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array_Statics.h">
+      <Filter>Header Files\Numeric\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="iArray.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

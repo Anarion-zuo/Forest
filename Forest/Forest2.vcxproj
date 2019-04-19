@@ -21,6 +21,9 @@
   <ItemGroup>
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Array_Statics.cpp" />
+    <ClCompile Include="ETNode.cpp" />
+    <ClCompile Include="ETNode_d.cpp" />
+    <ClCompile Include="Functor.cpp" />
     <ClCompile Include="iArray.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Matrix.cpp" />
@@ -30,7 +33,10 @@
     <ClInclude Include="Array_Statics.h" />
     <ClInclude Include="AVL_Tree.hpp" />
     <ClInclude Include="Binary_Tree.hpp" />
+    <ClInclude Include="ETNode.h" />
+    <ClInclude Include="ETNode_d.h" />
     <ClInclude Include="Fixed_sized_AVL.hpp" />
+    <ClInclude Include="Functor.h" />
     <ClInclude Include="heap.hpp" />
     <ClInclude Include="iArray.h" />
     <ClInclude Include="Matrix.h" />

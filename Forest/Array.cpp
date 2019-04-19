@@ -1,11 +1,15 @@
 #include "Array.h"
 
+size_t Array::size() const {
+	return c.size();
+}
+
 std::string Array::to_csv() {
-	if (!length)  throw "Trying to print null array.";
+	if (!size())  throw "Trying to print null array.";
 	std::string p;
-	for (size_t i = 0; i < length; ++i) {
+	for (size_t i = 0; i < size(); ++i) {
 		p += std::to_string(c[i]);
-		if (i != length - 1) {
+		if (i != size() - 1) {
 			p += ',';
 		}
 	}
@@ -14,50 +18,11 @@ std::string Array::to_csv() {
 
 #pragma region structure operations
 void Array::resize(const size_t& n) {
-	double* cc = new double[n];
-	size_t nn = n < size ? n : size;
-	for (size_t i = 0; i < nn; i++) {
-		cc[i] = c[i];
-	}
-	if (nn > size) {
-		for (size_t i = 0; i < size; ++i)
-		{
-			cc[i + nn] = 0;
-		}
-	}
-	delete[] c;
-	c = cc;
-	if (size > n) {
-		length = n;
-	}
-	size = n;
-}
-
-void Array::double_size() {
-	resize(2 * size);
+	c.resize(n);
 }
 
 void Array::push_back(const double& n) {
-	if ((length + 1) >= size) {
-		double_size();
-	}
-	c[length] = n;
-	length++;
-}
-
-void Array::mover(const size_t& index, const size_t& step) {
-	if (index > length || length + step >= size) {
-		throw "Array operation out of range.";
-	}
-	length += step;
-	double* cc = new double[length - index];
-	for (size_t i = 0; i < length - index; ++i) {
-		cc[i] = c[index + i];
-	}
-	for (size_t i = 0; i < step; ++i) {
-		c[index + step + i] = cc[i];
-	}
-	delete[] cc;
+	c.push_back(n);
 }
 
 bool Array::equ(const double& a, const double& b)
@@ -66,54 +31,35 @@ bool Array::equ(const double& a, const double& b)
 }
 
 void Array::push_at(const size_t& index, const double& n) {
-	if ((length + 1) >= size) {
-		double_size();
-	}
-	mover(index, 1);
-	c[index] = n;
+	c.insert(c.begin() + index, n);
 }
 
 void Array::pop_back() {
-	if ((length - 1) * 3 <= size) {
-		resize(size / 3 + 1);
-	}
-	length--;
+	c.pop_back();
 }
 
 void Array::pop_at(const size_t& index)
 {
-
+	c.erase(c.begin() + index);
 }
 
 #pragma endregion
 #pragma region basic numerical operations
 void Array::operator= (const Array& a) {
-	if (c)  delete[] c;
-	c = new double[a.length];
-	for (size_t i = 0; i < a.size; ++i) {
-		c[i] = a.c[i];
-	}
-	size = a.length;
-	length = size;
+	c = a.c;
 }
 void Array::operator= (const std::vector<double>& v) {
-	if (c)  delete[] c;
-	c = new double[v.size()];
-	for (size_t i = 0; i < v.size(); ++i) {
-		c[i] = v[i];
-	}
-	size = v.size();
-	length = size;
+	c = v;
 }
 
-double& Array::operator[] (const size_t& index) const {
+double& Array::operator[] (const size_t& index) {
 	return c[index];
 }
 Array* Array::operator+(const Array& a) const
 {
-	if (length != a.length)  throw "Array operation with inconsistent length.";
-	Array* p = new Array(length);
-	for (size_t i = 0; i < length; ++i) {
+	if (size() != a.size())  throw "Array operation with inconsistent length.";
+	Array* p = new Array(size());
+	for (size_t i = 0; i < size(); ++i) {
 		p->c[i] = c[i] + a.c[i];
 	}
 	return p;
@@ -121,8 +67,8 @@ Array* Array::operator+(const Array& a) const
 
 Array* Array::operator+(const double& a) const
 {
-	Array * p = new Array(length);
-	for (size_t i = 0; i < length; ++i) {
+	Array * p = new Array(size());
+	for (size_t i = 0; i < size(); ++i) {
 		p->c[i] = c[i] + a;
 	}
 	return p;
@@ -130,9 +76,9 @@ Array* Array::operator+(const double& a) const
 
 Array* Array::operator-(const Array& a) const
 {
-	if (length != a.length)  throw "Array operation with inconsistent length.";
-	Array * p = new Array(length);
-	for (size_t i = 0; i < length; ++i) {
+	if (size() != a.size())  throw "Array operation with inconsistent length.";
+	Array * p = new Array(size());
+	for (size_t i = 0; i < size(); ++i) {
 		p->c[i] = c[i] - a.c[i];
 	}
 	return p;
@@ -140,8 +86,8 @@ Array* Array::operator-(const Array& a) const
 
 Array* Array::operator-(const double& a) const
 {
-	Array* p = new Array(length);
-	for (size_t i = 0; i < length; ++i) {
+	Array* p = new Array(size());
+	for (size_t i = 0; i < size(); ++i) {
 		p->c[i] = c[i] - a;
 	}
 	return p;
@@ -149,9 +95,9 @@ Array* Array::operator-(const double& a) const
 
 Array* Array::operator*(const Array& a) const
 {
-	if (length != a.length)  throw "Array operation with inconsistent length.";
-	Array * p = new Array(length);
-	for (size_t i = 0; i < length; ++i) {
+	if (size() != a.size())  throw "Array operation with inconsistent length.";
+	Array * p = new Array(size());
+	for (size_t i = 0; i < size(); ++i) {
 		p->c[i] = c[i] * a.c[i];
 	}
 	return p;
@@ -159,8 +105,8 @@ Array* Array::operator*(const Array& a) const
 
 Array* Array::operator*(const double& a) const
 {
-	Array* p = new Array(length);
-	for (size_t i = 0; i < length; ++i) {
+	Array* p = new Array(size());
+	for (size_t i = 0; i < size(); ++i) {
 		p->c[i] = c[i] * a;
 	}
 	return p;
@@ -168,9 +114,9 @@ Array* Array::operator*(const double& a) const
 
 Array* Array::operator/(const Array& a) const
 {
-	if (length != a.length)  throw "Array operation with inconsistent length.";
-	Array * p = new Array(length);
-	for (size_t i = 0; i < length; ++i) {
+	if (size() != a.size())  throw "Array operation with inconsistent length.";
+	Array * p = new Array(size());
+	for (size_t i = 0; i < size(); ++i) {
 		p->c[i] = c[i] / a.c[i];
 	}
 	return p;
@@ -178,8 +124,8 @@ Array* Array::operator/(const Array& a) const
 
 Array* Array::operator/(const double& a) const
 {
-	Array* p = new Array(length);
-	for (size_t i = 0; i < length; ++i) {
+	Array* p = new Array(size());
+	for (size_t i = 0; i < size(); ++i) {
 		p->c[i] = c[i] / a;
 	}
 	return p;
@@ -192,7 +138,7 @@ bool Array::operator!=(const Array& a) const
 
 bool Array::operator==(const Array& a) const
 {
-	for (size_t i = 0; i < length; ++i) {
+	for (size_t i = 0; i < size(); ++i) {
 		if (!equ(c[i], a.c[i])) {
 			return false;
 		}
@@ -203,7 +149,7 @@ bool Array::operator==(const Array& a) const
 #pragma region statistical operations
 double Array::sum() const {
 	double res = 0;
-	for (size_t i = 0; i < length; ++i) {
+	for (size_t i = 0; i < size(); ++i) {
 		res += c[i];
 	}
 	return res;
@@ -212,7 +158,7 @@ double Array::sum() const {
 double Array::nth_sum(const double& n) const
 {
 	double res = 0;
-	for (size_t i = 0; i < length; ++i) {
+	for (size_t i = 0; i < size(); ++i) {
 		res += pow(c[i], n);
 	}
 	return res;
@@ -220,12 +166,12 @@ double Array::nth_sum(const double& n) const
 
 double Array::mean() const
 {
-	return sum() / length;
+	return sum() / size();
 }
 
 double Array::moment(const double& n) const
 {
-	return nth_sum(n) / length;
+	return nth_sum(n) / size();
 }
 
 double Array::magnitude() const
@@ -256,14 +202,14 @@ double Array::mode() const
 void Array::centrolize()
 {
 	double m = mean();
-	for (size_t i = 0; i < length; i++) {
+	for (size_t i = 0; i < size(); i++) {
 		c[i] -= m;
 	}
 }
 
 double Array::variance() {
 	double m = mean(), res = 0;
-	for (size_t i = 0; i < length; i++) {
+	for (size_t i = 0; i < size(); i++) {
 		res += pow((c[i] - m), 2);
 	}
 	return res;
@@ -273,7 +219,7 @@ void Array::standardize()
 {
 	centrolize();
 	double v = sqrt(variance());
-	for (size_t i = 0; i < length; i++) {
+	for (size_t i = 0; i < size(); i++) {
 		c[i] /= v;
 	}
 }

@@ -1,25 +1,31 @@
 #pragma once
 
-#include "Array.h"
+#include "iArray.h"
 
+class iArray;
 class Matrix
 {
 private:
-	Array* c = nullptr;
-	size_t width = 0, height = 0;
+	std::vector<iArray> c;
+	size_t _height;
 public:
-	Matrix(const size_t& x, const size_t y);
+	Matrix(const size_t& x, const size_t& y);
 	~Matrix();
 
-	double& loc(const size_t& x, const size_t& y);
-	Matrix& operator+ (const Matrix& m);
-	Matrix& operator- (const Matrix& m);
-	Matrix& operator* (const Matrix& m);
-	Matrix& operator/ (const Matrix& m);
-	Matrix& operator+ (const double& n);
-	Matrix& operator- (const double& n);
-	Matrix& operator* (const double& n);
-	Matrix& operator/ (const double& n);
+	inline size_t width() const;
+	inline size_t height() const;
+
+	std::string to_csv();
+
+	inline double& loc(const size_t& x, const size_t& y);
+	Matrix* operator+ (const Matrix& m);
+	Matrix* operator- (const Matrix& m);
+	Matrix* operator* (const Matrix& m);
+	Matrix* operator/ (const Matrix& m);
+	Matrix* operator+ (const double& n);
+	Matrix* operator- (const double& n);
+	Matrix* operator* (const double& n);
+	Matrix* operator/ (const double& n);
 };
 
 class Identity_Matrix : public Matrix {

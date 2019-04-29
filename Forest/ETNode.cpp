@@ -2,7 +2,7 @@
 
 
 
-ETNode::ETNode(ETNode* l, ETNode* r, const ETNode_d& v) : TreeNode<ETNode_d>(l, r, v)
+ETNode::ETNode(ETNode* l, ETNode* r, const double& d) : TreeNode<ETNode_d>(l, r, d)
 {
 }
 

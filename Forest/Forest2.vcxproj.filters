@@ -46,24 +46,6 @@
     <Filter Include="Header Files\Numeric\Array">
       <UniqueIdentifier>{59fd4af2-297b-420a-98d1-b43e311aec81}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Equation Tree">
-      <UniqueIdentifier>{4e129902-02d2-469b-beab-f71be84d1d4a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Equation Tree">
-      <UniqueIdentifier>{fffdfc48-79af-4f57-b123-9e47469cc410}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Equation Tree\Node">
-      <UniqueIdentifier>{765bf802-22c1-4361-b4fa-1dae5e978165}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Equation Tree\Node">
-      <UniqueIdentifier>{e695bacd-9a3f-4332-98ef-d8e12deb6b3e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Equation Tree\Functor">
-      <UniqueIdentifier>{5bb7dcd0-24ce-42a8-ae65-aed6ddea5bff}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Equation Tree\Functor">
-      <UniqueIdentifier>{f9c01a72-0503-4018-a837-c4b89169b86e}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -80,15 +62,6 @@
     </ClCompile>
     <ClCompile Include="iArray.cpp">
       <Filter>Source Files\Numeric\Array</Filter>
-    </ClCompile>
-    <ClCompile Include="ETNode.cpp">
-      <Filter>Source Files\Equation Tree\Node</Filter>
-    </ClCompile>
-    <ClCompile Include="ETNode_d.cpp">
-      <Filter>Source Files\Equation Tree\Node</Filter>
-    </ClCompile>
-    <ClCompile Include="Functor.cpp">
-      <Filter>Source Files\Equation Tree\Functor</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -121,15 +94,6 @@
     </ClInclude>
     <ClInclude Include="iArray.h">
       <Filter>Header Files\Numeric\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="ETNode.h">
-      <Filter>Header Files\Equation Tree\Node</Filter>
-    </ClInclude>
-    <ClInclude Include="ETNode_d.h">
-      <Filter>Header Files\Equation Tree\Node</Filter>
-    </ClInclude>
-    <ClInclude Include="Functor.h">
-      <Filter>Header Files\Equation Tree\Functor</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

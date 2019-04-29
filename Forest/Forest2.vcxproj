@@ -19,22 +19,36 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="addDiffor.cpp" />
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Array_Statics.cpp" />
+    <ClCompile Include="cg.cpp" />
+    <ClCompile Include="cgNode.cpp" />
+    <ClCompile Include="Diffor.cpp" />
+    <ClCompile Include="Functor.cpp" />
     <ClCompile Include="iArray.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="opNode.cpp" />
+    <ClCompile Include="subDiffor.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="addDiffor.h" />
     <ClInclude Include="Array.h" />
     <ClInclude Include="Array_Statics.h" />
     <ClInclude Include="AVL_Tree.hpp" />
     <ClInclude Include="Binary_Tree.hpp" />
+    <ClInclude Include="cg.h" />
+    <ClInclude Include="cgNode.h" />
+    <ClInclude Include="Diffor.h" />
     <ClInclude Include="Fixed_sized_AVL.hpp" />
+    <ClInclude Include="Functor.h" />
     <ClInclude Include="heap.hpp" />
     <ClInclude Include="iArray.h" />
     <ClInclude Include="Matrix.h" />
+    <ClInclude Include="opNode.h" />
     <ClInclude Include="sized_heap.hpp" />
+    <ClInclude Include="subDiffor.h" />
     <ClInclude Include="TreeNode.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -107,10 +121,14 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
     </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>

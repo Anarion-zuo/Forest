@@ -46,6 +46,30 @@
     <Filter Include="Header Files\Numeric\Array">
       <UniqueIdentifier>{59fd4af2-297b-420a-98d1-b43e311aec81}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Computational Graph">
+      <UniqueIdentifier>{dd939b2d-4d5b-4808-8cf9-8a949d5b54f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Computational Graph">
+      <UniqueIdentifier>{04a5a3ce-b89d-4a26-b600-f371737fc488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Computational Graph\Functros">
+      <UniqueIdentifier>{1c974e37-90ac-405d-992c-eeec2c90f5b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Computational Graph\Functors">
+      <UniqueIdentifier>{4f72b5ae-a80b-4d88-94e2-6a9133b56e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Computational Graph\Nodes">
+      <UniqueIdentifier>{c047e4e8-0104-416f-ba7a-657d56ecbe9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Computational Graph\Nodes">
+      <UniqueIdentifier>{6697c7ad-bc95-4fb9-8337-7313615df88a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Computational Graph\Differentiators">
+      <UniqueIdentifier>{b0445cfb-db48-442e-b0fc-95552105fb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Computational Graph\Differentiators">
+      <UniqueIdentifier>{985807f7-62ac-4bcd-b43d-f24707514e11}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -62,6 +86,27 @@
     </ClCompile>
     <ClCompile Include="iArray.cpp">
       <Filter>Source Files\Numeric\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="cg.cpp">
+      <Filter>Source Files\Computational Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="cgNode.cpp">
+      <Filter>Source Files\Computational Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Functor.cpp">
+      <Filter>Source Files\Computational Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="opNode.cpp">
+      <Filter>Source Files\Computational Graph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Diffor.cpp">
+      <Filter>Source Files\Computational Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="addDiffor.cpp">
+      <Filter>Source Files\Computational Graph\Differentiators</Filter>
+    </ClCompile>
+    <ClCompile Include="subDiffor.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +139,27 @@
     </ClInclude>
     <ClInclude Include="iArray.h">
       <Filter>Header Files\Numeric\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="cg.h">
+      <Filter>Header Files\Computational Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="cgNode.h">
+      <Filter>Header Files\Computational Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Functor.h">
+      <Filter>Header Files\Computational Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="opNode.h">
+      <Filter>Header Files\Computational Graph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Diffor.h">
+      <Filter>Header Files\Computational Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="addDiffor.h">
+      <Filter>Header Files\Computational Graph\Differentiators</Filter>
+    </ClInclude>
+    <ClInclude Include="subDiffor.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

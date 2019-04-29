@@ -25,6 +25,8 @@
     <ClCompile Include="cg.cpp" />
     <ClCompile Include="cgNode.cpp" />
     <ClCompile Include="Diffor.cpp" />
+    <ClCompile Include="divDiffor.cpp" />
+    <ClCompile Include="expDiffor.cpp" />
     <ClCompile Include="Functor.cpp" />
     <ClCompile Include="iArray.cpp" />
     <ClCompile Include="main.cpp" />
@@ -42,6 +44,8 @@
     <ClInclude Include="cg.h" />
     <ClInclude Include="cgNode.h" />
     <ClInclude Include="Diffor.h" />
+    <ClInclude Include="divDiffor.h" />
+    <ClInclude Include="expDiffor.h" />
     <ClInclude Include="Fixed_sized_AVL.hpp" />
     <ClInclude Include="Functor.h" />
     <ClInclude Include="heap.hpp" />

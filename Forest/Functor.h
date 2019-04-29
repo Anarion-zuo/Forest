@@ -15,29 +15,29 @@ public:
 class addFunctor : public Functor
 {
 public:
-	inline double operator() (const double& n1, const double& n2);
+	double operator() (const double& n1, const double& n2);
 };
 
 class subFunctor : public Functor
 {
 public:
-	inline double operator() (const double& n1, const double& n2);
+	double operator() (const double& n1, const double& n2);
 };
 
 class mulFunctor : public Functor
 {
 public:
-	inline double operator() (const double& n1, const double& n2);
+	double operator() (const double& n1, const double& n2);
 };
 
 class divFunctor : public Functor
 {
 public:
-	inline double operator() (const double& n1, const double& n2);
+	double operator() (const double& n1, const double& n2);
 };
 
 class expFunctor : public Functor
 {
 public:
-	inline double operator() (const double& n1, const double& n2);
+	double operator() (const double& n1, const double& n2);
 };

@@ -1,6 +1,7 @@
 #include "AVL_Tree.hpp"
 #include "Matrix.h"
 #include <iostream>
+#include "cg.h"
 using namespace std;
 
 class A {
@@ -12,8 +13,5 @@ public:
 
 
 int main() {
-	iArray a(9, 9), b(9, 8);
-	auto c = a + b;
-	Matrix d(3, 4), e(3,4);
-	auto f = d + e;
+
 }

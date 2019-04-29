@@ -12,7 +12,6 @@ void cg::del_node(cgNode* node)
 void cg::diff_node(cgNode*& node)
 {
 	if (!node)	return;
-	Diffor* temp = node->diffor;
 	node = node->diffor->run();
 }
 
@@ -27,5 +26,6 @@ cg::~cg()
 }
 
 void cg::diff(){
-
+	diff_node(root);
+	Diffor::clear_delq();
 }

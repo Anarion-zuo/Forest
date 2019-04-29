@@ -15,10 +15,12 @@ public:
 	Diffor(cgNode*);
 	virtual ~Diffor();
 	Diffor* clone(cgNode* pp);
-	virtual cgNode* run() {}
+	virtual cgNode* run() { return nullptr; }
 	static void clear_delq();
 };
 
 #include "addDiffor.h"
 #include "subDiffor.h"
 #include "mulDiffor.h"
+#include "divDiffor.h"
+#include "expDiffor.h"

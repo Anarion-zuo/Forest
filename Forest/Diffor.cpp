@@ -1,6 +1,6 @@
 #include "Diffor.h"
 
-
+std::deque<Diffor*> Diffor::delq;
 
 void Diffor::del_push_self()
 {

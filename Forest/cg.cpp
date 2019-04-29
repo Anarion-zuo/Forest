@@ -4,8 +4,9 @@
 
 void cg::del_node(cgNode* node)
 {
-	if (node->left)	delete node->left;
-	if (node->right)	delete node->right;
+	if (!node)	return;
+	if (node->left)	del_node(node->left);
+	if (node->right)	del_node(node->right);
 	delete node;
 }
 
@@ -26,6 +27,7 @@ cg::~cg()
 }
 
 void cg::diff(){
+	Diffor::clear_delq();
 	diff_node(root);
 	Diffor::clear_delq();
 }

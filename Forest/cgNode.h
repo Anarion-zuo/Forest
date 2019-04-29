@@ -9,6 +9,7 @@ class cgNode
 	friend class addDiffor;
 	friend class subDiffor;
 	friend class mulDiffor;
+	friend class divDiffor;
 	friend class cg;
 private:
 	static cgNode* clone_node(cgNode* node);
@@ -17,12 +18,15 @@ protected:
 	cgNode* right;
 	Functor* func;
 	Diffor* diffor;
-
+	double val;
 public:
-	cgNode(cgNode* l, cgNode* r, Functor* f, Diffor* d);
+	cgNode(cgNode* l, cgNode* r, Functor* f, Diffor* d, const double& v);
 	virtual ~cgNode();
 
 	cgNode* clone();
+	static bool is_leaf(cgNode*);
+	void set_val(const double& d);
+	virtual bool is_const();
 };
 
 #include "opNode.h"

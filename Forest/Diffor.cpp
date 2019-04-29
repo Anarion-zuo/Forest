@@ -18,7 +18,7 @@ Diffor::~Diffor()
 
 Diffor* Diffor::clone(cgNode* pp)
 {
-	Diffor* res = new Diffor(pp);
+	Diffor* res = new Diffor(nullptr);
 	*res = *this;
 	res->p = pp;
 	return res;

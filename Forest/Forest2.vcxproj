@@ -24,6 +24,8 @@
     <ClCompile Include="Array_Statics.cpp" />
     <ClCompile Include="cg.cpp" />
     <ClCompile Include="cgNode.cpp" />
+    <ClCompile Include="constDiffor.cpp" />
+    <ClCompile Include="constNode.cpp" />
     <ClCompile Include="Diffor.cpp" />
     <ClCompile Include="divDiffor.cpp" />
     <ClCompile Include="expDiffor.cpp" />
@@ -34,6 +36,7 @@
     <ClCompile Include="mulDiffor.cpp" />
     <ClCompile Include="opNode.cpp" />
     <ClCompile Include="subDiffor.cpp" />
+    <ClCompile Include="varNode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addDiffor.h" />
@@ -43,6 +46,8 @@
     <ClInclude Include="Binary_Tree.hpp" />
     <ClInclude Include="cg.h" />
     <ClInclude Include="cgNode.h" />
+    <ClInclude Include="constDiffor.h" />
+    <ClInclude Include="constNode.h" />
     <ClInclude Include="Diffor.h" />
     <ClInclude Include="divDiffor.h" />
     <ClInclude Include="expDiffor.h" />
@@ -50,12 +55,14 @@
     <ClInclude Include="Functor.h" />
     <ClInclude Include="heap.hpp" />
     <ClInclude Include="iArray.h" />
+    <ClInclude Include="main.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="mulDiffor.h" />
     <ClInclude Include="opNode.h" />
     <ClInclude Include="sized_heap.hpp" />
     <ClInclude Include="subDiffor.h" />
     <ClInclude Include="TreeNode.hpp" />
+    <ClInclude Include="varNode.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

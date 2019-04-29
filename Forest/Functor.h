@@ -3,7 +3,8 @@
 #include <cmath>
 
 class Functor
-{	
+{
+private:
 public:
 	Functor();
 	virtual ~Functor();
@@ -37,6 +38,12 @@ public:
 };
 
 class expFunctor : public Functor
+{
+public:
+	double operator() (const double& n1, const double& n2);
+};
+
+class varFunctor : public Functor
 {
 public:
 	double operator() (const double& n1, const double& n2);

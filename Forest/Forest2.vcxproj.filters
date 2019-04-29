@@ -117,6 +117,15 @@
     <ClCompile Include="expDiffor.cpp">
       <Filter>Source Files\Computational Graph\Differentiators</Filter>
     </ClCompile>
+    <ClCompile Include="varNode.cpp">
+      <Filter>Source Files\Computational Graph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="constNode.cpp">
+      <Filter>Source Files\Computational Graph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="constDiffor.cpp">
+      <Filter>Source Files\Computational Graph\Differentiators</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="heap.hpp">
@@ -178,6 +187,18 @@
     </ClInclude>
     <ClInclude Include="expDiffor.h">
       <Filter>Header Files\Computational Graph\Differentiators</Filter>
+    </ClInclude>
+    <ClInclude Include="varNode.h">
+      <Filter>Header Files\Computational Graph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="constNode.h">
+      <Filter>Header Files\Computational Graph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="constDiffor.h">
+      <Filter>Header Files\Computational Graph\Differentiators</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -7,6 +7,7 @@ class cgNode;
 class Diffor
 {
 	friend class cgNode;
+private:
 protected:
 	cgNode* p;
 	static std::deque<Diffor*> delq;

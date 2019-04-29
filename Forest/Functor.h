@@ -7,7 +7,7 @@ class Functor
 public:
 	Functor();
 	virtual ~Functor();
-	virtual double operator() (const double& n1, const double& n2) {};
+	virtual double operator() (const double& n1, const double& n2) { return 0.0; };
 
 	Functor* clone();
 };

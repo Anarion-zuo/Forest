@@ -29,6 +29,7 @@
     <ClCompile Include="iArray.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="mulDiffor.cpp" />
     <ClCompile Include="opNode.cpp" />
     <ClCompile Include="subDiffor.cpp" />
   </ItemGroup>
@@ -46,6 +47,7 @@
     <ClInclude Include="heap.hpp" />
     <ClInclude Include="iArray.h" />
     <ClInclude Include="Matrix.h" />
+    <ClInclude Include="mulDiffor.h" />
     <ClInclude Include="opNode.h" />
     <ClInclude Include="sized_heap.hpp" />
     <ClInclude Include="subDiffor.h" />

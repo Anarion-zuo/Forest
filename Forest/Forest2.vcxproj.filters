@@ -106,6 +106,9 @@
       <Filter>Source Files\Computational Graph\Differentiators</Filter>
     </ClCompile>
     <ClCompile Include="subDiffor.cpp">
+      <Filter>Source Files\Computational Graph\Differentiators</Filter>
+    </ClCompile>
+    <ClCompile Include="mulDiffor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -152,13 +155,16 @@
     <ClInclude Include="opNode.h">
       <Filter>Header Files\Computational Graph\Nodes</Filter>
     </ClInclude>
-    <ClInclude Include="Diffor.h">
-      <Filter>Header Files\Computational Graph</Filter>
-    </ClInclude>
     <ClInclude Include="addDiffor.h">
       <Filter>Header Files\Computational Graph\Differentiators</Filter>
     </ClInclude>
+    <ClInclude Include="Diffor.h">
+      <Filter>Header Files\Computational Graph</Filter>
+    </ClInclude>
     <ClInclude Include="subDiffor.h">
+      <Filter>Header Files\Computational Graph\Differentiators</Filter>
+    </ClInclude>
+    <ClInclude Include="mulDiffor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

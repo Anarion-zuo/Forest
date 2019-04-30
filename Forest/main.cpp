@@ -3,18 +3,10 @@
 
 using namespace std;
 
-class A {
-public:
-	vector<int>* v = new vector<int>;
-	A(int a, int b) : v(new vector<int>(a ,b)) {}
-	~A() { cout << "~A()" << endl; }
-};
-
-
 int main() {
 	varNode* a = new varNode(4), * b = new varNode(3);
-	cg p(new addNode(a, b));
+	cg p(new addNode(new mulNode(a, a), new mulNode(b, b)));
 	dcg* d = p.diff_graph();
-	p.run({ 1,2 });
-	auto ddddd = d->single_var(a, { 1,2 });
+	p.run({ 1,6 });
+ 	auto ddddd = d->single_var(a, { 8,5 });
 }

@@ -3,6 +3,7 @@
 
 // class addDiffor;
 // class subDiffor;
+
 addNode::addNode(cgNode* l, cgNode* r) : cgNode(l, r, new addFunctor, new addDiffor(nullptr), 0) { 
 	diffor->p = this; 
 }

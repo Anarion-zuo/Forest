@@ -24,8 +24,5 @@ Diffor* Diffor::clone(cgNode* pp)
 
 void Diffor::clear_delq()
 {
-	while (delq.size()) {
-		delete delq.front();
-		delq.pop_front();
-	}
+	delq.clear();
 }

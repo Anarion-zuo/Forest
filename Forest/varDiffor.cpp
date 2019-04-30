@@ -15,6 +15,7 @@ cgNode* varDiffor::run()
 {
 	varNode* res = new varNode(0);
 	push_map(p, res);
+	del_push_self();
 	return res;
 }
 

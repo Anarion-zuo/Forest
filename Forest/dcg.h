@@ -1,5 +1,7 @@
 #pragma once
 #include "cg.h"
+
+class varNode;
 class dcg :
 	public cg
 {

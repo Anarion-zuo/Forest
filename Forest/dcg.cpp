@@ -5,6 +5,8 @@
 dcg::dcg(cgNode* node, const std::map<cgNode*, varNode*>& m) : cg(node), dvars(m)
 {
 	varDiffor::clear_map();
+	varq.clear();
+	refresh_var(root);
 }
 
 
@@ -14,13 +16,8 @@ dcg::~dcg()
 
 double dcg::single_var(cgNode* node, const std::vector<double>& vallist)
 {
-	for (size_t i = 0; i < varq.size(); ++i) {
-		if (varq[i] != node) {
-			dvars.find(node)->second->set_val(0);
-		}
-		else {
-			dvars.find(node)->second->set_val(1);
-		}
-	}
-	return run(vallist);
+	auto it = dvars.find(node);
+	if (it == dvars.end())	throw "There is no such variable.";
+	it->second->set_val(1);
+	return compute(root);
 }

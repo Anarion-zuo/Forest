@@ -85,6 +85,7 @@ cg::cg(cgNode* r) : root(r)
 cg::~cg()
 {
 	del_node(root);
+// 	delete var_id;
 }
 
 cg* cg::clone()

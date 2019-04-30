@@ -24,6 +24,7 @@ public:
 	cgNode(cgNode* l, cgNode* r, Functor* f, Diffor* d, const double& v);
 	virtual ~cgNode();
 
+
 	virtual cgNode* clone();
 	static bool is_leaf(cgNode*);
 	void set_val(const double& d);

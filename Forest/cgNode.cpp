@@ -9,9 +9,8 @@ cgNode* cgNode::clone_node(cgNode* node)
 	return res;
 }
 
-cgNode::cgNode(cgNode* l, cgNode* r, Functor* f, Diffor* d, const double& v = 0.0) : left(l), right(r), func(f), diffor(d), val(v)
-{
-}
+cgNode::cgNode(cgNode* l, cgNode* r, Functor* f, Diffor* d, const double& v = 0.0)
+	: left(l), right(r), func(f), diffor(d), val(v) {}
 
 cgNode::~cgNode() {
 	if (func)	delete func;

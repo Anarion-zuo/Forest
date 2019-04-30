@@ -29,6 +29,7 @@
     <ClCompile Include="dcg.cpp" />
     <ClCompile Include="Diffor.cpp" />
     <ClCompile Include="divDiffor.cpp" />
+    <ClCompile Include="dvarNode.cpp" />
     <ClCompile Include="expDiffor.cpp" />
     <ClCompile Include="Functor.cpp" />
     <ClCompile Include="iArray.cpp" />
@@ -53,12 +54,13 @@
     <ClInclude Include="dcg.h" />
     <ClInclude Include="Diffor.h" />
     <ClInclude Include="divDiffor.h" />
+    <ClInclude Include="dvarNode.h" />
     <ClInclude Include="expDiffor.h" />
     <ClInclude Include="Fixed_sized_AVL.hpp" />
     <ClInclude Include="Functor.h" />
     <ClInclude Include="heap.hpp" />
     <ClInclude Include="iArray.h" />
-    <ClInclude Include="main.h" />
+    <ClInclude Include="Forest.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="mulDiffor.h" />
     <ClInclude Include="opNode.h" />

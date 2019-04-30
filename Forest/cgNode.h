@@ -19,6 +19,7 @@ protected:
 	Functor* func;
 	Diffor* diffor;
 	double val;
+	virtual void trim() {}
 public:
 	cgNode(cgNode* l, cgNode* r, Functor* f, Diffor* d, const double& v);
 	virtual ~cgNode();

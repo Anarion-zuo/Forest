@@ -10,3 +10,4 @@ public:
 	cgNode* clone();
 };
 
+#include "dvarNode.h"

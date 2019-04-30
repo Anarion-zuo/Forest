@@ -1,7 +1,6 @@
-#include "AVL_Tree.hpp"
-#include "Matrix.h"
+#include "Forest.h"
 #include <iostream>
-#include "cg.h"
+
 using namespace std;
 
 class A {
@@ -13,6 +12,9 @@ public:
 
 
 int main() {
-	cg p(new addNode(new constNode(3), new constNode(2)));
-	auto d = p.diff_graph();
+	varNode* a = new varNode(4), * b = new varNode(3);
+	cg p(new addNode(a, b));
+	dcg* d = p.diff_graph();
+	p.run({ 1,2 });
+	auto ddddd = d->single_var(a, { 1,2 });
 }

@@ -29,6 +29,14 @@ void cg::find_var_node(cgNode* node, std::vector<cgNode*>& qq)
 	find_var_node(node->left, qq);
 }
 
+void cg::trim_node(cgNode* node)
+{
+	if (!node)	return;
+	if (node->left)	node->left->trim();
+	if (node->right)	node->right->trim();
+	node->trim();
+}
+
 double cg::compute(cgNode* node)
 {
 	if (cgNode::is_leaf(node))	return node->val;
@@ -36,13 +44,41 @@ double cg::compute(cgNode* node)
 	return node->val;
 }
 
+bool cg::is_var(cgNode* node)
+{
+	for (size_t i = 0; i < varq.size(); ++i) {
+		if (varq[i] == node)	return true;
+	}
+	return false;
+}
+
+void cg::trim()
+{
+	trim_node(root);
+}
+
 void cg::find_vars()
 {
 	find_var_node(root, varq);
 }
 
+void cg::refresh_var(cgNode* node)
+{
+	if (!node)	return;
+	if (cgNode::is_leaf(node)) {
+		if (!node->is_const()) {
+			if (!is_var(node)) {
+				varq.push_back(node);
+			}
+		}
+	}
+	refresh_var(node->left);
+	refresh_var(node->right);
+}
+
 cg::cg(cgNode* r) : root(r)
 {
+	refresh_var(root);
 }
 
 
@@ -74,7 +110,10 @@ double cg::run(const std::vector<double>& vallist)
 
 dcg* cg::diff_graph()
 {
-	dcg* res = new dcg(root->clone());
-	res->diff();
+	varDiffor::clear_map();
+	cgNode* r = root->clone();
+	r = r->diffor->run();
+	dcg* res = new dcg(r, varDiffor::get_map());
+	varDiffor::clear_map();
 	return res;
 }

@@ -135,8 +135,11 @@
     <ClCompile Include="varDiffor.cpp">
       <Filter>Source Files\Computational Graph\Differentiators</Filter>
     </ClCompile>
-    <ClCompile Include="dcg.cpp">
+    <ClCompile Include="dvarNode.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dcg.cpp">
+      <Filter>Source Files\Computational Graph\Graphs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -209,13 +212,16 @@
     <ClInclude Include="constDiffor.h">
       <Filter>Header Files\Computational Graph\Differentiators</Filter>
     </ClInclude>
-    <ClInclude Include="main.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="varDiffor.h">
       <Filter>Header Files\Computational Graph\Differentiators</Filter>
     </ClInclude>
+    <ClInclude Include="dvarNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="dcg.h">
+      <Filter>Header Files\Computational Graph\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Forest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

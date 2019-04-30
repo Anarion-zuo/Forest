@@ -23,10 +23,12 @@ public:
 	cgNode(cgNode* l, cgNode* r, Functor* f, Diffor* d, const double& v);
 	virtual ~cgNode();
 
-	cgNode* clone();
+	virtual cgNode* clone();
 	static bool is_leaf(cgNode*);
 	void set_val(const double& d);
 	virtual bool is_const();
 };
 
 #include "opNode.h"
+#include "varNode.h"
+#include "constNode.h"

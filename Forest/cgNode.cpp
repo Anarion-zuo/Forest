@@ -5,8 +5,7 @@
 cgNode* cgNode::clone_node(cgNode* node)
 {
 	if (!node)	return nullptr;
-	cgNode* res = new cgNode(clone_node(node->left), clone_node(node->right), node->func->clone(), node->diffor->clone(nullptr), val);
-	res->diffor->p = res;
+	cgNode* res = new cgNode(clone_node(node->left), clone_node(node->right), node->func->clone(), node->diffor->clone(node), node->val);
 	return res;
 }
 

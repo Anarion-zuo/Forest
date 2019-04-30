@@ -17,3 +17,9 @@ cgNode* subDiffor::run()
 	p->right = p->right->diffor->run();
 	return p;
 }
+
+Diffor* subDiffor::clone(cgNode* node)
+{
+	Diffor* res = new subDiffor(node);
+	return res;
+}

@@ -8,6 +8,7 @@ public:
 	addDiffor(cgNode*);
 	~addDiffor();
 
-	cgNode* run();
+	cgNode* run() override;
+	Diffor* clone(cgNode* node);
 };
 

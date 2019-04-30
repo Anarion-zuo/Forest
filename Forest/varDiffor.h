@@ -1,12 +1,11 @@
 #pragma once
-
 #include "Diffor.h"
-
-class expDiffor : public Diffor
+class varDiffor :
+	public Diffor
 {
 public:
-	expDiffor(cgNode* pp);
-	~expDiffor();
+	varDiffor(cgNode* pp);
+	~varDiffor();
 
 	cgNode* run();
 	Diffor* clone(cgNode* node);

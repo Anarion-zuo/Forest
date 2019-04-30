@@ -16,3 +16,8 @@ bool constNode::is_const()
 	return true;
 }
 
+cgNode* constNode::clone()
+{
+	return new constNode(val);
+}
+

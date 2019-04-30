@@ -8,5 +8,6 @@ public:
 	~divDiffor();
 
 	cgNode* run();
+	Diffor* clone(cgNode* node);
 };
 

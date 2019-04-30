@@ -13,5 +13,6 @@ public:
 
 
 int main() {
-
+	cg p(new addNode(new constNode(3), new constNode(2)));
+	auto d = p.diff_graph();
 }

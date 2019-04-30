@@ -70,6 +70,12 @@
     <Filter Include="Source Files\Computational Graph\Differentiators">
       <UniqueIdentifier>{985807f7-62ac-4bcd-b43d-f24707514e11}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Computational Graph\Graphs">
+      <UniqueIdentifier>{09bf126e-f6a7-4530-9e24-b87f8e9c99bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Computational Graph\Graphs">
+      <UniqueIdentifier>{76645e8b-35b8-459d-8f68-5b853fb3374e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -125,6 +131,12 @@
     </ClCompile>
     <ClCompile Include="constDiffor.cpp">
       <Filter>Source Files\Computational Graph\Differentiators</Filter>
+    </ClCompile>
+    <ClCompile Include="varDiffor.cpp">
+      <Filter>Source Files\Computational Graph\Differentiators</Filter>
+    </ClCompile>
+    <ClCompile Include="dcg.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -198,6 +210,12 @@
       <Filter>Header Files\Computational Graph\Differentiators</Filter>
     </ClInclude>
     <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="varDiffor.h">
+      <Filter>Header Files\Computational Graph\Differentiators</Filter>
+    </ClInclude>
+    <ClInclude Include="dcg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

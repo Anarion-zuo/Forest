@@ -24,3 +24,9 @@ cgNode* mulDiffor::run() {
 	del_push_self();
 	return p;
 }
+
+Diffor* mulDiffor::clone(cgNode* node)
+{
+	Diffor* res = new mulDiffor(node);
+	return res;
+}

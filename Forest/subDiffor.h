@@ -8,5 +8,6 @@ public:
 	virtual ~subDiffor();
 
 	cgNode* run();
+	Diffor* clone(cgNode* node);
 };
 

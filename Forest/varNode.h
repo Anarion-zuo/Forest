@@ -6,5 +6,7 @@ class varNode :
 public:
 	varNode(const double& v);
 	~varNode();
+
+	cgNode* clone();
 };
 

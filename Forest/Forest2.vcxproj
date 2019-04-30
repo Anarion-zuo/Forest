@@ -26,6 +26,7 @@
     <ClCompile Include="cgNode.cpp" />
     <ClCompile Include="constDiffor.cpp" />
     <ClCompile Include="constNode.cpp" />
+    <ClCompile Include="dcg.cpp" />
     <ClCompile Include="Diffor.cpp" />
     <ClCompile Include="divDiffor.cpp" />
     <ClCompile Include="expDiffor.cpp" />
@@ -36,6 +37,7 @@
     <ClCompile Include="mulDiffor.cpp" />
     <ClCompile Include="opNode.cpp" />
     <ClCompile Include="subDiffor.cpp" />
+    <ClCompile Include="varDiffor.cpp" />
     <ClCompile Include="varNode.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +50,7 @@
     <ClInclude Include="cgNode.h" />
     <ClInclude Include="constDiffor.h" />
     <ClInclude Include="constNode.h" />
+    <ClInclude Include="dcg.h" />
     <ClInclude Include="Diffor.h" />
     <ClInclude Include="divDiffor.h" />
     <ClInclude Include="expDiffor.h" />
@@ -62,6 +65,7 @@
     <ClInclude Include="sized_heap.hpp" />
     <ClInclude Include="subDiffor.h" />
     <ClInclude Include="TreeNode.hpp" />
+    <ClInclude Include="varDiffor.h" />
     <ClInclude Include="varNode.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

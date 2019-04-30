@@ -10,41 +10,48 @@ public:
 	virtual ~Functor();
 	virtual double operator() (const double& n1, const double& n2) { return 0.0; };
 
-	Functor* clone();
+	virtual Functor* clone();
 };
 
 class addFunctor : public Functor
 {
 public:
 	double operator() (const double& n1, const double& n2);
+
+	Functor* clone();
 };
 
 class subFunctor : public Functor
 {
 public:
 	double operator() (const double& n1, const double& n2);
+	Functor* clone();
 };
 
 class mulFunctor : public Functor
 {
 public:
 	double operator() (const double& n1, const double& n2);
+	Functor* clone();
 };
 
 class divFunctor : public Functor
 {
 public:
 	double operator() (const double& n1, const double& n2);
+	Functor* clone();
 };
 
 class expFunctor : public Functor
 {
 public:
 	double operator() (const double& n1, const double& n2);
+	Functor* clone();
 };
 
 class varFunctor : public Functor
 {
 public:
 	double operator() (const double& n1, const double& n2);
+	Functor* clone();
 };

@@ -9,3 +9,8 @@ varNode::varNode(const double& v = 0) : cgNode(nullptr, nullptr, nullptr, new va
 varNode::~varNode()
 {
 }
+
+cgNode* varNode::clone()
+{
+	return this;
+}

@@ -8,5 +8,6 @@ public:
 	~constNode();
 
 	bool is_const();
+	cgNode* clone();
 };
 

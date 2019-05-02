@@ -23,8 +23,9 @@ cgNode* lnDiffor::run()
 	p->diffor = new divDiffor(p);
 	p->func = new divFunctor;
 	cgNode* temp = p->left;
-	p->left = new constNode(1);
-	p->right = temp->diffor->run();
+	p->left = temp->clone();
+	p->left = p->left->diffor->run();
+	p->right = temp->clone();
 	del_push_self();
 	return p;
 }

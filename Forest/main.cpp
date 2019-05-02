@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
-	varNode* a = new varNode(4), * b = new varNode(6);
-	cg p(new addNode(new lnNode(a), b));
+	varNode* a = new varNode(5), * b = new varNode(4);
+	cg p(new mulNode(new lnNode(a), new mulNode(b, b)));
 	dcg* d = p.diff_graph();
 	auto ddddd = d->single_var(a, {});
 }

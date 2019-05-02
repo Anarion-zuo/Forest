@@ -55,3 +55,21 @@ public:
 // 	double operator() (const double& n1, const double& n2);
 	Functor* clone();
 };
+
+class lnFunctor : public Functor
+{
+public:
+	double operator() (const double& n1, const double& n2);
+	Functor* clone();
+};
+
+class nullFunctor : public Functor {
+private:
+	nullFunctor() {}
+	~nullFunctor() {}
+	static nullFunctor* ins;
+public:
+	static nullFunctor* get();
+	double operator() (const double& n1, const double& n2) { return 0.0; }
+	Functor* clone() { return this; }
+};

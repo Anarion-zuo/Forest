@@ -39,8 +39,9 @@ void cg::trim_node(cgNode* node)
 
 double cg::compute(cgNode* node)
 {
+	if (!node)	return 0.0;
 	if (cgNode::is_leaf(node))	return node->val;
-	node->val = node->func->operator()(compute(node->left), compute(node->right));
+	if (node->right)	node->val = node->func->operator()(compute(node->left), compute(node->right));
 	return node->val;
 }
 
@@ -102,6 +103,9 @@ void cg::diff(){
 
 double cg::run(const std::vector<double>& vallist)
 {
+	if (vallist.empty()) {
+		return compute(root);
+	}
 	if (vallist.size() != varq.size())	throw "Input independent variable values error, inconsistence.";
 	for (size_t i = 0; i < varq.size(); ++i) {
 		varq[i]->val = vallist[i];

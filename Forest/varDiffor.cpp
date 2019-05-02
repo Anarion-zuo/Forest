@@ -13,6 +13,10 @@ varDiffor::~varDiffor()
 
 cgNode* varDiffor::run()
 {
+	std::map<cgNode*, varNode*>::iterator it = dvarmap.find(p);
+	if (it != dvarmap.end()) {
+		return it->second;
+	}
 	varNode* res = new varNode(0);
 	push_map(p, res);
 	del_push_self();

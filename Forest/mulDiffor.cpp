@@ -12,7 +12,6 @@ mulDiffor::~mulDiffor()
 }
 
 cgNode* mulDiffor::run() {
-	clear_delq();
 	delete p->func;
 	p->func = new addFunctor;
 	p->diffor = new addDiffor(p);

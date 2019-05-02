@@ -5,6 +5,7 @@
 cgNode* cgNode::clone_node(cgNode* node)
 {
 	if (!node)	return nullptr;
+	if (node == nullNode::get())	return nullNode::get();
 	cgNode* res = new cgNode(clone_node(node->left), clone_node(node->right), node->func->clone(), node->diffor->clone(node), node->val);
 	return res;
 }
@@ -36,3 +37,4 @@ bool cgNode::is_const()
 {
 	return false;
 }
+

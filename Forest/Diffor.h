@@ -12,6 +12,7 @@ class Diffor
 	friend class mulNode;
 	friend class divNode;
 	friend class expNode;
+	friend class lnNode;
 	friend class varNode;
 	friend class constNode;
 private:
@@ -25,7 +26,7 @@ public:
 	virtual cgNode* run() { 
 		return p; 
 	}
-	static void clear_delq();
+	static void clear_delq() noexcept;
 	virtual Diffor* clone(cgNode* node);
 };
 
@@ -36,3 +37,5 @@ public:
 #include "expDiffor.h"
 #include "constDiffor.h"
 #include "varDiffor.h"
+#include "lnDiffor.h"
+#include "nullDiffor.h"

@@ -22,7 +22,9 @@ Diffor* Diffor::clone(cgNode* pp)
 	return res;
 }
 
-void Diffor::clear_delq()
+void Diffor::clear_delq() noexcept
 {
 	delq.clear();
 }
+
+

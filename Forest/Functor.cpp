@@ -77,3 +77,21 @@ Functor* varFunctor::clone()
 	Functor* p = new varFunctor();
 	return p;
 }
+
+double lnFunctor::operator()(const double& n1, const double& n2 = 0)
+{
+	return log(n1);
+}
+
+Functor* lnFunctor::clone()
+{
+	Functor* p = new lnFunctor();
+	return p;
+}
+
+nullFunctor* nullFunctor::ins = new nullFunctor;
+
+nullFunctor* nullFunctor::get()
+{
+	return ins;
+}

@@ -1,11 +1,11 @@
 #pragma once
 #include "cgNode.h"
-class varNode :
+class lnNode :
 	public cgNode
 {
 public:
-	varNode(const double& v);
-	~varNode();
+	lnNode(cgNode* node);
+	~lnNode();
 
 	cgNode* clone();
 };

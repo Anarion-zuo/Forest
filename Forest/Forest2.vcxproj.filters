@@ -102,9 +102,6 @@
     <ClCompile Include="Functor.cpp">
       <Filter>Source Files\Computational Graph</Filter>
     </ClCompile>
-    <ClCompile Include="opNode.cpp">
-      <Filter>Source Files\Computational Graph\Nodes</Filter>
-    </ClCompile>
     <ClCompile Include="Diffor.cpp">
       <Filter>Source Files\Computational Graph</Filter>
     </ClCompile>
@@ -135,11 +132,35 @@
     <ClCompile Include="varDiffor.cpp">
       <Filter>Source Files\Computational Graph\Differentiators</Filter>
     </ClCompile>
-    <ClCompile Include="dvarNode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="dcg.cpp">
       <Filter>Source Files\Computational Graph\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="addNode.cpp">
+      <Filter>Source Files\Computational Graph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="subNode.cpp">
+      <Filter>Source Files\Computational Graph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="mulNode.cpp">
+      <Filter>Source Files\Computational Graph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="divNode.cpp">
+      <Filter>Source Files\Computational Graph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="expNode.cpp">
+      <Filter>Source Files\Computational Graph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="lnNode.cpp">
+      <Filter>Source Files\Computational Graph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="lnDiffor.cpp">
+      <Filter>Source Files\Computational Graph\Differentiators</Filter>
+    </ClCompile>
+    <ClCompile Include="nullNode.cpp">
+      <Filter>Source Files\Computational Graph\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="nullDiffor.cpp">
+      <Filter>Source Files\Computational Graph\Differentiators</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -182,9 +203,6 @@
     <ClInclude Include="Functor.h">
       <Filter>Header Files\Computational Graph</Filter>
     </ClInclude>
-    <ClInclude Include="opNode.h">
-      <Filter>Header Files\Computational Graph\Nodes</Filter>
-    </ClInclude>
     <ClInclude Include="addDiffor.h">
       <Filter>Header Files\Computational Graph\Differentiators</Filter>
     </ClInclude>
@@ -215,14 +233,38 @@
     <ClInclude Include="varDiffor.h">
       <Filter>Header Files\Computational Graph\Differentiators</Filter>
     </ClInclude>
-    <ClInclude Include="dvarNode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="dcg.h">
       <Filter>Header Files\Computational Graph\Graphs</Filter>
     </ClInclude>
     <ClInclude Include="Forest.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="addNode.h">
+      <Filter>Header Files\Computational Graph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="subNode.h">
+      <Filter>Header Files\Computational Graph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="mulNode.h">
+      <Filter>Header Files\Computational Graph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="divNode.h">
+      <Filter>Header Files\Computational Graph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="expNode.h">
+      <Filter>Header Files\Computational Graph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="lnNode.h">
+      <Filter>Header Files\Computational Graph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="lnDiffor.h">
+      <Filter>Header Files\Computational Graph\Differentiators</Filter>
+    </ClInclude>
+    <ClInclude Include="nullNode.h">
+      <Filter>Header Files\Computational Graph\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="nullDiffor.h">
+      <Filter>Header Files\Computational Graph\Differentiators</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

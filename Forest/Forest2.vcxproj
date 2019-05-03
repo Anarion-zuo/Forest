@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="addDiffor.cpp" />
     <ClCompile Include="addNode.cpp" />
+    <ClCompile Include="addTrimor.cpp" />
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Array_Statics.cpp" />
     <ClCompile Include="cg.cpp" />
@@ -45,12 +46,14 @@
     <ClCompile Include="nullNode.cpp" />
     <ClCompile Include="subDiffor.cpp" />
     <ClCompile Include="subNode.cpp" />
+    <ClCompile Include="Trimor.cpp" />
     <ClCompile Include="varDiffor.cpp" />
     <ClCompile Include="varNode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addDiffor.h" />
     <ClInclude Include="addNode.h" />
+    <ClInclude Include="addTrimor.h" />
     <ClInclude Include="Array.h" />
     <ClInclude Include="Array_Statics.h" />
     <ClInclude Include="AVL_Tree.hpp" />
@@ -81,6 +84,7 @@
     <ClInclude Include="subDiffor.h" />
     <ClInclude Include="subNode.h" />
     <ClInclude Include="TreeNode.hpp" />
+    <ClInclude Include="Trimor.h" />
     <ClInclude Include="varDiffor.h" />
     <ClInclude Include="varNode.h" />
   </ItemGroup>

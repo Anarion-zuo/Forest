@@ -76,6 +76,12 @@
     <Filter Include="Source Files\Computational Graph\Graphs">
       <UniqueIdentifier>{76645e8b-35b8-459d-8f68-5b853fb3374e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Computational Graph\Trimors">
+      <UniqueIdentifier>{8d339544-4cc8-40a5-86ae-150e7cfdc234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Computational Graph\Trimors">
+      <UniqueIdentifier>{858bb806-51b2-426c-bb14-bbcb4b2c70ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -161,6 +167,12 @@
     </ClCompile>
     <ClCompile Include="nullDiffor.cpp">
       <Filter>Source Files\Computational Graph\Differentiators</Filter>
+    </ClCompile>
+    <ClCompile Include="Trimor.cpp">
+      <Filter>Source Files\Computational Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="addTrimor.cpp">
+      <Filter>Source Files\Computational Graph\Trimors</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -265,6 +277,12 @@
     </ClInclude>
     <ClInclude Include="nullDiffor.h">
       <Filter>Header Files\Computational Graph\Differentiators</Filter>
+    </ClInclude>
+    <ClInclude Include="Trimor.h">
+      <Filter>Header Files\Computational Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="addTrimor.h">
+      <Filter>Header Files\Computational Graph\Trimors</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

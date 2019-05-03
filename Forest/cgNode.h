@@ -13,6 +13,12 @@ class cgNode
 	friend class divDiffor;
 	friend class expDiffor;
 	friend class lnDiffor;
+	friend class addTrimor;
+	friend class subTrimor;
+	friend class mulTrimor;
+	friend class divTrimor;
+	friend class expTrimor;
+	friend class lnTrimor;
 	friend class cg;
 private:
 	static cgNode* clone_node(cgNode* node);
@@ -21,6 +27,7 @@ protected:
 	cgNode* right;
 	Functor* func;
 	Diffor* diffor;
+	Trimor* trimor;
 	double val;
 	virtual void trim() {}
 public:

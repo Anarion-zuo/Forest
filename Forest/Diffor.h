@@ -14,7 +14,15 @@ class Diffor
 	friend class expNode;
 	friend class lnNode;
 	friend class varNode;
-	friend class constNode;
+	friend class Trimor;
+	friend class addTrimor;
+	friend class subTrimor;
+	friend class mulTrimor;
+	friend class divTrimor;
+	friend class expTrimor;
+	friend class lnTrimor;
+	friend class varTrimor;
+	friend class constTrimor;
 private:
 protected:
 	cgNode* p;

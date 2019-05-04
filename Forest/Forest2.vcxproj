@@ -28,6 +28,9 @@
     <ClCompile Include="cgNode.cpp" />
     <ClCompile Include="constDiffor.cpp" />
     <ClCompile Include="constNode.cpp" />
+    <ClCompile Include="divTrimor.cpp" />
+    <ClCompile Include="expTrimor.cpp" />
+    <ClCompile Include="leafTrimor.cpp" />
     <ClCompile Include="dcg.cpp" />
     <ClCompile Include="Diffor.cpp" />
     <ClCompile Include="divDiffor.cpp" />
@@ -42,10 +45,12 @@
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="mulDiffor.cpp" />
     <ClCompile Include="mulNode.cpp" />
+    <ClCompile Include="mulTrimor.cpp" />
     <ClCompile Include="nullDiffor.cpp" />
     <ClCompile Include="nullNode.cpp" />
     <ClCompile Include="subDiffor.cpp" />
     <ClCompile Include="subNode.cpp" />
+    <ClCompile Include="subTrimor.cpp" />
     <ClCompile Include="Trimor.cpp" />
     <ClCompile Include="varDiffor.cpp" />
     <ClCompile Include="varNode.cpp" />
@@ -62,6 +67,9 @@
     <ClInclude Include="cgNode.h" />
     <ClInclude Include="constDiffor.h" />
     <ClInclude Include="constNode.h" />
+    <ClInclude Include="divTrimor.h" />
+    <ClInclude Include="expTrimor.h" />
+    <ClInclude Include="leafTrimor.h" />
     <ClInclude Include="dcg.h" />
     <ClInclude Include="Diffor.h" />
     <ClInclude Include="divDiffor.h" />
@@ -78,11 +86,13 @@
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="mulDiffor.h" />
     <ClInclude Include="mulNode.h" />
+    <ClInclude Include="mulTrimor.h" />
     <ClInclude Include="nullDiffor.h" />
     <ClInclude Include="nullNode.h" />
     <ClInclude Include="sized_heap.hpp" />
     <ClInclude Include="subDiffor.h" />
     <ClInclude Include="subNode.h" />
+    <ClInclude Include="subTrimor.h" />
     <ClInclude Include="TreeNode.hpp" />
     <ClInclude Include="Trimor.h" />
     <ClInclude Include="varDiffor.h" />

@@ -13,6 +13,7 @@ class cgNode
 	friend class divDiffor;
 	friend class expDiffor;
 	friend class lnDiffor;
+	friend class Trimor;
 	friend class addTrimor;
 	friend class subTrimor;
 	friend class mulTrimor;

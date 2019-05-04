@@ -7,7 +7,6 @@ class dcg;
 class cg
 {
 private:
-	static void del_node(cgNode* node);
 	static void diff_node(cgNode*& node);
 	static void find_var_node(cgNode* node, std::vector<cgNode*>& qq);
 	void trim_node(cgNode* node);
@@ -23,6 +22,7 @@ public:
 	cg(cgNode* r);
 	virtual ~cg();
 
+	static void del_node(cgNode* node);
 	cg* clone();
 	dcg* diff_graph();
 	void diff();

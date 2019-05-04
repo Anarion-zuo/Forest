@@ -84,9 +84,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Matrix.cpp">
       <Filter>Source Files\Numeric\Matrix</Filter>
     </ClCompile>
@@ -172,6 +169,24 @@
       <Filter>Source Files\Computational Graph</Filter>
     </ClCompile>
     <ClCompile Include="addTrimor.cpp">
+      <Filter>Source Files\Computational Graph\Trimors</Filter>
+    </ClCompile>
+    <ClCompile Include="subTrimor.cpp">
+      <Filter>Source Files\Computational Graph\Trimors</Filter>
+    </ClCompile>
+    <ClCompile Include="mulTrimor.cpp">
+      <Filter>Source Files\Computational Graph\Trimors</Filter>
+    </ClCompile>
+    <ClCompile Include="leafTrimor.cpp">
+      <Filter>Source Files\Computational Graph\Trimors</Filter>
+    </ClCompile>
+    <ClCompile Include="divTrimor.cpp">
+      <Filter>Source Files\Computational Graph\Trimors</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="expTrimor.cpp">
       <Filter>Source Files\Computational Graph\Trimors</Filter>
     </ClCompile>
   </ItemGroup>
@@ -282,6 +297,21 @@
       <Filter>Header Files\Computational Graph</Filter>
     </ClInclude>
     <ClInclude Include="addTrimor.h">
+      <Filter>Header Files\Computational Graph\Trimors</Filter>
+    </ClInclude>
+    <ClInclude Include="subTrimor.h">
+      <Filter>Header Files\Computational Graph\Trimors</Filter>
+    </ClInclude>
+    <ClInclude Include="mulTrimor.h">
+      <Filter>Header Files\Computational Graph\Trimors</Filter>
+    </ClInclude>
+    <ClInclude Include="leafTrimor.h">
+      <Filter>Header Files\Computational Graph\Trimors</Filter>
+    </ClInclude>
+    <ClInclude Include="divTrimor.h">
+      <Filter>Header Files\Computational Graph\Trimors</Filter>
+    </ClInclude>
+    <ClInclude Include="expTrimor.h">
       <Filter>Header Files\Computational Graph\Trimors</Filter>
     </ClInclude>
   </ItemGroup>

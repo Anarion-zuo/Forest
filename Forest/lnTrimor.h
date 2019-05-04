@@ -1,11 +1,11 @@
 #pragma once
 #include "Trimor.h"
-struct expTrimor :
+class lnTrimor :
 	public Trimor
 {
 public:
-	expTrimor(cgNode* pp);
-	~expTrimor();
+	lnTrimor(cgNode* pp);
+	~lnTrimor();
 
 	Trimor* clone(cgNode* pp);
 	cgNode* run();

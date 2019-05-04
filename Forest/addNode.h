@@ -4,5 +4,5 @@ class addNode : public cgNode
 {
 public:
 	addNode(cgNode* l, cgNode* r);
-	cgNode* clone();
+	//cgNode* clone();
 };

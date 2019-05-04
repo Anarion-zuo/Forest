@@ -4,5 +4,5 @@ class mulNode : public cgNode
 {
 public:
 	mulNode(cgNode* l, cgNode* r);
-	cgNode* clone();
+	//cgNode* clone();
 };

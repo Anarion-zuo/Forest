@@ -18,8 +18,8 @@ Trimor* mulTrimor::clone(cgNode* pp)
 
 cgNode* mulTrimor::run()
 {
-	p->left = p->left->trimor->run();
-	p->right = p->right->trimor->run();
+	if (p->left)	p->left = p->left->trimor->run();
+	if (p->right)	p->right = p->right->trimor->run();
 
 	if (is_n_node(p->left, 0) || is_n_node(p->right, 0))
 	{

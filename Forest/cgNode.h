@@ -2,6 +2,7 @@
 
 #include "Functor.h"
 #include "Diffor.h"
+#include "Trimor.h"
 
 class Diffor;
 class nullDiffor;
@@ -30,9 +31,8 @@ protected:
 	Diffor* diffor;
 	Trimor* trimor;
 	double val;
-	virtual void trim() {}
 public:
-	cgNode(cgNode* l, cgNode* r, Functor* f, Diffor* d, const double& v);
+	cgNode(cgNode* l, cgNode* r, Functor* f, Diffor* d, Trimor* t, const double& v);
 	virtual ~cgNode();
 
 

@@ -5,5 +5,5 @@ class divNode : public cgNode
 {
 public:
 	divNode(cgNode* l, cgNode* r);
-	cgNode* clone();
+	//cgNode* clone();
 };

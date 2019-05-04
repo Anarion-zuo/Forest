@@ -1,5 +1,6 @@
 #pragma once
 #include "cg.h"
+#include <map>
 
 class varNode;
 class dcg :

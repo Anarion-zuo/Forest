@@ -5,5 +5,5 @@ class subNode : public cgNode
 {
 public:
 	subNode(cgNode* l, cgNode* r);
-	cgNode* clone();
+	//cgNode* clone();
 };

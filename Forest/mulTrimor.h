@@ -1,6 +1,6 @@
 #pragma once
 #include "Trimor.h"
-class mulTrimor :
+struct mulTrimor :
 	public Trimor
 {
 public:

@@ -26,10 +26,12 @@
     <ClCompile Include="Array_Statics.cpp" />
     <ClCompile Include="cg.cpp" />
     <ClCompile Include="cgNode.cpp" />
+    <ClCompile Include="Cloner.cpp" />
     <ClCompile Include="constDiffor.cpp" />
     <ClCompile Include="constNode.cpp" />
     <ClCompile Include="divTrimor.cpp" />
     <ClCompile Include="expTrimor.cpp" />
+    <ClCompile Include="leafCloner.cpp" />
     <ClCompile Include="leafTrimor.cpp" />
     <ClCompile Include="dcg.cpp" />
     <ClCompile Include="Diffor.cpp" />
@@ -41,6 +43,7 @@
     <ClCompile Include="iArray.cpp" />
     <ClCompile Include="lnDiffor.cpp" />
     <ClCompile Include="lnNode.cpp" />
+    <ClCompile Include="lnTrimor.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="mulDiffor.cpp" />
@@ -65,10 +68,12 @@
     <ClInclude Include="Binary_Tree.hpp" />
     <ClInclude Include="cg.h" />
     <ClInclude Include="cgNode.h" />
+    <ClInclude Include="Cloner.h" />
     <ClInclude Include="constDiffor.h" />
     <ClInclude Include="constNode.h" />
     <ClInclude Include="divTrimor.h" />
     <ClInclude Include="expTrimor.h" />
+    <ClInclude Include="leafCloner.h" />
     <ClInclude Include="leafTrimor.h" />
     <ClInclude Include="dcg.h" />
     <ClInclude Include="Diffor.h" />
@@ -83,12 +88,14 @@
     <ClInclude Include="Forest.h" />
     <ClInclude Include="lnDiffor.h" />
     <ClInclude Include="lnNode.h" />
+    <ClInclude Include="lnTrimor.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="mulDiffor.h" />
     <ClInclude Include="mulNode.h" />
     <ClInclude Include="mulTrimor.h" />
     <ClInclude Include="nullDiffor.h" />
     <ClInclude Include="nullNode.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="sized_heap.hpp" />
     <ClInclude Include="subDiffor.h" />
     <ClInclude Include="subNode.h" />
@@ -97,6 +104,9 @@
     <ClInclude Include="Trimor.h" />
     <ClInclude Include="varDiffor.h" />
     <ClInclude Include="varNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Forest.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -169,6 +179,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <BrowseInformation>true</BrowseInformation>
+      <DisableSpecificWarnings>4099;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

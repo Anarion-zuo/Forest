@@ -7,6 +7,6 @@ public:
 	lnNode(cgNode* node);
 	~lnNode();
 
-	cgNode* clone();
+	//cgNode* clone();
 };
 

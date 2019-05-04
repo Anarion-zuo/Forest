@@ -6,12 +6,22 @@ cgNode* cgNode::clone_node(cgNode* node)
 {
 	if (!node)	return nullptr;
 	if (node == nullNode::get())	return nullNode::get();
-	cgNode* res = new cgNode(clone_node(node->left), clone_node(node->right), node->func->clone(), node->diffor->clone(node), node->val);
+	Functor* fc = nullptr;
+	Diffor* dc = nullptr;
+	Trimor* tc = nullptr;
+	if (node->func)	fc = node->func->clone();
+	if (node->diffor) {
+		dc = node->diffor->clone(nullptr);
+	}
+	if (node->trimor)	tc = node->trimor->clone(nullptr);
+	cgNode* res = new cgNode(clone_node(node->left), clone_node(node->right), fc, dc, tc, node->val);
+	res->diffor->p = res;
+	res->trimor->p = res;
 	return res;
 }
 
-cgNode::cgNode(cgNode* l, cgNode* r, Functor* f, Diffor* d, const double& v = 0.0)
-	: left(l), right(r), func(f), diffor(d), val(v) {}
+cgNode::cgNode(cgNode* l, cgNode* r, Functor* f, Diffor* d, Trimor* t, const double& v = 0.0)
+	: left(l), right(r), func(f), diffor(d), trimor(t), val(v) {}
 
 cgNode::~cgNode() {
 	if (func)	delete func;

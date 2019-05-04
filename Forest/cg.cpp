@@ -29,12 +29,9 @@ void cg::find_var_node(cgNode* node, std::vector<cgNode*>& qq)
 	find_var_node(node->left, qq);
 }
 
-void cg::trim_node(cgNode* node)
+void cg::trim_node(cgNode*& node)
 {
-	if (!node)	return;
-	if (node->left)	node->left->trim();
-	if (node->right)	node->right->trim();
-	node->trim();
+	node = node->trimor->run();
 }
 
 double cg::compute(cgNode* node)
@@ -53,10 +50,6 @@ bool cg::is_var(cgNode* node)
 	return false;
 }
 
-void cg::trim()
-{
-	trim_node(root);
-}
 
 void cg::find_vars()
 {
@@ -79,6 +72,7 @@ void cg::refresh_var(cgNode* node)
 
 cg::cg(cgNode* r) : root(r)
 {
+	trim_node(root);
 	refresh_var(root);
 }
 
@@ -118,6 +112,7 @@ dcg* cg::diff_graph()
 	varDiffor::clear_map();
 	cgNode* r = root->clone();
 	r = r->diffor->run();
+	//auto m = varDiffor::get_map();
 	dcg* res = new dcg(r, varDiffor::get_map());
 	varDiffor::clear_map();
 	return res;

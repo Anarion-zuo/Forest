@@ -82,6 +82,12 @@
     <Filter Include="Source Files\Computational Graph\Trimors">
       <UniqueIdentifier>{858bb806-51b2-426c-bb14-bbcb4b2c70ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Computational Graph\Cloners">
+      <UniqueIdentifier>{63b03e87-2f14-45e5-8dcc-740cd056cf59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Computational Graph\Cloners">
+      <UniqueIdentifier>{26fff461-0f7a-413c-9b15-af5ffd335752}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Matrix.cpp">
@@ -188,6 +194,15 @@
     </ClCompile>
     <ClCompile Include="expTrimor.cpp">
       <Filter>Source Files\Computational Graph\Trimors</Filter>
+    </ClCompile>
+    <ClCompile Include="lnTrimor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloner.cpp">
+      <Filter>Source Files\Computational Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="leafCloner.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -314,5 +329,22 @@
     <ClInclude Include="expTrimor.h">
       <Filter>Header Files\Computational Graph\Trimors</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloner.h">
+      <Filter>Header Files\Computational Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="lnTrimor.h">
+      <Filter>Header Files\Computational Graph\Trimors</Filter>
+    </ClInclude>
+    <ClInclude Include="leafCloner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Forest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

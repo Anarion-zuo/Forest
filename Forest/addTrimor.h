@@ -1,9 +1,9 @@
 #pragma once
 #include "Trimor.h"
-class addTrimor :
+
+struct addTrimor :
 	public Trimor
 {
-public:
 	addTrimor(cgNode* pp);
 	~addTrimor();
 

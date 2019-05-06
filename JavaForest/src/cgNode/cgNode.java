@@ -1,40 +1,46 @@
 package cgNode;
 
-import Diffor.*;
-import Functor.*;
-import Trimor.*;
+import org.jetbrains.annotations.NotNull;
 
 public class cgNode {
-    protected double _val = 0;
-    protected cgNode _left = null;
-    protected cgNode _right = null;
-    protected Functor _func = null;
-    protected Diffor _diffor = null;
-    protected Trimor _trimor = null;
+    protected double _val;
+    protected cgNode _left;
+    protected cgNode _right;
+    protected cgNode _parent;
 
-    public cgNode(cgNode left, cgNode right, Functor func, Diffor diffor, Trimor trimor, double val){
+    public cgNode(){
+        _right = null;
+        _left = null;
+        _val = 0;
+    }
+
+    public cgNode(cgNode parent, cgNode left, cgNode right, double val){
         _val = val;
         _left = left;
         _right = right;
-        _func = func;
-        _diffor = diffor;
-        _trimor = trimor;
+        _parent = parent;
     }
 
-    public cgNode(cgNode node){
+    public cgNode(@NotNull cgNode node){
         _val = node._val;
         _left = node._left;
         _right = node._right;
-        _func = node._func;
-        _diffor = node._diffor;
-        _trimor = node._trimor;
+        _parent = node._parent;
+    }
+
+    public double compute(double n1, double n2){
+        return _val;
     }
 
     public cgNode trim(){
         return this;
     }
 
-//    public cgNode clone(){
-//
-//    }
+    public cgNode diffor(){
+        return this;
+    }
+
+    public cgNode clone() throws CloneNotSupportedException {
+        return new cgNode(this);
+    }
 }

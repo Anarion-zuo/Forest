@@ -59,7 +59,7 @@ public class cgNode {
         return this;
     }
 
-    protected cgNode change_this(cgNode node){
+    public cgNode change_this(cgNode node){
         if (_left_or_right){
             _parent._right = node;
         }else{
@@ -74,8 +74,19 @@ public class cgNode {
         return new cgNode(this);
     }
 
+    public void add_child(cgNode node, boolean lr){
+        if (lr){
+            _right = new
+        }
+    }
+
     public double get_val(){return _val;}
     public void set_val(double n){_val = n;}
+    public cgNode get_parent(){return _parent;}
+    public boolean get_left_right(){return _left_or_right;}
+
     public cgNode left(){return _left;}
     public cgNode right(){return _right;}
+    public boolean is_var(){return false;}
+    public boolean is_const(){return false;}
 }

@@ -41,4 +41,9 @@ public class constNode extends cgNode {
     public cgNode trim() {
         return this;
     }
+
+    @Override
+    public boolean is_const() {
+        return true;
+    }
 }

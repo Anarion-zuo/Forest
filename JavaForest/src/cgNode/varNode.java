@@ -10,7 +10,7 @@ public class varNode extends cgNode {
     }
     static private Map<cgNode, varNode> dvars_map = new HashMap<cgNode, varNode>();
     static public void clear_map(){dvars_map.clear();}
-    static public Map<cgNode, varNode> get_map(){return dvars_map;}
+    static public Map<cgNode, varNode> get_map(){return new HashMap<cgNode, varNode>(dvars_map);}
 
     @Override
     public boolean equals(Object node){
@@ -41,5 +41,10 @@ public class varNode extends cgNode {
     @Override
     public cgNode trim() {
         return this;
+    }
+
+    @Override
+    public boolean is_var() {
+        return true;
     }
 }

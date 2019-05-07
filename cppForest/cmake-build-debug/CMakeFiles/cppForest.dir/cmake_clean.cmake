@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/cppForest.dir/main.cpp.obj"
+  "CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.obj"
+  "CMakeFiles/cppForest.dir/Garbage_Bin.cpp.obj"
+  "CMakeFiles/cppForest.dir/cgNode/addNode.cpp.obj"
+  "CMakeFiles/cppForest.dir/cgNode/mulNode.cpp.obj"
+  "CMakeFiles/cppForest.dir/cgNode/divNode.cpp.obj"
+  "CMakeFiles/cppForest.dir/cgNode/subNode.cpp.obj"
+  "cppForest.pdb"
+  "cppForest.exe"
+  "cppForest.exe.manifest"
+  "libcppForest.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/cppForest.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

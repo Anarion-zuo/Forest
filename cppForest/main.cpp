@@ -1,7 +1,5 @@
-#include "library.h"
-
 #include <iostream>
-
-void hello() {
+#include "./cgNode/cgNode.h"
+int main() {
     std::cout << "Hello, World!" << std::endl;
 }

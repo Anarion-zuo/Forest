@@ -9,7 +9,7 @@ public class cgNode {
     protected cgNode _parent;
     protected boolean _left_or_right;
 
-    static boolean nequals(double n1, double n2){
+    static private boolean nequals(double n1, double n2){
         final double epsilon = 1e-14D;
         return Math.abs(n1 - n2) < epsilon;
     }

@@ -1,0 +1,31 @@
+//
+// Created by a on 2019/5/7.
+//
+
+#include "divNode.h"
+
+divNode::divNode(cgNode *parent, bool lr, cgNode *left, cgNode *right) : cgNode(parent, lr, left, right, 0) {}
+
+cgNode *divNode::clone(cgNode *parent) {
+    cgNode* p = new divNode(parent, _lr, nullptr, nullptr);
+    p->_left = _left->clone(p);
+    p->_right = _right->clone(p);
+    return p;
+}
+
+cgNode *divNode::diff() {
+    cgNode* p = new divNode(_parent, _lr, nullptr, nullptr);
+    cgNode* up = new subNode(
+            p,
+            false,
+            new mulNode(nullptr, false, _left, _right),
+            new mulNode(nullptr, true, _left->clone(nullptr), _right->clone(nullptr))
+            );
+    up->_left->_parent = up;
+    up->_right->_parent = up;
+    up->_right->_left->_parent = up->_right;
+    up->_right->_right->_parent = up->_right;
+    p->_left = up;
+//    p->_right = new expNode(nullptr, true, _right->clone(nullptr), new constNode(nullptr, true, 2));
+    return change_this(p);
+}

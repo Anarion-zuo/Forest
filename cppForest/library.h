@@ -1,6 +1,0 @@
-#ifndef CPPFOREST_LIBRARY_H
-#define CPPFOREST_LIBRARY_H
-
-void hello();
-
-#endif //CPPFOREST_LIBRARY_H

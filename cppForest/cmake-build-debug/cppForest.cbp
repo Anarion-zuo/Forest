@@ -98,6 +98,12 @@
 		<Unit filename="D:/AI/Forest/cppForest/cgNode/cgNode.h">
 			<Option target="cppForest"/>
 		</Unit>
+		<Unit filename="D:/AI/Forest/cppForest/cgNode/constNode.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="D:/AI/Forest/cppForest/cgNode/constNode.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="D:/AI/Forest/cppForest/cgNode/divNode.cpp">
 			<Option target="cppForest"/>
 		</Unit>
@@ -114,6 +120,12 @@
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="D:/AI/Forest/cppForest/cgNode/subNode.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="D:/AI/Forest/cppForest/cgNode/varNode.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="D:/AI/Forest/cppForest/cgNode/varNode.h">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="D:/AI/Forest/cppForest/main.cpp">

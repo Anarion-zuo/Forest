@@ -62,5 +62,16 @@ cgNode *cgNode::get_right() {
     return _right;
 }
 
+void cgNode::del_node(cgNode*& node){
+    node->del();
+    delete node;
+    node = nullptr;
+}
 
+void cgNode::del() {
+    _left->del();
+    _right->del();
+    delete _left;
+    delete _right;
+}
 

@@ -30,5 +30,17 @@ cgNode *mulNode::diff() {
     return change_this(p);
 }
 
+cgNode *mulNode::trim() {
+    _left = _left->trim();
+    _right = _right->trim();
+    if (_left->is_n_node(0)){
+        return change_this(new constNode(_parent, _lr, 0));
+    }else if (_right->is_n_node(0)) {
+        return change_this(new constNode(_parent, _lr, 0));
+    }
+
+    return this;
+}
+
 
 

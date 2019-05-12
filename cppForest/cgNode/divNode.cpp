@@ -29,3 +29,17 @@ cgNode *divNode::diff() {
 //    p->_right = new expNode(nullptr, true, _right->clone(nullptr), new constNode(nullptr, true, 2));
     return change_this(p);
 }
+
+double divNode::compute(double n1, double n2) {
+    return n1 / n2;
+}
+
+cgNode *divNode::trim() {
+    if (_left->is_n_node(0)){
+        return change_this(new constNode(_parent, _lr, 0));
+    }else if (_right->is_n_node(0)) {
+        throw "Dividing by 0.";
+    }
+
+    return this;
+}

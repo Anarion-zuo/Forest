@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/cgNode/mulNode.cpp.obj"
   "CMakeFiles/cppForest.dir/cgNode/divNode.cpp.obj"
   "CMakeFiles/cppForest.dir/cgNode/subNode.cpp.obj"
+  "CMakeFiles/cppForest.dir/cgNode/constNode.cpp.obj"
+  "CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj"
   "cppForest.pdb"
   "cppForest.exe"
   "cppForest.exe.manifest"

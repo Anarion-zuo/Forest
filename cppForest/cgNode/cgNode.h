@@ -46,10 +46,15 @@ public:
     bool get_lr();
     cgNode* get_left();
     cgNode* get_right();
+
+    static void del_node(cgNode*& node);
+    virtual void del();
 };
 
 #include "addNode.h"
 #include "subNode.h"
 #include "mulNode.h"
 #include "divNode.h"
+#include "constNode.h"
+#include "varNode.h"
 #endif //CPPFOREST_CGNODE_H

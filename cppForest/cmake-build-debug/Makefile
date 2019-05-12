@@ -203,6 +203,33 @@ cgNode/cgNode.cpp.s:
 	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.s
 .PHONY : cgNode/cgNode.cpp.s
 
+cgNode/constNode.obj: cgNode/constNode.cpp.obj
+
+.PHONY : cgNode/constNode.obj
+
+# target to build an object file
+cgNode/constNode.cpp.obj:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/constNode.cpp.obj
+.PHONY : cgNode/constNode.cpp.obj
+
+cgNode/constNode.i: cgNode/constNode.cpp.i
+
+.PHONY : cgNode/constNode.i
+
+# target to preprocess a source file
+cgNode/constNode.cpp.i:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/constNode.cpp.i
+.PHONY : cgNode/constNode.cpp.i
+
+cgNode/constNode.s: cgNode/constNode.cpp.s
+
+.PHONY : cgNode/constNode.s
+
+# target to generate assembly for a file
+cgNode/constNode.cpp.s:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/constNode.cpp.s
+.PHONY : cgNode/constNode.cpp.s
+
 cgNode/divNode.obj: cgNode/divNode.cpp.obj
 
 .PHONY : cgNode/divNode.obj
@@ -284,6 +311,33 @@ cgNode/subNode.cpp.s:
 	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/subNode.cpp.s
 .PHONY : cgNode/subNode.cpp.s
 
+cgNode/varNode.obj: cgNode/varNode.cpp.obj
+
+.PHONY : cgNode/varNode.obj
+
+# target to build an object file
+cgNode/varNode.cpp.obj:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj
+.PHONY : cgNode/varNode.cpp.obj
+
+cgNode/varNode.i: cgNode/varNode.cpp.i
+
+.PHONY : cgNode/varNode.i
+
+# target to preprocess a source file
+cgNode/varNode.cpp.i:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/varNode.cpp.i
+.PHONY : cgNode/varNode.cpp.i
+
+cgNode/varNode.s: cgNode/varNode.cpp.s
+
+.PHONY : cgNode/varNode.s
+
+# target to generate assembly for a file
+cgNode/varNode.cpp.s:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/varNode.cpp.s
+.PHONY : cgNode/varNode.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -329,6 +383,9 @@ help:
 	@echo ... cgNode/cgNode.obj
 	@echo ... cgNode/cgNode.i
 	@echo ... cgNode/cgNode.s
+	@echo ... cgNode/constNode.obj
+	@echo ... cgNode/constNode.i
+	@echo ... cgNode/constNode.s
 	@echo ... cgNode/divNode.obj
 	@echo ... cgNode/divNode.i
 	@echo ... cgNode/divNode.s
@@ -338,6 +395,9 @@ help:
 	@echo ... cgNode/subNode.obj
 	@echo ... cgNode/subNode.i
 	@echo ... cgNode/subNode.s
+	@echo ... cgNode/varNode.obj
+	@echo ... cgNode/varNode.i
+	@echo ... cgNode/varNode.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

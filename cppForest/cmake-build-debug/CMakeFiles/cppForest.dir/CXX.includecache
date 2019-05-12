@@ -12,11 +12,35 @@ set
 cgNode/cgNode.h
 D:/AI/Forest/cppForest/./cgNode/cgNode.h
 
+D:/AI/Forest/cppForest/./cgNode/addNode.h
+cgNode.h
+D:/AI/Forest/cppForest/./cgNode/cgNode.h
+
 D:/AI/Forest/cppForest/./cgNode/cgNode.h
 limits
 -
 ../Garbage_Bin.h
 D:/AI/Forest/cppForest/./Garbage_Bin.h
+addNode.h
+D:/AI/Forest/cppForest/./cgNode/addNode.h
+subNode.h
+D:/AI/Forest/cppForest/./cgNode/subNode.h
+mulNode.h
+D:/AI/Forest/cppForest/./cgNode/mulNode.h
+divNode.h
+D:/AI/Forest/cppForest/./cgNode/divNode.h
+
+D:/AI/Forest/cppForest/./cgNode/divNode.h
+cgNode.h
+D:/AI/Forest/cppForest/./cgNode/cgNode.h
+
+D:/AI/Forest/cppForest/./cgNode/mulNode.h
+cgNode.h
+D:/AI/Forest/cppForest/./cgNode/cgNode.h
+
+D:/AI/Forest/cppForest/./cgNode/subNode.h
+cgNode.h
+D:/AI/Forest/cppForest/./cgNode/cgNode.h
 
 D:/AI/Forest/cppForest/Garbage_Bin.cpp
 Garbage_Bin.h
@@ -49,6 +73,14 @@ limits
 -
 ../Garbage_Bin.h
 D:/AI/Forest/cppForest/Garbage_Bin.h
+addNode.h
+D:/AI/Forest/cppForest/cgNode/addNode.h
+subNode.h
+D:/AI/Forest/cppForest/cgNode/subNode.h
+mulNode.h
+D:/AI/Forest/cppForest/cgNode/mulNode.h
+divNode.h
+D:/AI/Forest/cppForest/cgNode/divNode.h
 
 D:/AI/Forest/cppForest/cgNode/divNode.cpp
 divNode.h
@@ -63,6 +95,14 @@ mulNode.h
 D:/AI/Forest/cppForest/cgNode/mulNode.h
 
 D:/AI/Forest/cppForest/cgNode/mulNode.h
+cgNode.h
+D:/AI/Forest/cppForest/cgNode/cgNode.h
+
+D:/AI/Forest/cppForest/cgNode/subNode.cpp
+subNode.h
+D:/AI/Forest/cppForest/cgNode/subNode.h
+
+D:/AI/Forest/cppForest/cgNode/subNode.h
 cgNode.h
 D:/AI/Forest/cppForest/cgNode/cgNode.h
 

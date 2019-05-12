@@ -4,7 +4,7 @@
 
 #include "varNode.h"
 
-std::map<cgNode*, varNode*> _temp_dvars;
+std::map<cgNode*, varNode*> varNode::_temp_dvars;
 
 varNode::varNode(double val) : cgNode(nullptr, false, nullptr, nullptr, val) {}
 

@@ -35,6 +35,8 @@ public:
 
     virtual cgNode* clone(cgNode* parent) = 0;
     cgNode* change_this(cgNode* node);
+    void change_left(cgNode* node);
+    void change_right(cgNode* node);
 
     virtual double compute(double n1, double n2) = 0;
     virtual cgNode* trim() = 0;

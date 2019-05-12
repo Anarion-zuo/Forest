@@ -5,55 +5,81 @@ CMakeFiles/cppForest.dir/Garbage_Bin.cpp.obj: ../Garbage_Bin.cpp
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.obj: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.obj: ../cgNode/addNode.h
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.obj: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/Garbage_Bin.cpp.obj: ../cgNode/constNode.h
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.obj: ../cgNode/divNode.h
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.obj: ../cgNode/mulNode.h
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.obj: ../cgNode/subNode.h
+CMakeFiles/cppForest.dir/Garbage_Bin.cpp.obj: ../cgNode/varNode.h
 
 CMakeFiles/cppForest.dir/cgNode/addNode.cpp.obj: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/addNode.cpp.obj: ../cgNode/addNode.cpp
 CMakeFiles/cppForest.dir/cgNode/addNode.cpp.obj: ../cgNode/addNode.h
 CMakeFiles/cppForest.dir/cgNode/addNode.cpp.obj: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cgNode/addNode.cpp.obj: ../cgNode/constNode.h
 CMakeFiles/cppForest.dir/cgNode/addNode.cpp.obj: ../cgNode/divNode.h
 CMakeFiles/cppForest.dir/cgNode/addNode.cpp.obj: ../cgNode/mulNode.h
 CMakeFiles/cppForest.dir/cgNode/addNode.cpp.obj: ../cgNode/subNode.h
+CMakeFiles/cppForest.dir/cgNode/addNode.cpp.obj: ../cgNode/varNode.h
 
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.obj: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.obj: ../cgNode/addNode.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.obj: ../cgNode/cgNode.cpp
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.obj: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.obj: ../cgNode/constNode.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.obj: ../cgNode/divNode.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.obj: ../cgNode/mulNode.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.obj: ../cgNode/subNode.h
+CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.obj: ../cgNode/varNode.h
+
+CMakeFiles/cppForest.dir/cgNode/constNode.cpp.obj: ../Garbage_Bin.h
+CMakeFiles/cppForest.dir/cgNode/constNode.cpp.obj: ../cgNode/addNode.h
+CMakeFiles/cppForest.dir/cgNode/constNode.cpp.obj: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cgNode/constNode.cpp.obj: ../cgNode/constNode.cpp
+CMakeFiles/cppForest.dir/cgNode/constNode.cpp.obj: ../cgNode/constNode.h
+CMakeFiles/cppForest.dir/cgNode/constNode.cpp.obj: ../cgNode/divNode.h
+CMakeFiles/cppForest.dir/cgNode/constNode.cpp.obj: ../cgNode/mulNode.h
+CMakeFiles/cppForest.dir/cgNode/constNode.cpp.obj: ../cgNode/subNode.h
+CMakeFiles/cppForest.dir/cgNode/constNode.cpp.obj: ../cgNode/varNode.h
 
 CMakeFiles/cppForest.dir/cgNode/divNode.cpp.obj: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/divNode.cpp.obj: ../cgNode/addNode.h
 CMakeFiles/cppForest.dir/cgNode/divNode.cpp.obj: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cgNode/divNode.cpp.obj: ../cgNode/constNode.h
 CMakeFiles/cppForest.dir/cgNode/divNode.cpp.obj: ../cgNode/divNode.cpp
 CMakeFiles/cppForest.dir/cgNode/divNode.cpp.obj: ../cgNode/divNode.h
 CMakeFiles/cppForest.dir/cgNode/divNode.cpp.obj: ../cgNode/mulNode.h
 CMakeFiles/cppForest.dir/cgNode/divNode.cpp.obj: ../cgNode/subNode.h
+CMakeFiles/cppForest.dir/cgNode/divNode.cpp.obj: ../cgNode/varNode.h
 
 CMakeFiles/cppForest.dir/cgNode/mulNode.cpp.obj: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/mulNode.cpp.obj: ../cgNode/addNode.h
 CMakeFiles/cppForest.dir/cgNode/mulNode.cpp.obj: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cgNode/mulNode.cpp.obj: ../cgNode/constNode.h
 CMakeFiles/cppForest.dir/cgNode/mulNode.cpp.obj: ../cgNode/divNode.h
 CMakeFiles/cppForest.dir/cgNode/mulNode.cpp.obj: ../cgNode/mulNode.cpp
 CMakeFiles/cppForest.dir/cgNode/mulNode.cpp.obj: ../cgNode/mulNode.h
 CMakeFiles/cppForest.dir/cgNode/mulNode.cpp.obj: ../cgNode/subNode.h
+CMakeFiles/cppForest.dir/cgNode/mulNode.cpp.obj: ../cgNode/varNode.h
 
 CMakeFiles/cppForest.dir/cgNode/subNode.cpp.obj: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/subNode.cpp.obj: ../cgNode/addNode.h
 CMakeFiles/cppForest.dir/cgNode/subNode.cpp.obj: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cgNode/subNode.cpp.obj: ../cgNode/constNode.h
 CMakeFiles/cppForest.dir/cgNode/subNode.cpp.obj: ../cgNode/divNode.h
 CMakeFiles/cppForest.dir/cgNode/subNode.cpp.obj: ../cgNode/mulNode.h
 CMakeFiles/cppForest.dir/cgNode/subNode.cpp.obj: ../cgNode/subNode.cpp
 CMakeFiles/cppForest.dir/cgNode/subNode.cpp.obj: ../cgNode/subNode.h
+CMakeFiles/cppForest.dir/cgNode/subNode.cpp.obj: ../cgNode/varNode.h
 
-CMakeFiles/cppForest.dir/main.cpp.obj: .././Garbage_Bin.h
-CMakeFiles/cppForest.dir/main.cpp.obj: .././cgNode/addNode.h
-CMakeFiles/cppForest.dir/main.cpp.obj: .././cgNode/cgNode.h
-CMakeFiles/cppForest.dir/main.cpp.obj: .././cgNode/divNode.h
-CMakeFiles/cppForest.dir/main.cpp.obj: .././cgNode/mulNode.h
-CMakeFiles/cppForest.dir/main.cpp.obj: .././cgNode/subNode.h
+CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj: ../Garbage_Bin.h
+CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj: ../cgNode/addNode.h
+CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj: ../cgNode/constNode.h
+CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj: ../cgNode/divNode.h
+CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj: ../cgNode/mulNode.h
+CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj: ../cgNode/subNode.h
+CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj: ../cgNode/varNode.cpp
+CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj: ../cgNode/varNode.h
+
 CMakeFiles/cppForest.dir/main.cpp.obj: ../main.cpp
 

@@ -38,6 +38,20 @@ cgNode *cgNode::change_this(cgNode *node) {
     return node;
 }
 
+void cgNode::change_left(cgNode* node){
+    Garbage_Bin::push(_left);
+    _left = node;
+    node->_parent = this;
+    node->_lr = false;
+}
+
+void cgNode::change_right(cgNode* node){
+    Garbage_Bin::push(_left);
+    _right = node;
+    node->_parent = this;
+    node->_lr = true;
+}
+
 void cgNode::set_var(double val) {
     _val = val;
 }

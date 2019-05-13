@@ -48,4 +48,8 @@ varNode *varNode::get_dvar(cgNode *node) {
     return it->second;
 }
 
+const std::map<cgNode *, varNode *> &varNode::get_map() {
+    return _temp_dvars;
+}
+
 

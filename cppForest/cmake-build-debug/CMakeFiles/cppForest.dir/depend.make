@@ -81,5 +81,13 @@ CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj: ../cgNode/subNode.h
 CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj: ../cgNode/varNode.cpp
 CMakeFiles/cppForest.dir/cgNode/varNode.cpp.obj: ../cgNode/varNode.h
 
+CMakeFiles/cppForest.dir/main.cpp.obj: .././Garbage_Bin.h
+CMakeFiles/cppForest.dir/main.cpp.obj: .././cgNode/addNode.h
+CMakeFiles/cppForest.dir/main.cpp.obj: .././cgNode/cgNode.h
+CMakeFiles/cppForest.dir/main.cpp.obj: .././cgNode/constNode.h
+CMakeFiles/cppForest.dir/main.cpp.obj: .././cgNode/divNode.h
+CMakeFiles/cppForest.dir/main.cpp.obj: .././cgNode/mulNode.h
+CMakeFiles/cppForest.dir/main.cpp.obj: .././cgNode/subNode.h
+CMakeFiles/cppForest.dir/main.cpp.obj: .././cgNode/varNode.h
 CMakeFiles/cppForest.dir/main.cpp.obj: ../main.cpp
 

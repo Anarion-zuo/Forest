@@ -17,6 +17,7 @@ public:
     static void push_dvars(cgNode* n1, varNode* n2);
     static void clear_dvars();
     static varNode* get_dvar(cgNode* node);
+    static const std::map<cgNode*, varNode*>& get_map();
 
     cgNode* clone(cgNode* parent);
     double compute(double n1, double n2) override ;
@@ -24,6 +25,7 @@ public:
     cgNode* diff() override ;
     void del() override ;
 };
+
 
 
 #endif //CPPFOREST_VARNODE_H

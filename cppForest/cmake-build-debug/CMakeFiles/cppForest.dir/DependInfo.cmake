@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/AI/Forest/cppForest/Garbage_Bin.cpp" "D:/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Garbage_Bin.cpp.obj"
+  "D:/AI/Forest/cppForest/cg/cg.cpp" "D:/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/cg/cg.cpp.obj"
   "D:/AI/Forest/cppForest/cgNode/addNode.cpp" "D:/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/cgNode/addNode.cpp.obj"
   "D:/AI/Forest/cppForest/cgNode/cgNode.cpp" "D:/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.obj"
   "D:/AI/Forest/cppForest/cgNode/constNode.cpp" "D:/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/cgNode/constNode.cpp.obj"

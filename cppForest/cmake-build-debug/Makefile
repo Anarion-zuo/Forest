@@ -149,6 +149,33 @@ Garbage_Bin.cpp.s:
 	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/Garbage_Bin.cpp.s
 .PHONY : Garbage_Bin.cpp.s
 
+cg/cg.obj: cg/cg.cpp.obj
+
+.PHONY : cg/cg.obj
+
+# target to build an object file
+cg/cg.cpp.obj:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cg/cg.cpp.obj
+.PHONY : cg/cg.cpp.obj
+
+cg/cg.i: cg/cg.cpp.i
+
+.PHONY : cg/cg.i
+
+# target to preprocess a source file
+cg/cg.cpp.i:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cg/cg.cpp.i
+.PHONY : cg/cg.cpp.i
+
+cg/cg.s: cg/cg.cpp.s
+
+.PHONY : cg/cg.s
+
+# target to generate assembly for a file
+cg/cg.cpp.s:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cg/cg.cpp.s
+.PHONY : cg/cg.cpp.s
+
 cgNode/addNode.obj: cgNode/addNode.cpp.obj
 
 .PHONY : cgNode/addNode.obj
@@ -377,6 +404,9 @@ help:
 	@echo ... Garbage_Bin.obj
 	@echo ... Garbage_Bin.i
 	@echo ... Garbage_Bin.s
+	@echo ... cg/cg.obj
+	@echo ... cg/cg.i
+	@echo ... cg/cg.s
 	@echo ... cgNode/addNode.obj
 	@echo ... cgNode/addNode.i
 	@echo ... cgNode/addNode.s

@@ -85,7 +85,7 @@ void cgNode::del_node(cgNode*& node){
 void cgNode::del() {
     _left->del();
     _right->del();
-    delete _left;
-    delete _right;
+    if (!_left->is_var())    delete _left;
+    if (!_right->is_var())  delete _right;
 }
 

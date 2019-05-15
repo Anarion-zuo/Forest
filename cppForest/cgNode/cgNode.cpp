@@ -78,8 +78,10 @@ cgNode *cgNode::get_right() {
 
 void cgNode::del_node(cgNode*& node){
     node->del();
-    delete node;
-    node = nullptr;
+    if (!node->is_var()) {
+        delete node;
+        node = nullptr;
+    }
 }
 
 void cgNode::del() {

@@ -59,4 +59,6 @@ public:
 #include "divNode.h"
 #include "constNode.h"
 #include "varNode.h"
+#include "expNode.h"
+#include "monopNodes/monopNode.h"
 #endif //CPPFOREST_CGNODE_H

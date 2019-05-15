@@ -3,3 +3,10 @@
 //
 
 #include "cg.h"
+
+cg::cg(cgNode *root) : _root(root) {}
+
+cg::~cg() {
+    cgNode::del_node(_root);
+}
+

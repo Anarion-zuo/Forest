@@ -284,6 +284,114 @@ cgNode/divNode.cpp.s:
 	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/divNode.cpp.s
 .PHONY : cgNode/divNode.cpp.s
 
+cgNode/expNode.obj: cgNode/expNode.cpp.obj
+
+.PHONY : cgNode/expNode.obj
+
+# target to build an object file
+cgNode/expNode.cpp.obj:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/expNode.cpp.obj
+.PHONY : cgNode/expNode.cpp.obj
+
+cgNode/expNode.i: cgNode/expNode.cpp.i
+
+.PHONY : cgNode/expNode.i
+
+# target to preprocess a source file
+cgNode/expNode.cpp.i:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/expNode.cpp.i
+.PHONY : cgNode/expNode.cpp.i
+
+cgNode/expNode.s: cgNode/expNode.cpp.s
+
+.PHONY : cgNode/expNode.s
+
+# target to generate assembly for a file
+cgNode/expNode.cpp.s:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/expNode.cpp.s
+.PHONY : cgNode/expNode.cpp.s
+
+cgNode/monopNodes/lnNode.obj: cgNode/monopNodes/lnNode.cpp.obj
+
+.PHONY : cgNode/monopNodes/lnNode.obj
+
+# target to build an object file
+cgNode/monopNodes/lnNode.cpp.obj:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.obj
+.PHONY : cgNode/monopNodes/lnNode.cpp.obj
+
+cgNode/monopNodes/lnNode.i: cgNode/monopNodes/lnNode.cpp.i
+
+.PHONY : cgNode/monopNodes/lnNode.i
+
+# target to preprocess a source file
+cgNode/monopNodes/lnNode.cpp.i:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.i
+.PHONY : cgNode/monopNodes/lnNode.cpp.i
+
+cgNode/monopNodes/lnNode.s: cgNode/monopNodes/lnNode.cpp.s
+
+.PHONY : cgNode/monopNodes/lnNode.s
+
+# target to generate assembly for a file
+cgNode/monopNodes/lnNode.cpp.s:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.s
+.PHONY : cgNode/monopNodes/lnNode.cpp.s
+
+cgNode/monopNodes/monopNode.obj: cgNode/monopNodes/monopNode.cpp.obj
+
+.PHONY : cgNode/monopNodes/monopNode.obj
+
+# target to build an object file
+cgNode/monopNodes/monopNode.cpp.obj:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.obj
+.PHONY : cgNode/monopNodes/monopNode.cpp.obj
+
+cgNode/monopNodes/monopNode.i: cgNode/monopNodes/monopNode.cpp.i
+
+.PHONY : cgNode/monopNodes/monopNode.i
+
+# target to preprocess a source file
+cgNode/monopNodes/monopNode.cpp.i:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.i
+.PHONY : cgNode/monopNodes/monopNode.cpp.i
+
+cgNode/monopNodes/monopNode.s: cgNode/monopNodes/monopNode.cpp.s
+
+.PHONY : cgNode/monopNodes/monopNode.s
+
+# target to generate assembly for a file
+cgNode/monopNodes/monopNode.cpp.s:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.s
+.PHONY : cgNode/monopNodes/monopNode.cpp.s
+
+cgNode/monopNodes/sinNode.obj: cgNode/monopNodes/sinNode.cpp.obj
+
+.PHONY : cgNode/monopNodes/sinNode.obj
+
+# target to build an object file
+cgNode/monopNodes/sinNode.cpp.obj:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/sinNode.cpp.obj
+.PHONY : cgNode/monopNodes/sinNode.cpp.obj
+
+cgNode/monopNodes/sinNode.i: cgNode/monopNodes/sinNode.cpp.i
+
+.PHONY : cgNode/monopNodes/sinNode.i
+
+# target to preprocess a source file
+cgNode/monopNodes/sinNode.cpp.i:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/sinNode.cpp.i
+.PHONY : cgNode/monopNodes/sinNode.cpp.i
+
+cgNode/monopNodes/sinNode.s: cgNode/monopNodes/sinNode.cpp.s
+
+.PHONY : cgNode/monopNodes/sinNode.s
+
+# target to generate assembly for a file
+cgNode/monopNodes/sinNode.cpp.s:
+	$(MAKE) -f CMakeFiles\cppForest.dir\build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/sinNode.cpp.s
+.PHONY : cgNode/monopNodes/sinNode.cpp.s
+
 cgNode/mulNode.obj: cgNode/mulNode.cpp.obj
 
 .PHONY : cgNode/mulNode.obj
@@ -419,6 +527,18 @@ help:
 	@echo ... cgNode/divNode.obj
 	@echo ... cgNode/divNode.i
 	@echo ... cgNode/divNode.s
+	@echo ... cgNode/expNode.obj
+	@echo ... cgNode/expNode.i
+	@echo ... cgNode/expNode.s
+	@echo ... cgNode/monopNodes/lnNode.obj
+	@echo ... cgNode/monopNodes/lnNode.i
+	@echo ... cgNode/monopNodes/lnNode.s
+	@echo ... cgNode/monopNodes/monopNode.obj
+	@echo ... cgNode/monopNodes/monopNode.i
+	@echo ... cgNode/monopNodes/monopNode.s
+	@echo ... cgNode/monopNodes/sinNode.obj
+	@echo ... cgNode/monopNodes/sinNode.i
+	@echo ... cgNode/monopNodes/sinNode.s
 	@echo ... cgNode/mulNode.obj
 	@echo ... cgNode/mulNode.i
 	@echo ... cgNode/mulNode.s

@@ -116,6 +116,30 @@
 		<Unit filename="D:/AI/Forest/cppForest/cgNode/divNode.h">
 			<Option target="cppForest"/>
 		</Unit>
+		<Unit filename="D:/AI/Forest/cppForest/cgNode/expNode.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="D:/AI/Forest/cppForest/cgNode/expNode.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="D:/AI/Forest/cppForest/cgNode/monopNodes/lnNode.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="D:/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="D:/AI/Forest/cppForest/cgNode/monopNodes/monopNode.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="D:/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="D:/AI/Forest/cppForest/cgNode/monopNodes/sinNode.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="D:/AI/Forest/cppForest/cgNode/monopNodes/sinNode.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="D:/AI/Forest/cppForest/cgNode/mulNode.cpp">
 			<Option target="cppForest"/>
 		</Unit>

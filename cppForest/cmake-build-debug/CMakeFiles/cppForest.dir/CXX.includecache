@@ -6,59 +6,77 @@
 
 #IncludeRegexTransform: 
 
-D:/AI/Forest/cppForest/./Garbage_Bin.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./Garbage_Bin.h
 set
 -
 cgNode/cgNode.h
-D:/AI/Forest/cppForest/./cgNode/cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/cgNode.h
 
-D:/AI/Forest/cppForest/./cgNode/addNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/addNode.h
 cgNode.h
-D:/AI/Forest/cppForest/./cgNode/cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/cgNode.h
 
-D:/AI/Forest/cppForest/./cgNode/cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/cgNode.h
 limits
 -
 ../Garbage_Bin.h
-D:/AI/Forest/cppForest/./Garbage_Bin.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./Garbage_Bin.h
 addNode.h
-D:/AI/Forest/cppForest/./cgNode/addNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/addNode.h
 subNode.h
-D:/AI/Forest/cppForest/./cgNode/subNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/subNode.h
 mulNode.h
-D:/AI/Forest/cppForest/./cgNode/mulNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/mulNode.h
 divNode.h
-D:/AI/Forest/cppForest/./cgNode/divNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/divNode.h
 constNode.h
-D:/AI/Forest/cppForest/./cgNode/constNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/constNode.h
 varNode.h
-D:/AI/Forest/cppForest/./cgNode/varNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/varNode.h
+expNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/expNode.h
+monopNodes/monopNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/monopNodes/monopNode.h
 
-D:/AI/Forest/cppForest/./cgNode/constNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/constNode.h
 cgNode.h
-D:/AI/Forest/cppForest/./cgNode/cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/cgNode.h
 
-D:/AI/Forest/cppForest/./cgNode/divNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/divNode.h
 cgNode.h
-D:/AI/Forest/cppForest/./cgNode/cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/cgNode.h
 
-D:/AI/Forest/cppForest/./cgNode/mulNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/expNode.h
 cgNode.h
-D:/AI/Forest/cppForest/./cgNode/cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/cgNode.h
 
-D:/AI/Forest/cppForest/./cgNode/subNode.h
-cgNode.h
-D:/AI/Forest/cppForest/./cgNode/cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/monopNodes/lnNode.h
+monopNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/monopNodes/monopNode.h
 
-D:/AI/Forest/cppForest/./cgNode/varNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/monopNodes/monopNode.h
+../cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/cgNode.h
+lnNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/monopNodes/lnNode.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/mulNode.h
 cgNode.h
-D:/AI/Forest/cppForest/./cgNode/cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/cgNode.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/subNode.h
+cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/cgNode.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/varNode.h
+cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/cgNode.h
 map
 -
 
-D:/AI/Forest/cppForest/main.cpp
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/main.cpp
 iostream
 -
 ./cgNode/cgNode.h
-D:/AI/Forest/cppForest/./cgNode/cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/cgNode.h
 

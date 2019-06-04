@@ -1,4 +1,4 @@
-"D:\Program Files\JetBrains\CLion 2019.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\AI\Forest\cppForest
+/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/anarion/Documents/CSLearning/AI/Forest/cppForest
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/AI/Forest/cppForest/cmake-build-debug
+-- Build files have been written to: /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug

@@ -20,3 +20,7 @@ cgNode *sinNode::_trim() {
         change_this(new constNode(_parent, _lr, sin(_left->get_val())));
     }
 }
+
+cgNode *sinNode::diff() {
+    return nullptr;
+}

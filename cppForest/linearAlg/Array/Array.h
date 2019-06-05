@@ -13,8 +13,9 @@ protected:
     std::vector<double> _c;
 public:
     Array();
-    Array(const std::vector<double>& c);
+    Array(const std::vector<double> &c);
     Array(size_t n, double a);
+    ~Array(){}
     Array* clone();
 
     size_t size();

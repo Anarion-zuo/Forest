@@ -501,6 +501,33 @@ linearAlg/Array/Array.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Array/Array.cpp.s
 .PHONY : linearAlg/Array/Array.cpp.s
 
+linearAlg/Array/_MyVector.o: linearAlg/Array/_MyVector.cpp.o
+
+.PHONY : linearAlg/Array/_MyVector.o
+
+# target to build an object file
+linearAlg/Array/_MyVector.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.o
+.PHONY : linearAlg/Array/_MyVector.cpp.o
+
+linearAlg/Array/_MyVector.i: linearAlg/Array/_MyVector.cpp.i
+
+.PHONY : linearAlg/Array/_MyVector.i
+
+# target to preprocess a source file
+linearAlg/Array/_MyVector.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.i
+.PHONY : linearAlg/Array/_MyVector.cpp.i
+
+linearAlg/Array/_MyVector.s: linearAlg/Array/_MyVector.cpp.s
+
+.PHONY : linearAlg/Array/_MyVector.s
+
+# target to generate assembly for a file
+linearAlg/Array/_MyVector.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.s
+.PHONY : linearAlg/Array/_MyVector.cpp.s
+
 linearAlg/DataFrame/DataFrame.o: linearAlg/DataFrame/DataFrame.cpp.o
 
 .PHONY : linearAlg/DataFrame/DataFrame.o
@@ -660,6 +687,9 @@ help:
 	@echo "... linearAlg/Array/Array.o"
 	@echo "... linearAlg/Array/Array.i"
 	@echo "... linearAlg/Array/Array.s"
+	@echo "... linearAlg/Array/_MyVector.o"
+	@echo "... linearAlg/Array/_MyVector.i"
+	@echo "... linearAlg/Array/_MyVector.s"
 	@echo "... linearAlg/DataFrame/DataFrame.o"
 	@echo "... linearAlg/DataFrame/DataFrame.i"
 	@echo "... linearAlg/DataFrame/DataFrame.s"

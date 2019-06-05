@@ -172,6 +172,23 @@ CMakeFiles/cppForest.dir/cgNode/varNode.cpp.o: ../cgNode/subNode.h
 CMakeFiles/cppForest.dir/cgNode/varNode.cpp.o: ../cgNode/varNode.cpp
 CMakeFiles/cppForest.dir/cgNode/varNode.cpp.o: ../cgNode/varNode.h
 
+CMakeFiles/cppForest.dir/linearAlg/Array/Array.cpp.o: ../linearAlg/Array/Array.cpp
+CMakeFiles/cppForest.dir/linearAlg/Array/Array.cpp.o: ../linearAlg/Array/Array.h
+
+CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.o: ../linearAlg/Array/_MyVector.cpp
+CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.o: ../linearAlg/Array/_MyVector.h
+
+CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.o: ../linearAlg/DataFrame/DataFrame.cpp
+CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.o: ../linearAlg/DataFrame/DataFrame.h
+
+CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o: ../linearAlg/Array/Array.h
+CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o: ../linearAlg/Matrix/Matrix.cpp
+CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o: ../linearAlg/Matrix/Matrix.h
+CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o: ../linearAlg/Matrix/Titles.h
+
+CMakeFiles/cppForest.dir/linearAlg/Matrix/Titles.cpp.o: ../linearAlg/Matrix/Titles.cpp
+CMakeFiles/cppForest.dir/linearAlg/Matrix/Titles.cpp.o: ../linearAlg/Matrix/Titles.h
+
 CMakeFiles/cppForest.dir/main.cpp.o: .././Garbage_Bin.h
 CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/addNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/cgNode.h
@@ -183,5 +200,8 @@ CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/monopNodes/monopNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/mulNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/subNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/varNode.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../linearAlg/Array/Array.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../linearAlg/Matrix/Matrix.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../linearAlg/Matrix/Titles.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../main.cpp
 

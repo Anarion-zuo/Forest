@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o"
   "CMakeFiles/cppForest.dir/linearAlg/Matrix/Titles.cpp.o"
   "CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.o"
+  "CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.o"
   "cppForest.pdb"
   "cppForest"
 )

@@ -172,6 +172,23 @@ CMakeFiles/cppForest.dir/cgNode/varNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/subNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/varNode.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/varNode.h
+CMakeFiles/cppForest.dir/linearAlg/Array/Array.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
+CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/_MyVector.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/_MyVector.h
+CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/DataFrame/DataFrame.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/DataFrame/DataFrame.h
+CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Matrix.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Matrix.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Titles.h
+CMakeFiles/cppForest.dir/linearAlg/Matrix/Titles.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Titles.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Titles.h
 CMakeFiles/cppForest.dir/main.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/addNode.h
@@ -184,4 +201,7 @@ CMakeFiles/cppForest.dir/main.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/mulNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/subNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/varNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Matrix.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Titles.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/main.cpp

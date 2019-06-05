@@ -168,6 +168,12 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h">
 			<Option target="cppForest"/>
 		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/_MyVector.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/_MyVector.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/DataFrame/DataFrame.cpp">
 			<Option target="cppForest"/>
 		</Unit>

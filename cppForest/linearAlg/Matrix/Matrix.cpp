@@ -8,11 +8,7 @@ Matrix::Matrix(size_t h, size_t w, double a) : _c(w, new Array(h, a)) {}
 
 Matrix::Matrix(const std::vector<Array*> &c) : _c(c) {}
 
-Matrix::~Matrix() {
-    for (size_t i = 0; i < _c.size(); ++i){
-        if (_c[i])   delete _c[i];
-    }
-}
+Matrix::~Matrix() {}
 
 Matrix *Matrix::clone() {
     std::vector<Array*> v(_c.size(), nullptr);
@@ -86,7 +82,7 @@ void Matrix::hstack(Matrix *m) {
     if (height() != m->height()){
         // exception
     }
-    _c.insert(_c.begin(), m->_c.begin(), m->_c.end());
+    _c.insert(_c.end(), m->_c.begin(), m->_c.end());
 }
 
 void Matrix::vstack(Matrix *m) {
@@ -137,22 +133,22 @@ Matrix *Matrix::_strassen_mul(Matrix *m1, Matrix *m2) {
     if (m1->width() != m2->height()){
         // exception
     }
-    if (m1->width() <= 5 && m1->height() <= 5){
+    if (m1->width() <= 4 && m1->height() <= 4){
         return slow_mul(m1, m2);
     }
     Matrix* p1 = m1->clone(), *p2 = m2->clone();
     if (p1->width() < p1->height()){
-        Matrix *st = new Matrix(p1->height() - p1->width(), p1->width(), 0);
-        p1->vstack(st);
+        Matrix *st = new Matrix(p1->height(), p1->height() - p1->width(), 0);
+        p1->hstack(st);
         Matrix* st2 = st->transpose();
-        p2->hstack(st2);
+        p2->vstack(st2);
         delete st;
         delete st2;
     }else if (p1->width() > p1->height()){
-        Matrix *st = new Matrix(p1->height(), p1->width() - p1->height(), 0);
-        p1->hstack(st);
+        Matrix *st = new Matrix(p1->width() - p1->height(), p1->width(), 0);
+        p1->vstack(st);
         Matrix* st2 = st->transpose();
-        p1->vstack(st2);
+        p1->hstack(st2);
         delete st;
         delete st2;
     }
@@ -186,6 +182,68 @@ Matrix *Matrix::_strassen_mul(Matrix *m1, Matrix *m2) {
     auto M3 = _strassen_mul((*d1)[0], bd);
     delete bd;
 
+    //M4
+    bd = sub((*d2)[2], (*d2)[3]);
+    auto M4 = _strassen_mul((*d1)[3], bd);
+    delete bd;
+
+    //M5
+    ad = add((*d1)[0], (*d2)[1]);
+    auto M5 = _strassen_mul(ad, (*d2)[3]);
+    delete ad;
+
+    //M6
+    ad = sub((*d1)[2], (*d1)[0]);
+    bd = add((*d2)[0], (*d2)[1]);
+    auto M6 = _strassen_mul(ad, bd);
+    delete ad;
+    delete bd;
+
+    //M7
+    ad = sub((*d1)[1], (*d1)[3]);
+    bd = add((*d2)[2], (*d2)[3]);
+    auto M7 = _strassen_mul(ad, bd);
+    delete ad;
+    delete bd;
+
+    //C11
+    auto mm = add(M1, M4);
+    auto mmm = mm;
+    mm = sub(mm, M5);
+    delete mmm;
+    auto C11 = add(mm, M7);
+    delete mm;
+
+    //C12
+    auto C12 = add(M3, M5);
+
+    //C21
+    auto C21 = add(M2, M4);
+
+    //C22
+    mm = sub(M1, M2);
+    mmm = mm;
+    mm = add(mm, M3);
+    delete mmm;
+    auto C22 = add(mm, M6);
+    delete mm;
+
+    delete M1;
+    delete M2;
+    delete M3;
+    delete M4;
+    delete M5;
+    delete M6;
+    delete M7;
+
+    C11->hstack(C12);
+    C21->hstack(C22);
+    C11->vstack(C21);
+    delete C21;
+    delete C12;
+    delete C22;
+
+    return C11;
 }
 
 Matrix *Matrix::slow_mul(Matrix *m1, Matrix *m2) {

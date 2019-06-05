@@ -47,6 +47,8 @@ public:
     // Strassen
 private:
     static std::vector<Matrix*>* _divide_four(Matrix* m);
+
+public:
     static Matrix* _strassen_mul(Matrix* m1, Matrix* m2);
 
 public:

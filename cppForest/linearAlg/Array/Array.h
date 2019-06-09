@@ -7,6 +7,7 @@
 
 
 #include <vector>
+#include <string>
 
 class Array {
 protected:
@@ -19,6 +20,7 @@ public:
     Array* clone();
 
     size_t size();
+    std::string to_string();
 
     // statistics
     double sum();

@@ -60,6 +60,10 @@ double cgNode::get_val() {
     return _val;
 }
 
+void cgNode::set_parent(cgNode *node) {
+    _parent = node;
+}
+
 cgNode *cgNode::get_parent() {
     return _parent;
 }
@@ -89,5 +93,26 @@ void cgNode::del() {
     _right->del();
     if (!_left->is_var())    delete _left;
     if (!_right->is_var())  delete _right;
+}
+
+std::vector<cgNode *> cgNode::find_vars(cgNode* node) {
+    std::vector<cgNode*> res;
+    _find_vars_recur(node, res);
+    return res;
+}
+
+void cgNode::_find_vars_recur(cgNode* node, std::vector<cgNode *> &v) {
+    if (!node){
+        return;
+    }
+    if (node->is_var()){
+        v.push_back(node);
+        return;
+    }
+    if (node->is_const()){
+        return;
+    }
+    _find_vars_recur(node->_left, v);
+    _find_vars_recur(node->_right, v);
 }
 

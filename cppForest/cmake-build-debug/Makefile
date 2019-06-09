@@ -150,6 +150,60 @@ Garbage_Bin.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Garbage_Bin.cpp.s
 .PHONY : Garbage_Bin.cpp.s
 
+Solvers/Root/Function/Function.o: Solvers/Root/Function/Function.cpp.o
+
+.PHONY : Solvers/Root/Function/Function.o
+
+# target to build an object file
+Solvers/Root/Function/Function.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.o
+.PHONY : Solvers/Root/Function/Function.cpp.o
+
+Solvers/Root/Function/Function.i: Solvers/Root/Function/Function.cpp.i
+
+.PHONY : Solvers/Root/Function/Function.i
+
+# target to preprocess a source file
+Solvers/Root/Function/Function.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.i
+.PHONY : Solvers/Root/Function/Function.cpp.i
+
+Solvers/Root/Function/Function.s: Solvers/Root/Function/Function.cpp.s
+
+.PHONY : Solvers/Root/Function/Function.s
+
+# target to generate assembly for a file
+Solvers/Root/Function/Function.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.s
+.PHONY : Solvers/Root/Function/Function.cpp.s
+
+Solvers/Root/Single-Variable/SingleVariableRootFinder.o: Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o
+
+.PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.o
+
+# target to build an object file
+Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o
+.PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o
+
+Solvers/Root/Single-Variable/SingleVariableRootFinder.i: Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.i
+
+.PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.i
+
+# target to preprocess a source file
+Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.i
+.PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.i
+
+Solvers/Root/Single-Variable/SingleVariableRootFinder.s: Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s
+
+.PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.s
+
+# target to generate assembly for a file
+Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s
+.PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s
+
 cg/cg.o: cg/cg.cpp.o
 
 .PHONY : cg/cg.o
@@ -311,6 +365,33 @@ cgNode/expNode.s: cgNode/expNode.cpp.s
 cgNode/expNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/expNode.cpp.s
 .PHONY : cgNode/expNode.cpp.s
+
+cgNode/monopNodes/cosNode.o: cgNode/monopNodes/cosNode.cpp.o
+
+.PHONY : cgNode/monopNodes/cosNode.o
+
+# target to build an object file
+cgNode/monopNodes/cosNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.o
+.PHONY : cgNode/monopNodes/cosNode.cpp.o
+
+cgNode/monopNodes/cosNode.i: cgNode/monopNodes/cosNode.cpp.i
+
+.PHONY : cgNode/monopNodes/cosNode.i
+
+# target to preprocess a source file
+cgNode/monopNodes/cosNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.i
+.PHONY : cgNode/monopNodes/cosNode.cpp.i
+
+cgNode/monopNodes/cosNode.s: cgNode/monopNodes/cosNode.cpp.s
+
+.PHONY : cgNode/monopNodes/cosNode.s
+
+# target to generate assembly for a file
+cgNode/monopNodes/cosNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.s
+.PHONY : cgNode/monopNodes/cosNode.cpp.s
 
 cgNode/monopNodes/lnNode.o: cgNode/monopNodes/lnNode.cpp.o
 
@@ -609,6 +690,33 @@ linearAlg/Matrix/Titles.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Titles.cpp.s
 .PHONY : linearAlg/Matrix/Titles.cpp.s
 
+linearAlg/Matrix/Vector.o: linearAlg/Matrix/Vector.cpp.o
+
+.PHONY : linearAlg/Matrix/Vector.o
+
+# target to build an object file
+linearAlg/Matrix/Vector.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o
+.PHONY : linearAlg/Matrix/Vector.cpp.o
+
+linearAlg/Matrix/Vector.i: linearAlg/Matrix/Vector.cpp.i
+
+.PHONY : linearAlg/Matrix/Vector.i
+
+# target to preprocess a source file
+linearAlg/Matrix/Vector.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.i
+.PHONY : linearAlg/Matrix/Vector.cpp.i
+
+linearAlg/Matrix/Vector.s: linearAlg/Matrix/Vector.cpp.s
+
+.PHONY : linearAlg/Matrix/Vector.s
+
+# target to generate assembly for a file
+linearAlg/Matrix/Vector.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.s
+.PHONY : linearAlg/Matrix/Vector.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -648,6 +756,12 @@ help:
 	@echo "... Garbage_Bin.o"
 	@echo "... Garbage_Bin.i"
 	@echo "... Garbage_Bin.s"
+	@echo "... Solvers/Root/Function/Function.o"
+	@echo "... Solvers/Root/Function/Function.i"
+	@echo "... Solvers/Root/Function/Function.s"
+	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.o"
+	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.i"
+	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.s"
 	@echo "... cg/cg.o"
 	@echo "... cg/cg.i"
 	@echo "... cg/cg.s"
@@ -666,6 +780,9 @@ help:
 	@echo "... cgNode/expNode.o"
 	@echo "... cgNode/expNode.i"
 	@echo "... cgNode/expNode.s"
+	@echo "... cgNode/monopNodes/cosNode.o"
+	@echo "... cgNode/monopNodes/cosNode.i"
+	@echo "... cgNode/monopNodes/cosNode.s"
 	@echo "... cgNode/monopNodes/lnNode.o"
 	@echo "... cgNode/monopNodes/lnNode.i"
 	@echo "... cgNode/monopNodes/lnNode.s"
@@ -699,6 +816,9 @@ help:
 	@echo "... linearAlg/Matrix/Titles.o"
 	@echo "... linearAlg/Matrix/Titles.i"
 	@echo "... linearAlg/Matrix/Titles.s"
+	@echo "... linearAlg/Matrix/Vector.o"
+	@echo "... linearAlg/Matrix/Vector.i"
+	@echo "... linearAlg/Matrix/Vector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

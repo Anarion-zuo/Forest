@@ -18,6 +18,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/linearAlg/Matrix/Titles.cpp.o"
   "CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.o"
   "CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.o"
+  "CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.o"
+  "CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.o"
   "cppForest.pdb"
   "cppForest"
 )

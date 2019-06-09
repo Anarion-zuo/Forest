@@ -5,9 +5,10 @@
 #ifndef CPPFOREST_SINNODE_H
 #define CPPFOREST_SINNODE_H
 
-#include "monopNode.h"
+#include "../monopNode.h"
 
 class sinNode : public monopNode {
+public:
     sinNode(cgNode* parent, bool lr, cgNode* left);
     ~sinNode() = default;
     monopNode* _clone(cgNode* parent) override;

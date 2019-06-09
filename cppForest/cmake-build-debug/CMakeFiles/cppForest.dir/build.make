@@ -304,6 +304,58 @@ CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/_MyVector.cpp -o CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.s
 
+CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o: ../linearAlg/Matrix/Vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Vector.cpp
+
+CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Vector.cpp > CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.i
+
+CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Vector.cpp -o CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.s
+
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp
+
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp > CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.i
+
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp -o CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s
+
+CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.o: ../Solvers/Root/Function/Function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Function/Function.cpp
+
+CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Function/Function.cpp > CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.i
+
+CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Function/Function.cpp -o CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.s
+
+CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.o: ../cgNode/monopNodes/cosNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/cosNode.cpp
+
+CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/cosNode.cpp > CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.i
+
+CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/cosNode.cpp -o CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.s
+
 # Object files for target cppForest
 cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/main.cpp.o" \
@@ -324,7 +376,11 @@ cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o" \
 "CMakeFiles/cppForest.dir/linearAlg/Matrix/Titles.cpp.o" \
 "CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.o" \
-"CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.o"
+"CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.o" \
+"CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o" \
+"CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o" \
+"CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.o" \
+"CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.o"
 
 # External object files for target cppForest
 cppForest_EXTERNAL_OBJECTS =
@@ -348,9 +404,13 @@ cppForest: CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o
 cppForest: CMakeFiles/cppForest.dir/linearAlg/Matrix/Titles.cpp.o
 cppForest: CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.o
 cppForest: CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.o
+cppForest: CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.o
+cppForest: CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/build.make
 cppForest: CMakeFiles/cppForest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable cppForest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable cppForest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppForest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

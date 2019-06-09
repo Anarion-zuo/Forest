@@ -213,4 +213,19 @@ void Array::stack(Array *a) {
     _c.insert(_c.end(), a->_c.begin(), a->_c.end());
 }
 
+std::string Array::to_string() {
+    if (_c.empty()){
+        return "empty array";
+    }
+    std::string str;
+    for (size_t i = 0; i < _c.size(); ++i){
+        str += std::to_string(_c[i]);
+        if (i != _c.size() - 1){
+            str += ',';
+        }else{
+            str += '\n';
+        }
+    }
+}
+
 

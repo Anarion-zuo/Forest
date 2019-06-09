@@ -6,10 +6,12 @@
 #define CPPFOREST_CG_H
 
 #include "../cgNode/cgNode.h"
+#include <vector>
 
 class cg {
 protected:
     cgNode* _root;
+    std::vector<cgNode*> _vars;
 public:
     cg(cgNode* root);
     virtual ~cg();

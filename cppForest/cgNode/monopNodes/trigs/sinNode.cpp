@@ -4,6 +4,7 @@
 
 #include <cmath>
 #include "sinNode.h"
+#include "cosNode.h"
 
 sinNode::sinNode(cgNode *parent, bool lr, cgNode *left) : monopNode(parent, lr, left) {}
 
@@ -19,8 +20,9 @@ cgNode *sinNode::_trim() {
     if (_left->is_const()){
         change_this(new constNode(_parent, _lr, sin(_left->get_val())));
     }
+    return this;
 }
 
 cgNode *sinNode::diff() {
-    return nullptr;
+    return change_this(new cosNode(_parent, _lr, _left));
 }

@@ -14,12 +14,13 @@ protected:
 public:
     Matrix(size_t h, size_t w, double a);
     Matrix(const std::vector<Array*>& c);
-    ~Matrix();
+    virtual ~Matrix();
     Matrix* clone();
 
     // size
     size_t width();
     size_t height();
+    bool empty();
 
     // statistics
     Array* sum();
@@ -46,14 +47,18 @@ public:
 
     // Strassen
 private:
+    static void _fill_0s(Matrix* m);
     static std::vector<Matrix*>* _divide_four(Matrix* m);
+    static Matrix* _ass_four(Matrix* c11, Matrix* c12, Matrix* c21, Matrix* c22);
+    static Matrix* _shrink(Matrix* m);
 
 public:
     static Matrix* _strassen_mul(Matrix* m1, Matrix* m2);
-
 public:
     static Matrix* slow_mul(Matrix* m1, Matrix* m2);
     static Matrix* fast_mul(Matrix* m1, Matrix* m2);
+
+    std::string to_string();
 };
 
 

@@ -181,6 +181,12 @@ CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.o
 CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/DataFrame/DataFrame.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/DataFrame/DataFrame.h
+CMakeFiles/cppForest.dir/linearAlg/Matrix/MMatrix.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/MMatrix.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/MMatrix.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Matrix.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Titles.h
 CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Matrix.cpp

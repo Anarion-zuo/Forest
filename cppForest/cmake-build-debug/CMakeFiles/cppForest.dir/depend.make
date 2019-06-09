@@ -181,6 +181,12 @@ CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.o: ../linearAlg/Array/_My
 CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.o: ../linearAlg/DataFrame/DataFrame.cpp
 CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.o: ../linearAlg/DataFrame/DataFrame.h
 
+CMakeFiles/cppForest.dir/linearAlg/Matrix/MMatrix.cpp.o: ../linearAlg/Array/Array.h
+CMakeFiles/cppForest.dir/linearAlg/Matrix/MMatrix.cpp.o: ../linearAlg/Matrix/MMatrix.cpp
+CMakeFiles/cppForest.dir/linearAlg/Matrix/MMatrix.cpp.o: ../linearAlg/Matrix/MMatrix.h
+CMakeFiles/cppForest.dir/linearAlg/Matrix/MMatrix.cpp.o: ../linearAlg/Matrix/Matrix.h
+CMakeFiles/cppForest.dir/linearAlg/Matrix/MMatrix.cpp.o: ../linearAlg/Matrix/Titles.h
+
 CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o: ../linearAlg/Array/Array.h
 CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o: ../linearAlg/Matrix/Matrix.cpp
 CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o: ../linearAlg/Matrix/Matrix.h

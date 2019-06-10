@@ -10,3 +10,5 @@ cg::~cg() {
     cgNode::del_node(_root);
 }
 
+cg::cg(cg *graph) : _root(graph->_root), _vars(graph->_vars) {}
+

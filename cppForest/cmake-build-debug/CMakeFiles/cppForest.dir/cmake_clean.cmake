@@ -12,7 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/cgNode/expNode.cpp.o"
   "CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o"
   "CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o"
-  "CMakeFiles/cppForest.dir/cgNode/monopNodes/sinNode.cpp.o"
+  "CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o"
   "CMakeFiles/cppForest.dir/linearAlg/Array/Array.cpp.o"
   "CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o"
   "CMakeFiles/cppForest.dir/linearAlg/Matrix/Titles.cpp.o"
@@ -21,7 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o"
   "CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o"
   "CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.o"
-  "CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.o"
+  "CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o"
+  "CMakeFiles/cppForest.dir/cg/dcg.cpp.o"
   "cppForest.pdb"
   "cppForest"
 )

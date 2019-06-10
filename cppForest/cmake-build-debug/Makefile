@@ -231,6 +231,33 @@ cg/cg.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/cg.cpp.s
 .PHONY : cg/cg.cpp.s
 
+cg/dcg.o: cg/dcg.cpp.o
+
+.PHONY : cg/dcg.o
+
+# target to build an object file
+cg/dcg.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/dcg.cpp.o
+.PHONY : cg/dcg.cpp.o
+
+cg/dcg.i: cg/dcg.cpp.i
+
+.PHONY : cg/dcg.i
+
+# target to preprocess a source file
+cg/dcg.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/dcg.cpp.i
+.PHONY : cg/dcg.cpp.i
+
+cg/dcg.s: cg/dcg.cpp.s
+
+.PHONY : cg/dcg.s
+
+# target to generate assembly for a file
+cg/dcg.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/dcg.cpp.s
+.PHONY : cg/dcg.cpp.s
+
 cgNode/addNode.o: cgNode/addNode.cpp.o
 
 .PHONY : cgNode/addNode.o
@@ -366,33 +393,6 @@ cgNode/expNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/expNode.cpp.s
 .PHONY : cgNode/expNode.cpp.s
 
-cgNode/monopNodes/cosNode.o: cgNode/monopNodes/cosNode.cpp.o
-
-.PHONY : cgNode/monopNodes/cosNode.o
-
-# target to build an object file
-cgNode/monopNodes/cosNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.o
-.PHONY : cgNode/monopNodes/cosNode.cpp.o
-
-cgNode/monopNodes/cosNode.i: cgNode/monopNodes/cosNode.cpp.i
-
-.PHONY : cgNode/monopNodes/cosNode.i
-
-# target to preprocess a source file
-cgNode/monopNodes/cosNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.i
-.PHONY : cgNode/monopNodes/cosNode.cpp.i
-
-cgNode/monopNodes/cosNode.s: cgNode/monopNodes/cosNode.cpp.s
-
-.PHONY : cgNode/monopNodes/cosNode.s
-
-# target to generate assembly for a file
-cgNode/monopNodes/cosNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/cosNode.cpp.s
-.PHONY : cgNode/monopNodes/cosNode.cpp.s
-
 cgNode/monopNodes/lnNode.o: cgNode/monopNodes/lnNode.cpp.o
 
 .PHONY : cgNode/monopNodes/lnNode.o
@@ -447,32 +447,59 @@ cgNode/monopNodes/monopNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.s
 .PHONY : cgNode/monopNodes/monopNode.cpp.s
 
-cgNode/monopNodes/sinNode.o: cgNode/monopNodes/sinNode.cpp.o
+cgNode/monopNodes/trigs/cosNode.o: cgNode/monopNodes/trigs/cosNode.cpp.o
 
-.PHONY : cgNode/monopNodes/sinNode.o
+.PHONY : cgNode/monopNodes/trigs/cosNode.o
 
 # target to build an object file
-cgNode/monopNodes/sinNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/sinNode.cpp.o
-.PHONY : cgNode/monopNodes/sinNode.cpp.o
+cgNode/monopNodes/trigs/cosNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o
+.PHONY : cgNode/monopNodes/trigs/cosNode.cpp.o
 
-cgNode/monopNodes/sinNode.i: cgNode/monopNodes/sinNode.cpp.i
+cgNode/monopNodes/trigs/cosNode.i: cgNode/monopNodes/trigs/cosNode.cpp.i
 
-.PHONY : cgNode/monopNodes/sinNode.i
+.PHONY : cgNode/monopNodes/trigs/cosNode.i
 
 # target to preprocess a source file
-cgNode/monopNodes/sinNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/sinNode.cpp.i
-.PHONY : cgNode/monopNodes/sinNode.cpp.i
+cgNode/monopNodes/trigs/cosNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.i
+.PHONY : cgNode/monopNodes/trigs/cosNode.cpp.i
 
-cgNode/monopNodes/sinNode.s: cgNode/monopNodes/sinNode.cpp.s
+cgNode/monopNodes/trigs/cosNode.s: cgNode/monopNodes/trigs/cosNode.cpp.s
 
-.PHONY : cgNode/monopNodes/sinNode.s
+.PHONY : cgNode/monopNodes/trigs/cosNode.s
 
 # target to generate assembly for a file
-cgNode/monopNodes/sinNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/sinNode.cpp.s
-.PHONY : cgNode/monopNodes/sinNode.cpp.s
+cgNode/monopNodes/trigs/cosNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.s
+.PHONY : cgNode/monopNodes/trigs/cosNode.cpp.s
+
+cgNode/monopNodes/trigs/sinNode.o: cgNode/monopNodes/trigs/sinNode.cpp.o
+
+.PHONY : cgNode/monopNodes/trigs/sinNode.o
+
+# target to build an object file
+cgNode/monopNodes/trigs/sinNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o
+.PHONY : cgNode/monopNodes/trigs/sinNode.cpp.o
+
+cgNode/monopNodes/trigs/sinNode.i: cgNode/monopNodes/trigs/sinNode.cpp.i
+
+.PHONY : cgNode/monopNodes/trigs/sinNode.i
+
+# target to preprocess a source file
+cgNode/monopNodes/trigs/sinNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.i
+.PHONY : cgNode/monopNodes/trigs/sinNode.cpp.i
+
+cgNode/monopNodes/trigs/sinNode.s: cgNode/monopNodes/trigs/sinNode.cpp.s
+
+.PHONY : cgNode/monopNodes/trigs/sinNode.s
+
+# target to generate assembly for a file
+cgNode/monopNodes/trigs/sinNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.s
+.PHONY : cgNode/monopNodes/trigs/sinNode.cpp.s
 
 cgNode/mulNode.o: cgNode/mulNode.cpp.o
 
@@ -765,6 +792,9 @@ help:
 	@echo "... cg/cg.o"
 	@echo "... cg/cg.i"
 	@echo "... cg/cg.s"
+	@echo "... cg/dcg.o"
+	@echo "... cg/dcg.i"
+	@echo "... cg/dcg.s"
 	@echo "... cgNode/addNode.o"
 	@echo "... cgNode/addNode.i"
 	@echo "... cgNode/addNode.s"
@@ -780,18 +810,18 @@ help:
 	@echo "... cgNode/expNode.o"
 	@echo "... cgNode/expNode.i"
 	@echo "... cgNode/expNode.s"
-	@echo "... cgNode/monopNodes/cosNode.o"
-	@echo "... cgNode/monopNodes/cosNode.i"
-	@echo "... cgNode/monopNodes/cosNode.s"
 	@echo "... cgNode/monopNodes/lnNode.o"
 	@echo "... cgNode/monopNodes/lnNode.i"
 	@echo "... cgNode/monopNodes/lnNode.s"
 	@echo "... cgNode/monopNodes/monopNode.o"
 	@echo "... cgNode/monopNodes/monopNode.i"
 	@echo "... cgNode/monopNodes/monopNode.s"
-	@echo "... cgNode/monopNodes/sinNode.o"
-	@echo "... cgNode/monopNodes/sinNode.i"
-	@echo "... cgNode/monopNodes/sinNode.s"
+	@echo "... cgNode/monopNodes/trigs/cosNode.o"
+	@echo "... cgNode/monopNodes/trigs/cosNode.i"
+	@echo "... cgNode/monopNodes/trigs/cosNode.s"
+	@echo "... cgNode/monopNodes/trigs/sinNode.o"
+	@echo "... cgNode/monopNodes/trigs/sinNode.i"
+	@echo "... cgNode/monopNodes/trigs/sinNode.s"
 	@echo "... cgNode/mulNode.o"
 	@echo "... cgNode/mulNode.i"
 	@echo "... cgNode/mulNode.s"

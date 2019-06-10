@@ -14,6 +14,7 @@ protected:
     std::vector<cgNode*> _vars;
 public:
     cg(cgNode* root);
+    cg(cg* graph);
     virtual ~cg();
 };
 

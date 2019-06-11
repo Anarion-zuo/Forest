@@ -11,8 +11,6 @@ monopNode *expNode::_clone(cgNode *parent) {
     return new expNode(parent, _lr, nullptr);
 }
 
-
-
 cgNode *expNode::_trim() {
     if (_left->is_const()){
         return change_this(new constNode(_parent, _lr, _compute(_left->_val)));

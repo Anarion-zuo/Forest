@@ -15,8 +15,9 @@ public:
     virtual monopNode* _clone(cgNode* parent) = 0;
     cgNode* trim() override ;
     virtual cgNode *_trim() = 0;
-    double compute(double n1, double n2) override ;
+    double compute() override ;
     virtual double _compute(double n) = 0;
+    double _compute(double n1, double n2) override {}
 };
 
 

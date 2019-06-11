@@ -25,7 +25,7 @@ cgNode *lnNode::diff() {
     p->_left->_lr = false;
     p->_right->_parent = p;
     p->_right->_lr = true;
-    p->_right = p->_right->diff();
+    p->_left = p->_left->diff();
     return p;
 }
 

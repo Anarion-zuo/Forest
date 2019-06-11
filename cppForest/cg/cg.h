@@ -11,11 +11,16 @@
 class cg {
 protected:
     cgNode* _root;
-    std::vector<cgNode*> _vars;
+    std::vector<var*> _vars;
 public:
     cg(cgNode* root);
     cg(cg* graph);
     virtual ~cg();
+
+    virtual cg* clone();
+
+    void compute();
+    double latest_result();
 };
 
 

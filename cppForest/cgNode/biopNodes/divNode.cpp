@@ -3,7 +3,7 @@
 //
 
 #include "divNode.h"
-#include "monopNodes/powNode.h"
+#include "../monopNodes/powNode.h"
 
 divNode::divNode(cgNode *parent, bool lr, cgNode *left, cgNode *right) : cgNode(parent, lr, left, right, 0) {}
 
@@ -25,14 +25,19 @@ cgNode *divNode::diff() {
     up->_left->_parent = up;
     up->_right->_parent = up;
     up->_right->_left->_parent = up->_right;
+    up->_right->_left->_lr = false;
     up->_right->_right->_parent = up->_right;
+    up->_right->_right->_lr = true;
     p->_left = up;
     p->_right = new powNode(p, true, _right->clone(nullptr), 2);
     p->_right->get_left()->set_parent(p->_right);
+    p->_right->_lr = true;
+    up->_left->_left = up->_left->_left->diff();
+    up->_right->_right = up->_right->_right->diff();
     return change_this(p);
 }
 
-double divNode::compute(double n1, double n2) {
+double divNode::_compute(double n1, double n2) {
     return n1 / n2;
 }
 

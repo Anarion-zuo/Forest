@@ -99,18 +99,18 @@ void cgNode::del() {
     if (!_right->is_var())  delete _right;
 }
 
-std::vector<cgNode *> cgNode::find_vars(cgNode* node) {
-    std::vector<cgNode*> res;
+std::vector<var*> cgNode::find_vars(cgNode* node) {
+    std::vector<var*> res;
     _find_vars_recur(node, res);
     return res;
 }
 
-void cgNode::_find_vars_recur(cgNode* node, std::vector<cgNode *> &v) {
+void cgNode::_find_vars_recur(cgNode* node, std::vector<var*>& v) {
     if (!node){
         return;
     }
     if (node->is_var()){
-        v.push_back(node);
+        v.push_back(node->get_var());
         return;
     }
     if (node->is_const()){
@@ -128,9 +128,18 @@ cgNode *cgNode::_change_if_both_const(cgNode *node) {
     if (node->_left->is_const() && node->_right->is_const()){
         Garbage_Bin::push(node->_left);
         Garbage_Bin::push(node->_right);
-        return node->change_this(new constNode(node->_parent, node->_lr, node->compute(node->_left->_val, node->_right->_val)));
+        return node->change_this(new constNode(node->_parent, node->_lr, node->_compute(node->_left->_val, node->_right->_val)));
     }
     return node;
+}
+
+double cgNode::compute() {
+    _val = _compute(_left->compute(), _right->compute());
+    return _val;
+}
+
+var *cgNode::get_var() {
+    return nullptr;
 }
 
 

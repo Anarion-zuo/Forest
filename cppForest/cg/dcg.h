@@ -9,10 +9,15 @@
 
 class dcg : public cg {
 protected:
-    std::map<cgNode*, varNode*> _dvars;
+    std::map<var*, var*> _dvars;
 
 public:
     dcg(cg* graph);
+    dcg(dcg* dgraph);
+
+    dcg* clone() override ;
+
+    void compute(var* var);
 };
 
 

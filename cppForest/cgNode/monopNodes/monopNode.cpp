@@ -18,7 +18,8 @@ cgNode *monopNode::trim() {
     return _trim();
 }
 
-double monopNode::compute(double n1, double n2) {
-    return _compute(n1);
+double monopNode::compute() {
+    _val = _compute(_left->compute());
+    return _val;
 }
 

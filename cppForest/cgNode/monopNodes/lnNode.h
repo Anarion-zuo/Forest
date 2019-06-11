@@ -8,6 +8,7 @@
 #include "monopNode.h"
 
 class lnNode : public monopNode {
+public:
     lnNode(cgNode* parent, bool lr, cgNode* left);
     ~lnNode() = default;
     monopNode* _clone(cgNode* parent) override;

@@ -7,6 +7,7 @@
 #include <limits>
 #include <vector>
 #include "../Garbage_Bin.h"
+#include "var.h"
 
 class cgNode {
     friend class addNode;
@@ -15,6 +16,7 @@ class cgNode {
     friend class divNode;
     friend class expNode;
     friend class lnNode;
+    friend class varNode;
 private:
     bool num_equals(double n1, double n2);
 protected:
@@ -33,6 +35,7 @@ public:
     virtual bool is_n_node(double n);
     virtual bool is_var();
     virtual bool is_const();
+    virtual var* get_var();
 
     // clones and changes
     virtual cgNode* clone(cgNode* parent) = 0;
@@ -41,7 +44,8 @@ public:
     void change_right(cgNode* node);
 
     // basic numerical processes
-    virtual double compute(double n1, double n2) = 0;
+    virtual double _compute(double n1, double n2) = 0;
+    virtual double compute();
     virtual cgNode* trim() = 0;
     virtual cgNode* diff() = 0;
 
@@ -60,8 +64,8 @@ public:
     virtual void del();
 
     // search
-    static std::vector<cgNode*> find_vars(cgNode* node);
-    static void _find_vars_recur(cgNode* node, std::vector<cgNode*>& v);
+    static std::vector<var*> find_vars(cgNode* node);
+    static void _find_vars_recur(cgNode* node, std::vector<var*>& v);
 
     // trim
     static cgNode* _change_const(cgNode* node, double n);
@@ -69,12 +73,11 @@ public:
 
 };
 
-#include "addNode.h"
-#include "subNode.h"
-#include "mulNode.h"
-#include "divNode.h"
-#include "constNode.h"
-#include "varNode.h"
-#include "monopNodes/expNode.h"
+#include "biopNodes/addNode.h"
+#include "biopNodes/subNode.h"
+#include "biopNodes/mulNode.h"
+#include "biopNodes/divNode.h"
+#include "leafNode/constNode.h"
+#include "leafNode/varNode.h"
 #include "monopNodes/monopNode.h"
 #endif //CPPFOREST_CGNODE_H

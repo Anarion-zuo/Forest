@@ -11,7 +11,7 @@ cgNode *constNode::clone(cgNode *parent) {
     return p;
 }
 
-double constNode::compute(double n1, double n2) {
+double constNode::compute() {
     return _val;
 }
 
@@ -25,3 +25,11 @@ cgNode *constNode::diff() {
 }
 
 void constNode::del() {}
+
+bool constNode::is_const() {
+    return true;
+}
+
+bool constNode::is_n_node(double n) {
+    return _val == n;
+}

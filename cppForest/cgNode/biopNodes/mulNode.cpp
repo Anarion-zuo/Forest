@@ -6,7 +6,7 @@
 
 mulNode::mulNode(cgNode *parent, bool lr, cgNode *left, cgNode *right) : cgNode(parent, lr, left, right, 0) {}
 
-double mulNode::compute(double n1, double n2) {
+double mulNode::_compute(double n1, double n2) {
     return n1 * n2;
 }
 
@@ -27,8 +27,13 @@ cgNode *mulNode::diff() {
     right->_right = _right->clone(right);
     p->_left = left;
     p->_right = right;
+
+    p->_right->_right->_lr = true;
+    p->_right->_left->_lr = false;
+
     left->_left = left->_left->diff();
     right->_right = right->_right->diff();
+
     return change_this(p);
 }
 

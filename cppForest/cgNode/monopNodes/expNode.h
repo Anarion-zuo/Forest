@@ -5,9 +5,10 @@
 #ifndef CPPFOREST_EXPNODE_H
 #define CPPFOREST_EXPNODE_H
 
-#include "../cgNode.h"
+#include "./monopNode.h"
 
 class expNode : public monopNode {
+public:
     expNode(cgNode* parent, bool lr, cgNode* left);
     ~expNode() = default;
     monopNode* _clone(cgNode* parent) override;

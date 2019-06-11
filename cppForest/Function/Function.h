@@ -18,7 +18,9 @@ public:
     Function(){}
     Function(cg* graph);
 
+    std::vector<var*>& get_vars();
     double compute();
+    double compute(const std::vector<double>& nums);
 };
 
 

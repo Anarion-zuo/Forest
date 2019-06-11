@@ -285,6 +285,60 @@ Garbage_Bin.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Garbage_Bin.cpp.s
 .PHONY : Garbage_Bin.cpp.s
 
+Solvers/Root/RootFinder.o: Solvers/Root/RootFinder.cpp.o
+
+.PHONY : Solvers/Root/RootFinder.o
+
+# target to build an object file
+Solvers/Root/RootFinder.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o
+.PHONY : Solvers/Root/RootFinder.cpp.o
+
+Solvers/Root/RootFinder.i: Solvers/Root/RootFinder.cpp.i
+
+.PHONY : Solvers/Root/RootFinder.i
+
+# target to preprocess a source file
+Solvers/Root/RootFinder.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.i
+.PHONY : Solvers/Root/RootFinder.cpp.i
+
+Solvers/Root/RootFinder.s: Solvers/Root/RootFinder.cpp.s
+
+.PHONY : Solvers/Root/RootFinder.s
+
+# target to generate assembly for a file
+Solvers/Root/RootFinder.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.s
+.PHONY : Solvers/Root/RootFinder.cpp.s
+
+Solvers/Root/Single-Variable/BisectionFinder.o: Solvers/Root/Single-Variable/BisectionFinder.cpp.o
+
+.PHONY : Solvers/Root/Single-Variable/BisectionFinder.o
+
+# target to build an object file
+Solvers/Root/Single-Variable/BisectionFinder.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o
+.PHONY : Solvers/Root/Single-Variable/BisectionFinder.cpp.o
+
+Solvers/Root/Single-Variable/BisectionFinder.i: Solvers/Root/Single-Variable/BisectionFinder.cpp.i
+
+.PHONY : Solvers/Root/Single-Variable/BisectionFinder.i
+
+# target to preprocess a source file
+Solvers/Root/Single-Variable/BisectionFinder.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.i
+.PHONY : Solvers/Root/Single-Variable/BisectionFinder.cpp.i
+
+Solvers/Root/Single-Variable/BisectionFinder.s: Solvers/Root/Single-Variable/BisectionFinder.cpp.s
+
+.PHONY : Solvers/Root/Single-Variable/BisectionFinder.s
+
+# target to generate assembly for a file
+Solvers/Root/Single-Variable/BisectionFinder.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.s
+.PHONY : Solvers/Root/Single-Variable/BisectionFinder.cpp.s
+
 Solvers/Root/Single-Variable/SingleVariableRootFinder.o: Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o
 
 .PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.o
@@ -311,6 +365,60 @@ Solvers/Root/Single-Variable/SingleVariableRootFinder.s: Solvers/Root/Single-Var
 Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s
 .PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s
+
+Solvers/SolverResult/SolverResult.o: Solvers/SolverResult/SolverResult.cpp.o
+
+.PHONY : Solvers/SolverResult/SolverResult.o
+
+# target to build an object file
+Solvers/SolverResult/SolverResult.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverResult/SolverResult.cpp.o
+.PHONY : Solvers/SolverResult/SolverResult.cpp.o
+
+Solvers/SolverResult/SolverResult.i: Solvers/SolverResult/SolverResult.cpp.i
+
+.PHONY : Solvers/SolverResult/SolverResult.i
+
+# target to preprocess a source file
+Solvers/SolverResult/SolverResult.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverResult/SolverResult.cpp.i
+.PHONY : Solvers/SolverResult/SolverResult.cpp.i
+
+Solvers/SolverResult/SolverResult.s: Solvers/SolverResult/SolverResult.cpp.s
+
+.PHONY : Solvers/SolverResult/SolverResult.s
+
+# target to generate assembly for a file
+Solvers/SolverResult/SolverResult.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverResult/SolverResult.cpp.s
+.PHONY : Solvers/SolverResult/SolverResult.cpp.s
+
+Solvers/SolverSetting/SolverSetting.o: Solvers/SolverSetting/SolverSetting.cpp.o
+
+.PHONY : Solvers/SolverSetting/SolverSetting.o
+
+# target to build an object file
+Solvers/SolverSetting/SolverSetting.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverSetting/SolverSetting.cpp.o
+.PHONY : Solvers/SolverSetting/SolverSetting.cpp.o
+
+Solvers/SolverSetting/SolverSetting.i: Solvers/SolverSetting/SolverSetting.cpp.i
+
+.PHONY : Solvers/SolverSetting/SolverSetting.i
+
+# target to preprocess a source file
+Solvers/SolverSetting/SolverSetting.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverSetting/SolverSetting.cpp.i
+.PHONY : Solvers/SolverSetting/SolverSetting.cpp.i
+
+Solvers/SolverSetting/SolverSetting.s: Solvers/SolverSetting/SolverSetting.cpp.s
+
+.PHONY : Solvers/SolverSetting/SolverSetting.s
+
+# target to generate assembly for a file
+Solvers/SolverSetting/SolverSetting.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverSetting/SolverSetting.cpp.s
+.PHONY : Solvers/SolverSetting/SolverSetting.cpp.s
 
 cg/cg.o: cg/cg.cpp.o
 
@@ -987,9 +1095,21 @@ help:
 	@echo "... Garbage_Bin.o"
 	@echo "... Garbage_Bin.i"
 	@echo "... Garbage_Bin.s"
+	@echo "... Solvers/Root/RootFinder.o"
+	@echo "... Solvers/Root/RootFinder.i"
+	@echo "... Solvers/Root/RootFinder.s"
+	@echo "... Solvers/Root/Single-Variable/BisectionFinder.o"
+	@echo "... Solvers/Root/Single-Variable/BisectionFinder.i"
+	@echo "... Solvers/Root/Single-Variable/BisectionFinder.s"
 	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.o"
 	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.i"
 	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.s"
+	@echo "... Solvers/SolverResult/SolverResult.o"
+	@echo "... Solvers/SolverResult/SolverResult.i"
+	@echo "... Solvers/SolverResult/SolverResult.s"
+	@echo "... Solvers/SolverSetting/SolverSetting.o"
+	@echo "... Solvers/SolverSetting/SolverSetting.i"
+	@echo "... Solvers/SolverSetting/SolverSetting.s"
 	@echo "... cg/cg.o"
 	@echo "... cg/cg.i"
 	@echo "... cg/cg.s"

@@ -9,6 +9,7 @@
 #include <vector>
 
 class cg {
+    friend class Function;
 protected:
     cgNode* _root;
     std::vector<var*> _vars;
@@ -21,8 +22,9 @@ public:
 
     void compute();
     double latest_result();
-    
+
     size_t var_nums();
+    std::vector<var*>& get_vars();
 };
 
 

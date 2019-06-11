@@ -120,10 +120,34 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h">
 			<Option target="cppForest"/>
 		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/RootFinder.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/RootFinder.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/BisectionFinder.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/BisectionFinder.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/SingleVariableRootFinder.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverResult/SolverResult.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverResult/SolverResult.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverSetting/SolverSetting.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverSetting/SolverSetting.h">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.cpp">

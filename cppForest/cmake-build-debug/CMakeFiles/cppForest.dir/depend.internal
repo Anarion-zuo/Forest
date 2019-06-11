@@ -4,7 +4,53 @@
 CMakeFiles/cppForest.dir/Function/Function.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Function.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Function.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Variable.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/mulNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/subNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/constNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Function.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Functions/AffineFunction.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Functions/AffineFunction.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Variable.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/mulNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/subNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/constNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
+CMakeFiles/cppForest.dir/Function/Variable/Range.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+CMakeFiles/cppForest.dir/Function/Variable/Variable.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Variable.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Variable.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
+CMakeFiles/cppForest.dir/Function/Variable/var.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
@@ -16,11 +62,79 @@ CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Function.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Variable.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/RootFinder.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/RootFinder.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverResult/SolverResult.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverSetting/SolverSetting.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/mulNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/subNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/constNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Function.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Variable.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/RootFinder.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/BisectionFinder.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/BisectionFinder.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/SingleVariableRootFinder.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverResult/SolverResult.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverSetting/SolverSetting.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/mulNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/subNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/constNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
 CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Function.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Variable.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/RootFinder.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/SingleVariableRootFinder.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverResult/SolverResult.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverSetting/SolverSetting.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/mulNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/subNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/constNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
+CMakeFiles/cppForest.dir/Solvers/SolverResult/SolverResult.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverResult/SolverResult.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverResult/SolverResult.h
+CMakeFiles/cppForest.dir/Solvers/SolverSetting/SolverSetting.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverSetting/SolverSetting.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverSetting/SolverSetting.h
 CMakeFiles/cppForest.dir/cg/cg.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
@@ -33,8 +147,9 @@ CMakeFiles/cppForest.dir/cg/cg.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.cpp
@@ -48,8 +163,27 @@ CMakeFiles/cppForest.dir/cg/dcg.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/ArrayNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/MatrixNode/ArrayNode.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/MatrixNode/ArrayNode.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/MatrixNode/MatrixNode.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/MatrixNode/MatrixNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/mulNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/subNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/constNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
@@ -61,8 +195,9 @@ CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.cpp
@@ -75,8 +210,9 @@ CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/powNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
@@ -88,8 +224,9 @@ CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
@@ -101,8 +238,9 @@ CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
@@ -114,8 +252,9 @@ CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
@@ -127,8 +266,9 @@ CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
@@ -140,13 +280,14 @@ CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/leafNode/varNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/expNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/./lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/./monopNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/expNode.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/expNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
@@ -158,8 +299,9 @@ CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
@@ -171,8 +313,9 @@ CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
@@ -185,8 +328,9 @@ CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/powNode.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/powNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
@@ -200,8 +344,9 @@ CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/trigs/cosNode.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/trigs/cosNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/trigs/sinNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/addNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/biopNodes/divNode.h
@@ -215,10 +360,6 @@ CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/trigs/cosNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/trigs/sinNode.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/trigs/sinNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
-CMakeFiles/cppForest.dir/cgNode/var.cpp.o
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.cpp
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
 CMakeFiles/cppForest.dir/linearAlg/Array/Array.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
@@ -243,6 +384,8 @@ CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Vector.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Matrix/Vector.h
 CMakeFiles/cppForest.dir/main.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./Function/Variable/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./Garbage_Bin.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/biopNodes/addNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/biopNodes/divNode.h
@@ -253,7 +396,16 @@ CMakeFiles/cppForest.dir/main.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/leafNode/varNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/monopNodes/lnNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/monopNodes/monopNode.h
- /home/anarion/Documents/CSLearning/AI/Forest/cppForest/./cgNode/var.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Function.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Functions/AffineFunction.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/Variable.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Variable/var.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/RootFinder.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/BisectionFinder.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/SingleVariableRootFinder.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverResult/SolverResult.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverSetting/SolverSetting.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h

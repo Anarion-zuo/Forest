@@ -30,6 +30,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o"
   "CMakeFiles/cppForest.dir/cgNode/MatrixNode/ArrayNode.cpp.o"
   "CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/SolverSetting/SolverSetting.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/SolverResult/SolverResult.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o"
   "cppForest.pdb"
   "cppForest"
 )

@@ -6,8 +6,11 @@
 #define CPPFOREST_SINGLEVARIABLEROOTFINDER_H
 
 
-class SingleVariableRootFinder {
+#include "../RootFinder.h"
 
+class SingleVariableRootFinder : public RootFinder {
+public:
+    SingleVariableRootFinder(SolverSetting* setting);
 };
 
 

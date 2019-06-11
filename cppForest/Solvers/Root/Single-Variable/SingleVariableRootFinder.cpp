@@ -3,3 +3,5 @@
 //
 
 #include "SingleVariableRootFinder.h"
+
+SingleVariableRootFinder::SingleVariableRootFinder(SolverSetting *setting) : RootFinder(setting) {}

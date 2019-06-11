@@ -3,7 +3,53 @@
 
 CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../Function/Function.cpp
 CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../Function/Function.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../Function/Variable/Variable.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../Function/Variable/var.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../Garbage_Bin.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../cg/cg.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../cgNode/biopNodes/addNode.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../cgNode/biopNodes/divNode.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../cgNode/biopNodes/mulNode.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../cgNode/biopNodes/subNode.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../cgNode/leafNode/constNode.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../cgNode/leafNode/varNode.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../cgNode/monopNodes/lnNode.h
+CMakeFiles/cppForest.dir/Function/Function.cpp.o: ../cgNode/monopNodes/monopNode.h
 
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../Function/Function.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../Function/Functions/AffineFunction.cpp
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../Function/Functions/AffineFunction.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../Function/Variable/Variable.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../Function/Variable/var.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../Garbage_Bin.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../cg/cg.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../cgNode/biopNodes/addNode.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../cgNode/biopNodes/divNode.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../cgNode/biopNodes/mulNode.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../cgNode/biopNodes/subNode.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../cgNode/leafNode/constNode.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../cgNode/leafNode/varNode.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../cgNode/monopNodes/lnNode.h
+CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o: ../cgNode/monopNodes/monopNode.h
+
+CMakeFiles/cppForest.dir/Function/Variable/Range.cpp.o: ../Function/Variable/Range.cpp
+CMakeFiles/cppForest.dir/Function/Variable/Range.cpp.o: ../Function/Variable/Range.h
+
+CMakeFiles/cppForest.dir/Function/Variable/Variable.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/Function/Variable/Variable.cpp.o: ../Function/Variable/Variable.cpp
+CMakeFiles/cppForest.dir/Function/Variable/Variable.cpp.o: ../Function/Variable/Variable.h
+CMakeFiles/cppForest.dir/Function/Variable/Variable.cpp.o: ../Function/Variable/var.h
+
+CMakeFiles/cppForest.dir/Function/Variable/var.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/Function/Variable/var.cpp.o: ../Function/Variable/var.cpp
+CMakeFiles/cppForest.dir/Function/Variable/var.cpp.o: ../Function/Variable/var.h
+
+CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o: ../Garbage_Bin.cpp
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o: ../cgNode/biopNodes/addNode.h
@@ -15,11 +61,79 @@ CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o: ../cgNode/leafNode/constNode.h
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o: ../cgNode/leafNode/varNode.h
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o: ../cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o: ../cgNode/monopNodes/monopNode.h
-CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../Function/Function.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../Function/Variable/Variable.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../Function/Variable/var.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../Garbage_Bin.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../Solvers/Root/RootFinder.cpp
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../Solvers/Root/RootFinder.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../Solvers/SolverResult/SolverResult.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../Solvers/SolverSetting/SolverSetting.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../cg/cg.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../cgNode/biopNodes/addNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../cgNode/biopNodes/divNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../cgNode/biopNodes/mulNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../cgNode/biopNodes/subNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../cgNode/leafNode/constNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../cgNode/leafNode/varNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../cgNode/monopNodes/lnNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o: ../cgNode/monopNodes/monopNode.h
+
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../Function/Function.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../Function/Variable/Variable.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../Function/Variable/var.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../Garbage_Bin.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../Solvers/Root/RootFinder.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../Solvers/Root/Single-Variable/BisectionFinder.cpp
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../Solvers/Root/Single-Variable/BisectionFinder.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../Solvers/Root/Single-Variable/SingleVariableRootFinder.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../Solvers/SolverResult/SolverResult.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../Solvers/SolverSetting/SolverSetting.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../cg/cg.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../cgNode/biopNodes/addNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../cgNode/biopNodes/divNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../cgNode/biopNodes/mulNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../cgNode/biopNodes/subNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../cgNode/leafNode/constNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../cgNode/leafNode/varNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../cgNode/monopNodes/lnNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o: ../cgNode/monopNodes/monopNode.h
+
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../Function/Function.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../Function/Variable/Variable.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../Function/Variable/var.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../Garbage_Bin.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../Solvers/Root/RootFinder.h
 CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp
 CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../Solvers/Root/Single-Variable/SingleVariableRootFinder.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../Solvers/SolverResult/SolverResult.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../Solvers/SolverSetting/SolverSetting.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../cg/cg.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../cgNode/biopNodes/addNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../cgNode/biopNodes/divNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../cgNode/biopNodes/mulNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../cgNode/biopNodes/subNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../cgNode/leafNode/constNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../cgNode/leafNode/varNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../cgNode/monopNodes/lnNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o: ../cgNode/monopNodes/monopNode.h
 
+CMakeFiles/cppForest.dir/Solvers/SolverResult/SolverResult.cpp.o: ../Solvers/SolverResult/SolverResult.cpp
+CMakeFiles/cppForest.dir/Solvers/SolverResult/SolverResult.cpp.o: ../Solvers/SolverResult/SolverResult.h
+
+CMakeFiles/cppForest.dir/Solvers/SolverSetting/SolverSetting.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/Solvers/SolverSetting/SolverSetting.cpp.o: ../Solvers/SolverSetting/SolverSetting.cpp
+CMakeFiles/cppForest.dir/Solvers/SolverSetting/SolverSetting.cpp.o: ../Solvers/SolverSetting/SolverSetting.h
+
+CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cg/cg.cpp
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cg/cg.h
@@ -32,8 +146,9 @@ CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cgNode/leafNode/constNode.h
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cgNode/leafNode/varNode.h
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cgNode/monopNodes/monopNode.h
-CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../cg/cg.h
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../cg/dcg.cpp
@@ -47,8 +162,27 @@ CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../cgNode/leafNode/constNode.h
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../cgNode/leafNode/varNode.h
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../cgNode/monopNodes/monopNode.h
-CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/ArrayNode.cpp.o: ../cgNode/MatrixNode/ArrayNode.cpp
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/ArrayNode.cpp.o: ../cgNode/MatrixNode/ArrayNode.h
+
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../Function/Variable/var.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../Garbage_Bin.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../cgNode/MatrixNode/MatrixNode.cpp
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../cgNode/MatrixNode/MatrixNode.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../cgNode/biopNodes/addNode.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../cgNode/biopNodes/divNode.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../cgNode/biopNodes/mulNode.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../cgNode/biopNodes/subNode.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../cgNode/leafNode/constNode.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../cgNode/leafNode/varNode.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../cgNode/monopNodes/lnNode.h
+CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o: ../cgNode/monopNodes/monopNode.h
+
+CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o: ../cgNode/biopNodes/addNode.cpp
 CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o: ../cgNode/biopNodes/addNode.h
@@ -60,8 +194,9 @@ CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o: ../cgNode/leafNode/cons
 CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o: ../cgNode/leafNode/varNode.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o: ../cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o: ../cgNode/monopNodes/monopNode.h
-CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o: ../cgNode/biopNodes/addNode.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o: ../cgNode/biopNodes/divNode.cpp
@@ -74,8 +209,9 @@ CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o: ../cgNode/leafNode/varN
 CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o: ../cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o: ../cgNode/monopNodes/monopNode.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o: ../cgNode/monopNodes/powNode.h
-CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o: ../cgNode/biopNodes/addNode.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o: ../cgNode/biopNodes/divNode.h
@@ -87,8 +223,9 @@ CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o: ../cgNode/leafNode/cons
 CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o: ../cgNode/leafNode/varNode.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o: ../cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o: ../cgNode/monopNodes/monopNode.h
-CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o: ../cgNode/biopNodes/addNode.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o: ../cgNode/biopNodes/divNode.h
@@ -100,8 +237,9 @@ CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o: ../cgNode/leafNode/cons
 CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o: ../cgNode/leafNode/varNode.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o: ../cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o: ../cgNode/monopNodes/monopNode.h
-CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../cgNode/biopNodes/addNode.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../cgNode/biopNodes/divNode.h
@@ -113,8 +251,9 @@ CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../cgNode/leafNode/constNode.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../cgNode/leafNode/varNode.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../cgNode/monopNodes/monopNode.h
-CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o: ../cgNode/biopNodes/addNode.h
 CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o: ../cgNode/biopNodes/divNode.h
@@ -126,8 +265,9 @@ CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o: ../cgNode/leafNode/con
 CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o: ../cgNode/leafNode/varNode.h
 CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o: ../cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o: ../cgNode/monopNodes/monopNode.h
-CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o: ../cgNode/biopNodes/addNode.h
 CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o: ../cgNode/biopNodes/divNode.h
@@ -139,13 +279,14 @@ CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o: ../cgNode/leafNode/varNo
 CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o: ../cgNode/leafNode/varNode.h
 CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o: ../cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o: ../cgNode/monopNodes/monopNode.h
-CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o: ../cgNode/var.h
 
 CMakeFiles/cppForest.dir/cgNode/monopNodes/expNode.cpp.o: ../cgNode/monopNodes/./lnNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/expNode.cpp.o: ../cgNode/monopNodes/./monopNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/expNode.cpp.o: ../cgNode/monopNodes/expNode.cpp
 CMakeFiles/cppForest.dir/cgNode/monopNodes/expNode.cpp.o: ../cgNode/monopNodes/expNode.h
 
+CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o: ../cgNode/biopNodes/addNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o: ../cgNode/biopNodes/divNode.h
@@ -157,8 +298,9 @@ CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o: ../cgNode/leafNode/varN
 CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o: ../cgNode/monopNodes/lnNode.cpp
 CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o: ../cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o: ../cgNode/monopNodes/monopNode.h
-CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o: ../cgNode/biopNodes/addNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o: ../cgNode/biopNodes/divNode.h
@@ -170,8 +312,9 @@ CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o: ../cgNode/leafNode/v
 CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o: ../cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o: ../cgNode/monopNodes/monopNode.cpp
 CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o: ../cgNode/monopNodes/monopNode.h
-CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o: ../cgNode/biopNodes/addNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o: ../cgNode/biopNodes/divNode.h
@@ -184,8 +327,9 @@ CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o: ../cgNode/monopNodes/l
 CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o: ../cgNode/monopNodes/monopNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o: ../cgNode/monopNodes/powNode.cpp
 CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o: ../cgNode/monopNodes/powNode.h
-CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o: ../cgNode/biopNodes/addNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o: ../cgNode/biopNodes/divNode.h
@@ -199,8 +343,9 @@ CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o: ../cgNode/monopN
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o: ../cgNode/monopNodes/trigs/cosNode.cpp
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o: ../cgNode/monopNodes/trigs/cosNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o: ../cgNode/monopNodes/trigs/sinNode.h
-CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o: ../cgNode/var.h
 
+CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o: ../Function/Variable/var.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o: ../Garbage_Bin.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o: ../cgNode/biopNodes/addNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o: ../cgNode/biopNodes/divNode.h
@@ -214,10 +359,6 @@ CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o: ../cgNode/monopN
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o: ../cgNode/monopNodes/trigs/cosNode.h
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o: ../cgNode/monopNodes/trigs/sinNode.cpp
 CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o: ../cgNode/monopNodes/trigs/sinNode.h
-CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o: ../cgNode/var.h
-
-CMakeFiles/cppForest.dir/cgNode/var.cpp.o: ../cgNode/var.cpp
-CMakeFiles/cppForest.dir/cgNode/var.cpp.o: ../cgNode/var.h
 
 CMakeFiles/cppForest.dir/linearAlg/Array/Array.cpp.o: ../linearAlg/Array/Array.cpp
 CMakeFiles/cppForest.dir/linearAlg/Array/Array.cpp.o: ../linearAlg/Array/Array.h
@@ -242,6 +383,8 @@ CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o: ../linearAlg/Matrix/Titl
 CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o: ../linearAlg/Matrix/Vector.cpp
 CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o: ../linearAlg/Matrix/Vector.h
 
+CMakeFiles/cppForest.dir/main.cpp.o: .././Function/Variable/Range.h
+CMakeFiles/cppForest.dir/main.cpp.o: .././Function/Variable/var.h
 CMakeFiles/cppForest.dir/main.cpp.o: .././Garbage_Bin.h
 CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/biopNodes/addNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/biopNodes/divNode.h
@@ -252,7 +395,16 @@ CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/leafNode/constNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/leafNode/varNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/monopNodes/lnNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/monopNodes/monopNode.h
-CMakeFiles/cppForest.dir/main.cpp.o: .././cgNode/var.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Function/Function.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Function/Functions/AffineFunction.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Function/Variable/Range.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Function/Variable/Variable.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Function/Variable/var.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Solvers/Root/RootFinder.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Solvers/Root/Single-Variable/BisectionFinder.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Solvers/Root/Single-Variable/SingleVariableRootFinder.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Solvers/SolverResult/SolverResult.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Solvers/SolverSetting/SolverSetting.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cg/cg.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cg/dcg.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/cgNode.h

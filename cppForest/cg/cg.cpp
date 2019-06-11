@@ -31,3 +31,7 @@ size_t cg::var_nums() {
     return _vars.size();
 }
 
+std::vector<var *> &cg::get_vars() {
+    return _vars;
+}
+

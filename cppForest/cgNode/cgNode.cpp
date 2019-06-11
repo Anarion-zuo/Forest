@@ -68,6 +68,10 @@ cgNode *cgNode::get_parent() {
     return _parent;
 }
 
+void cgNode::set_lr(bool lr) {
+    _lr = lr;
+}
+
 bool cgNode::get_lr() {
     return _lr;
 }
@@ -115,4 +119,18 @@ void cgNode::_find_vars_recur(cgNode* node, std::vector<cgNode *> &v) {
     _find_vars_recur(node->_left, v);
     _find_vars_recur(node->_right, v);
 }
+
+cgNode *cgNode::_change_const(cgNode *node, double n) {
+    return node->change_this(new constNode(node->_parent, node->_lr, n));
+}
+
+cgNode *cgNode::_change_if_both_const(cgNode *node) {
+    if (node->_left->is_const() && node->_right->is_const()){
+        Garbage_Bin::push(node->_left);
+        Garbage_Bin::push(node->_right);
+        return node->change_this(new constNode(node->_parent, node->_lr, node->compute(node->_left->_val, node->_right->_val)));
+    }
+    return node;
+}
+
 

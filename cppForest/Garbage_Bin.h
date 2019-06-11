@@ -5,13 +5,13 @@
 #ifndef CPPFOREST_GARBAGE_BIN_H
 #define CPPFOREST_GARBAGE_BIN_H
 
-#include <set>
+#include <deque>
 #include "cgNode/cgNode.h"
 
 class cgNode;
 class Garbage_Bin {
 private:
-    static std::set<cgNode*> _node_bin;
+    static std::deque<cgNode*> _node_bin;
     Garbage_Bin() = default;
     ~Garbage_Bin() = default;
 public:

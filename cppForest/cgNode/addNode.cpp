@@ -20,7 +20,8 @@ cgNode *addNode::trim() {
 //    else if (_left->is_identical(_right)){
 //        return change_this(new mulNode(_parent, _lr, _left, new constNode(this, true, 2)));
 //    }
-    return this;
+    cgNode* p = _change_if_both_const(this);
+    return p;
 }
 
 cgNode *addNode::diff() {

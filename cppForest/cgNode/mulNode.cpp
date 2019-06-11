@@ -21,6 +21,8 @@ cgNode *mulNode::diff() {
     cgNode* p = new addNode(_parent, _lr, nullptr, nullptr);
     cgNode* left = new mulNode(p, false, _left, _right);
     cgNode* right = new mulNode(p, true, nullptr, nullptr);
+    _left->set_parent(left);
+    _right->set_parent(left);
     right->_left = _left->clone(right);
     right->_right = _right->clone(right);
     p->_left = left;
@@ -38,8 +40,8 @@ cgNode *mulNode::trim() {
     }else if (_right->is_n_node(0)) {
         return change_this(new constNode(_parent, _lr, 0));
     }
-
-    return this;
+    cgNode* p = _change_if_both_const(this);
+    return p;
 }
 
 

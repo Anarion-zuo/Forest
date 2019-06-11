@@ -50,6 +50,7 @@ public:
     double get_val();
     void set_parent(cgNode* node);
     cgNode* get_parent();
+    void set_lr(bool lr);
     bool get_lr();
     cgNode* get_left();
     cgNode* get_right();
@@ -61,6 +62,11 @@ public:
     // search
     static std::vector<cgNode*> find_vars(cgNode* node);
     static void _find_vars_recur(cgNode* node, std::vector<cgNode*>& v);
+
+    // trim
+    static cgNode* _change_const(cgNode* node, double n);
+    static cgNode* _change_if_both_const(cgNode* node);
+
 };
 
 #include "addNode.h"
@@ -69,6 +75,6 @@ public:
 #include "divNode.h"
 #include "constNode.h"
 #include "varNode.h"
-#include "expNode.h"
+#include "monopNodes/expNode.h"
 #include "monopNodes/monopNode.h"
 #endif //CPPFOREST_CGNODE_H

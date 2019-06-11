@@ -4,14 +4,12 @@
 
 #include "Garbage_Bin.h"
 
-std::set<cgNode*> Garbage_Bin::_node_bin;
+std::deque<cgNode*> Garbage_Bin::_node_bin;
 
 void Garbage_Bin::clear_bins() {
-    for (auto it : _node_bin){
-        delete it;
-    }
+    _node_bin.clear();
 }
 
 void Garbage_Bin::push(cgNode *node) {
-    _node_bin.insert(node);
+    _node_bin.push_back(node);
 }

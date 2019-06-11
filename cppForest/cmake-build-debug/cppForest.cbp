@@ -84,16 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Function.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Function/Function.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.cpp">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Garbage_Bin.h">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Function/Function.cpp">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Function/Function.h">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp">
@@ -138,10 +138,10 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/divNode.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/expNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/expNode.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/expNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/expNode.h">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/lnNode.cpp">
@@ -154,6 +154,12 @@
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/monopNode.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/powNode.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/powNode.h">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/monopNodes/trigs/cosNode.cpp">

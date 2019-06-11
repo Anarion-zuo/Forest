@@ -123,6 +123,33 @@ cppForest/fast:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/build
 .PHONY : cppForest/fast
 
+Function/Function.o: Function/Function.cpp.o
+
+.PHONY : Function/Function.o
+
+# target to build an object file
+Function/Function.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Function.cpp.o
+.PHONY : Function/Function.cpp.o
+
+Function/Function.i: Function/Function.cpp.i
+
+.PHONY : Function/Function.i
+
+# target to preprocess a source file
+Function/Function.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Function.cpp.i
+.PHONY : Function/Function.cpp.i
+
+Function/Function.s: Function/Function.cpp.s
+
+.PHONY : Function/Function.s
+
+# target to generate assembly for a file
+Function/Function.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Function.cpp.s
+.PHONY : Function/Function.cpp.s
+
 Garbage_Bin.o: Garbage_Bin.cpp.o
 
 .PHONY : Garbage_Bin.o
@@ -149,33 +176,6 @@ Garbage_Bin.s: Garbage_Bin.cpp.s
 Garbage_Bin.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Garbage_Bin.cpp.s
 .PHONY : Garbage_Bin.cpp.s
-
-Solvers/Root/Function/Function.o: Solvers/Root/Function/Function.cpp.o
-
-.PHONY : Solvers/Root/Function/Function.o
-
-# target to build an object file
-Solvers/Root/Function/Function.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.o
-.PHONY : Solvers/Root/Function/Function.cpp.o
-
-Solvers/Root/Function/Function.i: Solvers/Root/Function/Function.cpp.i
-
-.PHONY : Solvers/Root/Function/Function.i
-
-# target to preprocess a source file
-Solvers/Root/Function/Function.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.i
-.PHONY : Solvers/Root/Function/Function.cpp.i
-
-Solvers/Root/Function/Function.s: Solvers/Root/Function/Function.cpp.s
-
-.PHONY : Solvers/Root/Function/Function.s
-
-# target to generate assembly for a file
-Solvers/Root/Function/Function.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Function/Function.cpp.s
-.PHONY : Solvers/Root/Function/Function.cpp.s
 
 Solvers/Root/Single-Variable/SingleVariableRootFinder.o: Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o
 
@@ -366,32 +366,32 @@ cgNode/divNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/divNode.cpp.s
 .PHONY : cgNode/divNode.cpp.s
 
-cgNode/expNode.o: cgNode/expNode.cpp.o
+cgNode/monopNodes/expNode.o: cgNode/monopNodes/expNode.cpp.o
 
-.PHONY : cgNode/expNode.o
+.PHONY : cgNode/monopNodes/expNode.o
 
 # target to build an object file
-cgNode/expNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/expNode.cpp.o
-.PHONY : cgNode/expNode.cpp.o
+cgNode/monopNodes/expNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/expNode.cpp.o
+.PHONY : cgNode/monopNodes/expNode.cpp.o
 
-cgNode/expNode.i: cgNode/expNode.cpp.i
+cgNode/monopNodes/expNode.i: cgNode/monopNodes/expNode.cpp.i
 
-.PHONY : cgNode/expNode.i
+.PHONY : cgNode/monopNodes/expNode.i
 
 # target to preprocess a source file
-cgNode/expNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/expNode.cpp.i
-.PHONY : cgNode/expNode.cpp.i
+cgNode/monopNodes/expNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/expNode.cpp.i
+.PHONY : cgNode/monopNodes/expNode.cpp.i
 
-cgNode/expNode.s: cgNode/expNode.cpp.s
+cgNode/monopNodes/expNode.s: cgNode/monopNodes/expNode.cpp.s
 
-.PHONY : cgNode/expNode.s
+.PHONY : cgNode/monopNodes/expNode.s
 
 # target to generate assembly for a file
-cgNode/expNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/expNode.cpp.s
-.PHONY : cgNode/expNode.cpp.s
+cgNode/monopNodes/expNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/expNode.cpp.s
+.PHONY : cgNode/monopNodes/expNode.cpp.s
 
 cgNode/monopNodes/lnNode.o: cgNode/monopNodes/lnNode.cpp.o
 
@@ -446,6 +446,33 @@ cgNode/monopNodes/monopNode.s: cgNode/monopNodes/monopNode.cpp.s
 cgNode/monopNodes/monopNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.s
 .PHONY : cgNode/monopNodes/monopNode.cpp.s
+
+cgNode/monopNodes/powNode.o: cgNode/monopNodes/powNode.cpp.o
+
+.PHONY : cgNode/monopNodes/powNode.o
+
+# target to build an object file
+cgNode/monopNodes/powNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o
+.PHONY : cgNode/monopNodes/powNode.cpp.o
+
+cgNode/monopNodes/powNode.i: cgNode/monopNodes/powNode.cpp.i
+
+.PHONY : cgNode/monopNodes/powNode.i
+
+# target to preprocess a source file
+cgNode/monopNodes/powNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.i
+.PHONY : cgNode/monopNodes/powNode.cpp.i
+
+cgNode/monopNodes/powNode.s: cgNode/monopNodes/powNode.cpp.s
+
+.PHONY : cgNode/monopNodes/powNode.s
+
+# target to generate assembly for a file
+cgNode/monopNodes/powNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.s
+.PHONY : cgNode/monopNodes/powNode.cpp.s
 
 cgNode/monopNodes/trigs/cosNode.o: cgNode/monopNodes/trigs/cosNode.cpp.o
 
@@ -780,12 +807,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cppForest"
 	@echo "... edit_cache"
+	@echo "... Function/Function.o"
+	@echo "... Function/Function.i"
+	@echo "... Function/Function.s"
 	@echo "... Garbage_Bin.o"
 	@echo "... Garbage_Bin.i"
 	@echo "... Garbage_Bin.s"
-	@echo "... Solvers/Root/Function/Function.o"
-	@echo "... Solvers/Root/Function/Function.i"
-	@echo "... Solvers/Root/Function/Function.s"
 	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.o"
 	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.i"
 	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.s"
@@ -807,15 +834,18 @@ help:
 	@echo "... cgNode/divNode.o"
 	@echo "... cgNode/divNode.i"
 	@echo "... cgNode/divNode.s"
-	@echo "... cgNode/expNode.o"
-	@echo "... cgNode/expNode.i"
-	@echo "... cgNode/expNode.s"
+	@echo "... cgNode/monopNodes/expNode.o"
+	@echo "... cgNode/monopNodes/expNode.i"
+	@echo "... cgNode/monopNodes/expNode.s"
 	@echo "... cgNode/monopNodes/lnNode.o"
 	@echo "... cgNode/monopNodes/lnNode.i"
 	@echo "... cgNode/monopNodes/lnNode.s"
 	@echo "... cgNode/monopNodes/monopNode.o"
 	@echo "... cgNode/monopNodes/monopNode.i"
 	@echo "... cgNode/monopNodes/monopNode.s"
+	@echo "... cgNode/monopNodes/powNode.o"
+	@echo "... cgNode/monopNodes/powNode.i"
+	@echo "... cgNode/monopNodes/powNode.s"
 	@echo "... cgNode/monopNodes/trigs/cosNode.o"
 	@echo "... cgNode/monopNodes/trigs/cosNode.i"
 	@echo "... cgNode/monopNodes/trigs/cosNode.s"

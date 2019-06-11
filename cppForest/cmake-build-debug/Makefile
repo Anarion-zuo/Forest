@@ -150,6 +150,33 @@ Function/Function.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Function.cpp.s
 .PHONY : Function/Function.cpp.s
 
+Function/Functions/AffineFunction.o: Function/Functions/AffineFunction.cpp.o
+
+.PHONY : Function/Functions/AffineFunction.o
+
+# target to build an object file
+Function/Functions/AffineFunction.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o
+.PHONY : Function/Functions/AffineFunction.cpp.o
+
+Function/Functions/AffineFunction.i: Function/Functions/AffineFunction.cpp.i
+
+.PHONY : Function/Functions/AffineFunction.i
+
+# target to preprocess a source file
+Function/Functions/AffineFunction.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.i
+.PHONY : Function/Functions/AffineFunction.cpp.i
+
+Function/Functions/AffineFunction.s: Function/Functions/AffineFunction.cpp.s
+
+.PHONY : Function/Functions/AffineFunction.s
+
+# target to generate assembly for a file
+Function/Functions/AffineFunction.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.s
+.PHONY : Function/Functions/AffineFunction.cpp.s
+
 Function/Variable/Range.o: Function/Variable/Range.cpp.o
 
 .PHONY : Function/Variable/Range.o
@@ -204,6 +231,33 @@ Function/Variable/Variable.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/Variable.cpp.s
 .PHONY : Function/Variable/Variable.cpp.s
 
+Function/Variable/var.o: Function/Variable/var.cpp.o
+
+.PHONY : Function/Variable/var.o
+
+# target to build an object file
+Function/Variable/var.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/var.cpp.o
+.PHONY : Function/Variable/var.cpp.o
+
+Function/Variable/var.i: Function/Variable/var.cpp.i
+
+.PHONY : Function/Variable/var.i
+
+# target to preprocess a source file
+Function/Variable/var.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/var.cpp.i
+.PHONY : Function/Variable/var.cpp.i
+
+Function/Variable/var.s: Function/Variable/var.cpp.s
+
+.PHONY : Function/Variable/var.s
+
+# target to generate assembly for a file
+Function/Variable/var.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/var.cpp.s
+.PHONY : Function/Variable/var.cpp.s
+
 Garbage_Bin.o: Garbage_Bin.cpp.o
 
 .PHONY : Garbage_Bin.o
@@ -230,60 +284,6 @@ Garbage_Bin.s: Garbage_Bin.cpp.s
 Garbage_Bin.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Garbage_Bin.cpp.s
 .PHONY : Garbage_Bin.cpp.s
-
-MatrixNode/ArrayNode.o: MatrixNode/ArrayNode.cpp.o
-
-.PHONY : MatrixNode/ArrayNode.o
-
-# target to build an object file
-MatrixNode/ArrayNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MatrixNode/ArrayNode.cpp.o
-.PHONY : MatrixNode/ArrayNode.cpp.o
-
-MatrixNode/ArrayNode.i: MatrixNode/ArrayNode.cpp.i
-
-.PHONY : MatrixNode/ArrayNode.i
-
-# target to preprocess a source file
-MatrixNode/ArrayNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MatrixNode/ArrayNode.cpp.i
-.PHONY : MatrixNode/ArrayNode.cpp.i
-
-MatrixNode/ArrayNode.s: MatrixNode/ArrayNode.cpp.s
-
-.PHONY : MatrixNode/ArrayNode.s
-
-# target to generate assembly for a file
-MatrixNode/ArrayNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MatrixNode/ArrayNode.cpp.s
-.PHONY : MatrixNode/ArrayNode.cpp.s
-
-MatrixNode/MatrixNode.o: MatrixNode/MatrixNode.cpp.o
-
-.PHONY : MatrixNode/MatrixNode.o
-
-# target to build an object file
-MatrixNode/MatrixNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MatrixNode/MatrixNode.cpp.o
-.PHONY : MatrixNode/MatrixNode.cpp.o
-
-MatrixNode/MatrixNode.i: MatrixNode/MatrixNode.cpp.i
-
-.PHONY : MatrixNode/MatrixNode.i
-
-# target to preprocess a source file
-MatrixNode/MatrixNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MatrixNode/MatrixNode.cpp.i
-.PHONY : MatrixNode/MatrixNode.cpp.i
-
-MatrixNode/MatrixNode.s: MatrixNode/MatrixNode.cpp.s
-
-.PHONY : MatrixNode/MatrixNode.s
-
-# target to generate assembly for a file
-MatrixNode/MatrixNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MatrixNode/MatrixNode.cpp.s
-.PHONY : MatrixNode/MatrixNode.cpp.s
 
 Solvers/Root/Single-Variable/SingleVariableRootFinder.o: Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o
 
@@ -365,6 +365,60 @@ cg/dcg.s: cg/dcg.cpp.s
 cg/dcg.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/dcg.cpp.s
 .PHONY : cg/dcg.cpp.s
+
+cgNode/MatrixNode/ArrayNode.o: cgNode/MatrixNode/ArrayNode.cpp.o
+
+.PHONY : cgNode/MatrixNode/ArrayNode.o
+
+# target to build an object file
+cgNode/MatrixNode/ArrayNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/MatrixNode/ArrayNode.cpp.o
+.PHONY : cgNode/MatrixNode/ArrayNode.cpp.o
+
+cgNode/MatrixNode/ArrayNode.i: cgNode/MatrixNode/ArrayNode.cpp.i
+
+.PHONY : cgNode/MatrixNode/ArrayNode.i
+
+# target to preprocess a source file
+cgNode/MatrixNode/ArrayNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/MatrixNode/ArrayNode.cpp.i
+.PHONY : cgNode/MatrixNode/ArrayNode.cpp.i
+
+cgNode/MatrixNode/ArrayNode.s: cgNode/MatrixNode/ArrayNode.cpp.s
+
+.PHONY : cgNode/MatrixNode/ArrayNode.s
+
+# target to generate assembly for a file
+cgNode/MatrixNode/ArrayNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/MatrixNode/ArrayNode.cpp.s
+.PHONY : cgNode/MatrixNode/ArrayNode.cpp.s
+
+cgNode/MatrixNode/MatrixNode.o: cgNode/MatrixNode/MatrixNode.cpp.o
+
+.PHONY : cgNode/MatrixNode/MatrixNode.o
+
+# target to build an object file
+cgNode/MatrixNode/MatrixNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o
+.PHONY : cgNode/MatrixNode/MatrixNode.cpp.o
+
+cgNode/MatrixNode/MatrixNode.i: cgNode/MatrixNode/MatrixNode.cpp.i
+
+.PHONY : cgNode/MatrixNode/MatrixNode.i
+
+# target to preprocess a source file
+cgNode/MatrixNode/MatrixNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.i
+.PHONY : cgNode/MatrixNode/MatrixNode.cpp.i
+
+cgNode/MatrixNode/MatrixNode.s: cgNode/MatrixNode/MatrixNode.cpp.s
+
+.PHONY : cgNode/MatrixNode/MatrixNode.s
+
+# target to generate assembly for a file
+cgNode/MatrixNode/MatrixNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.s
+.PHONY : cgNode/MatrixNode/MatrixNode.cpp.s
 
 cgNode/biopNodes/addNode.o: cgNode/biopNodes/addNode.cpp.o
 
@@ -717,33 +771,6 @@ cgNode/monopNodes/trigs/sinNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.s
 .PHONY : cgNode/monopNodes/trigs/sinNode.cpp.s
 
-cgNode/var.o: cgNode/var.cpp.o
-
-.PHONY : cgNode/var.o
-
-# target to build an object file
-cgNode/var.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/var.cpp.o
-.PHONY : cgNode/var.cpp.o
-
-cgNode/var.i: cgNode/var.cpp.i
-
-.PHONY : cgNode/var.i
-
-# target to preprocess a source file
-cgNode/var.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/var.cpp.i
-.PHONY : cgNode/var.cpp.i
-
-cgNode/var.s: cgNode/var.cpp.s
-
-.PHONY : cgNode/var.s
-
-# target to generate assembly for a file
-cgNode/var.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/var.cpp.s
-.PHONY : cgNode/var.cpp.s
-
 linearAlg/Array/Array.o: linearAlg/Array/Array.cpp.o
 
 .PHONY : linearAlg/Array/Array.o
@@ -945,21 +972,21 @@ help:
 	@echo "... Function/Function.o"
 	@echo "... Function/Function.i"
 	@echo "... Function/Function.s"
+	@echo "... Function/Functions/AffineFunction.o"
+	@echo "... Function/Functions/AffineFunction.i"
+	@echo "... Function/Functions/AffineFunction.s"
 	@echo "... Function/Variable/Range.o"
 	@echo "... Function/Variable/Range.i"
 	@echo "... Function/Variable/Range.s"
 	@echo "... Function/Variable/Variable.o"
 	@echo "... Function/Variable/Variable.i"
 	@echo "... Function/Variable/Variable.s"
+	@echo "... Function/Variable/var.o"
+	@echo "... Function/Variable/var.i"
+	@echo "... Function/Variable/var.s"
 	@echo "... Garbage_Bin.o"
 	@echo "... Garbage_Bin.i"
 	@echo "... Garbage_Bin.s"
-	@echo "... MatrixNode/ArrayNode.o"
-	@echo "... MatrixNode/ArrayNode.i"
-	@echo "... MatrixNode/ArrayNode.s"
-	@echo "... MatrixNode/MatrixNode.o"
-	@echo "... MatrixNode/MatrixNode.i"
-	@echo "... MatrixNode/MatrixNode.s"
 	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.o"
 	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.i"
 	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.s"
@@ -969,6 +996,12 @@ help:
 	@echo "... cg/dcg.o"
 	@echo "... cg/dcg.i"
 	@echo "... cg/dcg.s"
+	@echo "... cgNode/MatrixNode/ArrayNode.o"
+	@echo "... cgNode/MatrixNode/ArrayNode.i"
+	@echo "... cgNode/MatrixNode/ArrayNode.s"
+	@echo "... cgNode/MatrixNode/MatrixNode.o"
+	@echo "... cgNode/MatrixNode/MatrixNode.i"
+	@echo "... cgNode/MatrixNode/MatrixNode.s"
 	@echo "... cgNode/biopNodes/addNode.o"
 	@echo "... cgNode/biopNodes/addNode.i"
 	@echo "... cgNode/biopNodes/addNode.s"
@@ -1008,9 +1041,6 @@ help:
 	@echo "... cgNode/monopNodes/trigs/sinNode.o"
 	@echo "... cgNode/monopNodes/trigs/sinNode.i"
 	@echo "... cgNode/monopNodes/trigs/sinNode.s"
-	@echo "... cgNode/var.o"
-	@echo "... cgNode/var.i"
-	@echo "... cgNode/var.s"
 	@echo "... linearAlg/Array/Array.o"
 	@echo "... linearAlg/Array/Array.i"
 	@echo "... linearAlg/Array/Array.s"

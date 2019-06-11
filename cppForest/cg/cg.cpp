@@ -27,3 +27,7 @@ double cg::latest_result() {
     return _root->get_val();
 }
 
+size_t cg::var_nums() {
+    return _vars.size();
+}
+

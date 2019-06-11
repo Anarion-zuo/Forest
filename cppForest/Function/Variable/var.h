@@ -6,11 +6,13 @@
 #define CPPFOREST_VAR_H
 
 #include <map>
+#include "Range.h"
 
 class var {
 private:
     double _val;
     static std::map<var*, var*> _temp_dvars;
+    Range* _range;
 public:
     var(double n);
 
@@ -24,6 +26,10 @@ public:
     double get_val();
 
     var* diff();
+
+    void change_range(double left, double right);
+    double get_range_left();
+    double get_range_right();
 };
 
 

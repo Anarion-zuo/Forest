@@ -14,6 +14,8 @@ public:
     Range(double left, double right);
     virtual ~Range() = default;
 
+    Range* clone();
+
     bool is_in(double n);
     bool is_in(Range* range);
     bool on_right(Range* range);

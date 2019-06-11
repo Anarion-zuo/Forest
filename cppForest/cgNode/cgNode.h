@@ -7,7 +7,7 @@
 #include <limits>
 #include <vector>
 #include "../Garbage_Bin.h"
-#include "var.h"
+#include "../Function/Variable/var.h"
 
 class cgNode {
     friend class addNode;
@@ -71,6 +71,8 @@ public:
     static cgNode* _change_const(cgNode* node, double n);
     static cgNode* _change_if_both_const(cgNode* node);
 
+    // sum prod
+    static cgNode* sum(const std::vector<cgNode*>& nodes);
 };
 
 #include "biopNodes/addNode.h"

@@ -4,7 +4,11 @@
 
 #include "Range.h"
 
-Range::Range(double left, double right) : _left(left), _right(right) {}
+Range::Range(double left, double right) : _left(left), _right(right) {
+    if (left > right){
+        throw "Fault range.";
+    }
+}
 
 bool Range::is_in(double n) {
     return _left <= n && _right >= n;
@@ -44,4 +48,8 @@ void Range::set_right(double n) {
 
 double Range::get_right() {
     return _right;
+}
+
+Range *Range::clone() {
+    return new Range(_left, _right);
 }

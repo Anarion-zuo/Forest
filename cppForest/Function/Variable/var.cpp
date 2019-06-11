@@ -50,4 +50,15 @@ var* var::diff() {
     return p;
 }
 
+void var::change_range(double left, double right) {
+    _range->set_left(left);
+    _range->set_right(right);
+}
 
+double var::get_range_left() {
+    return _range->get_left();
+}
+
+double var::get_range_right() {
+    return _range->get_right();
+}

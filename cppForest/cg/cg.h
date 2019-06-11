@@ -21,6 +21,8 @@ public:
 
     void compute();
     double latest_result();
+    
+    size_t var_nums();
 };
 
 

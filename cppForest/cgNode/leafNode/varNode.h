@@ -7,7 +7,7 @@
 
 #include "../cgNode.h"
 #include <map>
-#include "../var.h"
+#include "../../Function/Variable/var.h"
 
 class varNode : public cgNode {
 private:

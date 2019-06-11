@@ -142,4 +142,26 @@ var *cgNode::get_var() {
     return nullptr;
 }
 
+cgNode *cgNode::sum(const std::vector<cgNode*> &nodes) {
+    if (nodes.empty()){
+        return nullptr;
+    }
+    if (nodes.size() == 1){
+        return nodes[0];
+    }
+    std::vector<cgNode*> adds(nodes.size() / 2, nullptr);
+    for (size_t i = 0; i < adds.size(); ++i){
+        auto an = new addNode(nullptr, false, nodes[2 * i], nodes[2 * i + 1]);
+        an->_left->set_parent(an);
+        an->_right->set_parent(an);
+        an->_left->set_lr(false);
+        an->_right->set_lr(true);
+        adds[i] = an;
+    }
+    if (nodes.size() % 2){
+        adds.push_back(nodes[nodes.size() - 1]);
+    }
+    return sum(adds);
+}
+
 

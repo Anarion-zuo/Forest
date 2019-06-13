@@ -95,8 +95,8 @@ void cgNode::del_node(cgNode*& node){
 void cgNode::del() {
     _left->del();
     _right->del();
-    if (!_left->is_var())    delete _left;
-    if (!_right->is_var())  delete _right;
+    delete _left;
+    delete _right;
 }
 
 std::vector<var*> cgNode::find_vars(cgNode* node) {
@@ -162,6 +162,10 @@ cgNode *cgNode::sum(const std::vector<cgNode*> &nodes) {
         adds.push_back(nodes[nodes.size() - 1]);
     }
     return sum(adds);
+}
+
+bool cgNode::is_vector() {
+    return false;
 }
 
 

@@ -474,60 +474,6 @@ cg/dcg.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/dcg.cpp.s
 .PHONY : cg/dcg.cpp.s
 
-cgNode/MatrixNode/ArrayNode.o: cgNode/MatrixNode/ArrayNode.cpp.o
-
-.PHONY : cgNode/MatrixNode/ArrayNode.o
-
-# target to build an object file
-cgNode/MatrixNode/ArrayNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/MatrixNode/ArrayNode.cpp.o
-.PHONY : cgNode/MatrixNode/ArrayNode.cpp.o
-
-cgNode/MatrixNode/ArrayNode.i: cgNode/MatrixNode/ArrayNode.cpp.i
-
-.PHONY : cgNode/MatrixNode/ArrayNode.i
-
-# target to preprocess a source file
-cgNode/MatrixNode/ArrayNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/MatrixNode/ArrayNode.cpp.i
-.PHONY : cgNode/MatrixNode/ArrayNode.cpp.i
-
-cgNode/MatrixNode/ArrayNode.s: cgNode/MatrixNode/ArrayNode.cpp.s
-
-.PHONY : cgNode/MatrixNode/ArrayNode.s
-
-# target to generate assembly for a file
-cgNode/MatrixNode/ArrayNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/MatrixNode/ArrayNode.cpp.s
-.PHONY : cgNode/MatrixNode/ArrayNode.cpp.s
-
-cgNode/MatrixNode/MatrixNode.o: cgNode/MatrixNode/MatrixNode.cpp.o
-
-.PHONY : cgNode/MatrixNode/MatrixNode.o
-
-# target to build an object file
-cgNode/MatrixNode/MatrixNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.o
-.PHONY : cgNode/MatrixNode/MatrixNode.cpp.o
-
-cgNode/MatrixNode/MatrixNode.i: cgNode/MatrixNode/MatrixNode.cpp.i
-
-.PHONY : cgNode/MatrixNode/MatrixNode.i
-
-# target to preprocess a source file
-cgNode/MatrixNode/MatrixNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.i
-.PHONY : cgNode/MatrixNode/MatrixNode.cpp.i
-
-cgNode/MatrixNode/MatrixNode.s: cgNode/MatrixNode/MatrixNode.cpp.s
-
-.PHONY : cgNode/MatrixNode/MatrixNode.s
-
-# target to generate assembly for a file
-cgNode/MatrixNode/MatrixNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/MatrixNode/MatrixNode.cpp.s
-.PHONY : cgNode/MatrixNode/MatrixNode.cpp.s
-
 cgNode/biopNodes/addNode.o: cgNode/biopNodes/addNode.cpp.o
 
 .PHONY : cgNode/biopNodes/addNode.o
@@ -716,6 +662,87 @@ cgNode/leafNode/varNode.s: cgNode/leafNode/varNode.cpp.s
 cgNode/leafNode/varNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.s
 .PHONY : cgNode/leafNode/varNode.cpp.s
+
+cgNode/linNodes/dotNode.o: cgNode/linNodes/dotNode.cpp.o
+
+.PHONY : cgNode/linNodes/dotNode.o
+
+# target to build an object file
+cgNode/linNodes/dotNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/dotNode.cpp.o
+.PHONY : cgNode/linNodes/dotNode.cpp.o
+
+cgNode/linNodes/dotNode.i: cgNode/linNodes/dotNode.cpp.i
+
+.PHONY : cgNode/linNodes/dotNode.i
+
+# target to preprocess a source file
+cgNode/linNodes/dotNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/dotNode.cpp.i
+.PHONY : cgNode/linNodes/dotNode.cpp.i
+
+cgNode/linNodes/dotNode.s: cgNode/linNodes/dotNode.cpp.s
+
+.PHONY : cgNode/linNodes/dotNode.s
+
+# target to generate assembly for a file
+cgNode/linNodes/dotNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/dotNode.cpp.s
+.PHONY : cgNode/linNodes/dotNode.cpp.s
+
+cgNode/linNodes/vectorNode.o: cgNode/linNodes/vectorNode.cpp.o
+
+.PHONY : cgNode/linNodes/vectorNode.o
+
+# target to build an object file
+cgNode/linNodes/vectorNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/vectorNode.cpp.o
+.PHONY : cgNode/linNodes/vectorNode.cpp.o
+
+cgNode/linNodes/vectorNode.i: cgNode/linNodes/vectorNode.cpp.i
+
+.PHONY : cgNode/linNodes/vectorNode.i
+
+# target to preprocess a source file
+cgNode/linNodes/vectorNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/vectorNode.cpp.i
+.PHONY : cgNode/linNodes/vectorNode.cpp.i
+
+cgNode/linNodes/vectorNode.s: cgNode/linNodes/vectorNode.cpp.s
+
+.PHONY : cgNode/linNodes/vectorNode.s
+
+# target to generate assembly for a file
+cgNode/linNodes/vectorNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/vectorNode.cpp.s
+.PHONY : cgNode/linNodes/vectorNode.cpp.s
+
+cgNode/linNodes/vectorOpNode.o: cgNode/linNodes/vectorOpNode.cpp.o
+
+.PHONY : cgNode/linNodes/vectorOpNode.o
+
+# target to build an object file
+cgNode/linNodes/vectorOpNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/vectorOpNode.cpp.o
+.PHONY : cgNode/linNodes/vectorOpNode.cpp.o
+
+cgNode/linNodes/vectorOpNode.i: cgNode/linNodes/vectorOpNode.cpp.i
+
+.PHONY : cgNode/linNodes/vectorOpNode.i
+
+# target to preprocess a source file
+cgNode/linNodes/vectorOpNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/vectorOpNode.cpp.i
+.PHONY : cgNode/linNodes/vectorOpNode.cpp.i
+
+cgNode/linNodes/vectorOpNode.s: cgNode/linNodes/vectorOpNode.cpp.s
+
+.PHONY : cgNode/linNodes/vectorOpNode.s
+
+# target to generate assembly for a file
+cgNode/linNodes/vectorOpNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/vectorOpNode.cpp.s
+.PHONY : cgNode/linNodes/vectorOpNode.cpp.s
 
 cgNode/monopNodes/expNode.o: cgNode/monopNodes/expNode.cpp.o
 
@@ -1116,12 +1143,6 @@ help:
 	@echo "... cg/dcg.o"
 	@echo "... cg/dcg.i"
 	@echo "... cg/dcg.s"
-	@echo "... cgNode/MatrixNode/ArrayNode.o"
-	@echo "... cgNode/MatrixNode/ArrayNode.i"
-	@echo "... cgNode/MatrixNode/ArrayNode.s"
-	@echo "... cgNode/MatrixNode/MatrixNode.o"
-	@echo "... cgNode/MatrixNode/MatrixNode.i"
-	@echo "... cgNode/MatrixNode/MatrixNode.s"
 	@echo "... cgNode/biopNodes/addNode.o"
 	@echo "... cgNode/biopNodes/addNode.i"
 	@echo "... cgNode/biopNodes/addNode.s"
@@ -1143,6 +1164,15 @@ help:
 	@echo "... cgNode/leafNode/varNode.o"
 	@echo "... cgNode/leafNode/varNode.i"
 	@echo "... cgNode/leafNode/varNode.s"
+	@echo "... cgNode/linNodes/dotNode.o"
+	@echo "... cgNode/linNodes/dotNode.i"
+	@echo "... cgNode/linNodes/dotNode.s"
+	@echo "... cgNode/linNodes/vectorNode.o"
+	@echo "... cgNode/linNodes/vectorNode.i"
+	@echo "... cgNode/linNodes/vectorNode.s"
+	@echo "... cgNode/linNodes/vectorOpNode.o"
+	@echo "... cgNode/linNodes/vectorOpNode.i"
+	@echo "... cgNode/linNodes/vectorOpNode.s"
 	@echo "... cgNode/monopNodes/expNode.o"
 	@echo "... cgNode/monopNodes/expNode.i"
 	@echo "... cgNode/monopNodes/expNode.s"

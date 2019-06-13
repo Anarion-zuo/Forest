@@ -31,11 +31,12 @@ public:
     cgNode(cgNode* parent, bool lr, cgNode* left, cgNode* right, double val);
     virtual ~cgNode() = default;
 
-    // const var checks
+    // checks
     virtual bool is_n_node(double n);
     virtual bool is_var();
     virtual bool is_const();
     virtual var* get_var();
+    virtual bool is_vector();
 
     // clones and changes
     virtual cgNode* clone(cgNode* parent) = 0;

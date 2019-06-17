@@ -11,12 +11,12 @@ class powNode : public monopNode {
 private:
     double _pow = 1;
 public:
-    powNode(cgNode* parent, bool lr, cgNode* left, double pow);
+    powNode(numericNode* parent, bool lr, numericNode* left, double pow);
     ~powNode() = default;
-    monopNode* _clone(cgNode* parent) override;
+    monopNode* _clone(numericNode* parent) override;
     double _compute(double n) override ;
-    cgNode* _trim() override ;
-    cgNode* diff() override ;
+    numericNode* _trim() override ;
+    numericNode* diff() override ;
 };
 
 

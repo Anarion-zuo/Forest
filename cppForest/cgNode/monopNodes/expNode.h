@@ -9,12 +9,12 @@
 
 class expNode : public monopNode {
 public:
-    expNode(cgNode* parent, bool lr, cgNode* left);
+    expNode(numericNode* parent, bool lr, numericNode* left);
     ~expNode() = default;
-    monopNode* _clone(cgNode* parent) override;
+    monopNode* _clone(numericNode* parent) override;
     double _compute(double n) override ;
-    cgNode* _trim() override ;
-    cgNode* diff() override ;
+    numericNode* _trim() override ;
+    numericNode* diff() override ;
 };
 
 

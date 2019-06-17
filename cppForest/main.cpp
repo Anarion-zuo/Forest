@@ -1,5 +1,5 @@
 #include <iostream>
-#include "./cgNode/cgNode.h"
+#include "cgNode/numericNode.h"
 #include "cg/cg.h"
 #include "linearAlg/Matrix/Matrix.h"
 #include "cg/dcg.h"

@@ -5,9 +5,9 @@
 #include "lnNode.h"
 #include <cmath>
 
-lnNode::lnNode(cgNode *parent, bool lr, cgNode *left) : monopNode(parent, lr, left) {}
+lnNode::lnNode(numericNode *parent, bool lr, numericNode *left) : monopNode(parent, lr, left) {}
 
-monopNode *lnNode::_clone(cgNode *parent) {
+monopNode *lnNode::_clone(numericNode *parent) {
     return new lnNode(parent, _lr, nullptr);
 }
 
@@ -15,12 +15,12 @@ double lnNode::_compute(double n) {
     return log(n);
 }
 
-cgNode *lnNode::_trim() {
+numericNode *lnNode::_trim() {
     return this;
 }
 
-cgNode *lnNode::diff() {
-    cgNode* p = new divNode(nullptr, _lr, _left, _left->clone(nullptr));
+numericNode *lnNode::diff() {
+    numericNode* p = new divNode(nullptr, _lr, _left, _left->clone(nullptr));
     p->_left->_parent = p;
     p->_left->_lr = false;
     p->_right->_parent = p;

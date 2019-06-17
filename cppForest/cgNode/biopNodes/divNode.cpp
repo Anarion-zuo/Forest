@@ -5,18 +5,18 @@
 #include "divNode.h"
 #include "../monopNodes/powNode.h"
 
-divNode::divNode(cgNode *parent, bool lr, cgNode *left, cgNode *right) : cgNode(parent, lr, left, right, 0) {}
+divNode::divNode(numericNode *parent, bool lr, numericNode *left, numericNode *right) : numericNode(parent, lr, left, right, 0) {}
 
-cgNode *divNode::clone(cgNode *parent) {
-    cgNode* p = new divNode(parent, _lr, nullptr, nullptr);
+numericNode *divNode::clone(numericNode *parent) {
+    numericNode* p = new divNode(parent, _lr, nullptr, nullptr);
     p->_left = _left->clone(p);
     p->_right = _right->clone(p);
     return p;
 }
 
-cgNode *divNode::diff() {
-    cgNode* p = new divNode(_parent, _lr, nullptr, nullptr);
-    cgNode* up = new subNode(
+numericNode *divNode::diff() {
+    numericNode* p = new divNode(_parent, _lr, nullptr, nullptr);
+    numericNode* up = new subNode(
             p,
             false,
             new mulNode(nullptr, false, _left, _right),
@@ -41,7 +41,7 @@ double divNode::_compute(double n1, double n2) {
     return n1 / n2;
 }
 
-cgNode *divNode::trim() {
+numericNode *divNode::trim() {
     if (_left->is_n_node(0)){
         return change_this(new constNode(_parent, _lr, 0));
     }else if (_right->is_n_node(0)) {
@@ -49,6 +49,6 @@ cgNode *divNode::trim() {
     }else if (_right->is_n_node(1)){
         return change_this(_left);
     }
-    cgNode* p = _change_if_both_const(this);
+    numericNode* p = _change_if_both_const(this);
     return p;
 }

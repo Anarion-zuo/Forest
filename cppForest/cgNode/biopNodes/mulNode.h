@@ -5,16 +5,16 @@
 #ifndef CPPFOREST_MULNODE_H
 #define CPPFOREST_MULNODE_H
 
-#include "../cgNode.h"
+#include "../numericNode.h"
 
-class mulNode : public cgNode {
+class mulNode : public numericNode {
 public:
-    mulNode(cgNode* parent, bool lr, cgNode* left, cgNode* right);
+    mulNode(numericNode* parent, bool lr, numericNode* left, numericNode* right);
     ~mulNode() = default;
-    cgNode* clone(cgNode* parent) override;
+    numericNode* clone(numericNode* parent) override;
     double _compute(double n1, double n2) override ;
-    cgNode* trim() override ;
-    cgNode* diff() override ;
+    numericNode* trim() override ;
+    numericNode* diff() override ;
 };
 
 

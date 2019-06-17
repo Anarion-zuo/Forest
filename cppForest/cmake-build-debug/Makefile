@@ -906,6 +906,33 @@ cgNode/monopNodes/trigs/sinNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.s
 .PHONY : cgNode/monopNodes/trigs/sinNode.cpp.s
 
+cgNode/numericNode.o: cgNode/numericNode.cpp.o
+
+.PHONY : cgNode/numericNode.o
+
+# target to build an object file
+cgNode/numericNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/numericNode.cpp.o
+.PHONY : cgNode/numericNode.cpp.o
+
+cgNode/numericNode.i: cgNode/numericNode.cpp.i
+
+.PHONY : cgNode/numericNode.i
+
+# target to preprocess a source file
+cgNode/numericNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/numericNode.cpp.i
+.PHONY : cgNode/numericNode.cpp.i
+
+cgNode/numericNode.s: cgNode/numericNode.cpp.s
+
+.PHONY : cgNode/numericNode.s
+
+# target to generate assembly for a file
+cgNode/numericNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/numericNode.cpp.s
+.PHONY : cgNode/numericNode.cpp.s
+
 linearAlg/Array/Array.o: linearAlg/Array/Array.cpp.o
 
 .PHONY : linearAlg/Array/Array.o
@@ -1191,6 +1218,9 @@ help:
 	@echo "... cgNode/monopNodes/trigs/sinNode.o"
 	@echo "... cgNode/monopNodes/trigs/sinNode.i"
 	@echo "... cgNode/monopNodes/trigs/sinNode.s"
+	@echo "... cgNode/numericNode.o"
+	@echo "... cgNode/numericNode.i"
+	@echo "... cgNode/numericNode.s"
 	@echo "... linearAlg/Array/Array.o"
 	@echo "... linearAlg/Array/Array.i"
 	@echo "... linearAlg/Array/Array.s"

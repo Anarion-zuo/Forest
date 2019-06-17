@@ -9,12 +9,12 @@
 
 class sinNode : public monopNode {
 public:
-    sinNode(cgNode* parent, bool lr, cgNode* left);
+    sinNode(numericNode* parent, bool lr, numericNode* left);
     ~sinNode() = default;
-    monopNode* _clone(cgNode* parent) override;
+    monopNode* _clone(numericNode* parent) override;
     double _compute(double n) override ;
-    cgNode* _trim() override ;
-    cgNode* diff() override ;
+    numericNode* _trim() override ;
+    numericNode* diff() override ;
 };
 
 

@@ -4,10 +4,10 @@
 
 #include "constNode.h"
 
-constNode::constNode(cgNode *parent, bool lr, double val) : cgNode(parent, lr, nullptr, nullptr, val) {}
+constNode::constNode(numericNode *parent, bool lr, double val) : numericNode(parent, lr, nullptr, nullptr, val) {}
 
-cgNode *constNode::clone(cgNode *parent) {
-    cgNode* p = new constNode(parent, _lr, _val);
+numericNode *constNode::clone(numericNode *parent) {
+    numericNode* p = new constNode(parent, _lr, _val);
     return p;
 }
 
@@ -15,11 +15,11 @@ double constNode::compute() {
     return _val;
 }
 
-cgNode *constNode::trim() {
+numericNode *constNode::trim() {
     return this;
 }
 
-cgNode *constNode::diff() {
+numericNode *constNode::diff() {
     _val = 0;
     return this;
 }

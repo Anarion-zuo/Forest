@@ -6,21 +6,20 @@
 #define CPPFOREST_VECTORNODE_H
 
 
-#include "../cgNode.h"
+#include "../numericNode.h"
 
-class vectorNode : public cgNode{
+class vectorNode {
 protected:
-    std::vector<cgNode*> _childs;
+    std::vector<numericNode*> _childs;
 public:
-    vectorNode(cgNode* parent, bool lr, const std::vector<cgNode*>& childs);
+    vectorNode(numericNode* parent, bool lr, const std::vector<numericNode*>& childs);
 
-    bool is_vector() override ;
-    void del() override ;
-    cgNode* clone(cgNode* parent) override ;
+    bool is_vector() ;
+    void del() ;
+    vectorNode* clone(numericNode* parent) ;
 
-    double _compute(double n1, double n2) override ;
-    cgNode* trim() override ;
-    cgNode* diff() override ;
+    numericNode* trim() override ;
+    numericNode* diff() override ;
 };
 
 

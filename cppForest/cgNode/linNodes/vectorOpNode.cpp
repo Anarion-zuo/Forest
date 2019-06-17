@@ -3,3 +3,7 @@
 //
 
 #include "vectorOpNode.h"
+
+vectorOpNode::vectorOpNode(numericNode *parent, vectorOpNode *left, vectorOpNode *right) {
+
+}

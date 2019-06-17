@@ -4,23 +4,23 @@
 
 #include "mulNode.h"
 
-mulNode::mulNode(cgNode *parent, bool lr, cgNode *left, cgNode *right) : cgNode(parent, lr, left, right, 0) {}
+mulNode::mulNode(numericNode *parent, bool lr, numericNode *left, numericNode *right) : numericNode(parent, lr, left, right, 0) {}
 
 double mulNode::_compute(double n1, double n2) {
     return n1 * n2;
 }
 
-cgNode *mulNode::clone(cgNode *parent) {
-    cgNode* p = new mulNode(parent, _lr, nullptr, nullptr);
+numericNode *mulNode::clone(numericNode *parent) {
+    numericNode* p = new mulNode(parent, _lr, nullptr, nullptr);
     p->_left = _left->clone(p);
     p->_right = _right->clone(p);
     return p;
 }
 
-cgNode *mulNode::diff() {
-    cgNode* p = new addNode(_parent, _lr, nullptr, nullptr);
-    cgNode* left = new mulNode(p, false, _left, _right);
-    cgNode* right = new mulNode(p, true, nullptr, nullptr);
+numericNode *mulNode::diff() {
+    numericNode* p = new addNode(_parent, _lr, nullptr, nullptr);
+    numericNode* left = new mulNode(p, false, _left, _right);
+    numericNode* right = new mulNode(p, true, nullptr, nullptr);
     _left->set_parent(left);
     _right->set_parent(left);
     right->_left = _left->clone(right);
@@ -37,7 +37,7 @@ cgNode *mulNode::diff() {
     return change_this(p);
 }
 
-cgNode *mulNode::trim() {
+numericNode *mulNode::trim() {
     _left = _left->trim();
     _right = _right->trim();
     if (_left->is_n_node(0)){
@@ -45,7 +45,7 @@ cgNode *mulNode::trim() {
     }else if (_right->is_n_node(0)) {
         return change_this(new constNode(_parent, _lr, 0));
     }
-    cgNode* p = _change_if_both_const(this);
+    numericNode* p = _change_if_both_const(this);
     return p;
 }
 

@@ -5,16 +5,16 @@
 #ifndef CPPFOREST_SUBNODE_H
 #define CPPFOREST_SUBNODE_H
 
-#include "../cgNode.h"
+#include "../numericNode.h"
 
-class subNode : public cgNode {
+class subNode : public numericNode {
 public:
-    subNode(cgNode* parent, bool lr, cgNode* left, cgNode* right);
+    subNode(numericNode* parent, bool lr, numericNode* left, numericNode* right);
     ~subNode() = default;
-    cgNode* clone(cgNode* parent) override ;
+    numericNode* clone(numericNode* parent) override ;
     double _compute(double n1, double n2) override ;
-    cgNode* trim() override ;
-    cgNode* diff() override ;
+    numericNode* trim() override ;
+    numericNode* diff() override ;
 };
 
 

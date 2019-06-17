@@ -5,7 +5,7 @@
 #ifndef CPPFOREST_CG_H
 #define CPPFOREST_CG_H
 
-#include "../cgNode/cgNode.h"
+#include "../cgNode/numericNode.h"
 #include <vector>
 
 class cg {
@@ -14,8 +14,8 @@ protected:
     cgNode* _root;
     std::vector<var*> _vars;
 public:
-    cg(cgNode* root);
-    cg(cg* graph);
+    explicit cg(cgNode* root);
+    explicit cg(cg* graph);
     virtual ~cg();
 
     virtual cg* clone();

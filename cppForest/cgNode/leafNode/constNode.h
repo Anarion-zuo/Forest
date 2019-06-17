@@ -5,17 +5,17 @@
 #ifndef CPPFOREST_CONSTNODE_H
 #define CPPFOREST_CONSTNODE_H
 
-#include "../cgNode.h"
+#include "../numericNode.h"
 
-class constNode : public cgNode {
+class constNode : public numericNode {
 public:
-    constNode(cgNode* parent, bool lr, double val);
+    constNode(numericNode* parent, bool lr, double val);
     ~constNode() = default;
-    cgNode* clone(cgNode* parent);
+    numericNode* clone(numericNode* parent);
     double compute() override ;
     double _compute(double n1, double n2) override {}
-    cgNode* trim() override ;
-    cgNode* diff() override ;
+    numericNode* trim() override ;
+    numericNode* diff() override ;
     void del() override ;
 
     bool is_n_node(double n) override ;

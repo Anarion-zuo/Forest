@@ -9,7 +9,7 @@ cg::cg(cgNode *root) : _root(root), _vars(cgNode::find_vars(root)) {
 }
 
 cg::~cg() {
-    cgNode::del_node(_root);
+    numericNode::del_node(_root);
 }
 
 cg::cg(cg *graph) : _root(graph->_root), _vars(graph->_vars) {}

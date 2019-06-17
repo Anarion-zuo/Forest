@@ -5,22 +5,22 @@
 #ifndef CPPFOREST_VARNODE_H
 #define CPPFOREST_VARNODE_H
 
-#include "../cgNode.h"
+#include "../numericNode.h"
 #include <map>
 #include "../../Function/Variable/var.h"
 
-class varNode : public cgNode {
+class varNode : public numericNode {
 private:
     var* _var;
 public:
-    varNode(cgNode* parent, bool lr, var* v);
+    varNode(numericNode* parent, bool lr, var* v);
     ~varNode() = default;
 
-    cgNode* clone(cgNode* parent);
+    numericNode* clone(numericNode* parent);
     double compute() override ;
     double _compute(double n1, double n2) override {}
-    cgNode* trim() override ;
-    cgNode* diff() override ;
+    numericNode* trim() override ;
+    numericNode* diff() override ;
     void del() override ;
 
     bool is_var() override;

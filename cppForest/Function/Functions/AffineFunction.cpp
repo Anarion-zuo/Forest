@@ -8,7 +8,7 @@ AffineFunction::AffineFunction(const std::vector<double> &as) {
     if (as.empty()){
         return;
     }
-    std::vector<cgNode*> li(as.size() - 1, nullptr);
+    std::vector<numericNode*> li(as.size() - 1, nullptr);
     auto first = new constNode(nullptr, false, as[0]);
     if (as.size() == 1){
         _graph = new cg(first);
@@ -25,6 +25,6 @@ AffineFunction::AffineFunction(const std::vector<double> &as) {
         vn->set_parent(mn);
         li[i] = mn;
     }
-    root->change_right(cgNode::sum(li));
+    root->change_right(numericNode::sum(li));
     _graph = new cg(root);
 }

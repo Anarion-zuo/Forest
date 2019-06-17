@@ -6,17 +6,17 @@
 #define CPPFOREST_GARBAGE_BIN_H
 
 #include <deque>
-#include "cgNode/cgNode.h"
+#include "cgNode/numericNode.h"
 
-class cgNode;
+class numericNode;
 class Garbage_Bin {
 private:
-    static std::deque<cgNode*> _node_bin;
+    static std::deque<numericNode*> _node_bin;
     Garbage_Bin() = default;
     ~Garbage_Bin() = default;
 public:
     static void clear_bins();
-    static void push(cgNode* node);
+    static void push(numericNode* node);
 };
 
 

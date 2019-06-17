@@ -8,7 +8,7 @@ bool vectorNode::is_vector() {
     return true;
 }
 
-vectorNode::vectorNode(cgNode *parent, bool lr, const std::vector<cgNode *> &childs) : cgNode(parent, lr, nullptr, nullptr, 0), _childs(childs) {}
+vectorNode::vectorNode(numericNode *parent, bool lr, const std::vector<numericNode *> &childs) : numericNode(parent, lr, nullptr, nullptr, 0), _childs(childs) {}
 
 void vectorNode::del() {
     for (auto & _child : _childs){
@@ -19,7 +19,7 @@ void vectorNode::del() {
     }
 }
 
-cgNode *vectorNode::clone(cgNode *parent) {
+vectorNode *vectorNode::clone(numericNode *parent) {
     return new vectorNode(parent, _lr, _childs);
 }
 
@@ -27,7 +27,7 @@ double vectorNode::_compute(double n1, double n2) {
     return 0;
 }
 
-cgNode *vectorNode::trim() {
+numericNode *vectorNode::trim() {
     for (auto &_child : _childs){
         if (_child){
             _child = _child->trim();
@@ -36,7 +36,7 @@ cgNode *vectorNode::trim() {
     return this;
 }
 
-cgNode *vectorNode::diff() {
+numericNode *vectorNode::diff() {
     for (auto &_child : _childs){
         if (_child){
             _child = _child->diff();

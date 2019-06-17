@@ -4,9 +4,9 @@
 
 #include "varNode.h"
 
-varNode::varNode(cgNode* parent, bool lr, var* v) : cgNode(parent, lr, nullptr, nullptr, 0), _var(v) {}
+varNode::varNode(numericNode* parent, bool lr, var* v) : numericNode(parent, lr, nullptr, nullptr, 0), _var(v) {}
 
-cgNode *varNode::clone(cgNode *parent) {
+numericNode *varNode::clone(numericNode *parent) {
     return new varNode(parent, _lr, _var);
 }
 
@@ -15,11 +15,11 @@ double varNode::compute() {
     return _val;
 }
 
-cgNode *varNode::trim() {
+numericNode *varNode::trim() {
     return this;
 }
 
-cgNode *varNode::diff() {
+numericNode *varNode::diff() {
     set_var(_var->diff());
     return this;
 }

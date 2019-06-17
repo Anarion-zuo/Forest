@@ -9,12 +9,12 @@
 
 class cosNode : public monopNode {
 public:
-    cosNode(cgNode* parent, bool lr, cgNode* left);
+    cosNode(numericNode* parent, bool lr, numericNode* left);
     ~cosNode() = default;
-    monopNode* _clone(cgNode* parent) override;
+    monopNode* _clone(numericNode* parent) override;
     double _compute(double n) override ;
-    cgNode* _trim() override ;
-    cgNode* diff() override ;
+    numericNode* _trim() override ;
+    numericNode* diff() override ;
 };
 
 

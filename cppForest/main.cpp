@@ -1,23 +1,18 @@
 #include <iostream>
-#include "cgNode/numericNode.h"
-#include "cg/cg.h"
-#include "linearAlg/Matrix/Matrix.h"
-#include "cg/dcg.h"
-#include "Function/Functions/AffineFunction.h"
-#include "Solvers/SolverSetting/SolverSetting.h"
-#include "Solvers/Root/Single-Variable/BisectionFinder.h"
+#include "cgNode/vectorOp/dotNode.h"
+#include "cgNode/singleNodes/number/constNode.h"
+#include "cgNode/vecNode.h"
+#include "cgNode/multiop/sumNode.h"
 
 using namespace std;
 
 int main(){
-    auto f = new AffineFunction({1,1});
-    auto range = new Range(-2, -0.3);
-//    auto set = new SolverSetting(100000, 1e-3, std::numeric_limits<double>::epsilon() * 1e3, {range});
-//    auto solver = new BisectionFinder(set);
-//    solver->solve(f);
-    double res = 0;
-    for (long i = 0; i < 99; i += 1){
-        res = f->compute({1, (double)i});
-    }
+    auto a1 = new constNode(nullptr, 4);
+    auto a2 = new constNode(nullptr, 5);
+    auto b1 = new constNode(nullptr, 6);
+    auto b2 = new constNode(nullptr, 7);
+    auto d = new sumNode(nullptr, {a1,a2,b1,b2});
+    d->compute();
+
     while(1);
 }

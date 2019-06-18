@@ -1,0 +1,12 @@
+//
+// Created by anarion on 6/18/19.
+//
+
+#include "dotTypeException.h"
+
+dotTypeException::dotTypeException(cgNode *node, size_t index) : nodeException(node), _index(index) {}
+
+const char *dotTypeException::what() const _GLIBCXX_USE_NOEXCEPT {
+    std::string info1("Component "), info2(" has multiple components.");
+    return (info1 + std::to_string(_index) + info2).c_str();
+}

@@ -123,464 +123,86 @@ cppForest/fast:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/build
 .PHONY : cppForest/fast
 
-Function/Function.o: Function/Function.cpp.o
+MyException/VectorException/dotExceptions/dotSizeException.o: MyException/VectorException/dotExceptions/dotSizeException.cpp.o
 
-.PHONY : Function/Function.o
-
-# target to build an object file
-Function/Function.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Function.cpp.o
-.PHONY : Function/Function.cpp.o
-
-Function/Function.i: Function/Function.cpp.i
-
-.PHONY : Function/Function.i
-
-# target to preprocess a source file
-Function/Function.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Function.cpp.i
-.PHONY : Function/Function.cpp.i
-
-Function/Function.s: Function/Function.cpp.s
-
-.PHONY : Function/Function.s
-
-# target to generate assembly for a file
-Function/Function.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Function.cpp.s
-.PHONY : Function/Function.cpp.s
-
-Function/Functions/AffineFunction.o: Function/Functions/AffineFunction.cpp.o
-
-.PHONY : Function/Functions/AffineFunction.o
+.PHONY : MyException/VectorException/dotExceptions/dotSizeException.o
 
 # target to build an object file
-Function/Functions/AffineFunction.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.o
-.PHONY : Function/Functions/AffineFunction.cpp.o
+MyException/VectorException/dotExceptions/dotSizeException.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.o
+.PHONY : MyException/VectorException/dotExceptions/dotSizeException.cpp.o
 
-Function/Functions/AffineFunction.i: Function/Functions/AffineFunction.cpp.i
+MyException/VectorException/dotExceptions/dotSizeException.i: MyException/VectorException/dotExceptions/dotSizeException.cpp.i
 
-.PHONY : Function/Functions/AffineFunction.i
+.PHONY : MyException/VectorException/dotExceptions/dotSizeException.i
 
 # target to preprocess a source file
-Function/Functions/AffineFunction.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.i
-.PHONY : Function/Functions/AffineFunction.cpp.i
+MyException/VectorException/dotExceptions/dotSizeException.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.i
+.PHONY : MyException/VectorException/dotExceptions/dotSizeException.cpp.i
 
-Function/Functions/AffineFunction.s: Function/Functions/AffineFunction.cpp.s
+MyException/VectorException/dotExceptions/dotSizeException.s: MyException/VectorException/dotExceptions/dotSizeException.cpp.s
 
-.PHONY : Function/Functions/AffineFunction.s
+.PHONY : MyException/VectorException/dotExceptions/dotSizeException.s
 
 # target to generate assembly for a file
-Function/Functions/AffineFunction.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Functions/AffineFunction.cpp.s
-.PHONY : Function/Functions/AffineFunction.cpp.s
+MyException/VectorException/dotExceptions/dotSizeException.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.s
+.PHONY : MyException/VectorException/dotExceptions/dotSizeException.cpp.s
 
-Function/Variable/Range.o: Function/Variable/Range.cpp.o
+MyException/VectorException/dotExceptions/dotTypeException.o: MyException/VectorException/dotExceptions/dotTypeException.cpp.o
 
-.PHONY : Function/Variable/Range.o
+.PHONY : MyException/VectorException/dotExceptions/dotTypeException.o
 
 # target to build an object file
-Function/Variable/Range.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/Range.cpp.o
-.PHONY : Function/Variable/Range.cpp.o
+MyException/VectorException/dotExceptions/dotTypeException.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.o
+.PHONY : MyException/VectorException/dotExceptions/dotTypeException.cpp.o
 
-Function/Variable/Range.i: Function/Variable/Range.cpp.i
+MyException/VectorException/dotExceptions/dotTypeException.i: MyException/VectorException/dotExceptions/dotTypeException.cpp.i
 
-.PHONY : Function/Variable/Range.i
+.PHONY : MyException/VectorException/dotExceptions/dotTypeException.i
 
 # target to preprocess a source file
-Function/Variable/Range.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/Range.cpp.i
-.PHONY : Function/Variable/Range.cpp.i
+MyException/VectorException/dotExceptions/dotTypeException.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.i
+.PHONY : MyException/VectorException/dotExceptions/dotTypeException.cpp.i
 
-Function/Variable/Range.s: Function/Variable/Range.cpp.s
+MyException/VectorException/dotExceptions/dotTypeException.s: MyException/VectorException/dotExceptions/dotTypeException.cpp.s
 
-.PHONY : Function/Variable/Range.s
+.PHONY : MyException/VectorException/dotExceptions/dotTypeException.s
 
 # target to generate assembly for a file
-Function/Variable/Range.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/Range.cpp.s
-.PHONY : Function/Variable/Range.cpp.s
+MyException/VectorException/dotExceptions/dotTypeException.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.s
+.PHONY : MyException/VectorException/dotExceptions/dotTypeException.cpp.s
 
-Function/Variable/Variable.o: Function/Variable/Variable.cpp.o
+MyException/VectorException/nodeException.o: MyException/VectorException/nodeException.cpp.o
 
-.PHONY : Function/Variable/Variable.o
+.PHONY : MyException/VectorException/nodeException.o
 
 # target to build an object file
-Function/Variable/Variable.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/Variable.cpp.o
-.PHONY : Function/Variable/Variable.cpp.o
+MyException/VectorException/nodeException.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.o
+.PHONY : MyException/VectorException/nodeException.cpp.o
 
-Function/Variable/Variable.i: Function/Variable/Variable.cpp.i
+MyException/VectorException/nodeException.i: MyException/VectorException/nodeException.cpp.i
 
-.PHONY : Function/Variable/Variable.i
-
-# target to preprocess a source file
-Function/Variable/Variable.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/Variable.cpp.i
-.PHONY : Function/Variable/Variable.cpp.i
-
-Function/Variable/Variable.s: Function/Variable/Variable.cpp.s
-
-.PHONY : Function/Variable/Variable.s
-
-# target to generate assembly for a file
-Function/Variable/Variable.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/Variable.cpp.s
-.PHONY : Function/Variable/Variable.cpp.s
-
-Function/Variable/var.o: Function/Variable/var.cpp.o
-
-.PHONY : Function/Variable/var.o
-
-# target to build an object file
-Function/Variable/var.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/var.cpp.o
-.PHONY : Function/Variable/var.cpp.o
-
-Function/Variable/var.i: Function/Variable/var.cpp.i
-
-.PHONY : Function/Variable/var.i
+.PHONY : MyException/VectorException/nodeException.i
 
 # target to preprocess a source file
-Function/Variable/var.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/var.cpp.i
-.PHONY : Function/Variable/var.cpp.i
+MyException/VectorException/nodeException.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.i
+.PHONY : MyException/VectorException/nodeException.cpp.i
 
-Function/Variable/var.s: Function/Variable/var.cpp.s
+MyException/VectorException/nodeException.s: MyException/VectorException/nodeException.cpp.s
 
-.PHONY : Function/Variable/var.s
-
-# target to generate assembly for a file
-Function/Variable/var.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Function/Variable/var.cpp.s
-.PHONY : Function/Variable/var.cpp.s
-
-Garbage_Bin.o: Garbage_Bin.cpp.o
-
-.PHONY : Garbage_Bin.o
-
-# target to build an object file
-Garbage_Bin.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Garbage_Bin.cpp.o
-.PHONY : Garbage_Bin.cpp.o
-
-Garbage_Bin.i: Garbage_Bin.cpp.i
-
-.PHONY : Garbage_Bin.i
-
-# target to preprocess a source file
-Garbage_Bin.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Garbage_Bin.cpp.i
-.PHONY : Garbage_Bin.cpp.i
-
-Garbage_Bin.s: Garbage_Bin.cpp.s
-
-.PHONY : Garbage_Bin.s
+.PHONY : MyException/VectorException/nodeException.s
 
 # target to generate assembly for a file
-Garbage_Bin.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Garbage_Bin.cpp.s
-.PHONY : Garbage_Bin.cpp.s
-
-Solvers/Root/RootFinder.o: Solvers/Root/RootFinder.cpp.o
-
-.PHONY : Solvers/Root/RootFinder.o
-
-# target to build an object file
-Solvers/Root/RootFinder.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.o
-.PHONY : Solvers/Root/RootFinder.cpp.o
-
-Solvers/Root/RootFinder.i: Solvers/Root/RootFinder.cpp.i
-
-.PHONY : Solvers/Root/RootFinder.i
-
-# target to preprocess a source file
-Solvers/Root/RootFinder.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.i
-.PHONY : Solvers/Root/RootFinder.cpp.i
-
-Solvers/Root/RootFinder.s: Solvers/Root/RootFinder.cpp.s
-
-.PHONY : Solvers/Root/RootFinder.s
-
-# target to generate assembly for a file
-Solvers/Root/RootFinder.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/RootFinder.cpp.s
-.PHONY : Solvers/Root/RootFinder.cpp.s
-
-Solvers/Root/Single-Variable/BisectionFinder.o: Solvers/Root/Single-Variable/BisectionFinder.cpp.o
-
-.PHONY : Solvers/Root/Single-Variable/BisectionFinder.o
-
-# target to build an object file
-Solvers/Root/Single-Variable/BisectionFinder.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.o
-.PHONY : Solvers/Root/Single-Variable/BisectionFinder.cpp.o
-
-Solvers/Root/Single-Variable/BisectionFinder.i: Solvers/Root/Single-Variable/BisectionFinder.cpp.i
-
-.PHONY : Solvers/Root/Single-Variable/BisectionFinder.i
-
-# target to preprocess a source file
-Solvers/Root/Single-Variable/BisectionFinder.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.i
-.PHONY : Solvers/Root/Single-Variable/BisectionFinder.cpp.i
-
-Solvers/Root/Single-Variable/BisectionFinder.s: Solvers/Root/Single-Variable/BisectionFinder.cpp.s
-
-.PHONY : Solvers/Root/Single-Variable/BisectionFinder.s
-
-# target to generate assembly for a file
-Solvers/Root/Single-Variable/BisectionFinder.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/BisectionFinder.cpp.s
-.PHONY : Solvers/Root/Single-Variable/BisectionFinder.cpp.s
-
-Solvers/Root/Single-Variable/SingleVariableRootFinder.o: Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o
-
-.PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.o
-
-# target to build an object file
-Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o
-.PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.o
-
-Solvers/Root/Single-Variable/SingleVariableRootFinder.i: Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.i
-
-.PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.i
-
-# target to preprocess a source file
-Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.i
-.PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.i
-
-Solvers/Root/Single-Variable/SingleVariableRootFinder.s: Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s
-
-.PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.s
-
-# target to generate assembly for a file
-Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s
-.PHONY : Solvers/Root/Single-Variable/SingleVariableRootFinder.cpp.s
-
-Solvers/SolverResult/SolverResult.o: Solvers/SolverResult/SolverResult.cpp.o
-
-.PHONY : Solvers/SolverResult/SolverResult.o
-
-# target to build an object file
-Solvers/SolverResult/SolverResult.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverResult/SolverResult.cpp.o
-.PHONY : Solvers/SolverResult/SolverResult.cpp.o
-
-Solvers/SolverResult/SolverResult.i: Solvers/SolverResult/SolverResult.cpp.i
-
-.PHONY : Solvers/SolverResult/SolverResult.i
-
-# target to preprocess a source file
-Solvers/SolverResult/SolverResult.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverResult/SolverResult.cpp.i
-.PHONY : Solvers/SolverResult/SolverResult.cpp.i
-
-Solvers/SolverResult/SolverResult.s: Solvers/SolverResult/SolverResult.cpp.s
-
-.PHONY : Solvers/SolverResult/SolverResult.s
-
-# target to generate assembly for a file
-Solvers/SolverResult/SolverResult.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverResult/SolverResult.cpp.s
-.PHONY : Solvers/SolverResult/SolverResult.cpp.s
-
-Solvers/SolverSetting/SolverSetting.o: Solvers/SolverSetting/SolverSetting.cpp.o
-
-.PHONY : Solvers/SolverSetting/SolverSetting.o
-
-# target to build an object file
-Solvers/SolverSetting/SolverSetting.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverSetting/SolverSetting.cpp.o
-.PHONY : Solvers/SolverSetting/SolverSetting.cpp.o
-
-Solvers/SolverSetting/SolverSetting.i: Solvers/SolverSetting/SolverSetting.cpp.i
-
-.PHONY : Solvers/SolverSetting/SolverSetting.i
-
-# target to preprocess a source file
-Solvers/SolverSetting/SolverSetting.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverSetting/SolverSetting.cpp.i
-.PHONY : Solvers/SolverSetting/SolverSetting.cpp.i
-
-Solvers/SolverSetting/SolverSetting.s: Solvers/SolverSetting/SolverSetting.cpp.s
-
-.PHONY : Solvers/SolverSetting/SolverSetting.s
-
-# target to generate assembly for a file
-Solvers/SolverSetting/SolverSetting.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverSetting/SolverSetting.cpp.s
-.PHONY : Solvers/SolverSetting/SolverSetting.cpp.s
-
-cg/cg.o: cg/cg.cpp.o
-
-.PHONY : cg/cg.o
-
-# target to build an object file
-cg/cg.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/cg.cpp.o
-.PHONY : cg/cg.cpp.o
-
-cg/cg.i: cg/cg.cpp.i
-
-.PHONY : cg/cg.i
-
-# target to preprocess a source file
-cg/cg.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/cg.cpp.i
-.PHONY : cg/cg.cpp.i
-
-cg/cg.s: cg/cg.cpp.s
-
-.PHONY : cg/cg.s
-
-# target to generate assembly for a file
-cg/cg.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/cg.cpp.s
-.PHONY : cg/cg.cpp.s
-
-cg/dcg.o: cg/dcg.cpp.o
-
-.PHONY : cg/dcg.o
-
-# target to build an object file
-cg/dcg.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/dcg.cpp.o
-.PHONY : cg/dcg.cpp.o
-
-cg/dcg.i: cg/dcg.cpp.i
-
-.PHONY : cg/dcg.i
-
-# target to preprocess a source file
-cg/dcg.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/dcg.cpp.i
-.PHONY : cg/dcg.cpp.i
-
-cg/dcg.s: cg/dcg.cpp.s
-
-.PHONY : cg/dcg.s
-
-# target to generate assembly for a file
-cg/dcg.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/dcg.cpp.s
-.PHONY : cg/dcg.cpp.s
-
-cgNode/biopNodes/addNode.o: cgNode/biopNodes/addNode.cpp.o
-
-.PHONY : cgNode/biopNodes/addNode.o
-
-# target to build an object file
-cgNode/biopNodes/addNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.o
-.PHONY : cgNode/biopNodes/addNode.cpp.o
-
-cgNode/biopNodes/addNode.i: cgNode/biopNodes/addNode.cpp.i
-
-.PHONY : cgNode/biopNodes/addNode.i
-
-# target to preprocess a source file
-cgNode/biopNodes/addNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.i
-.PHONY : cgNode/biopNodes/addNode.cpp.i
-
-cgNode/biopNodes/addNode.s: cgNode/biopNodes/addNode.cpp.s
-
-.PHONY : cgNode/biopNodes/addNode.s
-
-# target to generate assembly for a file
-cgNode/biopNodes/addNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/biopNodes/addNode.cpp.s
-.PHONY : cgNode/biopNodes/addNode.cpp.s
-
-cgNode/biopNodes/divNode.o: cgNode/biopNodes/divNode.cpp.o
-
-.PHONY : cgNode/biopNodes/divNode.o
-
-# target to build an object file
-cgNode/biopNodes/divNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.o
-.PHONY : cgNode/biopNodes/divNode.cpp.o
-
-cgNode/biopNodes/divNode.i: cgNode/biopNodes/divNode.cpp.i
-
-.PHONY : cgNode/biopNodes/divNode.i
-
-# target to preprocess a source file
-cgNode/biopNodes/divNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.i
-.PHONY : cgNode/biopNodes/divNode.cpp.i
-
-cgNode/biopNodes/divNode.s: cgNode/biopNodes/divNode.cpp.s
-
-.PHONY : cgNode/biopNodes/divNode.s
-
-# target to generate assembly for a file
-cgNode/biopNodes/divNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/biopNodes/divNode.cpp.s
-.PHONY : cgNode/biopNodes/divNode.cpp.s
-
-cgNode/biopNodes/mulNode.o: cgNode/biopNodes/mulNode.cpp.o
-
-.PHONY : cgNode/biopNodes/mulNode.o
-
-# target to build an object file
-cgNode/biopNodes/mulNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.o
-.PHONY : cgNode/biopNodes/mulNode.cpp.o
-
-cgNode/biopNodes/mulNode.i: cgNode/biopNodes/mulNode.cpp.i
-
-.PHONY : cgNode/biopNodes/mulNode.i
-
-# target to preprocess a source file
-cgNode/biopNodes/mulNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.i
-.PHONY : cgNode/biopNodes/mulNode.cpp.i
-
-cgNode/biopNodes/mulNode.s: cgNode/biopNodes/mulNode.cpp.s
-
-.PHONY : cgNode/biopNodes/mulNode.s
-
-# target to generate assembly for a file
-cgNode/biopNodes/mulNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/biopNodes/mulNode.cpp.s
-.PHONY : cgNode/biopNodes/mulNode.cpp.s
-
-cgNode/biopNodes/subNode.o: cgNode/biopNodes/subNode.cpp.o
-
-.PHONY : cgNode/biopNodes/subNode.o
-
-# target to build an object file
-cgNode/biopNodes/subNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.o
-.PHONY : cgNode/biopNodes/subNode.cpp.o
-
-cgNode/biopNodes/subNode.i: cgNode/biopNodes/subNode.cpp.i
-
-.PHONY : cgNode/biopNodes/subNode.i
-
-# target to preprocess a source file
-cgNode/biopNodes/subNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.i
-.PHONY : cgNode/biopNodes/subNode.cpp.i
-
-cgNode/biopNodes/subNode.s: cgNode/biopNodes/subNode.cpp.s
-
-.PHONY : cgNode/biopNodes/subNode.s
-
-# target to generate assembly for a file
-cgNode/biopNodes/subNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/biopNodes/subNode.cpp.s
-.PHONY : cgNode/biopNodes/subNode.cpp.s
+MyException/VectorException/nodeException.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.s
+.PHONY : MyException/VectorException/nodeException.cpp.s
 
 cgNode/cgNode.o: cgNode/cgNode.cpp.o
 
@@ -609,491 +231,248 @@ cgNode/cgNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.s
 .PHONY : cgNode/cgNode.cpp.s
 
-cgNode/leafNode/constNode.o: cgNode/leafNode/constNode.cpp.o
+cgNode/multiop/sumNode.o: cgNode/multiop/sumNode.cpp.o
 
-.PHONY : cgNode/leafNode/constNode.o
-
-# target to build an object file
-cgNode/leafNode/constNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.o
-.PHONY : cgNode/leafNode/constNode.cpp.o
-
-cgNode/leafNode/constNode.i: cgNode/leafNode/constNode.cpp.i
-
-.PHONY : cgNode/leafNode/constNode.i
-
-# target to preprocess a source file
-cgNode/leafNode/constNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.i
-.PHONY : cgNode/leafNode/constNode.cpp.i
-
-cgNode/leafNode/constNode.s: cgNode/leafNode/constNode.cpp.s
-
-.PHONY : cgNode/leafNode/constNode.s
-
-# target to generate assembly for a file
-cgNode/leafNode/constNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/leafNode/constNode.cpp.s
-.PHONY : cgNode/leafNode/constNode.cpp.s
-
-cgNode/leafNode/varNode.o: cgNode/leafNode/varNode.cpp.o
-
-.PHONY : cgNode/leafNode/varNode.o
+.PHONY : cgNode/multiop/sumNode.o
 
 # target to build an object file
-cgNode/leafNode/varNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.o
-.PHONY : cgNode/leafNode/varNode.cpp.o
+cgNode/multiop/sumNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o
+.PHONY : cgNode/multiop/sumNode.cpp.o
 
-cgNode/leafNode/varNode.i: cgNode/leafNode/varNode.cpp.i
+cgNode/multiop/sumNode.i: cgNode/multiop/sumNode.cpp.i
 
-.PHONY : cgNode/leafNode/varNode.i
+.PHONY : cgNode/multiop/sumNode.i
 
 # target to preprocess a source file
-cgNode/leafNode/varNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.i
-.PHONY : cgNode/leafNode/varNode.cpp.i
+cgNode/multiop/sumNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.i
+.PHONY : cgNode/multiop/sumNode.cpp.i
 
-cgNode/leafNode/varNode.s: cgNode/leafNode/varNode.cpp.s
+cgNode/multiop/sumNode.s: cgNode/multiop/sumNode.cpp.s
 
-.PHONY : cgNode/leafNode/varNode.s
+.PHONY : cgNode/multiop/sumNode.s
 
 # target to generate assembly for a file
-cgNode/leafNode/varNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/leafNode/varNode.cpp.s
-.PHONY : cgNode/leafNode/varNode.cpp.s
+cgNode/multiop/sumNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.s
+.PHONY : cgNode/multiop/sumNode.cpp.s
 
-cgNode/linNodes/dotNode.o: cgNode/linNodes/dotNode.cpp.o
+cgNode/singleNodes/number/constNode.o: cgNode/singleNodes/number/constNode.cpp.o
 
-.PHONY : cgNode/linNodes/dotNode.o
+.PHONY : cgNode/singleNodes/number/constNode.o
 
 # target to build an object file
-cgNode/linNodes/dotNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/dotNode.cpp.o
-.PHONY : cgNode/linNodes/dotNode.cpp.o
+cgNode/singleNodes/number/constNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/number/constNode.cpp.o
+.PHONY : cgNode/singleNodes/number/constNode.cpp.o
 
-cgNode/linNodes/dotNode.i: cgNode/linNodes/dotNode.cpp.i
+cgNode/singleNodes/number/constNode.i: cgNode/singleNodes/number/constNode.cpp.i
 
-.PHONY : cgNode/linNodes/dotNode.i
+.PHONY : cgNode/singleNodes/number/constNode.i
 
 # target to preprocess a source file
-cgNode/linNodes/dotNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/dotNode.cpp.i
-.PHONY : cgNode/linNodes/dotNode.cpp.i
+cgNode/singleNodes/number/constNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/number/constNode.cpp.i
+.PHONY : cgNode/singleNodes/number/constNode.cpp.i
 
-cgNode/linNodes/dotNode.s: cgNode/linNodes/dotNode.cpp.s
+cgNode/singleNodes/number/constNode.s: cgNode/singleNodes/number/constNode.cpp.s
 
-.PHONY : cgNode/linNodes/dotNode.s
+.PHONY : cgNode/singleNodes/number/constNode.s
 
 # target to generate assembly for a file
-cgNode/linNodes/dotNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/dotNode.cpp.s
-.PHONY : cgNode/linNodes/dotNode.cpp.s
+cgNode/singleNodes/number/constNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/number/constNode.cpp.s
+.PHONY : cgNode/singleNodes/number/constNode.cpp.s
 
-cgNode/linNodes/vectorNode.o: cgNode/linNodes/vectorNode.cpp.o
+cgNode/singleNodes/number/varNode.o: cgNode/singleNodes/number/varNode.cpp.o
 
-.PHONY : cgNode/linNodes/vectorNode.o
+.PHONY : cgNode/singleNodes/number/varNode.o
 
 # target to build an object file
-cgNode/linNodes/vectorNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/vectorNode.cpp.o
-.PHONY : cgNode/linNodes/vectorNode.cpp.o
+cgNode/singleNodes/number/varNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/number/varNode.cpp.o
+.PHONY : cgNode/singleNodes/number/varNode.cpp.o
 
-cgNode/linNodes/vectorNode.i: cgNode/linNodes/vectorNode.cpp.i
+cgNode/singleNodes/number/varNode.i: cgNode/singleNodes/number/varNode.cpp.i
 
-.PHONY : cgNode/linNodes/vectorNode.i
+.PHONY : cgNode/singleNodes/number/varNode.i
 
 # target to preprocess a source file
-cgNode/linNodes/vectorNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/vectorNode.cpp.i
-.PHONY : cgNode/linNodes/vectorNode.cpp.i
+cgNode/singleNodes/number/varNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/number/varNode.cpp.i
+.PHONY : cgNode/singleNodes/number/varNode.cpp.i
 
-cgNode/linNodes/vectorNode.s: cgNode/linNodes/vectorNode.cpp.s
+cgNode/singleNodes/number/varNode.s: cgNode/singleNodes/number/varNode.cpp.s
 
-.PHONY : cgNode/linNodes/vectorNode.s
+.PHONY : cgNode/singleNodes/number/varNode.s
 
 # target to generate assembly for a file
-cgNode/linNodes/vectorNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/vectorNode.cpp.s
-.PHONY : cgNode/linNodes/vectorNode.cpp.s
+cgNode/singleNodes/number/varNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/number/varNode.cpp.s
+.PHONY : cgNode/singleNodes/number/varNode.cpp.s
 
-cgNode/linNodes/vectorOpNode.o: cgNode/linNodes/vectorOpNode.cpp.o
+cgNode/singleNodes/op/lnNode.o: cgNode/singleNodes/op/lnNode.cpp.o
 
-.PHONY : cgNode/linNodes/vectorOpNode.o
+.PHONY : cgNode/singleNodes/op/lnNode.o
 
 # target to build an object file
-cgNode/linNodes/vectorOpNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/vectorOpNode.cpp.o
-.PHONY : cgNode/linNodes/vectorOpNode.cpp.o
+cgNode/singleNodes/op/lnNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.o
+.PHONY : cgNode/singleNodes/op/lnNode.cpp.o
 
-cgNode/linNodes/vectorOpNode.i: cgNode/linNodes/vectorOpNode.cpp.i
+cgNode/singleNodes/op/lnNode.i: cgNode/singleNodes/op/lnNode.cpp.i
 
-.PHONY : cgNode/linNodes/vectorOpNode.i
+.PHONY : cgNode/singleNodes/op/lnNode.i
 
 # target to preprocess a source file
-cgNode/linNodes/vectorOpNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/vectorOpNode.cpp.i
-.PHONY : cgNode/linNodes/vectorOpNode.cpp.i
+cgNode/singleNodes/op/lnNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.i
+.PHONY : cgNode/singleNodes/op/lnNode.cpp.i
 
-cgNode/linNodes/vectorOpNode.s: cgNode/linNodes/vectorOpNode.cpp.s
+cgNode/singleNodes/op/lnNode.s: cgNode/singleNodes/op/lnNode.cpp.s
 
-.PHONY : cgNode/linNodes/vectorOpNode.s
+.PHONY : cgNode/singleNodes/op/lnNode.s
 
 # target to generate assembly for a file
-cgNode/linNodes/vectorOpNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/linNodes/vectorOpNode.cpp.s
-.PHONY : cgNode/linNodes/vectorOpNode.cpp.s
+cgNode/singleNodes/op/lnNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.s
+.PHONY : cgNode/singleNodes/op/lnNode.cpp.s
 
-cgNode/monopNodes/expNode.o: cgNode/monopNodes/expNode.cpp.o
+cgNode/singleNodes/op/powNode.o: cgNode/singleNodes/op/powNode.cpp.o
 
-.PHONY : cgNode/monopNodes/expNode.o
+.PHONY : cgNode/singleNodes/op/powNode.o
 
 # target to build an object file
-cgNode/monopNodes/expNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/expNode.cpp.o
-.PHONY : cgNode/monopNodes/expNode.cpp.o
+cgNode/singleNodes/op/powNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.o
+.PHONY : cgNode/singleNodes/op/powNode.cpp.o
 
-cgNode/monopNodes/expNode.i: cgNode/monopNodes/expNode.cpp.i
+cgNode/singleNodes/op/powNode.i: cgNode/singleNodes/op/powNode.cpp.i
 
-.PHONY : cgNode/monopNodes/expNode.i
+.PHONY : cgNode/singleNodes/op/powNode.i
 
 # target to preprocess a source file
-cgNode/monopNodes/expNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/expNode.cpp.i
-.PHONY : cgNode/monopNodes/expNode.cpp.i
+cgNode/singleNodes/op/powNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.i
+.PHONY : cgNode/singleNodes/op/powNode.cpp.i
 
-cgNode/monopNodes/expNode.s: cgNode/monopNodes/expNode.cpp.s
+cgNode/singleNodes/op/powNode.s: cgNode/singleNodes/op/powNode.cpp.s
 
-.PHONY : cgNode/monopNodes/expNode.s
+.PHONY : cgNode/singleNodes/op/powNode.s
 
 # target to generate assembly for a file
-cgNode/monopNodes/expNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/expNode.cpp.s
-.PHONY : cgNode/monopNodes/expNode.cpp.s
+cgNode/singleNodes/op/powNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.s
+.PHONY : cgNode/singleNodes/op/powNode.cpp.s
 
-cgNode/monopNodes/lnNode.o: cgNode/monopNodes/lnNode.cpp.o
+cgNode/singleNodes/singleNode.o: cgNode/singleNodes/singleNode.cpp.o
 
-.PHONY : cgNode/monopNodes/lnNode.o
+.PHONY : cgNode/singleNodes/singleNode.o
 
 # target to build an object file
-cgNode/monopNodes/lnNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.o
-.PHONY : cgNode/monopNodes/lnNode.cpp.o
+cgNode/singleNodes/singleNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/singleNode.cpp.o
+.PHONY : cgNode/singleNodes/singleNode.cpp.o
 
-cgNode/monopNodes/lnNode.i: cgNode/monopNodes/lnNode.cpp.i
+cgNode/singleNodes/singleNode.i: cgNode/singleNodes/singleNode.cpp.i
 
-.PHONY : cgNode/monopNodes/lnNode.i
+.PHONY : cgNode/singleNodes/singleNode.i
 
 # target to preprocess a source file
-cgNode/monopNodes/lnNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.i
-.PHONY : cgNode/monopNodes/lnNode.cpp.i
+cgNode/singleNodes/singleNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/singleNode.cpp.i
+.PHONY : cgNode/singleNodes/singleNode.cpp.i
 
-cgNode/monopNodes/lnNode.s: cgNode/monopNodes/lnNode.cpp.s
+cgNode/singleNodes/singleNode.s: cgNode/singleNodes/singleNode.cpp.s
 
-.PHONY : cgNode/monopNodes/lnNode.s
+.PHONY : cgNode/singleNodes/singleNode.s
 
 # target to generate assembly for a file
-cgNode/monopNodes/lnNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/lnNode.cpp.s
-.PHONY : cgNode/monopNodes/lnNode.cpp.s
+cgNode/singleNodes/singleNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/singleNode.cpp.s
+.PHONY : cgNode/singleNodes/singleNode.cpp.s
 
-cgNode/monopNodes/monopNode.o: cgNode/monopNodes/monopNode.cpp.o
+cgNode/var.o: cgNode/var.cpp.o
 
-.PHONY : cgNode/monopNodes/monopNode.o
+.PHONY : cgNode/var.o
 
 # target to build an object file
-cgNode/monopNodes/monopNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.o
-.PHONY : cgNode/monopNodes/monopNode.cpp.o
+cgNode/var.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/var.cpp.o
+.PHONY : cgNode/var.cpp.o
 
-cgNode/monopNodes/monopNode.i: cgNode/monopNodes/monopNode.cpp.i
+cgNode/var.i: cgNode/var.cpp.i
 
-.PHONY : cgNode/monopNodes/monopNode.i
+.PHONY : cgNode/var.i
 
 # target to preprocess a source file
-cgNode/monopNodes/monopNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.i
-.PHONY : cgNode/monopNodes/monopNode.cpp.i
+cgNode/var.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/var.cpp.i
+.PHONY : cgNode/var.cpp.i
 
-cgNode/monopNodes/monopNode.s: cgNode/monopNodes/monopNode.cpp.s
+cgNode/var.s: cgNode/var.cpp.s
 
-.PHONY : cgNode/monopNodes/monopNode.s
+.PHONY : cgNode/var.s
 
 # target to generate assembly for a file
-cgNode/monopNodes/monopNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/monopNode.cpp.s
-.PHONY : cgNode/monopNodes/monopNode.cpp.s
+cgNode/var.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/var.cpp.s
+.PHONY : cgNode/var.cpp.s
 
-cgNode/monopNodes/powNode.o: cgNode/monopNodes/powNode.cpp.o
+cgNode/vecNode.o: cgNode/vecNode.cpp.o
 
-.PHONY : cgNode/monopNodes/powNode.o
+.PHONY : cgNode/vecNode.o
 
 # target to build an object file
-cgNode/monopNodes/powNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.o
-.PHONY : cgNode/monopNodes/powNode.cpp.o
+cgNode/vecNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vecNode.cpp.o
+.PHONY : cgNode/vecNode.cpp.o
 
-cgNode/monopNodes/powNode.i: cgNode/monopNodes/powNode.cpp.i
+cgNode/vecNode.i: cgNode/vecNode.cpp.i
 
-.PHONY : cgNode/monopNodes/powNode.i
+.PHONY : cgNode/vecNode.i
 
 # target to preprocess a source file
-cgNode/monopNodes/powNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.i
-.PHONY : cgNode/monopNodes/powNode.cpp.i
+cgNode/vecNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vecNode.cpp.i
+.PHONY : cgNode/vecNode.cpp.i
 
-cgNode/monopNodes/powNode.s: cgNode/monopNodes/powNode.cpp.s
+cgNode/vecNode.s: cgNode/vecNode.cpp.s
 
-.PHONY : cgNode/monopNodes/powNode.s
+.PHONY : cgNode/vecNode.s
 
 # target to generate assembly for a file
-cgNode/monopNodes/powNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/powNode.cpp.s
-.PHONY : cgNode/monopNodes/powNode.cpp.s
+cgNode/vecNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vecNode.cpp.s
+.PHONY : cgNode/vecNode.cpp.s
 
-cgNode/monopNodes/trigs/cosNode.o: cgNode/monopNodes/trigs/cosNode.cpp.o
+cgNode/vectorOp/dotNode.o: cgNode/vectorOp/dotNode.cpp.o
 
-.PHONY : cgNode/monopNodes/trigs/cosNode.o
+.PHONY : cgNode/vectorOp/dotNode.o
 
 # target to build an object file
-cgNode/monopNodes/trigs/cosNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.o
-.PHONY : cgNode/monopNodes/trigs/cosNode.cpp.o
+cgNode/vectorOp/dotNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectorOp/dotNode.cpp.o
+.PHONY : cgNode/vectorOp/dotNode.cpp.o
 
-cgNode/monopNodes/trigs/cosNode.i: cgNode/monopNodes/trigs/cosNode.cpp.i
+cgNode/vectorOp/dotNode.i: cgNode/vectorOp/dotNode.cpp.i
 
-.PHONY : cgNode/monopNodes/trigs/cosNode.i
-
-# target to preprocess a source file
-cgNode/monopNodes/trigs/cosNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.i
-.PHONY : cgNode/monopNodes/trigs/cosNode.cpp.i
-
-cgNode/monopNodes/trigs/cosNode.s: cgNode/monopNodes/trigs/cosNode.cpp.s
-
-.PHONY : cgNode/monopNodes/trigs/cosNode.s
-
-# target to generate assembly for a file
-cgNode/monopNodes/trigs/cosNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/cosNode.cpp.s
-.PHONY : cgNode/monopNodes/trigs/cosNode.cpp.s
-
-cgNode/monopNodes/trigs/sinNode.o: cgNode/monopNodes/trigs/sinNode.cpp.o
-
-.PHONY : cgNode/monopNodes/trigs/sinNode.o
-
-# target to build an object file
-cgNode/monopNodes/trigs/sinNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.o
-.PHONY : cgNode/monopNodes/trigs/sinNode.cpp.o
-
-cgNode/monopNodes/trigs/sinNode.i: cgNode/monopNodes/trigs/sinNode.cpp.i
-
-.PHONY : cgNode/monopNodes/trigs/sinNode.i
+.PHONY : cgNode/vectorOp/dotNode.i
 
 # target to preprocess a source file
-cgNode/monopNodes/trigs/sinNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.i
-.PHONY : cgNode/monopNodes/trigs/sinNode.cpp.i
+cgNode/vectorOp/dotNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectorOp/dotNode.cpp.i
+.PHONY : cgNode/vectorOp/dotNode.cpp.i
 
-cgNode/monopNodes/trigs/sinNode.s: cgNode/monopNodes/trigs/sinNode.cpp.s
+cgNode/vectorOp/dotNode.s: cgNode/vectorOp/dotNode.cpp.s
 
-.PHONY : cgNode/monopNodes/trigs/sinNode.s
-
-# target to generate assembly for a file
-cgNode/monopNodes/trigs/sinNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/monopNodes/trigs/sinNode.cpp.s
-.PHONY : cgNode/monopNodes/trigs/sinNode.cpp.s
-
-cgNode/numericNode.o: cgNode/numericNode.cpp.o
-
-.PHONY : cgNode/numericNode.o
-
-# target to build an object file
-cgNode/numericNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/numericNode.cpp.o
-.PHONY : cgNode/numericNode.cpp.o
-
-cgNode/numericNode.i: cgNode/numericNode.cpp.i
-
-.PHONY : cgNode/numericNode.i
-
-# target to preprocess a source file
-cgNode/numericNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/numericNode.cpp.i
-.PHONY : cgNode/numericNode.cpp.i
-
-cgNode/numericNode.s: cgNode/numericNode.cpp.s
-
-.PHONY : cgNode/numericNode.s
+.PHONY : cgNode/vectorOp/dotNode.s
 
 # target to generate assembly for a file
-cgNode/numericNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/numericNode.cpp.s
-.PHONY : cgNode/numericNode.cpp.s
-
-linearAlg/Array/Array.o: linearAlg/Array/Array.cpp.o
-
-.PHONY : linearAlg/Array/Array.o
-
-# target to build an object file
-linearAlg/Array/Array.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Array/Array.cpp.o
-.PHONY : linearAlg/Array/Array.cpp.o
-
-linearAlg/Array/Array.i: linearAlg/Array/Array.cpp.i
-
-.PHONY : linearAlg/Array/Array.i
-
-# target to preprocess a source file
-linearAlg/Array/Array.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Array/Array.cpp.i
-.PHONY : linearAlg/Array/Array.cpp.i
-
-linearAlg/Array/Array.s: linearAlg/Array/Array.cpp.s
-
-.PHONY : linearAlg/Array/Array.s
-
-# target to generate assembly for a file
-linearAlg/Array/Array.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Array/Array.cpp.s
-.PHONY : linearAlg/Array/Array.cpp.s
-
-linearAlg/Array/_MyVector.o: linearAlg/Array/_MyVector.cpp.o
-
-.PHONY : linearAlg/Array/_MyVector.o
-
-# target to build an object file
-linearAlg/Array/_MyVector.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.o
-.PHONY : linearAlg/Array/_MyVector.cpp.o
-
-linearAlg/Array/_MyVector.i: linearAlg/Array/_MyVector.cpp.i
-
-.PHONY : linearAlg/Array/_MyVector.i
-
-# target to preprocess a source file
-linearAlg/Array/_MyVector.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.i
-.PHONY : linearAlg/Array/_MyVector.cpp.i
-
-linearAlg/Array/_MyVector.s: linearAlg/Array/_MyVector.cpp.s
-
-.PHONY : linearAlg/Array/_MyVector.s
-
-# target to generate assembly for a file
-linearAlg/Array/_MyVector.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Array/_MyVector.cpp.s
-.PHONY : linearAlg/Array/_MyVector.cpp.s
-
-linearAlg/DataFrame/DataFrame.o: linearAlg/DataFrame/DataFrame.cpp.o
-
-.PHONY : linearAlg/DataFrame/DataFrame.o
-
-# target to build an object file
-linearAlg/DataFrame/DataFrame.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.o
-.PHONY : linearAlg/DataFrame/DataFrame.cpp.o
-
-linearAlg/DataFrame/DataFrame.i: linearAlg/DataFrame/DataFrame.cpp.i
-
-.PHONY : linearAlg/DataFrame/DataFrame.i
-
-# target to preprocess a source file
-linearAlg/DataFrame/DataFrame.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.i
-.PHONY : linearAlg/DataFrame/DataFrame.cpp.i
-
-linearAlg/DataFrame/DataFrame.s: linearAlg/DataFrame/DataFrame.cpp.s
-
-.PHONY : linearAlg/DataFrame/DataFrame.s
-
-# target to generate assembly for a file
-linearAlg/DataFrame/DataFrame.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/DataFrame/DataFrame.cpp.s
-.PHONY : linearAlg/DataFrame/DataFrame.cpp.s
-
-linearAlg/Matrix/Matrix.o: linearAlg/Matrix/Matrix.cpp.o
-
-.PHONY : linearAlg/Matrix/Matrix.o
-
-# target to build an object file
-linearAlg/Matrix/Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.o
-.PHONY : linearAlg/Matrix/Matrix.cpp.o
-
-linearAlg/Matrix/Matrix.i: linearAlg/Matrix/Matrix.cpp.i
-
-.PHONY : linearAlg/Matrix/Matrix.i
-
-# target to preprocess a source file
-linearAlg/Matrix/Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.i
-.PHONY : linearAlg/Matrix/Matrix.cpp.i
-
-linearAlg/Matrix/Matrix.s: linearAlg/Matrix/Matrix.cpp.s
-
-.PHONY : linearAlg/Matrix/Matrix.s
-
-# target to generate assembly for a file
-linearAlg/Matrix/Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Matrix.cpp.s
-.PHONY : linearAlg/Matrix/Matrix.cpp.s
-
-linearAlg/Matrix/Titles.o: linearAlg/Matrix/Titles.cpp.o
-
-.PHONY : linearAlg/Matrix/Titles.o
-
-# target to build an object file
-linearAlg/Matrix/Titles.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Titles.cpp.o
-.PHONY : linearAlg/Matrix/Titles.cpp.o
-
-linearAlg/Matrix/Titles.i: linearAlg/Matrix/Titles.cpp.i
-
-.PHONY : linearAlg/Matrix/Titles.i
-
-# target to preprocess a source file
-linearAlg/Matrix/Titles.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Titles.cpp.i
-.PHONY : linearAlg/Matrix/Titles.cpp.i
-
-linearAlg/Matrix/Titles.s: linearAlg/Matrix/Titles.cpp.s
-
-.PHONY : linearAlg/Matrix/Titles.s
-
-# target to generate assembly for a file
-linearAlg/Matrix/Titles.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Titles.cpp.s
-.PHONY : linearAlg/Matrix/Titles.cpp.s
-
-linearAlg/Matrix/Vector.o: linearAlg/Matrix/Vector.cpp.o
-
-.PHONY : linearAlg/Matrix/Vector.o
-
-# target to build an object file
-linearAlg/Matrix/Vector.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.o
-.PHONY : linearAlg/Matrix/Vector.cpp.o
-
-linearAlg/Matrix/Vector.i: linearAlg/Matrix/Vector.cpp.i
-
-.PHONY : linearAlg/Matrix/Vector.i
-
-# target to preprocess a source file
-linearAlg/Matrix/Vector.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.i
-.PHONY : linearAlg/Matrix/Vector.cpp.i
-
-linearAlg/Matrix/Vector.s: linearAlg/Matrix/Vector.cpp.s
-
-.PHONY : linearAlg/Matrix/Vector.s
-
-# target to generate assembly for a file
-linearAlg/Matrix/Vector.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/linearAlg/Matrix/Vector.cpp.s
-.PHONY : linearAlg/Matrix/Vector.cpp.s
+cgNode/vectorOp/dotNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectorOp/dotNode.cpp.s
+.PHONY : cgNode/vectorOp/dotNode.cpp.s
 
 main.o: main.cpp.o
 
@@ -1131,114 +510,45 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cppForest"
 	@echo "... edit_cache"
-	@echo "... Function/Function.o"
-	@echo "... Function/Function.i"
-	@echo "... Function/Function.s"
-	@echo "... Function/Functions/AffineFunction.o"
-	@echo "... Function/Functions/AffineFunction.i"
-	@echo "... Function/Functions/AffineFunction.s"
-	@echo "... Function/Variable/Range.o"
-	@echo "... Function/Variable/Range.i"
-	@echo "... Function/Variable/Range.s"
-	@echo "... Function/Variable/Variable.o"
-	@echo "... Function/Variable/Variable.i"
-	@echo "... Function/Variable/Variable.s"
-	@echo "... Function/Variable/var.o"
-	@echo "... Function/Variable/var.i"
-	@echo "... Function/Variable/var.s"
-	@echo "... Garbage_Bin.o"
-	@echo "... Garbage_Bin.i"
-	@echo "... Garbage_Bin.s"
-	@echo "... Solvers/Root/RootFinder.o"
-	@echo "... Solvers/Root/RootFinder.i"
-	@echo "... Solvers/Root/RootFinder.s"
-	@echo "... Solvers/Root/Single-Variable/BisectionFinder.o"
-	@echo "... Solvers/Root/Single-Variable/BisectionFinder.i"
-	@echo "... Solvers/Root/Single-Variable/BisectionFinder.s"
-	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.o"
-	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.i"
-	@echo "... Solvers/Root/Single-Variable/SingleVariableRootFinder.s"
-	@echo "... Solvers/SolverResult/SolverResult.o"
-	@echo "... Solvers/SolverResult/SolverResult.i"
-	@echo "... Solvers/SolverResult/SolverResult.s"
-	@echo "... Solvers/SolverSetting/SolverSetting.o"
-	@echo "... Solvers/SolverSetting/SolverSetting.i"
-	@echo "... Solvers/SolverSetting/SolverSetting.s"
-	@echo "... cg/cg.o"
-	@echo "... cg/cg.i"
-	@echo "... cg/cg.s"
-	@echo "... cg/dcg.o"
-	@echo "... cg/dcg.i"
-	@echo "... cg/dcg.s"
-	@echo "... cgNode/biopNodes/addNode.o"
-	@echo "... cgNode/biopNodes/addNode.i"
-	@echo "... cgNode/biopNodes/addNode.s"
-	@echo "... cgNode/biopNodes/divNode.o"
-	@echo "... cgNode/biopNodes/divNode.i"
-	@echo "... cgNode/biopNodes/divNode.s"
-	@echo "... cgNode/biopNodes/mulNode.o"
-	@echo "... cgNode/biopNodes/mulNode.i"
-	@echo "... cgNode/biopNodes/mulNode.s"
-	@echo "... cgNode/biopNodes/subNode.o"
-	@echo "... cgNode/biopNodes/subNode.i"
-	@echo "... cgNode/biopNodes/subNode.s"
+	@echo "... MyException/VectorException/dotExceptions/dotSizeException.o"
+	@echo "... MyException/VectorException/dotExceptions/dotSizeException.i"
+	@echo "... MyException/VectorException/dotExceptions/dotSizeException.s"
+	@echo "... MyException/VectorException/dotExceptions/dotTypeException.o"
+	@echo "... MyException/VectorException/dotExceptions/dotTypeException.i"
+	@echo "... MyException/VectorException/dotExceptions/dotTypeException.s"
+	@echo "... MyException/VectorException/nodeException.o"
+	@echo "... MyException/VectorException/nodeException.i"
+	@echo "... MyException/VectorException/nodeException.s"
 	@echo "... cgNode/cgNode.o"
 	@echo "... cgNode/cgNode.i"
 	@echo "... cgNode/cgNode.s"
-	@echo "... cgNode/leafNode/constNode.o"
-	@echo "... cgNode/leafNode/constNode.i"
-	@echo "... cgNode/leafNode/constNode.s"
-	@echo "... cgNode/leafNode/varNode.o"
-	@echo "... cgNode/leafNode/varNode.i"
-	@echo "... cgNode/leafNode/varNode.s"
-	@echo "... cgNode/linNodes/dotNode.o"
-	@echo "... cgNode/linNodes/dotNode.i"
-	@echo "... cgNode/linNodes/dotNode.s"
-	@echo "... cgNode/linNodes/vectorNode.o"
-	@echo "... cgNode/linNodes/vectorNode.i"
-	@echo "... cgNode/linNodes/vectorNode.s"
-	@echo "... cgNode/linNodes/vectorOpNode.o"
-	@echo "... cgNode/linNodes/vectorOpNode.i"
-	@echo "... cgNode/linNodes/vectorOpNode.s"
-	@echo "... cgNode/monopNodes/expNode.o"
-	@echo "... cgNode/monopNodes/expNode.i"
-	@echo "... cgNode/monopNodes/expNode.s"
-	@echo "... cgNode/monopNodes/lnNode.o"
-	@echo "... cgNode/monopNodes/lnNode.i"
-	@echo "... cgNode/monopNodes/lnNode.s"
-	@echo "... cgNode/monopNodes/monopNode.o"
-	@echo "... cgNode/monopNodes/monopNode.i"
-	@echo "... cgNode/monopNodes/monopNode.s"
-	@echo "... cgNode/monopNodes/powNode.o"
-	@echo "... cgNode/monopNodes/powNode.i"
-	@echo "... cgNode/monopNodes/powNode.s"
-	@echo "... cgNode/monopNodes/trigs/cosNode.o"
-	@echo "... cgNode/monopNodes/trigs/cosNode.i"
-	@echo "... cgNode/monopNodes/trigs/cosNode.s"
-	@echo "... cgNode/monopNodes/trigs/sinNode.o"
-	@echo "... cgNode/monopNodes/trigs/sinNode.i"
-	@echo "... cgNode/monopNodes/trigs/sinNode.s"
-	@echo "... cgNode/numericNode.o"
-	@echo "... cgNode/numericNode.i"
-	@echo "... cgNode/numericNode.s"
-	@echo "... linearAlg/Array/Array.o"
-	@echo "... linearAlg/Array/Array.i"
-	@echo "... linearAlg/Array/Array.s"
-	@echo "... linearAlg/Array/_MyVector.o"
-	@echo "... linearAlg/Array/_MyVector.i"
-	@echo "... linearAlg/Array/_MyVector.s"
-	@echo "... linearAlg/DataFrame/DataFrame.o"
-	@echo "... linearAlg/DataFrame/DataFrame.i"
-	@echo "... linearAlg/DataFrame/DataFrame.s"
-	@echo "... linearAlg/Matrix/Matrix.o"
-	@echo "... linearAlg/Matrix/Matrix.i"
-	@echo "... linearAlg/Matrix/Matrix.s"
-	@echo "... linearAlg/Matrix/Titles.o"
-	@echo "... linearAlg/Matrix/Titles.i"
-	@echo "... linearAlg/Matrix/Titles.s"
-	@echo "... linearAlg/Matrix/Vector.o"
-	@echo "... linearAlg/Matrix/Vector.i"
-	@echo "... linearAlg/Matrix/Vector.s"
+	@echo "... cgNode/multiop/sumNode.o"
+	@echo "... cgNode/multiop/sumNode.i"
+	@echo "... cgNode/multiop/sumNode.s"
+	@echo "... cgNode/singleNodes/number/constNode.o"
+	@echo "... cgNode/singleNodes/number/constNode.i"
+	@echo "... cgNode/singleNodes/number/constNode.s"
+	@echo "... cgNode/singleNodes/number/varNode.o"
+	@echo "... cgNode/singleNodes/number/varNode.i"
+	@echo "... cgNode/singleNodes/number/varNode.s"
+	@echo "... cgNode/singleNodes/op/lnNode.o"
+	@echo "... cgNode/singleNodes/op/lnNode.i"
+	@echo "... cgNode/singleNodes/op/lnNode.s"
+	@echo "... cgNode/singleNodes/op/powNode.o"
+	@echo "... cgNode/singleNodes/op/powNode.i"
+	@echo "... cgNode/singleNodes/op/powNode.s"
+	@echo "... cgNode/singleNodes/singleNode.o"
+	@echo "... cgNode/singleNodes/singleNode.i"
+	@echo "... cgNode/singleNodes/singleNode.s"
+	@echo "... cgNode/var.o"
+	@echo "... cgNode/var.i"
+	@echo "... cgNode/var.s"
+	@echo "... cgNode/vecNode.o"
+	@echo "... cgNode/vecNode.i"
+	@echo "... cgNode/vecNode.s"
+	@echo "... cgNode/vectorOp/dotNode.o"
+	@echo "... cgNode/vectorOp/dotNode.i"
+	@echo "... cgNode/vectorOp/dotNode.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

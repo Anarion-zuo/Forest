@@ -25,7 +25,7 @@ std::vector<cgNode *> &cgNode::get_childs() {
     return _childs;
 }
 
-cgNode *&cgNode::get_child(size_t index) {
+double cgNode::get_child(size_t index) {
     return _childs[index];
 }
 

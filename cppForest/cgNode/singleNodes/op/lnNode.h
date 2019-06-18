@@ -6,8 +6,16 @@
 #define CPPFOREST_LNNODE_H
 
 
-class lnNode {
+#include "../singleNode.h"
 
+class lnNode : public singleNode {
+public:
+    lnNode(cgNode* parent, cgNode* child);
+    cgNode* clone(cgNode* parent) override ;
+
+    void compute() override ;
+    void diff() override ;
+    void trim() override ;
 };
 
 

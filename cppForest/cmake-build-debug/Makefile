@@ -204,6 +204,33 @@ MyException/VectorException/nodeException.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.s
 .PHONY : MyException/VectorException/nodeException.cpp.s
 
+MyException/VectorException/singleException/singleException.o: MyException/VectorException/singleException/singleException.cpp.o
+
+.PHONY : MyException/VectorException/singleException/singleException.o
+
+# target to build an object file
+MyException/VectorException/singleException/singleException.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o
+.PHONY : MyException/VectorException/singleException/singleException.cpp.o
+
+MyException/VectorException/singleException/singleException.i: MyException/VectorException/singleException/singleException.cpp.i
+
+.PHONY : MyException/VectorException/singleException/singleException.i
+
+# target to preprocess a source file
+MyException/VectorException/singleException/singleException.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.i
+.PHONY : MyException/VectorException/singleException/singleException.cpp.i
+
+MyException/VectorException/singleException/singleException.s: MyException/VectorException/singleException/singleException.cpp.s
+
+.PHONY : MyException/VectorException/singleException/singleException.s
+
+# target to generate assembly for a file
+MyException/VectorException/singleException/singleException.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.s
+.PHONY : MyException/VectorException/singleException/singleException.cpp.s
+
 cgNode/cgNode.o: cgNode/cgNode.cpp.o
 
 .PHONY : cgNode/cgNode.o
@@ -519,6 +546,9 @@ help:
 	@echo "... MyException/VectorException/nodeException.o"
 	@echo "... MyException/VectorException/nodeException.i"
 	@echo "... MyException/VectorException/nodeException.s"
+	@echo "... MyException/VectorException/singleException/singleException.o"
+	@echo "... MyException/VectorException/singleException/singleException.i"
+	@echo "... MyException/VectorException/singleException/singleException.s"
 	@echo "... cgNode/cgNode.o"
 	@echo "... cgNode/cgNode.i"
 	@echo "... cgNode/cgNode.s"

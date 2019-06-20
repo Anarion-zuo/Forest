@@ -9,9 +9,14 @@
 #include "../vectorOp/dotNode.h"
 
 class sumNode : public dotNode {
+private:
+    static const std::string _name;
+
 public:
     sumNode(cgNode* parent, const std::vector<cgNode*>& childs);
     cgNode* clone(cgNode* parent) override ;
+
+
 };
 
 

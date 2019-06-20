@@ -6,6 +6,8 @@
 #include "../vecNode.h"
 #include "../singleNodes/number/constNode.h"
 
+static const std::string sumNode::_name("sum");
+
 sumNode::sumNode(cgNode *parent, const std::vector<cgNode *> &childs) : dotNode(parent, nullptr, nullptr) {
     auto left = new vecNode(this, childs);
     auto right = new vecNode(this, std::vector<cgNode*>(childs.size(), new constNode(nullptr, 1)));

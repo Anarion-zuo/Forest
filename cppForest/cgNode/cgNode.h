@@ -25,7 +25,7 @@ public:
     void set_parent(cgNode* node);
     void set_childs_parents();
     std::vector<cgNode*>& get_childs();
-    double get_child(size_t index);
+    cgNode* get_child(size_t index);
     cgNode* get_result();
     size_t index_parent();
     virtual double get_val();
@@ -40,7 +40,8 @@ public:
     virtual bool is_single_val();
 
     // output
-    virtual std::string&& to_string() = 0;
+    virtual std::string&& to_string();
+    virtual const std::string& string_name() = 0;
 };
 
 

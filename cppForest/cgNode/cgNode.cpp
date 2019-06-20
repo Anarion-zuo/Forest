@@ -25,7 +25,7 @@ std::vector<cgNode *> &cgNode::get_childs() {
     return _childs;
 }
 
-double cgNode::get_child(size_t index) {
+cgNode* cgNode::get_child(size_t index) {
     return _childs[index];
 }
 
@@ -48,6 +48,7 @@ size_t cgNode::index_parent() {
             return i;
         }
     }
+    return -1;
 }
 
 double cgNode::get_val() {
@@ -56,5 +57,15 @@ double cgNode::get_val() {
 
 void cgNode::set_val(double val) {
 
+}
+
+std::string &&cgNode::to_string() {
+    std::string res;
+    res += "<" + string_name() + ">\n\t";
+    for (auto i : _childs){
+        res += i->string_name();
+    }
+    res += "</" + string_name() + ">\n";
+    return std::move(res);
 }
 

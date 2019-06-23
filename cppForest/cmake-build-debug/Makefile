@@ -123,6 +123,33 @@ cppForest/fast:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/build
 .PHONY : cppForest/fast
 
+MyException/MatrixException/cnstFormatException/cnstFormatException.o: MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.o
+
+.PHONY : MyException/MatrixException/cnstFormatException/cnstFormatException.o
+
+# target to build an object file
+MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.o
+.PHONY : MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.o
+
+MyException/MatrixException/cnstFormatException/cnstFormatException.i: MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.i
+
+.PHONY : MyException/MatrixException/cnstFormatException/cnstFormatException.i
+
+# target to preprocess a source file
+MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.i
+.PHONY : MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.i
+
+MyException/MatrixException/cnstFormatException/cnstFormatException.s: MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.s
+
+.PHONY : MyException/MatrixException/cnstFormatException/cnstFormatException.s
+
+# target to generate assembly for a file
+MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.s
+.PHONY : MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.s
+
 MyException/VectorException/dotExceptions/dotSizeException.o: MyException/VectorException/dotExceptions/dotSizeException.cpp.o
 
 .PHONY : MyException/VectorException/dotExceptions/dotSizeException.o
@@ -393,6 +420,33 @@ cgNode/singleNodes/number/varNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/number/varNode.cpp.s
 .PHONY : cgNode/singleNodes/number/varNode.cpp.s
 
+cgNode/singleNodes/op/expNode.o: cgNode/singleNodes/op/expNode.cpp.o
+
+.PHONY : cgNode/singleNodes/op/expNode.o
+
+# target to build an object file
+cgNode/singleNodes/op/expNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/expNode.cpp.o
+.PHONY : cgNode/singleNodes/op/expNode.cpp.o
+
+cgNode/singleNodes/op/expNode.i: cgNode/singleNodes/op/expNode.cpp.i
+
+.PHONY : cgNode/singleNodes/op/expNode.i
+
+# target to preprocess a source file
+cgNode/singleNodes/op/expNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/expNode.cpp.i
+.PHONY : cgNode/singleNodes/op/expNode.cpp.i
+
+cgNode/singleNodes/op/expNode.s: cgNode/singleNodes/op/expNode.cpp.s
+
+.PHONY : cgNode/singleNodes/op/expNode.s
+
+# target to generate assembly for a file
+cgNode/singleNodes/op/expNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/expNode.cpp.s
+.PHONY : cgNode/singleNodes/op/expNode.cpp.s
+
 cgNode/singleNodes/op/lnNode.o: cgNode/singleNodes/op/lnNode.cpp.o
 
 .PHONY : cgNode/singleNodes/op/lnNode.o
@@ -501,33 +555,6 @@ cgNode/var.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/var.cpp.s
 .PHONY : cgNode/var.cpp.s
 
-cgNode/vecNode.o: cgNode/vecNode.cpp.o
-
-.PHONY : cgNode/vecNode.o
-
-# target to build an object file
-cgNode/vecNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vecNode.cpp.o
-.PHONY : cgNode/vecNode.cpp.o
-
-cgNode/vecNode.i: cgNode/vecNode.cpp.i
-
-.PHONY : cgNode/vecNode.i
-
-# target to preprocess a source file
-cgNode/vecNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vecNode.cpp.i
-.PHONY : cgNode/vecNode.cpp.i
-
-cgNode/vecNode.s: cgNode/vecNode.cpp.s
-
-.PHONY : cgNode/vecNode.s
-
-# target to generate assembly for a file
-cgNode/vecNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vecNode.cpp.s
-.PHONY : cgNode/vecNode.cpp.s
-
 cgNode/vectorOp/dotNode.o: cgNode/vectorOp/dotNode.cpp.o
 
 .PHONY : cgNode/vectorOp/dotNode.o
@@ -582,6 +609,60 @@ cgNode/vectorOp/nummulNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.s
 .PHONY : cgNode/vectorOp/nummulNode.cpp.s
 
+cgNode/vectors/matNode.o: cgNode/vectors/matNode.cpp.o
+
+.PHONY : cgNode/vectors/matNode.o
+
+# target to build an object file
+cgNode/vectors/matNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectors/matNode.cpp.o
+.PHONY : cgNode/vectors/matNode.cpp.o
+
+cgNode/vectors/matNode.i: cgNode/vectors/matNode.cpp.i
+
+.PHONY : cgNode/vectors/matNode.i
+
+# target to preprocess a source file
+cgNode/vectors/matNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectors/matNode.cpp.i
+.PHONY : cgNode/vectors/matNode.cpp.i
+
+cgNode/vectors/matNode.s: cgNode/vectors/matNode.cpp.s
+
+.PHONY : cgNode/vectors/matNode.s
+
+# target to generate assembly for a file
+cgNode/vectors/matNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectors/matNode.cpp.s
+.PHONY : cgNode/vectors/matNode.cpp.s
+
+cgNode/vectors/vecNode.o: cgNode/vectors/vecNode.cpp.o
+
+.PHONY : cgNode/vectors/vecNode.o
+
+# target to build an object file
+cgNode/vectors/vecNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectors/vecNode.cpp.o
+.PHONY : cgNode/vectors/vecNode.cpp.o
+
+cgNode/vectors/vecNode.i: cgNode/vectors/vecNode.cpp.i
+
+.PHONY : cgNode/vectors/vecNode.i
+
+# target to preprocess a source file
+cgNode/vectors/vecNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectors/vecNode.cpp.i
+.PHONY : cgNode/vectors/vecNode.cpp.i
+
+cgNode/vectors/vecNode.s: cgNode/vectors/vecNode.cpp.s
+
+.PHONY : cgNode/vectors/vecNode.s
+
+# target to generate assembly for a file
+cgNode/vectors/vecNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectors/vecNode.cpp.s
+.PHONY : cgNode/vectors/vecNode.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -618,6 +699,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cppForest"
 	@echo "... edit_cache"
+	@echo "... MyException/MatrixException/cnstFormatException/cnstFormatException.o"
+	@echo "... MyException/MatrixException/cnstFormatException/cnstFormatException.i"
+	@echo "... MyException/MatrixException/cnstFormatException/cnstFormatException.s"
 	@echo "... MyException/VectorException/dotExceptions/dotSizeException.o"
 	@echo "... MyException/VectorException/dotExceptions/dotSizeException.i"
 	@echo "... MyException/VectorException/dotExceptions/dotSizeException.s"
@@ -648,6 +732,9 @@ help:
 	@echo "... cgNode/singleNodes/number/varNode.o"
 	@echo "... cgNode/singleNodes/number/varNode.i"
 	@echo "... cgNode/singleNodes/number/varNode.s"
+	@echo "... cgNode/singleNodes/op/expNode.o"
+	@echo "... cgNode/singleNodes/op/expNode.i"
+	@echo "... cgNode/singleNodes/op/expNode.s"
 	@echo "... cgNode/singleNodes/op/lnNode.o"
 	@echo "... cgNode/singleNodes/op/lnNode.i"
 	@echo "... cgNode/singleNodes/op/lnNode.s"
@@ -660,15 +747,18 @@ help:
 	@echo "... cgNode/var.o"
 	@echo "... cgNode/var.i"
 	@echo "... cgNode/var.s"
-	@echo "... cgNode/vecNode.o"
-	@echo "... cgNode/vecNode.i"
-	@echo "... cgNode/vecNode.s"
 	@echo "... cgNode/vectorOp/dotNode.o"
 	@echo "... cgNode/vectorOp/dotNode.i"
 	@echo "... cgNode/vectorOp/dotNode.s"
 	@echo "... cgNode/vectorOp/nummulNode.o"
 	@echo "... cgNode/vectorOp/nummulNode.i"
 	@echo "... cgNode/vectorOp/nummulNode.s"
+	@echo "... cgNode/vectors/matNode.o"
+	@echo "... cgNode/vectors/matNode.i"
+	@echo "... cgNode/vectors/matNode.s"
+	@echo "... cgNode/vectors/vecNode.o"
+	@echo "... cgNode/vectors/vecNode.i"
+	@echo "... cgNode/vectors/vecNode.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

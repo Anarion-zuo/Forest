@@ -4,7 +4,7 @@
 
 #include "nummulNode.h"
 #include "../singleNodes/number/constNode.h"
-#include "../vecNode.h"
+#include "../vectors/vecNode.h"
 #include "../../MyException/VectorException/nummulException/nummulTypeException.h"
 
 nummulNode::nummulNode(cgNode *parent, cgNode *left, cgNode *right) : cgNode(parent, {left, right}), _left(_childs[0]), _right(_childs[1]) {}

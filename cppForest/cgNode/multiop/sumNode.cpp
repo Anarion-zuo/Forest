@@ -3,7 +3,7 @@
 //
 
 #include "sumNode.h"
-#include "../vecNode.h"
+#include "../vectors/vecNode.h"
 #include "../singleNodes/number/constNode.h"
 
 

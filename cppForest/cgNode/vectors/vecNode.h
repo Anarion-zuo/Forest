@@ -6,7 +6,7 @@
 #define CPPFOREST_VECNODE_H
 
 
-#include "cgNode.h"
+#include "../cgNode.h"
 
 class vecNode : public cgNode {
 public:

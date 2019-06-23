@@ -21,7 +21,7 @@ void vecNode::compute() {
     }
     for (size_t i = 0; i < number_child(); ++i){
         _childs[i]->compute();
-        _result->get_child(i) = _childs[i]->get_result();
+        _result->set_child(i, _childs[i]->get_result());
     }
 
 }

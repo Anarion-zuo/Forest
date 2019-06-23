@@ -3,6 +3,7 @@
 //
 
 #include "cgNode.h"
+#include "../MyException/VectorException/functionCallException/getnonconstValException.h"
 
 cgNode::cgNode(cgNode *parent, const std::vector<cgNode *> &childs) : _parent(parent), _childs(childs) {}
 
@@ -52,20 +53,28 @@ size_t cgNode::index_parent() {
 }
 
 double cgNode::get_val() {
-    return 0;
+    throw getnonconstValException(this);
 }
 
 void cgNode::set_val(double val) {
 
 }
 
-std::string &&cgNode::to_string() {
-    std::string res;
-    res += "<" + string_name() + ">\n\t";
-    for (auto i : _childs){
-        res += i->string_name();
-    }
-    res += "</" + string_name() + ">\n";
-    return std::move(res);
+//std::string &&cgNode::to_string() {
+//    std::string res;
+//    res += "<" + string_name() + ">\n\t";
+//    for (auto i : _childs){
+//        res += i->string_name();
+//    }
+//    res += "</" + string_name() + ">\n";
+//    return std::move(res);
+//}
+
+void cgNode::set_child(size_t index, cgNode *node) {
+    _childs[index] = node;
+}
+
+bool cgNode::is_const() {
+    return false;
 }
 

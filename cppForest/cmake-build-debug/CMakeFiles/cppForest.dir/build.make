@@ -252,6 +252,45 @@ CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleExcep
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/singleException/singleException.cpp -o CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.s
 
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o: ../cgNode/vectorOp/nummulNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/nummulNode.cpp
+
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/nummulNode.cpp > CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.i
+
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/nummulNode.cpp -o CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.s
+
+CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o: ../MyException/VectorException/nummulException/nummulTypeException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nummulException/nummulTypeException.cpp
+
+CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nummulException/nummulTypeException.cpp > CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.i
+
+CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nummulException/nummulTypeException.cpp -o CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.s
+
+CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o: ../MyException/VectorException/functionCallException/getnonconstValException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/functionCallException/getnonconstValException.cpp
+
+CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/functionCallException/getnonconstValException.cpp > CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.i
+
+CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/functionCallException/getnonconstValException.cpp -o CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.s
+
 # Object files for target cppForest
 cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/main.cpp.o" \
@@ -268,7 +307,10 @@ cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/cgNode/vecNode.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.o" \
-"CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o"
+"CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o" \
+"CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o" \
+"CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o" \
+"CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o"
 
 # External object files for target cppForest
 cppForest_EXTERNAL_OBJECTS =
@@ -288,9 +330,12 @@ cppForest: CMakeFiles/cppForest.dir/cgNode/vecNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o
+cppForest: CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o
+cppForest: CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o
+cppForest: CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o
 cppForest: CMakeFiles/cppForest.dir/build.make
 cppForest: CMakeFiles/cppForest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable cppForest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable cppForest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppForest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

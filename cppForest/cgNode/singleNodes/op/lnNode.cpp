@@ -5,13 +5,8 @@
 #include <tgmath.h>
 #include "lnNode.h"
 #include "../number/constNode.h"
-#include "../../../MyException/VectorException/singleException/singleException.h"
 
-lnNode::lnNode(cgNode *parent, cgNode *child) : singleNode(parent, child) {
-    if (child->number_child() != 1){
-        throw singleException(this);
-    }
-}
+lnNode::lnNode(cgNode *parent, cgNode *child) : singleNode(parent, child) {}
 
 cgNode *lnNode::clone(cgNode *parent) {
     auto child = _child->clone(nullptr);
@@ -23,4 +18,12 @@ cgNode *lnNode::clone(cgNode *parent) {
 void lnNode::compute() {
     _child->compute();
     _result = new constNode(this, log(_child->get_result()->get_val()));
+}
+
+void lnNode::diff() {
+
+}
+
+void lnNode::trim() {
+
 }

@@ -31,3 +31,7 @@ void constNode::diff() {
 void constNode::trim() {
 
 }
+
+bool constNode::is_const() {
+    return true;
+}

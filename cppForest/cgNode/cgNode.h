@@ -26,6 +26,7 @@ public:
     void set_childs_parents();
     std::vector<cgNode*>& get_childs();
     cgNode* get_child(size_t index);
+    void set_child(size_t index, cgNode* node);
     cgNode* get_result();
     size_t index_parent();
     virtual double get_val();
@@ -38,10 +39,11 @@ public:
 
     // check
     virtual bool is_single_val();
+    virtual bool is_const();
 
-    // output
-    virtual std::string&& to_string();
-    virtual const std::string& string_name() = 0;
+//    // output
+//    virtual std::string&& to_string();
+//    virtual const std::string& string_name() = 0;
 };
 
 

@@ -13,11 +13,31 @@ CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeExcept
 CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.o: ../linearAlg/Array/Array.h
 
+CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o: ../MyException/VectorException/functionCallException/getnonconstValException.cpp
+CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o: ../MyException/VectorException/functionCallException/getnonconstValException.h
+CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o: ../MyException/VectorException/nodeException.h
+CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o: ../linearAlg/Array/Array.h
+
 CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.o: ../MyException/VectorException/nodeException.cpp
 CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.o: ../linearAlg/Array/Array.h
 
+CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o: ../MyException/VectorException/nodeException.h
+CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o: ../MyException/VectorException/nummulException/nummulTypeException.cpp
+CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o: ../MyException/VectorException/nummulException/nummulTypeException.h
+CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o: ../linearAlg/Array/Array.h
+
+CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o: ../MyException/VectorException/nodeException.h
+CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o: ../MyException/VectorException/singleException/singleException.cpp
+CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o: ../MyException/VectorException/singleException/singleException.h
+CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o: ../linearAlg/Array/Array.h
+
+CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../MyException/VectorException/functionCallException/getnonconstValException.h
+CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../cgNode/cgNode.cpp
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../linearAlg/Array/Array.h
@@ -47,9 +67,22 @@ CMakeFiles/cppForest.dir/cgNode/singleNodes/number/varNode.cpp.o: ../cgNode/sing
 CMakeFiles/cppForest.dir/cgNode/singleNodes/number/varNode.cpp.o: ../cgNode/var.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/number/varNode.cpp.o: ../linearAlg/Array/Array.h
 
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.o: ../cgNode/singleNodes/number/constNode.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.o: ../cgNode/singleNodes/op/lnNode.cpp
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.o: ../cgNode/singleNodes/op/lnNode.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.o: ../cgNode/singleNodes/singleNode.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.o: ../linearAlg/Array/Array.h
 
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.o: ../cgNode/singleNodes/number/constNode.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.o: ../cgNode/singleNodes/op/powNode.cpp
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.o: ../cgNode/singleNodes/op/powNode.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.o: ../cgNode/singleNodes/singleNode.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.o: ../linearAlg/Array/Array.h
+
+CMakeFiles/cppForest.dir/cgNode/singleNodes/singleNode.cpp.o: ../MyException/VectorException/nodeException.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/singleNode.cpp.o: ../MyException/VectorException/singleException/singleException.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/singleNode.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/singleNode.cpp.o: ../cgNode/singleNodes/singleNode.cpp
 CMakeFiles/cppForest.dir/cgNode/singleNodes/singleNode.cpp.o: ../cgNode/singleNodes/singleNode.h
@@ -73,6 +106,16 @@ CMakeFiles/cppForest.dir/cgNode/vectorOp/dotNode.cpp.o: ../cgNode/vectorOp/dotNo
 CMakeFiles/cppForest.dir/cgNode/vectorOp/dotNode.cpp.o: ../cgNode/vectorOp/dotNode.h
 CMakeFiles/cppForest.dir/cgNode/vectorOp/dotNode.cpp.o: ../linearAlg/Array/Array.h
 
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o: ../MyException/VectorException/nodeException.h
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o: ../MyException/VectorException/nummulException/nummulTypeException.h
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o: ../cgNode/singleNodes/number/constNode.h
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o: ../cgNode/singleNodes/singleNode.h
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o: ../cgNode/vecNode.h
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o: ../cgNode/vectorOp/nummulNode.cpp
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o: ../cgNode/vectorOp/nummulNode.h
+CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o: ../linearAlg/Array/Array.h
+
 CMakeFiles/cppForest.dir/main.cpp.o: ../MyException/VectorException/dotExceptions/dotSizeException.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/cgNode.h
@@ -81,6 +124,7 @@ CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/singleNodes/number/constNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/singleNodes/singleNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/vecNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/vectorOp/dotNode.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/vectorOp/nummulNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../linearAlg/Array/Array.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../main.cpp
 

@@ -19,3 +19,11 @@ void powNode::compute() {
     _child->compute();
     _result = new constNode(this, pow(_child->get_result()->get_val(), _pow));
 }
+
+void powNode::diff() {
+
+}
+
+void powNode::trim() {
+
+}

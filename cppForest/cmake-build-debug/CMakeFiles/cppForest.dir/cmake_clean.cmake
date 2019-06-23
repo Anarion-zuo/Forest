@@ -14,6 +14,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.o"
   "CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.o"
   "CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o"
+  "CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o"
+  "CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o"
+  "CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o"
   "cppForest.pdb"
   "cppForest"
 )

@@ -24,14 +24,6 @@ vector
 ../linearAlg/Array/Array.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/sumNode.cpp
-sumNode.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/sumNode.h
-../vecNode.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vecNode.h
-../singleNodes/number/constNode.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/constNode.h
-
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/sumNode.h
 ../vectorOp/dotNode.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.h
@@ -54,9 +46,27 @@ cgNode.h
 ../../MyException/VectorException/dotExceptions/dotSizeException.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/dotSizeException.h
 
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/nummulNode.h
+../cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 vector
 -
 string
 -
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/main.cpp
+iostream
+-
+cgNode/vectorOp/dotNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.h
+cgNode/singleNodes/number/constNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/constNode.h
+cgNode/vecNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vecNode.h
+cgNode/multiop/sumNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/sumNode.h
+cgNode/vectorOp/nummulNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/nummulNode.h
 

@@ -14,7 +14,6 @@ protected:
     cgNode*& _left = _childs[0];
     cgNode*& _right = _childs[1];
 private:
-    static const std::string _name;
 public:
     dotNode(cgNode* parent, cgNode* left, cgNode* right) noexcept(false);
     virtual ~dotNode() = default;

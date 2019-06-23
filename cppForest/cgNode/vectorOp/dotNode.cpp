@@ -7,7 +7,6 @@
 #include "../../MyException/VectorException/dotExceptions/dotTypeException.h"
 #include "../singleNodes/number/constNode.h"
 
-const std::string dotNode::_name("dot");
 
 dotNode::dotNode(cgNode *parent, cgNode *left, cgNode *right) noexcept(false) : cgNode(parent, {left, right}) {
     if (left && right){

@@ -4,21 +4,24 @@
 
 #include "var.h"
 
-std::map<var *, var *> var::_temp_dvars;
+std::set<var*> var::_vars_set;
+std::map<var *, var *> var::_dvars_map;
 
-var::var(double n) : _val(n) {}
+var::var(double n) : _val(n) {
+    _vars_set.insert(this);
+}
 
 void var::push_dvars(var *v1, var *v2) {
-    _temp_dvars.insert(std::pair<var *, var *>(v1, v2));
+    _dvars_map.insert(std::pair<var *, var *>(v1, v2));
 }
 
 void var::clear_dvars() {
-    _temp_dvars.clear();
+    _dvars_map.clear();
 }
 
 var *var::get_dvar(var *v) {
-    auto it = _temp_dvars.find(v);
-    if (it == _temp_dvars.end()) {
+    auto it = _dvars_map.find(v);
+    if (it == _dvars_map.end()) {
         return nullptr;
     }
     return it->second;
@@ -31,7 +34,7 @@ var *var::register_this() {
 }
 
 const std::map<var *, var *> &var::get_map() {
-    return _temp_dvars;
+    return _dvars_map;
 }
 
 double var::get_val() {
@@ -48,4 +51,8 @@ var *var::diff() {
         p = register_this();
     }
     return p;
+}
+
+var::~var() {
+    _vars_set.erase(this);
 }

@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/dotSizeException.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.h
 ../../../cgNode/cgNode.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+../nodeException.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecTypeException.h
 ../nodeException.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h
 
@@ -24,10 +28,6 @@ vector
 ../linearAlg/Array/Array.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/sumNode.h
-../vectorOp/dotNode.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.h
-
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/constNode.h
 ../singleNode.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/singleNode.h
@@ -36,17 +36,39 @@ vector
 ../cgNode.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
 
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vecNode.h
-cgNode.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.cpp
+dotNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.h
+../../MyException/VectorException/dotExceptions/vecSizeException.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.h
+../../MyException/VectorException/dotExceptions/vecTypeException.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecTypeException.h
+../singleNodes/number/constNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/constNode.h
 
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.h
 ../cgNode.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
-../../MyException/VectorException/dotExceptions/dotSizeException.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/dotSizeException.h
+../../MyException/VectorException/dotExceptions/vecSizeException.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.h
 
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/nummulNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/vaddNode.cpp
+vaddNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/vaddNode.h
+../../MyException/VectorException/dotExceptions/vecSizeException.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.h
+../../MyException/VectorException/dotExceptions/vecTypeException.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecTypeException.h
+../singleNodes/number/constNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/constNode.h
+../vectors/vecNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/vecNode.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/vaddNode.h
+../cgNode.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/vecNode.h
 ../cgNode.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
 
@@ -55,18 +77,4 @@ vector
 -
 string
 -
-
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/main.cpp
-iostream
--
-cgNode/vectorOp/dotNode.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.h
-cgNode/singleNodes/number/constNode.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/constNode.h
-cgNode/vecNode.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vecNode.h
-cgNode/multiop/sumNode.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/sumNode.h
-cgNode/vectorOp/nummulNode.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/nummulNode.h
 

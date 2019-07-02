@@ -4,6 +4,7 @@
 #include "cgNode/vectors/vecNode.h"
 #include "cgNode/multiop/sumNode.h"
 #include "cgNode/vectorOp/nummulNode.h"
+#include "cgNode/vectorOp/vaddNode.h"
 
 using namespace std;
 
@@ -11,6 +12,8 @@ int main(){
     auto a1 = new constNode(nullptr, 3);
     auto a2 = new constNode(nullptr, 6);
     auto a3 = new constNode(nullptr, 88);
+    auto a = new vecNode(nullptr, {a1, a2, a3});
+    a->set_childs_parents();
     auto b = new sumNode(nullptr, {a1, a2, a3});
     b->set_childs_parents();
     auto c1 = new constNode(nullptr, 3);
@@ -18,7 +21,7 @@ int main(){
     auto c3 = new constNode(nullptr, 88);
     auto c = new vecNode(nullptr, {c1, c2, c3});
     c->set_childs_parents();
-    auto d = new nummulNode(nullptr, c, b);
+    auto d = new vaddNode(nullptr, c, a);
     d->compute();
 
     while(1);

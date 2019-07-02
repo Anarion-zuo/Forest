@@ -2,18 +2,18 @@
 // Created by anarion on 6/18/19.
 //
 
-#ifndef CPPFOREST_DOTSIZEEXCEPTION_H
-#define CPPFOREST_DOTSIZEEXCEPTION_H
+#ifndef CPPFOREST_VECSIZEEXCEPTION_H
+#define CPPFOREST_VECSIZEEXCEPTION_H
 
 
 #include "../../../cgNode/cgNode.h"
 #include "../nodeException.h"
 
-class dotSizeException : public nodeException {
+class vecSizeException : public nodeException {
 public:
-    explicit dotSizeException(cgNode* node);
+    explicit vecSizeException(cgNode* node);
     virtual const char *what() const _GLIBCXX_TXN_SAFE_DYN _GLIBCXX_USE_NOEXCEPT override ;
 };
 
 
-#endif //CPPFOREST_DOTSIZEEXCEPTION_H
+#endif //CPPFOREST_VECSIZEEXCEPTION_H

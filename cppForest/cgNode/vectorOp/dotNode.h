@@ -7,7 +7,7 @@
 
 
 #include "../cgNode.h"
-#include "../../MyException/VectorException/dotExceptions/dotSizeException.h"
+#include "../../MyException/VectorException/dotExceptions/vecSizeException.h"
 
 class dotNode : public cgNode {
 protected:

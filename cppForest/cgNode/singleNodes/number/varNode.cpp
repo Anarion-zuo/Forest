@@ -24,9 +24,7 @@ void varNode::set_val(double val) {
 }
 
 void varNode::diff() {
-
+    _var = _var->diff();
 }
 
-void varNode::trim() {
-
-}
+void varNode::trim() {}

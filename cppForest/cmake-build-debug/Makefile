@@ -123,6 +123,87 @@ cppForest/fast:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/build
 .PHONY : cppForest/fast
 
+MetaLang/DOMNode.o: MetaLang/DOMNode.cpp.o
+
+.PHONY : MetaLang/DOMNode.o
+
+# target to build an object file
+MetaLang/DOMNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o
+.PHONY : MetaLang/DOMNode.cpp.o
+
+MetaLang/DOMNode.i: MetaLang/DOMNode.cpp.i
+
+.PHONY : MetaLang/DOMNode.i
+
+# target to preprocess a source file
+MetaLang/DOMNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.i
+.PHONY : MetaLang/DOMNode.cpp.i
+
+MetaLang/DOMNode.s: MetaLang/DOMNode.cpp.s
+
+.PHONY : MetaLang/DOMNode.s
+
+# target to generate assembly for a file
+MetaLang/DOMNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.s
+.PHONY : MetaLang/DOMNode.cpp.s
+
+MetaLang/DOMTree.o: MetaLang/DOMTree.cpp.o
+
+.PHONY : MetaLang/DOMTree.o
+
+# target to build an object file
+MetaLang/DOMTree.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o
+.PHONY : MetaLang/DOMTree.cpp.o
+
+MetaLang/DOMTree.i: MetaLang/DOMTree.cpp.i
+
+.PHONY : MetaLang/DOMTree.i
+
+# target to preprocess a source file
+MetaLang/DOMTree.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.i
+.PHONY : MetaLang/DOMTree.cpp.i
+
+MetaLang/DOMTree.s: MetaLang/DOMTree.cpp.s
+
+.PHONY : MetaLang/DOMTree.s
+
+# target to generate assembly for a file
+MetaLang/DOMTree.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.s
+.PHONY : MetaLang/DOMTree.cpp.s
+
+MetaLang/MLParser.o: MetaLang/MLParser.cpp.o
+
+.PHONY : MetaLang/MLParser.o
+
+# target to build an object file
+MetaLang/MLParser.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o
+.PHONY : MetaLang/MLParser.cpp.o
+
+MetaLang/MLParser.i: MetaLang/MLParser.cpp.i
+
+.PHONY : MetaLang/MLParser.i
+
+# target to preprocess a source file
+MetaLang/MLParser.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.i
+.PHONY : MetaLang/MLParser.cpp.i
+
+MetaLang/MLParser.s: MetaLang/MLParser.cpp.s
+
+.PHONY : MetaLang/MLParser.s
+
+# target to generate assembly for a file
+MetaLang/MLParser.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.s
+.PHONY : MetaLang/MLParser.cpp.s
+
 MyException/MatrixException/cnstFormatException/cnstFormatException.o: MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.o
 
 .PHONY : MyException/MatrixException/cnstFormatException/cnstFormatException.o
@@ -150,59 +231,59 @@ MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.s
 .PHONY : MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.s
 
-MyException/VectorException/dotExceptions/dotSizeException.o: MyException/VectorException/dotExceptions/dotSizeException.cpp.o
+MyException/VectorException/dotExceptions/vecSizeException.o: MyException/VectorException/dotExceptions/vecSizeException.cpp.o
 
-.PHONY : MyException/VectorException/dotExceptions/dotSizeException.o
-
-# target to build an object file
-MyException/VectorException/dotExceptions/dotSizeException.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.o
-.PHONY : MyException/VectorException/dotExceptions/dotSizeException.cpp.o
-
-MyException/VectorException/dotExceptions/dotSizeException.i: MyException/VectorException/dotExceptions/dotSizeException.cpp.i
-
-.PHONY : MyException/VectorException/dotExceptions/dotSizeException.i
-
-# target to preprocess a source file
-MyException/VectorException/dotExceptions/dotSizeException.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.i
-.PHONY : MyException/VectorException/dotExceptions/dotSizeException.cpp.i
-
-MyException/VectorException/dotExceptions/dotSizeException.s: MyException/VectorException/dotExceptions/dotSizeException.cpp.s
-
-.PHONY : MyException/VectorException/dotExceptions/dotSizeException.s
-
-# target to generate assembly for a file
-MyException/VectorException/dotExceptions/dotSizeException.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.s
-.PHONY : MyException/VectorException/dotExceptions/dotSizeException.cpp.s
-
-MyException/VectorException/dotExceptions/dotTypeException.o: MyException/VectorException/dotExceptions/dotTypeException.cpp.o
-
-.PHONY : MyException/VectorException/dotExceptions/dotTypeException.o
+.PHONY : MyException/VectorException/dotExceptions/vecSizeException.o
 
 # target to build an object file
-MyException/VectorException/dotExceptions/dotTypeException.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.o
-.PHONY : MyException/VectorException/dotExceptions/dotTypeException.cpp.o
+MyException/VectorException/dotExceptions/vecSizeException.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o
+.PHONY : MyException/VectorException/dotExceptions/vecSizeException.cpp.o
 
-MyException/VectorException/dotExceptions/dotTypeException.i: MyException/VectorException/dotExceptions/dotTypeException.cpp.i
+MyException/VectorException/dotExceptions/vecSizeException.i: MyException/VectorException/dotExceptions/vecSizeException.cpp.i
 
-.PHONY : MyException/VectorException/dotExceptions/dotTypeException.i
+.PHONY : MyException/VectorException/dotExceptions/vecSizeException.i
 
 # target to preprocess a source file
-MyException/VectorException/dotExceptions/dotTypeException.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.i
-.PHONY : MyException/VectorException/dotExceptions/dotTypeException.cpp.i
+MyException/VectorException/dotExceptions/vecSizeException.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.i
+.PHONY : MyException/VectorException/dotExceptions/vecSizeException.cpp.i
 
-MyException/VectorException/dotExceptions/dotTypeException.s: MyException/VectorException/dotExceptions/dotTypeException.cpp.s
+MyException/VectorException/dotExceptions/vecSizeException.s: MyException/VectorException/dotExceptions/vecSizeException.cpp.s
 
-.PHONY : MyException/VectorException/dotExceptions/dotTypeException.s
+.PHONY : MyException/VectorException/dotExceptions/vecSizeException.s
 
 # target to generate assembly for a file
-MyException/VectorException/dotExceptions/dotTypeException.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.s
-.PHONY : MyException/VectorException/dotExceptions/dotTypeException.cpp.s
+MyException/VectorException/dotExceptions/vecSizeException.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.s
+.PHONY : MyException/VectorException/dotExceptions/vecSizeException.cpp.s
+
+MyException/VectorException/dotExceptions/vecTypeException.o: MyException/VectorException/dotExceptions/vecTypeException.cpp.o
+
+.PHONY : MyException/VectorException/dotExceptions/vecTypeException.o
+
+# target to build an object file
+MyException/VectorException/dotExceptions/vecTypeException.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.o
+.PHONY : MyException/VectorException/dotExceptions/vecTypeException.cpp.o
+
+MyException/VectorException/dotExceptions/vecTypeException.i: MyException/VectorException/dotExceptions/vecTypeException.cpp.i
+
+.PHONY : MyException/VectorException/dotExceptions/vecTypeException.i
+
+# target to preprocess a source file
+MyException/VectorException/dotExceptions/vecTypeException.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.i
+.PHONY : MyException/VectorException/dotExceptions/vecTypeException.cpp.i
+
+MyException/VectorException/dotExceptions/vecTypeException.s: MyException/VectorException/dotExceptions/vecTypeException.cpp.s
+
+.PHONY : MyException/VectorException/dotExceptions/vecTypeException.s
+
+# target to generate assembly for a file
+MyException/VectorException/dotExceptions/vecTypeException.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.s
+.PHONY : MyException/VectorException/dotExceptions/vecTypeException.cpp.s
 
 MyException/VectorException/functionCallException/getnonconstValException.o: MyException/VectorException/functionCallException/getnonconstValException.cpp.o
 
@@ -609,6 +690,33 @@ cgNode/vectorOp/nummulNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.s
 .PHONY : cgNode/vectorOp/nummulNode.cpp.s
 
+cgNode/vectorOp/vaddNode.o: cgNode/vectorOp/vaddNode.cpp.o
+
+.PHONY : cgNode/vectorOp/vaddNode.o
+
+# target to build an object file
+cgNode/vectorOp/vaddNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.o
+.PHONY : cgNode/vectorOp/vaddNode.cpp.o
+
+cgNode/vectorOp/vaddNode.i: cgNode/vectorOp/vaddNode.cpp.i
+
+.PHONY : cgNode/vectorOp/vaddNode.i
+
+# target to preprocess a source file
+cgNode/vectorOp/vaddNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.i
+.PHONY : cgNode/vectorOp/vaddNode.cpp.i
+
+cgNode/vectorOp/vaddNode.s: cgNode/vectorOp/vaddNode.cpp.s
+
+.PHONY : cgNode/vectorOp/vaddNode.s
+
+# target to generate assembly for a file
+cgNode/vectorOp/vaddNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.s
+.PHONY : cgNode/vectorOp/vaddNode.cpp.s
+
 cgNode/vectors/matNode.o: cgNode/vectors/matNode.cpp.o
 
 .PHONY : cgNode/vectors/matNode.o
@@ -699,15 +807,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cppForest"
 	@echo "... edit_cache"
+	@echo "... MetaLang/DOMNode.o"
+	@echo "... MetaLang/DOMNode.i"
+	@echo "... MetaLang/DOMNode.s"
+	@echo "... MetaLang/DOMTree.o"
+	@echo "... MetaLang/DOMTree.i"
+	@echo "... MetaLang/DOMTree.s"
+	@echo "... MetaLang/MLParser.o"
+	@echo "... MetaLang/MLParser.i"
+	@echo "... MetaLang/MLParser.s"
 	@echo "... MyException/MatrixException/cnstFormatException/cnstFormatException.o"
 	@echo "... MyException/MatrixException/cnstFormatException/cnstFormatException.i"
 	@echo "... MyException/MatrixException/cnstFormatException/cnstFormatException.s"
-	@echo "... MyException/VectorException/dotExceptions/dotSizeException.o"
-	@echo "... MyException/VectorException/dotExceptions/dotSizeException.i"
-	@echo "... MyException/VectorException/dotExceptions/dotSizeException.s"
-	@echo "... MyException/VectorException/dotExceptions/dotTypeException.o"
-	@echo "... MyException/VectorException/dotExceptions/dotTypeException.i"
-	@echo "... MyException/VectorException/dotExceptions/dotTypeException.s"
+	@echo "... MyException/VectorException/dotExceptions/vecSizeException.o"
+	@echo "... MyException/VectorException/dotExceptions/vecSizeException.i"
+	@echo "... MyException/VectorException/dotExceptions/vecSizeException.s"
+	@echo "... MyException/VectorException/dotExceptions/vecTypeException.o"
+	@echo "... MyException/VectorException/dotExceptions/vecTypeException.i"
+	@echo "... MyException/VectorException/dotExceptions/vecTypeException.s"
 	@echo "... MyException/VectorException/functionCallException/getnonconstValException.o"
 	@echo "... MyException/VectorException/functionCallException/getnonconstValException.i"
 	@echo "... MyException/VectorException/functionCallException/getnonconstValException.s"
@@ -753,6 +870,9 @@ help:
 	@echo "... cgNode/vectorOp/nummulNode.o"
 	@echo "... cgNode/vectorOp/nummulNode.i"
 	@echo "... cgNode/vectorOp/nummulNode.s"
+	@echo "... cgNode/vectorOp/vaddNode.o"
+	@echo "... cgNode/vectorOp/vaddNode.i"
+	@echo "... cgNode/vectorOp/vaddNode.s"
 	@echo "... cgNode/vectors/matNode.o"
 	@echo "... cgNode/vectors/matNode.i"
 	@echo "... cgNode/vectors/matNode.s"

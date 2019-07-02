@@ -6,16 +6,19 @@
 #define CPPFOREST_VAR_H
 
 #include <map>
+#include <set>
 
 class var {
 private:
     double _val;
-    static std::map<var*, var*> _temp_dvars;
+    static std::set<var*> _vars_set;
+    static std::map<var*, var*> _dvars_map;
+    static void clear_dvars();
 public:
-    var(double n);
+    explicit var(double n);
+    virtual ~var();
 
     static void push_dvars(var* v1, var* v2);
-    static void clear_dvars();
     static var* get_dvar(var* v);
     static const std::map<var*, var*>& get_map();
     var* register_this();
@@ -24,7 +27,6 @@ public:
     double get_val();
 
     var* diff();
-
 };
 
 

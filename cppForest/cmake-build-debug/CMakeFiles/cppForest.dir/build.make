@@ -135,31 +135,31 @@ CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.cpp -o CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.s
 
-CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.o: CMakeFiles/cppForest.dir/flags.make
-CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.o: ../MyException/VectorException/dotExceptions/dotSizeException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/dotSizeException.cpp
+CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.cpp
 
-CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/dotSizeException.cpp > CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.i
+CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.cpp > CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.i
 
-CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/dotSizeException.cpp -o CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.s
+CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.cpp -o CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.s
 
-CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.o: CMakeFiles/cppForest.dir/flags.make
-CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.o: ../MyException/VectorException/dotExceptions/dotTypeException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/dotTypeException.cpp
+CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.o: ../MyException/VectorException/dotExceptions/vecTypeException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecTypeException.cpp
 
-CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/dotTypeException.cpp > CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.i
+CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecTypeException.cpp > CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.i
 
-CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/dotTypeException.cpp -o CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.s
+CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecTypeException.cpp -o CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.s
 
 CMakeFiles/cppForest.dir/cgNode/singleNodes/number/constNode.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/cgNode/singleNodes/number/constNode.cpp.o: ../cgNode/singleNodes/number/constNode.cpp
@@ -330,6 +330,58 @@ CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFor
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp -o CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.s
 
+CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o: ../MetaLang/MLParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/MLParser.cpp
+
+CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/MLParser.cpp > CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.i
+
+CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/MLParser.cpp -o CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.s
+
+CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o: ../MetaLang/DOMTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMTree.cpp
+
+CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMTree.cpp > CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.i
+
+CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMTree.cpp -o CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.s
+
+CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o: ../MetaLang/DOMNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMNode.cpp
+
+CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMNode.cpp > CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.i
+
+CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMNode.cpp -o CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.s
+
+CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.o: ../cgNode/vectorOp/vaddNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/vaddNode.cpp
+
+CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/vaddNode.cpp > CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.i
+
+CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/vaddNode.cpp -o CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.s
+
 # Object files for target cppForest
 cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/main.cpp.o" \
@@ -338,8 +390,8 @@ cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/vectorOp/dotNode.cpp.o" \
 "CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.o" \
-"CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.o" \
-"CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.o" \
+"CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o" \
+"CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/singleNodes/number/constNode.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/singleNodes/number/varNode.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/var.cpp.o" \
@@ -352,7 +404,11 @@ cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/singleNodes/op/expNode.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/vectors/matNode.cpp.o" \
-"CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.o"
+"CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.o" \
+"CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o" \
+"CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o" \
+"CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o" \
+"CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.o"
 
 # External object files for target cppForest
 cppForest_EXTERNAL_OBJECTS =
@@ -363,8 +419,8 @@ cppForest: CMakeFiles/cppForest.dir/cgNode/singleNodes/singleNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/vectorOp/dotNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.o
-cppForest: CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotSizeException.cpp.o
-cppForest: CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/dotTypeException.cpp.o
+cppForest: CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o
+cppForest: CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecTypeException.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/singleNodes/number/constNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/singleNodes/number/varNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/var.cpp.o
@@ -378,9 +434,13 @@ cppForest: CMakeFiles/cppForest.dir/MyException/VectorException/functionCallExce
 cppForest: CMakeFiles/cppForest.dir/cgNode/singleNodes/op/expNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/vectors/matNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.o
+cppForest: CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o
+cppForest: CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o
+cppForest: CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o
+cppForest: CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/build.make
 cppForest: CMakeFiles/cppForest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable cppForest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable cppForest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppForest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

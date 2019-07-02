@@ -1,15 +1,14 @@
 //
-// Created by anarion on 6/18/19.
+// Created by anarion on 7/2/19.
 //
 
-#include "dotNode.h"
+#include "vaddNode.h"
 #include "../../MyException/VectorException/dotExceptions/vecSizeException.h"
 #include "../../MyException/VectorException/dotExceptions/vecTypeException.h"
 #include "../singleNodes/number/constNode.h"
-#include "vaddNode.h"
+#include "../vectors/vecNode.h"
 
-
-dotNode::dotNode(cgNode *parent, cgNode *left, cgNode *right) noexcept(false) : cgNode(parent, {left, right}) {
+vaddNode::vaddNode(cgNode *parent, cgNode *left, cgNode *right) noexcept(false): cgNode(parent, {left, right}) {
     if (left && right){
         if (left->number_child() != right->number_child()){
             throw vecSizeException(this);
@@ -18,17 +17,17 @@ dotNode::dotNode(cgNode *parent, cgNode *left, cgNode *right) noexcept(false) : 
 
 }
 
-cgNode *dotNode::clone(cgNode *parent) {
+cgNode *vaddNode::clone(cgNode *parent) {
     std::vector<cgNode*> vec(_childs);
     for (auto & i : vec){
         i = i->clone(nullptr);
     }
-    auto p =  new dotNode(parent, vec[0], vec[1]);
+    auto p =  new vaddNode(parent, vec[0], vec[1]);
     p->set_childs_parents();
     return p;
 }
 
-void dotNode::compute() {
+void vaddNode::compute() {
     _left->compute();
     _right->compute();
     for (auto &i : _left->get_childs()){
@@ -42,33 +41,30 @@ void dotNode::compute() {
         }
     }
 
-    double res = 0;
+    std::vector<cgNode*> res(_left->number_child(), nullptr);
     for (size_t i = 0; i < _left->number_child(); ++i){
-        res += _left->get_result()->get_child(i)->get_val() * _right->get_result()->get_child(i)->get_val();
+        res[i] = new constNode(nullptr, _left->get_result()->get_child(i)->get_val() + _right->get_result()->get_child(i)->get_val());
     }
 
     if (!_result){
-        _result = new constNode(_parent, res);
+        _result = new vecNode(_parent, res);
         return;
     }
-    _result->set_val(res);
+    _result->get_childs() = res;
+}
+
+void vaddNode::diff() {
 
 }
 
-size_t dotNode::get_num_left() {
-    return _childs[0]->number_child();
+void vaddNode::trim() {
+
 }
 
-size_t dotNode::get_num_right() {
-    return _childs[1]->number_child();
+size_t vaddNode::get_num_left() {
+    return 0;
 }
 
-void dotNode::diff() {
-    auto left = this;
-    auto right = clone(nullptr);
-    auto res = new vaddNode()
-}
-
-void dotNode::trim() {
-
+size_t vaddNode::get_num_right() {
+    return 0;
 }

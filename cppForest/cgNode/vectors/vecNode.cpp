@@ -27,7 +27,9 @@ void vecNode::compute() {
 }
 
 void vecNode::diff() {
-
+    for (auto &child : _childs) {
+        child->diff();
+    }
 }
 
 void vecNode::trim() {

@@ -25,7 +25,7 @@ void constNode::set_val(double val) {
 }
 
 void constNode::diff() {
-
+    _val = 0;
 }
 
 void constNode::trim() {

@@ -22,8 +22,8 @@ public:
     void diff() override ;
     void trim() override ;
 
-    size_t get_num_left();
-    size_t get_num_right();
+    cgNode* get_left();
+    cgNode* get_right();
 };
 
 

@@ -32,12 +32,12 @@ void vaddNode::compute() {
     _right->compute();
     for (auto &i : _left->get_childs()){
         if (!i->get_result()->is_single_val()){
-            throw vecTypeException(_left, _left->index_parent());
+            throw vecTypeException(_left, _left->find_in_parent());
         }
     }
     for (auto &i : _right->get_childs()){
         if (!i->get_result()->is_single_val()){
-            throw vecTypeException(_right, _right->index_parent());
+            throw vecTypeException(_right, _right->find_in_parent());
         }
     }
 
@@ -54,17 +54,19 @@ void vaddNode::compute() {
 }
 
 void vaddNode::diff() {
-
+    _left->diff();
+    _right->diff();
 }
 
 void vaddNode::trim() {
 
 }
 
-size_t vaddNode::get_num_left() {
-    return 0;
+cgNode *vaddNode::get_left() {
+    return _left;
 }
 
-size_t vaddNode::get_num_right() {
-    return 0;
+cgNode *vaddNode::get_right() {
+    return _right;
 }
+

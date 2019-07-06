@@ -7,16 +7,30 @@
 
 
 #include <vector>
+#include <deque>
 #include "../linearAlg/Array/Array.h"
 
 class cgNode {
+    friend class cg;
 protected:
     std::vector<cgNode*> _childs;
     cgNode* _parent;
     cgNode* _result = nullptr;
+
+    // dust bin
+    static std::deque<cgNode*> _node_bin;
+    static void _throw_away(cgNode* node);
+    static void _clear_bin();
+    static void _retrieve_bin();
+
+    // del options
+    static void _del_as_node(cgNode*& node);
+    static void _del_as_root(cgNode*& node);
+    static void _del_as_root_recur(cgNode*& node);
+
 public:
     cgNode(cgNode* parent, const std::vector<cgNode*>& childs);
-    virtual ~cgNode()= default;
+    virtual ~cgNode() = default;
     virtual cgNode* clone(cgNode* parent) = 0;
 
     // structure
@@ -28,9 +42,11 @@ public:
     cgNode* get_child(size_t index);
     void set_child(size_t index, cgNode* node);
     cgNode* get_result();
-    size_t index_parent();
+    size_t find_in_parent();
     virtual double get_val();
     virtual void set_val(double val);
+
+    static void change_to(cgNode* oldnode, cgNode* newnode);
 
     // calculation
     virtual void compute() = 0;

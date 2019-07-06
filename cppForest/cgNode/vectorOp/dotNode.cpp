@@ -33,12 +33,12 @@ void dotNode::compute() {
     _right->compute();
     for (auto &i : _left->get_childs()){
         if (!i->get_result()->is_single_val()){
-            throw vecTypeException(_left, _left->index_parent());
+            throw vecTypeException(_left, _left->find_in_parent());
         }
     }
     for (auto &i : _right->get_childs()){
         if (!i->get_result()->is_single_val()){
-            throw vecTypeException(_right, _right->index_parent());
+            throw vecTypeException(_right, _right->find_in_parent());
         }
     }
 
@@ -66,7 +66,11 @@ size_t dotNode::get_num_right() {
 void dotNode::diff() {
     auto left = this;
     auto right = clone(nullptr);
-    auto res = new vaddNode()
+    auto ret = new vaddNode(nullptr, left, right);
+    ret->set_childs_parents();
+    left->_left->diff();
+    right->get_child(1)->diff();
+    change_to(this, ret);
 }
 
 void dotNode::trim() {

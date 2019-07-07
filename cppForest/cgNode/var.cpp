@@ -56,3 +56,13 @@ var *var::diff() {
 var::~var() {
     _vars_set.erase(this);
 }
+
+std::map<var*,var*>::iterator var::set_dvar(var *v) {
+    auto it = _dvars_map.find(v);
+    it->second->set_val(1);
+    return it;
+}
+
+void var::clear_dvar(const std::map<var*,var*>::iterator& it) {
+    it->second->set_val(0);
+}

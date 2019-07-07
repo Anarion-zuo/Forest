@@ -5,13 +5,18 @@
 #ifndef CPPFOREST_DCG_H
 #define CPPFOREST_DCG_H
 
-
+#include "../cgNode/var.h"
 #include "cg.h"
 
 class cg;
 class dcg : public cg {
 public:
-    dcg(cgNode* root);
+    explicit dcg(cgNode* root);
+    explicit dcg(cg* graph);
+    ~dcg() = default;
+    cg* clone() override ;
+
+    void compute(var* x);
 };
 
 

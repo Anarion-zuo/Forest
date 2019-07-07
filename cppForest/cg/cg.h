@@ -6,20 +6,18 @@
 #define CPPFOREST_CG_H
 
 #include "../cgNode/cgNode.h"
-#include "dcg.h"
 
-class dcg;
 class cg {
 protected:
     cgNode* _root;
 public:
     explicit cg(cgNode* root);
+    explicit cg(cg* graph);
     virtual ~cg();
-    cg* clone();
+    virtual cg* clone();
 
     void compute();
     cgNode* get_result();
-    dcg* diff();
 };
 
 

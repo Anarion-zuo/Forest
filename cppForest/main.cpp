@@ -8,6 +8,8 @@
 #include "cgNode/var.h"
 #include "cgNode/singleNodes/number/varNode.h"
 #include "cgNode/rootNode.h"
+#include "cg/cg.h"
+#include "cg/dcg.h"
 
 using namespace std;
 
@@ -19,10 +21,10 @@ int main(){
     auto v2 = new vecNode(nullptr, {new varNode(nullptr, y), new varNode(nullptr, y)});
 
     auto c = new dotNode(nullptr, v1, v2);
-    auto d = new rootNode(c);
-    d->set_childs_parents();
-    d->compute();
-    d->diff();
-    d->compute();
-//    while(1);
+    cg* g = new cg(c);
+
+    auto dg = new dcg(g);
+    dg->compute(x);
+
+    while(1);
 }

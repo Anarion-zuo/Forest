@@ -7,8 +7,8 @@
 rootNode::rootNode(cgNode *child) : cgNode(nullptr, {child}), _child(_childs[0]) {}
 
 cgNode *rootNode::clone(cgNode *parent) {
-    _child = _child->clone(this);
-    return this;
+    auto node = _child->clone(this);
+    return new rootNode(node);
 }
 
 void rootNode::compute() {

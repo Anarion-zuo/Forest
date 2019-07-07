@@ -14,6 +14,7 @@ private:
     static std::set<var*> _vars_set;
     static std::map<var*, var*> _dvars_map;
     static void clear_dvars();
+
 public:
     explicit var(double n);
     virtual ~var();
@@ -27,6 +28,9 @@ public:
     double get_val();
 
     var* diff();
+
+    static std::map<var*,var*>::iterator set_dvar(var* v);
+    static void clear_dvar(const std::map<var*,var*>::iterator& it);
 };
 
 

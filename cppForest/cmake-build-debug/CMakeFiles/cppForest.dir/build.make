@@ -395,22 +395,9 @@ CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nullException.cpp -o CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.s
 
-CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: CMakeFiles/cppForest.dir/flags.make
-CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../cgNode/multiop/prodNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/prodNode.cpp
-
-CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/prodNode.cpp > CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.i
-
-CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/prodNode.cpp -o CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.s
-
 CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o: ../cgNode/multiop/mulNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/mulNode.cpp
 
 CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.i: cmake_force
@@ -420,6 +407,19 @@ CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.i: cmake_force
 CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/mulNode.cpp -o CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.s
+
+CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.o: ../cgNode/rootNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.cpp
+
+CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.cpp > CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.i
+
+CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.cpp -o CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.s
 
 # Object files for target cppForest
 cppForest_OBJECTS = \
@@ -449,8 +449,8 @@ cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.o" \
 "CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.o" \
-"CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o" \
-"CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o"
+"CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o" \
+"CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.o"
 
 # External object files for target cppForest
 cppForest_EXTERNAL_OBJECTS =
@@ -481,8 +481,8 @@ cppForest: CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o
 cppForest: CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/vectorOp/vaddNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.o
-cppForest: CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o
+cppForest: CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/build.make
 cppForest: CMakeFiles/cppForest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable cppForest"

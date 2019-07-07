@@ -11,11 +11,11 @@
 class vecNode : public cgNode {
 public:
     vecNode(cgNode* parent, const std::vector<cgNode*>& childs);
-    cgNode* clone(cgNode* parent) override ;
+    virtual cgNode* clone(cgNode* parent) override ;
 
-    void compute() override ;
-    void diff() override ;
-    void trim() override ;
+    virtual void compute() override ;
+    virtual void diff() override ;
+    virtual void trim() override ;
 };
 
 

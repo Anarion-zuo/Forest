@@ -15,6 +15,7 @@ public:
     sumNode(cgNode* parent, const std::vector<cgNode*>& childs);
     cgNode* clone(cgNode* parent) override ;
 
+    void diff() override ;
 
 };
 

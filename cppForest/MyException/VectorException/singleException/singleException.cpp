@@ -7,5 +7,5 @@
 singleException::singleException(cgNode *node) : nodeException(node) {}
 
 const char *singleException::what() const _GLIBCXX_USE_NOEXCEPT {
-    return "Expect a vector node with a single component.";
+    return "The attribute _result should be a single value, not a multi-dimensional vector.";
 }

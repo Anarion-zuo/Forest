@@ -5,6 +5,7 @@
 #include <tgmath.h>
 #include "powNode.h"
 #include "../number/constNode.h"
+#include "../../multiop/mulNode.h"
 
 powNode::powNode(cgNode *parent, cgNode *child, double pow) : singleNode(parent, child), _pow(pow) {}
 
@@ -21,7 +22,12 @@ void powNode::compute() {
 }
 
 void powNode::diff() {
-
+    auto left = new constNode(nullptr, _pow);
+    auto right = new powNode(nullptr, _child, _pow - 1);
+    right->set_childs_parents();
+    auto ret = new mulNode(nullptr, left, right);
+    ret->set_childs_parents();
+    change_to(this, ret);
 }
 
 void powNode::trim() {

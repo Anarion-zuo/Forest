@@ -6,7 +6,13 @@
 #include "../MyException/VectorException/functionCallException/getnonconstValException.h"
 #include "../MyException/VectorException/nullException.h"
 
-cgNode::cgNode(cgNode *parent, const std::vector<cgNode *> &childs) : _parent(parent), _childs(childs) {}
+std::deque<cgNode*> cgNode::_node_bin;
+
+cgNode::cgNode(cgNode *parent, const std::vector<cgNode *> &childs) : _parent(parent), _childs(childs) {
+//    for (auto i : _childs){
+//        i->set_parent(this);
+//    }
+}
 
 
 void cgNode::set_childs_parents() {
@@ -142,5 +148,9 @@ void cgNode::_retrieve_bin() {
     while (!_node_bin.empty()){
         _node_bin.pop_back();
     }
+}
+
+cgNode::~cgNode() {
+    delete _result;
 }
 

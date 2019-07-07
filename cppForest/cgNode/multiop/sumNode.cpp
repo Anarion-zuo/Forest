@@ -24,3 +24,9 @@ cgNode *sumNode::clone(cgNode* parent) {
     p->set_childs_parents();
     return p;
 }
+
+void sumNode::diff() {
+    for (auto &child : _childs) {
+        child->diff();
+    }
+}

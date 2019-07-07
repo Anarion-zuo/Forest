@@ -5,6 +5,8 @@
 #include <tgmath.h>
 #include "lnNode.h"
 #include "../number/constNode.h"
+#include "../../multiop/mulNode.h"
+#include "powNode.h"
 
 lnNode::lnNode(cgNode *parent, cgNode *child) : singleNode(parent, child) {}
 
@@ -21,7 +23,12 @@ void lnNode::compute() {
 }
 
 void lnNode::diff() {
-
+    auto coef = _child->clone(nullptr);
+    auto de = new powNode(nullptr, _child, -1);
+    auto ret = new mulNode(nullptr, coef, de);
+    ret->set_childs_parents();
+    coef->diff();
+    change_to(this, ret);
 }
 
 void lnNode::trim() {

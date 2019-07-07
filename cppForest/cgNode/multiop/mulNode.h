@@ -5,10 +5,14 @@
 #ifndef CPPFOREST_MULNODE_H
 #define CPPFOREST_MULNODE_H
 
+#include "../vectorOp/dotNode.h"
 
-#include "../cgNode.h"
-
-class mulNode : public cgNode {
+class mulNode : public dotNode {
+protected:
+public:
+    mulNode(cgNode *parent, cgNode* left, cgNode* right);
+    virtual ~mulNode() = default;
+    cgNode* clone(cgNode* parent) override ;
 
 };
 

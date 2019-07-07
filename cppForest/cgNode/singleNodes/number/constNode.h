@@ -1,4 +1,4 @@
-//
+//Expect a vector node with a single component.
 // Created by anarion on 6/18/19.
 //
 

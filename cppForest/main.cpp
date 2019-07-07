@@ -5,24 +5,24 @@
 #include "cgNode/multiop/sumNode.h"
 #include "cgNode/vectorOp/nummulNode.h"
 #include "cgNode/vectorOp/vaddNode.h"
+#include "cgNode/var.h"
+#include "cgNode/singleNodes/number/varNode.h"
+#include "cgNode/rootNode.h"
 
 using namespace std;
 
 int main(){
-    auto a1 = new constNode(nullptr, 3);
-    auto a2 = new constNode(nullptr, 6);
-    auto a3 = new constNode(nullptr, 88);
-    auto a = new vecNode(nullptr, {a1, a2, a3});
-    a->set_childs_parents();
-    auto b = new sumNode(nullptr, {a1, a2, a3});
-    b->set_childs_parents();
-    auto c1 = new constNode(nullptr, 3);
-    auto c2 = new constNode(nullptr, 6);
-    auto c3 = new constNode(nullptr, 88);
-    auto c = new vecNode(nullptr, {c1, c2, c3});
-    c->set_childs_parents();
-    auto d = new vaddNode(nullptr, c, a);
-    d->compute();
+    var* x = new var(3);
+    var* y = new var(6);
 
+    auto v1 = new vecNode(nullptr, {new varNode(nullptr, x), new varNode(nullptr, x)});
+    auto v2 = new vecNode(nullptr, {new varNode(nullptr, y), new varNode(nullptr, y)});
+
+    auto c = new dotNode(nullptr, v1, v2);
+    auto d = new rootNode(c);
+    d->set_childs_parents();
+    d->compute();
+    d->diff();
+    d->compute();
     while(1);
 }

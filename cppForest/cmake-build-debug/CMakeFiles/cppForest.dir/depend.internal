@@ -39,6 +39,12 @@ CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
+CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nullException.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nullException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nummulException/nummulTypeException.cpp
@@ -54,8 +60,21 @@ CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleExcep
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/functionCallException/getnonconstValException.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nullException.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
+CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/singleException/singleException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/mulNode.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/mulNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/constNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/singleNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/vecNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.h
@@ -67,6 +86,11 @@ CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/singleNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/vecNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
+CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/number/constNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
@@ -122,6 +146,7 @@ CMakeFiles/cppForest.dir/cgNode/vectorOp/dotNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/singleNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/vaddNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 CMakeFiles/cppForest.dir/cgNode/vectorOp/nummulNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h
@@ -162,8 +187,11 @@ CMakeFiles/cppForest.dir/main.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/sumNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/constNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/varNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/singleNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/nummulNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/vaddNode.h

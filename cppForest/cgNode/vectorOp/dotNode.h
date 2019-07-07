@@ -20,7 +20,7 @@ public:
     cgNode* clone(cgNode* parent) override ;
 
     void compute() override ;
-    void diff() override ;
+    virtual void diff() override ;
     void trim() override ;
 
     size_t get_num_left();

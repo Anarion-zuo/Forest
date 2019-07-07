@@ -30,7 +30,7 @@ protected:
 
 public:
     cgNode(cgNode* parent, const std::vector<cgNode*>& childs);
-    virtual ~cgNode() = default;
+    virtual ~cgNode();
     virtual cgNode* clone(cgNode* parent) = 0;
 
     // structure

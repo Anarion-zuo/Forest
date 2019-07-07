@@ -5,6 +5,7 @@
 #include <cmath>
 #include "expNode.h"
 #include "../number/constNode.h"
+#include "../../multiop/mulNode.h"
 
 expNode::expNode(cgNode *parent, cgNode *child) : singleNode(parent, child) {}
 
@@ -21,7 +22,11 @@ void expNode::compute() {
 }
 
 void expNode::diff() {
-
+    auto coef = _child->clone(nullptr);
+    auto ret = new mulNode(nullptr, coef, this);
+    ret->set_childs_parents();
+    coef->diff();
+    change_to(this, ret);
 }
 
 void expNode::trim() {

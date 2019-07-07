@@ -6,6 +6,7 @@
 #include "../singleNodes/number/constNode.h"
 #include "../vectors/vecNode.h"
 #include "../../MyException/VectorException/nummulException/nummulTypeException.h"
+#include "vaddNode.h"
 
 nummulNode::nummulNode(cgNode *parent, cgNode *left, cgNode *right) : cgNode(parent, {left, right}), _left(_childs[0]), _right(_childs[1]) {}
 
@@ -45,7 +46,13 @@ void nummulNode::compute() {
 }
 
 void nummulNode::diff() {
-
+    auto left = this;
+    auto right = clone(nullptr);
+    auto ret = new vaddNode(nullptr, left, right);
+    ret->set_childs_parents();
+    left->_left->diff();
+    right->get_child(1)->diff();
+    change_to(this, ret);
 }
 
 void nummulNode::trim() {

@@ -27,6 +27,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.o"
   "CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o"
   "CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.o"
+  "CMakeFiles/cppForest.dir/cg/cg.cpp.o"
+  "CMakeFiles/cppForest.dir/cg/dcg.cpp.o"
   "cppForest.pdb"
   "cppForest"
 )

@@ -1,30 +1,25 @@
 //
-// Created by a on 2019/5/14.
+// Created by anarion on 7/7/19.
 //
 
 #ifndef CPPFOREST_CG_H
 #define CPPFOREST_CG_H
 
-#include "../cgNode/numericNode.h"
-#include <vector>
+#include "../cgNode/cgNode.h"
+#include "dcg.h"
 
+class dcg;
 class cg {
-    friend class Function;
 protected:
     cgNode* _root;
-    std::vector<var*> _vars;
 public:
     explicit cg(cgNode* root);
-    explicit cg(cg* graph);
     virtual ~cg();
-
-    virtual cg* clone();
+    cg* clone();
 
     void compute();
-    double latest_result();
-
-    size_t var_nums();
-    std::vector<var*>& get_vars();
+    cgNode* get_result();
+    dcg* diff();
 };
 
 

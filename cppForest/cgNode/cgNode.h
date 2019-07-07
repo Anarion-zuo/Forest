@@ -10,6 +10,7 @@
 #include <deque>
 #include "../linearAlg/Array/Array.h"
 
+class cg;
 class cgNode {
     friend class cg;
 protected:

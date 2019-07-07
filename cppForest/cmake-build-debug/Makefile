@@ -420,6 +420,60 @@ MyException/VectorException/singleException/singleException.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.s
 .PHONY : MyException/VectorException/singleException/singleException.cpp.s
 
+cg/cg.o: cg/cg.cpp.o
+
+.PHONY : cg/cg.o
+
+# target to build an object file
+cg/cg.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/cg.cpp.o
+.PHONY : cg/cg.cpp.o
+
+cg/cg.i: cg/cg.cpp.i
+
+.PHONY : cg/cg.i
+
+# target to preprocess a source file
+cg/cg.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/cg.cpp.i
+.PHONY : cg/cg.cpp.i
+
+cg/cg.s: cg/cg.cpp.s
+
+.PHONY : cg/cg.s
+
+# target to generate assembly for a file
+cg/cg.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/cg.cpp.s
+.PHONY : cg/cg.cpp.s
+
+cg/dcg.o: cg/dcg.cpp.o
+
+.PHONY : cg/dcg.o
+
+# target to build an object file
+cg/dcg.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/dcg.cpp.o
+.PHONY : cg/dcg.cpp.o
+
+cg/dcg.i: cg/dcg.cpp.i
+
+.PHONY : cg/dcg.i
+
+# target to preprocess a source file
+cg/dcg.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/dcg.cpp.i
+.PHONY : cg/dcg.cpp.i
+
+cg/dcg.s: cg/dcg.cpp.s
+
+.PHONY : cg/dcg.s
+
+# target to generate assembly for a file
+cg/dcg.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cg/dcg.cpp.s
+.PHONY : cg/dcg.cpp.s
+
 cgNode/cgNode.o: cgNode/cgNode.cpp.o
 
 .PHONY : cgNode/cgNode.o
@@ -921,6 +975,12 @@ help:
 	@echo "... MyException/VectorException/singleException/singleException.o"
 	@echo "... MyException/VectorException/singleException/singleException.i"
 	@echo "... MyException/VectorException/singleException/singleException.s"
+	@echo "... cg/cg.o"
+	@echo "... cg/cg.i"
+	@echo "... cg/cg.s"
+	@echo "... cg/dcg.o"
+	@echo "... cg/dcg.i"
+	@echo "... cg/dcg.s"
 	@echo "... cgNode/cgNode.o"
 	@echo "... cgNode/cgNode.i"
 	@echo "... cgNode/cgNode.s"

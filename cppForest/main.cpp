@@ -24,5 +24,5 @@ int main(){
     d->compute();
     d->diff();
     d->compute();
-    while(1);
+//    while(1);
 }

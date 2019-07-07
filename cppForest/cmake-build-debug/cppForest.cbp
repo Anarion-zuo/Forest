@@ -150,6 +150,18 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/singleException/singleException.h">
 			<Option target="cppForest"/>
 		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.cpp">
 			<Option target="cppForest"/>
 		</Unit>

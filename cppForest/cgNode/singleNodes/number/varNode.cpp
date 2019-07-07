@@ -12,7 +12,10 @@ cgNode *varNode::clone(cgNode *parent) {
 }
 
 void varNode::compute() {
-    _result = new constNode(_parent, _var->get_val());
+    if (!_result){
+        _result = new constNode(_parent, _var->get_val());
+    }
+    _result->set_val(_var->get_val());
 }
 
 double varNode::get_val() {

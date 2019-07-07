@@ -11,7 +11,7 @@
 class rootNode : public cgNode {
     cgNode* &_child;
 public:
-    rootNode(cgNode* child);
+    explicit rootNode(cgNode* child);
     virtual ~rootNode() = default;
     cgNode* clone(cgNode* parent) override ;
 

@@ -29,6 +29,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.o"
   "CMakeFiles/cppForest.dir/cg/cg.cpp.o"
   "CMakeFiles/cppForest.dir/cg/dcg.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/Range.cpp.o"
+  "CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o"
   "cppForest.pdb"
   "cppForest"
 )

@@ -231,6 +231,33 @@ MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.s
 .PHONY : MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.s
 
+MyException/RangeException/RangeMagException.o: MyException/RangeException/RangeMagException.cpp.o
+
+.PHONY : MyException/RangeException/RangeMagException.o
+
+# target to build an object file
+MyException/RangeException/RangeMagException.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o
+.PHONY : MyException/RangeException/RangeMagException.cpp.o
+
+MyException/RangeException/RangeMagException.i: MyException/RangeException/RangeMagException.cpp.i
+
+.PHONY : MyException/RangeException/RangeMagException.i
+
+# target to preprocess a source file
+MyException/RangeException/RangeMagException.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.i
+.PHONY : MyException/RangeException/RangeMagException.cpp.i
+
+MyException/RangeException/RangeMagException.s: MyException/RangeException/RangeMagException.cpp.s
+
+.PHONY : MyException/RangeException/RangeMagException.s
+
+# target to generate assembly for a file
+MyException/RangeException/RangeMagException.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.s
+.PHONY : MyException/RangeException/RangeMagException.cpp.s
+
 MyException/VectorException/dotExceptions/vecSizeException.o: MyException/VectorException/dotExceptions/vecSizeException.cpp.o
 
 .PHONY : MyException/VectorException/dotExceptions/vecSizeException.o
@@ -419,6 +446,87 @@ MyException/VectorException/singleException/singleException.s: MyException/Vecto
 MyException/VectorException/singleException/singleException.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.s
 .PHONY : MyException/VectorException/singleException/singleException.cpp.s
+
+Solvers/Range.o: Solvers/Range.cpp.o
+
+.PHONY : Solvers/Range.o
+
+# target to build an object file
+Solvers/Range.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Range.cpp.o
+.PHONY : Solvers/Range.cpp.o
+
+Solvers/Range.i: Solvers/Range.cpp.i
+
+.PHONY : Solvers/Range.i
+
+# target to preprocess a source file
+Solvers/Range.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Range.cpp.i
+.PHONY : Solvers/Range.cpp.i
+
+Solvers/Range.s: Solvers/Range.cpp.s
+
+.PHONY : Solvers/Range.s
+
+# target to generate assembly for a file
+Solvers/Range.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Range.cpp.s
+.PHONY : Solvers/Range.cpp.s
+
+Solvers/SolverInfo.o: Solvers/SolverInfo.cpp.o
+
+.PHONY : Solvers/SolverInfo.o
+
+# target to build an object file
+Solvers/SolverInfo.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.o
+.PHONY : Solvers/SolverInfo.cpp.o
+
+Solvers/SolverInfo.i: Solvers/SolverInfo.cpp.i
+
+.PHONY : Solvers/SolverInfo.i
+
+# target to preprocess a source file
+Solvers/SolverInfo.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.i
+.PHONY : Solvers/SolverInfo.cpp.i
+
+Solvers/SolverInfo.s: Solvers/SolverInfo.cpp.s
+
+.PHONY : Solvers/SolverInfo.s
+
+# target to generate assembly for a file
+Solvers/SolverInfo.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.s
+.PHONY : Solvers/SolverInfo.cpp.s
+
+Solvers/SolverOutput.o: Solvers/SolverOutput.cpp.o
+
+.PHONY : Solvers/SolverOutput.o
+
+# target to build an object file
+Solvers/SolverOutput.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o
+.PHONY : Solvers/SolverOutput.cpp.o
+
+Solvers/SolverOutput.i: Solvers/SolverOutput.cpp.i
+
+.PHONY : Solvers/SolverOutput.i
+
+# target to preprocess a source file
+Solvers/SolverOutput.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.i
+.PHONY : Solvers/SolverOutput.cpp.i
+
+Solvers/SolverOutput.s: Solvers/SolverOutput.cpp.s
+
+.PHONY : Solvers/SolverOutput.s
+
+# target to generate assembly for a file
+Solvers/SolverOutput.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.s
+.PHONY : Solvers/SolverOutput.cpp.s
 
 cg/cg.o: cg/cg.cpp.o
 
@@ -954,6 +1062,9 @@ help:
 	@echo "... MyException/MatrixException/cnstFormatException/cnstFormatException.o"
 	@echo "... MyException/MatrixException/cnstFormatException/cnstFormatException.i"
 	@echo "... MyException/MatrixException/cnstFormatException/cnstFormatException.s"
+	@echo "... MyException/RangeException/RangeMagException.o"
+	@echo "... MyException/RangeException/RangeMagException.i"
+	@echo "... MyException/RangeException/RangeMagException.s"
 	@echo "... MyException/VectorException/dotExceptions/vecSizeException.o"
 	@echo "... MyException/VectorException/dotExceptions/vecSizeException.i"
 	@echo "... MyException/VectorException/dotExceptions/vecSizeException.s"
@@ -975,6 +1086,15 @@ help:
 	@echo "... MyException/VectorException/singleException/singleException.o"
 	@echo "... MyException/VectorException/singleException/singleException.i"
 	@echo "... MyException/VectorException/singleException/singleException.s"
+	@echo "... Solvers/Range.o"
+	@echo "... Solvers/Range.i"
+	@echo "... Solvers/Range.s"
+	@echo "... Solvers/SolverInfo.o"
+	@echo "... Solvers/SolverInfo.i"
+	@echo "... Solvers/SolverInfo.s"
+	@echo "... Solvers/SolverOutput.o"
+	@echo "... Solvers/SolverOutput.i"
+	@echo "... Solvers/SolverOutput.s"
 	@echo "... cg/cg.o"
 	@echo "... cg/cg.i"
 	@echo "... cg/cg.s"

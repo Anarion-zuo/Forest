@@ -10,6 +10,7 @@
 #include "cgNode/rootNode.h"
 #include "cg/cg.h"
 #include "cg/dcg.h"
+#include "Solvers/Range.h"
 
 using namespace std;
 
@@ -25,6 +26,9 @@ int main(){
 
     auto dg = new dcg(g);
     dg->compute(x);
+
+    auto ra = new Range(0, 1);
+    auto li = ra->list(0.1);
 
     while(1);
 }

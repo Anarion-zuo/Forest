@@ -447,6 +447,58 @@ CMakeFiles/cppForest.dir/cg/dcg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cg/dcg.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.cpp -o CMakeFiles/cppForest.dir/cg/dcg.cpp.s
 
+CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: ../Solvers/Range.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Range.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/Range.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.cpp
+
+CMakeFiles/cppForest.dir/Solvers/Range.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Solvers/Range.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.cpp > CMakeFiles/cppForest.dir/Solvers/Range.cpp.i
+
+CMakeFiles/cppForest.dir/Solvers/Range.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Solvers/Range.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.cpp -o CMakeFiles/cppForest.dir/Solvers/Range.cpp.s
+
+CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o: ../MyException/RangeException/RangeMagException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/RangeException/RangeMagException.cpp
+
+CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/RangeException/RangeMagException.cpp > CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.i
+
+CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/RangeException/RangeMagException.cpp -o CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.s
+
+CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.o: ../Solvers/SolverInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverInfo.cpp
+
+CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverInfo.cpp > CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.i
+
+CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverInfo.cpp -o CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.s
+
+CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o: ../Solvers/SolverOutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverOutput.cpp
+
+CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverOutput.cpp > CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.i
+
+CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverOutput.cpp -o CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.s
+
 # Object files for target cppForest
 cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/main.cpp.o" \
@@ -478,7 +530,11 @@ cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.o" \
 "CMakeFiles/cppForest.dir/cg/cg.cpp.o" \
-"CMakeFiles/cppForest.dir/cg/dcg.cpp.o"
+"CMakeFiles/cppForest.dir/cg/dcg.cpp.o" \
+"CMakeFiles/cppForest.dir/Solvers/Range.cpp.o" \
+"CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o" \
+"CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.o" \
+"CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o"
 
 # External object files for target cppForest
 cppForest_EXTERNAL_OBJECTS =
@@ -513,9 +569,13 @@ cppForest: CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/rootNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cg/cg.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cg/dcg.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Solvers/Range.cpp.o
+cppForest: CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o
 cppForest: CMakeFiles/cppForest.dir/build.make
 cppForest: CMakeFiles/cppForest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable cppForest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable cppForest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppForest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

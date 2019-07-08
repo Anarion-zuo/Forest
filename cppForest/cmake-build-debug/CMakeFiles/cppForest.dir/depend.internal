@@ -16,6 +16,9 @@ CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFor
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
+CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/RangeException/RangeMagException.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/RangeException/RangeMagException.h
 CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.h
@@ -57,18 +60,24 @@ CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleExcep
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/singleException/singleException.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
+CMakeFiles/cppForest.dir/Solvers/Range.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/RangeException/RangeMagException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.h
 CMakeFiles/cppForest.dir/cg/cg.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/functionCallException/getnonconstValException.h
@@ -212,6 +221,9 @@ CMakeFiles/cppForest.dir/cgNode/vectors/vecNode.cpp.o
 CMakeFiles/cppForest.dir/main.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/sumNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.h

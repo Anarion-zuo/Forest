@@ -16,6 +16,9 @@ CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFor
 CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp.o: ../linearAlg/Array/Array.h
 
+CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o: ../MyException/RangeException/RangeMagException.cpp
+CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o: ../MyException/RangeException/RangeMagException.h
+
 CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.cpp
 CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.h
 CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o: ../MyException/VectorException/nodeException.h
@@ -57,17 +60,23 @@ CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleExcep
 CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o: ../linearAlg/Array/Array.h
 
+CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: ../MyException/RangeException/RangeMagException.h
+CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: ../Solvers/Range.cpp
+CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: ../Solvers/Range.h
+
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cg/cg.cpp
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cg/cg.h
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cg/dcg.h
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cgNode/rootNode.h
+CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cgNode/var.h
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../linearAlg/Array/Array.h
 
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../cg/cg.h
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../cg/dcg.cpp
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../cg/dcg.h
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../cgNode/var.h
 CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../linearAlg/Array/Array.h
 
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../MyException/VectorException/functionCallException/getnonconstValException.h
@@ -211,6 +220,9 @@ CMakeFiles/cppForest.dir/cgNode/vectors/vecNode.cpp.o: ../linearAlg/Array/Array.
 
 CMakeFiles/cppForest.dir/main.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../MyException/VectorException/nodeException.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Solvers/Range.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../cg/cg.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../cg/dcg.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/multiop/sumNode.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/rootNode.h

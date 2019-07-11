@@ -15,7 +15,13 @@ public:
     Range(double left, double right);
     Range* clone();
 
-    const std::vector<double> list(double step = 1);
+    std::vector<double> list(double step = 1);
+    bool is_in(double n);
+    bool is_on_left(double n);
+    bool is_on_right(double n);
+
+    double get_left();
+    double get_right();
 };
 
 

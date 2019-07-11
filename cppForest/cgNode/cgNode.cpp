@@ -4,7 +4,7 @@
 
 #include "cgNode.h"
 #include "../MyException/VectorException/functionCallException/getnonconstValException.h"
-#include "../MyException/VectorException/nullException.h"
+#include "../MyException/nullException.h"
 
 std::deque<cgNode*> cgNode::_node_bin;
 
@@ -87,7 +87,7 @@ bool cgNode::is_const() {
 
 void cgNode::change_to(cgNode *oldnode, cgNode *newnode) {
     if (!oldnode){
-        throw nullException(nullptr, "Attempting to change a null target.");
+        throw nullException("Attempting to change a null target.");
     }
     if (!newnode){
         __glibc_macro_warning("Attempting to change a node into a null node.");

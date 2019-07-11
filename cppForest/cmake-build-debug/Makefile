@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5587.18/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5587.18/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5587.18/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5587.18/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -258,6 +258,33 @@ MyException/RangeException/RangeMagException.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.s
 .PHONY : MyException/RangeException/RangeMagException.cpp.s
 
+MyException/SolverException/SingleVariableException.o: MyException/SolverException/SingleVariableException.cpp.o
+
+.PHONY : MyException/SolverException/SingleVariableException.o
+
+# target to build an object file
+MyException/SolverException/SingleVariableException.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.o
+.PHONY : MyException/SolverException/SingleVariableException.cpp.o
+
+MyException/SolverException/SingleVariableException.i: MyException/SolverException/SingleVariableException.cpp.i
+
+.PHONY : MyException/SolverException/SingleVariableException.i
+
+# target to preprocess a source file
+MyException/SolverException/SingleVariableException.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.i
+.PHONY : MyException/SolverException/SingleVariableException.cpp.i
+
+MyException/SolverException/SingleVariableException.s: MyException/SolverException/SingleVariableException.cpp.s
+
+.PHONY : MyException/SolverException/SingleVariableException.s
+
+# target to generate assembly for a file
+MyException/SolverException/SingleVariableException.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.s
+.PHONY : MyException/SolverException/SingleVariableException.cpp.s
+
 MyException/VectorException/dotExceptions/vecSizeException.o: MyException/VectorException/dotExceptions/vecSizeException.cpp.o
 
 .PHONY : MyException/VectorException/dotExceptions/vecSizeException.o
@@ -366,33 +393,6 @@ MyException/VectorException/nodeException.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.s
 .PHONY : MyException/VectorException/nodeException.cpp.s
 
-MyException/VectorException/nullException.o: MyException/VectorException/nullException.cpp.o
-
-.PHONY : MyException/VectorException/nullException.o
-
-# target to build an object file
-MyException/VectorException/nullException.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.o
-.PHONY : MyException/VectorException/nullException.cpp.o
-
-MyException/VectorException/nullException.i: MyException/VectorException/nullException.cpp.i
-
-.PHONY : MyException/VectorException/nullException.i
-
-# target to preprocess a source file
-MyException/VectorException/nullException.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.i
-.PHONY : MyException/VectorException/nullException.cpp.i
-
-MyException/VectorException/nullException.s: MyException/VectorException/nullException.cpp.s
-
-.PHONY : MyException/VectorException/nullException.s
-
-# target to generate assembly for a file
-MyException/VectorException/nullException.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.s
-.PHONY : MyException/VectorException/nullException.cpp.s
-
 MyException/VectorException/nummulException/nummulTypeException.o: MyException/VectorException/nummulException/nummulTypeException.cpp.o
 
 .PHONY : MyException/VectorException/nummulException/nummulTypeException.o
@@ -447,6 +447,33 @@ MyException/VectorException/singleException/singleException.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.s
 .PHONY : MyException/VectorException/singleException/singleException.cpp.s
 
+MyException/nullException.o: MyException/nullException.cpp.o
+
+.PHONY : MyException/nullException.o
+
+# target to build an object file
+MyException/nullException.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/nullException.cpp.o
+.PHONY : MyException/nullException.cpp.o
+
+MyException/nullException.i: MyException/nullException.cpp.i
+
+.PHONY : MyException/nullException.i
+
+# target to preprocess a source file
+MyException/nullException.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/nullException.cpp.i
+.PHONY : MyException/nullException.cpp.i
+
+MyException/nullException.s: MyException/nullException.cpp.s
+
+.PHONY : MyException/nullException.s
+
+# target to generate assembly for a file
+MyException/nullException.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/nullException.cpp.s
+.PHONY : MyException/nullException.cpp.s
+
 Solvers/Range.o: Solvers/Range.cpp.o
 
 .PHONY : Solvers/Range.o
@@ -474,32 +501,86 @@ Solvers/Range.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Range.cpp.s
 .PHONY : Solvers/Range.cpp.s
 
-Solvers/SolverInfo.o: Solvers/SolverInfo.cpp.o
+Solvers/Root/singleroot/BisectionRootFinder.o: Solvers/Root/singleroot/BisectionRootFinder.cpp.o
 
-.PHONY : Solvers/SolverInfo.o
+.PHONY : Solvers/Root/singleroot/BisectionRootFinder.o
 
 # target to build an object file
-Solvers/SolverInfo.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.o
-.PHONY : Solvers/SolverInfo.cpp.o
+Solvers/Root/singleroot/BisectionRootFinder.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o
+.PHONY : Solvers/Root/singleroot/BisectionRootFinder.cpp.o
 
-Solvers/SolverInfo.i: Solvers/SolverInfo.cpp.i
+Solvers/Root/singleroot/BisectionRootFinder.i: Solvers/Root/singleroot/BisectionRootFinder.cpp.i
 
-.PHONY : Solvers/SolverInfo.i
+.PHONY : Solvers/Root/singleroot/BisectionRootFinder.i
 
 # target to preprocess a source file
-Solvers/SolverInfo.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.i
-.PHONY : Solvers/SolverInfo.cpp.i
+Solvers/Root/singleroot/BisectionRootFinder.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.i
+.PHONY : Solvers/Root/singleroot/BisectionRootFinder.cpp.i
 
-Solvers/SolverInfo.s: Solvers/SolverInfo.cpp.s
+Solvers/Root/singleroot/BisectionRootFinder.s: Solvers/Root/singleroot/BisectionRootFinder.cpp.s
 
-.PHONY : Solvers/SolverInfo.s
+.PHONY : Solvers/Root/singleroot/BisectionRootFinder.s
 
 # target to generate assembly for a file
-Solvers/SolverInfo.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverInfo.cpp.s
-.PHONY : Solvers/SolverInfo.cpp.s
+Solvers/Root/singleroot/BisectionRootFinder.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.s
+.PHONY : Solvers/Root/singleroot/BisectionRootFinder.cpp.s
+
+Solvers/Solver.o: Solvers/Solver.cpp.o
+
+.PHONY : Solvers/Solver.o
+
+# target to build an object file
+Solvers/Solver.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o
+.PHONY : Solvers/Solver.cpp.o
+
+Solvers/Solver.i: Solvers/Solver.cpp.i
+
+.PHONY : Solvers/Solver.i
+
+# target to preprocess a source file
+Solvers/Solver.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Solver.cpp.i
+.PHONY : Solvers/Solver.cpp.i
+
+Solvers/Solver.s: Solvers/Solver.cpp.s
+
+.PHONY : Solvers/Solver.s
+
+# target to generate assembly for a file
+Solvers/Solver.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Solver.cpp.s
+.PHONY : Solvers/Solver.cpp.s
+
+Solvers/SolverInput.o: Solvers/SolverInput.cpp.o
+
+.PHONY : Solvers/SolverInput.o
+
+# target to build an object file
+Solvers/SolverInput.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.o
+.PHONY : Solvers/SolverInput.cpp.o
+
+Solvers/SolverInput.i: Solvers/SolverInput.cpp.i
+
+.PHONY : Solvers/SolverInput.i
+
+# target to preprocess a source file
+Solvers/SolverInput.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.i
+.PHONY : Solvers/SolverInput.cpp.i
+
+Solvers/SolverInput.s: Solvers/SolverInput.cpp.s
+
+.PHONY : Solvers/SolverInput.s
+
+# target to generate assembly for a file
+Solvers/SolverInput.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.s
+.PHONY : Solvers/SolverInput.cpp.s
 
 Solvers/SolverOutput.o: Solvers/SolverOutput.cpp.o
 
@@ -1065,6 +1146,9 @@ help:
 	@echo "... MyException/RangeException/RangeMagException.o"
 	@echo "... MyException/RangeException/RangeMagException.i"
 	@echo "... MyException/RangeException/RangeMagException.s"
+	@echo "... MyException/SolverException/SingleVariableException.o"
+	@echo "... MyException/SolverException/SingleVariableException.i"
+	@echo "... MyException/SolverException/SingleVariableException.s"
 	@echo "... MyException/VectorException/dotExceptions/vecSizeException.o"
 	@echo "... MyException/VectorException/dotExceptions/vecSizeException.i"
 	@echo "... MyException/VectorException/dotExceptions/vecSizeException.s"
@@ -1077,21 +1161,27 @@ help:
 	@echo "... MyException/VectorException/nodeException.o"
 	@echo "... MyException/VectorException/nodeException.i"
 	@echo "... MyException/VectorException/nodeException.s"
-	@echo "... MyException/VectorException/nullException.o"
-	@echo "... MyException/VectorException/nullException.i"
-	@echo "... MyException/VectorException/nullException.s"
 	@echo "... MyException/VectorException/nummulException/nummulTypeException.o"
 	@echo "... MyException/VectorException/nummulException/nummulTypeException.i"
 	@echo "... MyException/VectorException/nummulException/nummulTypeException.s"
 	@echo "... MyException/VectorException/singleException/singleException.o"
 	@echo "... MyException/VectorException/singleException/singleException.i"
 	@echo "... MyException/VectorException/singleException/singleException.s"
+	@echo "... MyException/nullException.o"
+	@echo "... MyException/nullException.i"
+	@echo "... MyException/nullException.s"
 	@echo "... Solvers/Range.o"
 	@echo "... Solvers/Range.i"
 	@echo "... Solvers/Range.s"
-	@echo "... Solvers/SolverInfo.o"
-	@echo "... Solvers/SolverInfo.i"
-	@echo "... Solvers/SolverInfo.s"
+	@echo "... Solvers/Root/singleroot/BisectionRootFinder.o"
+	@echo "... Solvers/Root/singleroot/BisectionRootFinder.i"
+	@echo "... Solvers/Root/singleroot/BisectionRootFinder.s"
+	@echo "... Solvers/Solver.o"
+	@echo "... Solvers/Solver.i"
+	@echo "... Solvers/Solver.s"
+	@echo "... Solvers/SolverInput.o"
+	@echo "... Solvers/SolverInput.i"
+	@echo "... Solvers/SolverInput.s"
 	@echo "... Solvers/SolverOutput.o"
 	@echo "... Solvers/SolverOutput.i"
 	@echo "... Solvers/SolverOutput.s"

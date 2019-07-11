@@ -338,3 +338,5 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+# Project exclude paths
+/cppForest/cmake-build-debug/

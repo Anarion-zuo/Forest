@@ -2,7 +2,7 @@
 // Created by anarion on 7/8/19.
 //
 
-#include <tgmath.h>
+#include <ctgmath>
 #include "Range.h"
 #include "../MyException/RangeException/RangeMagException.h"
 
@@ -16,7 +16,7 @@ Range *Range::clone() {
     return new Range(_left, _right);
 }
 
-const std::vector<double> Range::list(double step) {
+std::vector<double> Range::list(double step) {
     size_t n = floor((_right - _left) / step);
     std::vector<double> ret(n);
     double an = _left;
@@ -25,4 +25,24 @@ const std::vector<double> Range::list(double step) {
         an += step;
     }
     return std::move(ret);
+}
+
+bool Range::is_in(double n) {
+    return n < _right && n > _left;
+}
+
+bool Range::is_on_left(double n) {
+    return n < _left;
+}
+
+bool Range::is_on_right(double n) {
+    return n > _right;
+}
+
+double Range::get_right() {
+    return _right;
+}
+
+double Range::get_left() {
+    return _left;
 }

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits>
 #include "cgNode/vectorOp/dotNode.h"
 #include "cgNode/singleNodes/number/constNode.h"
 #include "cgNode/vectors/vecNode.h"
@@ -11,24 +12,26 @@
 #include "cg/cg.h"
 #include "cg/dcg.h"
 #include "Solvers/Range.h"
+#include "Solvers/SolverInput.h"
+#include "Solvers/Root/singleroot/BisectionRootFinder.h"
 
 using namespace std;
 
 int main(){
     var* x = new var(3);
-    var* y = new var(6);
+    auto xn = new varNode(nullptr, x);
+    auto c = new constNode(nullptr, 4);
+    auto y = new sumNode(nullptr, {xn, c});
+    y->set_childs_parents();
 
-    auto v1 = new vecNode(nullptr, {new varNode(nullptr, x), new varNode(nullptr, x)});
-    auto v2 = new vecNode(nullptr, {new varNode(nullptr, y), new varNode(nullptr, y)});
+    cg* g = new cg(y);
 
-    auto c = new dotNode(nullptr, v1, v2);
-    cg* g = new cg(c);
-
-    auto dg = new dcg(g);
-    dg->compute(x);
-
-    auto ra = new Range(0, 1);
-    auto li = ra->list(0.1);
+    auto range = new Range(-4.02, -3.9003);
+    map<var*, Range*> m;
+    m.insert(pair<var*, Range*>(x, range));
+    auto input = new SolverInput(m, 1e-8, 1e10, numeric_limits<double>::epsilon() * 100);
+    auto sol = new BisectionRootFinder(g, input);
+    sol->solve();
 
     while(1);
 }

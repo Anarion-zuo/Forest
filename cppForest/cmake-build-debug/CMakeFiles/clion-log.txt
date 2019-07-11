@@ -1,4 +1,4 @@
-/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/anarion/Documents/CSLearning/AI/Forest/cppForest
+/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5587.18/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/anarion/Documents/CSLearning/AI/Forest/cppForest
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug

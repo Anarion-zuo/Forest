@@ -114,6 +114,12 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/RangeException/RangeMagException.h">
 			<Option target="cppForest"/>
 		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/SingleVariableException.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/SingleVariableException.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.cpp">
 			<Option target="cppForest"/>
 		</Unit>
@@ -138,12 +144,6 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nullException.cpp">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nullException.h">
-			<Option target="cppForest"/>
-		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nummulException/nummulTypeException.cpp">
 			<Option target="cppForest"/>
 		</Unit>
@@ -156,16 +156,34 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/singleException/singleException.h">
 			<Option target="cppForest"/>
 		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/nullException.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/nullException.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.cpp">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverInfo.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/BisectionRootFinder.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverInfo.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/BisectionRootFinder.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Solver.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Solver.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverInput.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverInput.h">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverOutput.cpp">

@@ -4,7 +4,7 @@
 
 #include "nullException.h"
 
-nullException::nullException(cgNode *node, const std::string &&info) : nodeException(node), _info(info) {}
+nullException::nullException(const std::string &&info) : _info(info) {}
 
 const char *nullException::what() const _GLIBCXX_USE_NOEXCEPT {
     return _info.c_str();

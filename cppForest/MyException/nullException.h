@@ -6,12 +6,12 @@
 #define CPPFOREST_NULLEXCEPTION_H
 
 
-#include "nodeException.h"
+#include "VectorException/nodeException.h"
 
-class nullException : public nodeException {
+class nullException : public std::exception {
     std::string _info;
 public:
-    explicit nullException(cgNode* node, const std::string&& info);  // takes the parent
+    explicit nullException(const std::string&& info);  // takes the parent
     virtual const char *what() const _GLIBCXX_TXN_SAFE_DYN _GLIBCXX_USE_NOEXCEPT override ;
 };
 

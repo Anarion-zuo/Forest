@@ -10,8 +10,10 @@
 
 class SolverOutput {
 protected:
-
-
+    size_t _iteration;
+    double _precision;
+public:
+    SolverOutput(size_t iter, double prec);
 };
 
 

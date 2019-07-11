@@ -19,6 +19,9 @@ CMakeFiles/cppForest.dir/MyException/MatrixException/cnstFormatException/cnstFor
 CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o: ../MyException/RangeException/RangeMagException.cpp
 CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o: ../MyException/RangeException/RangeMagException.h
 
+CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.o: ../MyException/SolverException/SingleVariableException.cpp
+CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.o: ../MyException/SolverException/SingleVariableException.h
+
 CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.cpp
 CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.h
 CMakeFiles/cppForest.dir/MyException/VectorException/dotExceptions/vecSizeException.cpp.o: ../MyException/VectorException/nodeException.h
@@ -42,12 +45,6 @@ CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.o: ../MyE
 CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/MyException/VectorException/nodeException.cpp.o: ../linearAlg/Array/Array.h
 
-CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.o: ../MyException/VectorException/nodeException.h
-CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.o: ../MyException/VectorException/nullException.cpp
-CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.o: ../MyException/VectorException/nullException.h
-CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.o: ../cgNode/cgNode.h
-CMakeFiles/cppForest.dir/MyException/VectorException/nullException.cpp.o: ../linearAlg/Array/Array.h
-
 CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o: ../MyException/VectorException/nummulException/nummulTypeException.cpp
 CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o: ../MyException/VectorException/nummulException/nummulTypeException.h
@@ -60,9 +57,48 @@ CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleExcep
 CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/MyException/VectorException/singleException/singleException.cpp.o: ../linearAlg/Array/Array.h
 
+CMakeFiles/cppForest.dir/MyException/nullException.cpp.o: ../MyException/VectorException/nodeException.h
+CMakeFiles/cppForest.dir/MyException/nullException.cpp.o: ../MyException/nullException.cpp
+CMakeFiles/cppForest.dir/MyException/nullException.cpp.o: ../MyException/nullException.h
+CMakeFiles/cppForest.dir/MyException/nullException.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/MyException/nullException.cpp.o: ../linearAlg/Array/Array.h
+
 CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: ../MyException/RangeException/RangeMagException.h
 CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: ../Solvers/Range.cpp
 CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: ../Solvers/Range.h
+
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../MyException/SolverException/SingleVariableException.h
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../Solvers/Range.h
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../Solvers/Root/singleroot/BisectionRootFinder.cpp
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../Solvers/Root/singleroot/BisectionRootFinder.h
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../Solvers/Solver.h
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../Solvers/SolverInput.h
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../Solvers/SolverOutput.h
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../cg/cg.h
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../cgNode/var.h
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../linearAlg/Array/Array.h
+
+CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: ../MyException/VectorException/nodeException.h
+CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: ../MyException/nullException.h
+CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: ../Solvers/Range.h
+CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: ../Solvers/Solver.cpp
+CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: ../Solvers/Solver.h
+CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: ../Solvers/SolverInput.h
+CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: ../Solvers/SolverOutput.h
+CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: ../cg/cg.h
+CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: ../cgNode/var.h
+CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: ../linearAlg/Array/Array.h
+
+CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.o: ../Solvers/Range.h
+CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.o: ../Solvers/SolverInput.cpp
+CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.o: ../Solvers/SolverInput.h
+CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.o: ../cgNode/var.h
+
+CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o: ../Solvers/SolverOutput.cpp
+CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o: ../Solvers/SolverOutput.h
+CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o: ../cgNode/var.h
 
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cg/cg.cpp
 CMakeFiles/cppForest.dir/cg/cg.cpp.o: ../cg/cg.h
@@ -81,7 +117,7 @@ CMakeFiles/cppForest.dir/cg/dcg.cpp.o: ../linearAlg/Array/Array.h
 
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../MyException/VectorException/functionCallException/getnonconstValException.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../MyException/VectorException/nodeException.h
-CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../MyException/VectorException/nullException.h
+CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../MyException/nullException.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../cgNode/cgNode.cpp
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o: ../linearAlg/Array/Array.h
@@ -221,6 +257,10 @@ CMakeFiles/cppForest.dir/cgNode/vectors/vecNode.cpp.o: ../linearAlg/Array/Array.
 CMakeFiles/cppForest.dir/main.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../Solvers/Range.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Solvers/Root/singleroot/BisectionRootFinder.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Solvers/Solver.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Solvers/SolverInput.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Solvers/SolverOutput.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cg/cg.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cg/dcg.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/cgNode.h

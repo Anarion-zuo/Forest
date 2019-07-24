@@ -31,3 +31,7 @@ void varNode::diff() {
 }
 
 void varNode::trim() {}
+
+bool varNode::is_num() {
+    return true;
+}

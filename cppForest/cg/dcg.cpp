@@ -21,3 +21,4 @@ void dcg::compute(var *x) {
     cg::compute();
     var::clear_dvar(it);
 }
+

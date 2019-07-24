@@ -6,28 +6,29 @@
 #define CPPFOREST_SOLVERINPUT_H
 
 
+#include <limits>
 #include "Range.h"
 #include "../cgNode/var.h"
 
+struct _numer_error_{
+    double forw;
+    double back;
+    _numer_error_(double forward, double backward) : forw(forward), back(backward) {}
+};
+
 class SolverInput {
-protected:
+public:
     std::map<var*, Range*> _ranges;
     double _epsilon;
     size_t _max_iteration;
-    double _precision;
-public:
-    SolverInput(std::map<var*, Range*>  ranges, double tolerance, size_t maxiter, double epsi);
+    _numer_error_ _error;
+    SolverInput(std::map<var*, Range*>  ranges, double error, size_t maxiter, double epsi = std::numeric_limits<double>::epsilon(), double forward = std::numeric_limits<double>::epsilon(), double backward = std::numeric_limits<double>::epsilon());
     virtual ~SolverInput() = default;
 
     bool equals(double n1, double n2);
-    bool is_precise_enough(double n);
+    bool is_precise_enough(double n, bool eflag = false);
     bool exceeds_max_iter(size_t n);
     size_t var_number();
-
-    const std::map<var*, Range*>& get_ranges();
-    double get_epsilon();
-    size_t get_max_iteration();
-    double get_precision();
 };
 
 

@@ -4,57 +4,64 @@
 
 #include "BisectionRootFinder.h"
 #include "../../../MyException/SolverException/SingleVariableException.h"
+#include "../../../MyException/SolverException/ConditionException.h"
 
-BisectionRootFinder::BisectionRootFinder(cg *graph, SolverInput *info) : Solver(graph, info) {
+BisectionRootFinder::BisectionRootFinder(cg *graph, SolverInput *info) : Solver(graph, info, false) {
     if (_input->var_number() != 1){
         throw SingleVariableException("Feeding multiple variables or none to a single root finder");
     }
 }
 
 void BisectionRootFinder::solve() {
-    auto it = _input->get_ranges().begin();
-    auto range = it->second;
-    auto v = it->first;
-    double left = range->get_left();
-    double right = range->get_right();
-    v->set_val(left);
+    auto it = _input->_ranges.begin();
+    double a = it->second->get_left();
+    double b = it->second->get_right();
+    var* x = it->first;
+    x->set_val(a);
     _graph->compute();
-    double fl = _graph->get_result()->get_val();
-    v->set_val(right);
+    double fa = _graph->get_result()->get_val();
+    x->set_val(b);
     _graph->compute();
-    double fr = _graph->get_result()->get_val();
-    double mid = (left + right) / 2;
-    v->set_val(mid);
-    _graph->compute();
-    double fm = _graph->get_result()->get_val();
-    double prec = (right - left) / left;
-    size_t i = 0;
-    double pre = mid;
-    double cur = 0;
-    while(i < _input->get_max_iteration()){
-        if (is_precise_enough(pre - cur)){
-            break;
-        }
-        if (fm * fr < 0){
-            mid = left;
-        } else{
-            mid = right;
-        }
-        v->set_val(left);
-        _graph->compute();
-        fl = _graph->get_result()->get_val();
-        v->set_val(right);
-        _graph->compute();
-        fr = _graph->get_result()->get_val();
-        mid = (left + right) / 2;
-        v->set_val(mid);
-        _graph->compute();
-        fm = _graph->get_result()->get_val();
-        ++i;
-        prec = (right - left) / left;
-        pre = cur;
-        cur = mid;
+    double fb = _graph->get_result()->get_val();
+
+    if ((fa > 0 && fb > 0) || (fa < 0 && fb < 0)){
+        std::string s1("Bisection got the same sign on both ends. left: ");
+        std::string s2("  right: ");
+        throw ConditionException(s1 + std::to_string(fa) + s2 + std::to_string(fb));
     }
+    if (equals(0, fa)){
+        delete _output;
+        x->set_val(a);
+        _output = new SolverOutput(0, 1);
+        return;
+    }
+    if (equals(0, fb)){
+        delete _output;
+        x->set_val(b);
+        _output = new SolverOutput(0, 1);
+        return;
+    }
+    double c = 0, fc = 0;
+    size_t i = 0;
+    while (!_input->is_precise_enough((b - a) / 2) && !exceeds_max_iter(i)){
+        c = (a + b) / 2;
+        x->set_val(c);
+        _graph->compute();
+        fc = _graph->get_result()->get_val();
+        if (equals(fc, 0)){
+            delete _output;
+            _output = new SolverOutput(i, c);
+            return;
+        }
+        if ((fa < 0 && fc > 0) || (fa > 0 && fc < 0)){
+            b = c;
+        } else {
+            a = c;
+        }
+
+        ++i;
+    }
+
     delete _output;
-    _output = new SolverOutput(i, fm);
+    _output = new SolverOutput(i, c);
 }

@@ -27,5 +27,7 @@ cgNode *cg::get_result() {
     return _root->get_result();
 }
 
-cg::cg(cg *graph) : _root(graph->_root->clone(nullptr)) {}
+cg::cg(cg *graph) : _root(graph->_root->clone(nullptr)) {
+    _root->set_childs_parents();
+}
 

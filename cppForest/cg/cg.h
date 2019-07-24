@@ -8,6 +8,7 @@
 #include "../cgNode/cgNode.h"
 
 class cg {
+    friend class FixedPointRootFinder;
 protected:
     cgNode* _root;
 public:
@@ -16,7 +17,7 @@ public:
     virtual ~cg();
     virtual cg* clone();
 
-    void compute();
+    virtual void compute();
     cgNode* get_result();
 };
 

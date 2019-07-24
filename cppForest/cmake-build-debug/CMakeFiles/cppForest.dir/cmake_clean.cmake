@@ -36,6 +36,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o"
   "CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o"
   "CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.o"
+  "CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.o"
+  "CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.o"
+  "CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.o"
+  "CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o"
+  "CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o"
   "cppForest.pdb"
   "cppForest"
 )

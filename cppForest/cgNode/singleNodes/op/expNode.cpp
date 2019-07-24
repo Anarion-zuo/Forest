@@ -18,7 +18,8 @@ cgNode *expNode::clone(cgNode *parent) {
 
 void expNode::compute() {
     _child->compute();
-    _result = new constNode(this, exp(_child->get_result()->get_val()));
+    if (!_result)   _result = new constNode(this, 0);
+    _result->set_val(exp(_child->get_result()->get_val()));
 }
 
 void expNode::diff() {

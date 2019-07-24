@@ -16,8 +16,12 @@ cgNode::cgNode(cgNode *parent, const std::vector<cgNode *> &childs) : _parent(pa
 
 
 void cgNode::set_childs_parents() {
-    for (auto &i : _childs){
+    if (is_num()){
+        return;
+    }
+    for (auto i : _childs){
         i->set_parent(this);
+        i->set_childs_parents();
     }
 }
 
@@ -51,7 +55,7 @@ cgNode *cgNode::get_result() {
 
 size_t cgNode::find_in_parent() {
     auto pc = _parent->get_childs();
-    for (size_t i = 0; i < _parent->number_child(); ++i){
+    for (size_t i = 0; i < pc.size(); ++i){
         if (pc[i] == this){
             return i;
         }
@@ -152,5 +156,9 @@ void cgNode::_retrieve_bin() {
 
 cgNode::~cgNode() {
     delete _result;
+}
+
+bool cgNode::is_num() {
+    return false;
 }
 

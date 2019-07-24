@@ -9,20 +9,25 @@
 #include "../cg/cg.h"
 #include "SolverInput.h"
 #include "SolverOutput.h"
+#include "../cg/dcg.h"
 
 class Solver {
 protected:
     cg* _graph;
     SolverInput* _input;
-    SolverOutput* _output;
+    SolverOutput* _output = nullptr;
+    dcg* _dgraph = nullptr;
+    static const bool _flag_forward_error = false;
+    static const bool _flag_backward_error = true;
+    static const bool _flag_use_derivative = true;
 public:
-    Solver(cg* graph, SolverInput* info);
+    Solver(cg* graph, SolverInput* info, bool derivative);
     virtual ~Solver() = default;
 
     virtual void solve() = 0;
 
     inline bool equals(double n1, double n2);
-    inline bool is_precise_enough(double n);
+    inline bool is_precise_enough(double n, bool flag);
     inline bool exceeds_max_iter(size_t n);
 };
 
@@ -30,7 +35,7 @@ bool Solver::equals(double n1, double n2) {
     return _input->equals(n1, n2);
 }
 
-bool Solver::is_precise_enough(double n) {
+bool Solver::is_precise_enough(double n, bool flag) {
     return _input->is_precise_enough(n);
 }
 

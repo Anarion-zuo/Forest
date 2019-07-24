@@ -35,3 +35,7 @@ void constNode::trim() {
 bool constNode::is_const() {
     return true;
 }
+
+bool constNode::is_num() {
+    return true;
+}

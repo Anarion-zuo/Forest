@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5587.18/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.70/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5587.18/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.70/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5587.18/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.70/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5587.18/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.70/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -257,6 +257,60 @@ MyException/RangeException/RangeMagException.s: MyException/RangeException/Range
 MyException/RangeException/RangeMagException.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.s
 .PHONY : MyException/RangeException/RangeMagException.cpp.s
+
+MyException/SolverException/CannotConvergeException.o: MyException/SolverException/CannotConvergeException.cpp.o
+
+.PHONY : MyException/SolverException/CannotConvergeException.o
+
+# target to build an object file
+MyException/SolverException/CannotConvergeException.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o
+.PHONY : MyException/SolverException/CannotConvergeException.cpp.o
+
+MyException/SolverException/CannotConvergeException.i: MyException/SolverException/CannotConvergeException.cpp.i
+
+.PHONY : MyException/SolverException/CannotConvergeException.i
+
+# target to preprocess a source file
+MyException/SolverException/CannotConvergeException.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.i
+.PHONY : MyException/SolverException/CannotConvergeException.cpp.i
+
+MyException/SolverException/CannotConvergeException.s: MyException/SolverException/CannotConvergeException.cpp.s
+
+.PHONY : MyException/SolverException/CannotConvergeException.s
+
+# target to generate assembly for a file
+MyException/SolverException/CannotConvergeException.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.s
+.PHONY : MyException/SolverException/CannotConvergeException.cpp.s
+
+MyException/SolverException/ConditionException.o: MyException/SolverException/ConditionException.cpp.o
+
+.PHONY : MyException/SolverException/ConditionException.o
+
+# target to build an object file
+MyException/SolverException/ConditionException.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o
+.PHONY : MyException/SolverException/ConditionException.cpp.o
+
+MyException/SolverException/ConditionException.i: MyException/SolverException/ConditionException.cpp.i
+
+.PHONY : MyException/SolverException/ConditionException.i
+
+# target to preprocess a source file
+MyException/SolverException/ConditionException.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.i
+.PHONY : MyException/SolverException/ConditionException.cpp.i
+
+MyException/SolverException/ConditionException.s: MyException/SolverException/ConditionException.cpp.s
+
+.PHONY : MyException/SolverException/ConditionException.s
+
+# target to generate assembly for a file
+MyException/SolverException/ConditionException.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.s
+.PHONY : MyException/SolverException/ConditionException.cpp.s
 
 MyException/SolverException/SingleVariableException.o: MyException/SolverException/SingleVariableException.cpp.o
 
@@ -527,6 +581,60 @@ Solvers/Root/singleroot/BisectionRootFinder.s: Solvers/Root/singleroot/Bisection
 Solvers/Root/singleroot/BisectionRootFinder.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.s
 .PHONY : Solvers/Root/singleroot/BisectionRootFinder.cpp.s
+
+Solvers/Root/singleroot/FixedPointRootFinder.o: Solvers/Root/singleroot/FixedPointRootFinder.cpp.o
+
+.PHONY : Solvers/Root/singleroot/FixedPointRootFinder.o
+
+# target to build an object file
+Solvers/Root/singleroot/FixedPointRootFinder.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o
+.PHONY : Solvers/Root/singleroot/FixedPointRootFinder.cpp.o
+
+Solvers/Root/singleroot/FixedPointRootFinder.i: Solvers/Root/singleroot/FixedPointRootFinder.cpp.i
+
+.PHONY : Solvers/Root/singleroot/FixedPointRootFinder.i
+
+# target to preprocess a source file
+Solvers/Root/singleroot/FixedPointRootFinder.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.i
+.PHONY : Solvers/Root/singleroot/FixedPointRootFinder.cpp.i
+
+Solvers/Root/singleroot/FixedPointRootFinder.s: Solvers/Root/singleroot/FixedPointRootFinder.cpp.s
+
+.PHONY : Solvers/Root/singleroot/FixedPointRootFinder.s
+
+# target to generate assembly for a file
+Solvers/Root/singleroot/FixedPointRootFinder.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.s
+.PHONY : Solvers/Root/singleroot/FixedPointRootFinder.cpp.s
+
+Solvers/Root/singleroot/NewtonsRootFinder.o: Solvers/Root/singleroot/NewtonsRootFinder.cpp.o
+
+.PHONY : Solvers/Root/singleroot/NewtonsRootFinder.o
+
+# target to build an object file
+Solvers/Root/singleroot/NewtonsRootFinder.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o
+.PHONY : Solvers/Root/singleroot/NewtonsRootFinder.cpp.o
+
+Solvers/Root/singleroot/NewtonsRootFinder.i: Solvers/Root/singleroot/NewtonsRootFinder.cpp.i
+
+.PHONY : Solvers/Root/singleroot/NewtonsRootFinder.i
+
+# target to preprocess a source file
+Solvers/Root/singleroot/NewtonsRootFinder.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.i
+.PHONY : Solvers/Root/singleroot/NewtonsRootFinder.cpp.i
+
+Solvers/Root/singleroot/NewtonsRootFinder.s: Solvers/Root/singleroot/NewtonsRootFinder.cpp.s
+
+.PHONY : Solvers/Root/singleroot/NewtonsRootFinder.s
+
+# target to generate assembly for a file
+Solvers/Root/singleroot/NewtonsRootFinder.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.s
+.PHONY : Solvers/Root/singleroot/NewtonsRootFinder.cpp.s
 
 Solvers/Solver.o: Solvers/Solver.cpp.o
 
@@ -879,6 +987,33 @@ cgNode/singleNodes/op/lnNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/lnNode.cpp.s
 .PHONY : cgNode/singleNodes/op/lnNode.cpp.s
 
+cgNode/singleNodes/op/polyNode.o: cgNode/singleNodes/op/polyNode.cpp.o
+
+.PHONY : cgNode/singleNodes/op/polyNode.o
+
+# target to build an object file
+cgNode/singleNodes/op/polyNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.o
+.PHONY : cgNode/singleNodes/op/polyNode.cpp.o
+
+cgNode/singleNodes/op/polyNode.i: cgNode/singleNodes/op/polyNode.cpp.i
+
+.PHONY : cgNode/singleNodes/op/polyNode.i
+
+# target to preprocess a source file
+cgNode/singleNodes/op/polyNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.i
+.PHONY : cgNode/singleNodes/op/polyNode.cpp.i
+
+cgNode/singleNodes/op/polyNode.s: cgNode/singleNodes/op/polyNode.cpp.s
+
+.PHONY : cgNode/singleNodes/op/polyNode.s
+
+# target to generate assembly for a file
+cgNode/singleNodes/op/polyNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.s
+.PHONY : cgNode/singleNodes/op/polyNode.cpp.s
+
 cgNode/singleNodes/op/powNode.o: cgNode/singleNodes/op/powNode.cpp.o
 
 .PHONY : cgNode/singleNodes/op/powNode.o
@@ -905,6 +1040,60 @@ cgNode/singleNodes/op/powNode.s: cgNode/singleNodes/op/powNode.cpp.s
 cgNode/singleNodes/op/powNode.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/powNode.cpp.s
 .PHONY : cgNode/singleNodes/op/powNode.cpp.s
+
+cgNode/singleNodes/op/triang/cosNode.o: cgNode/singleNodes/op/triang/cosNode.cpp.o
+
+.PHONY : cgNode/singleNodes/op/triang/cosNode.o
+
+# target to build an object file
+cgNode/singleNodes/op/triang/cosNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.o
+.PHONY : cgNode/singleNodes/op/triang/cosNode.cpp.o
+
+cgNode/singleNodes/op/triang/cosNode.i: cgNode/singleNodes/op/triang/cosNode.cpp.i
+
+.PHONY : cgNode/singleNodes/op/triang/cosNode.i
+
+# target to preprocess a source file
+cgNode/singleNodes/op/triang/cosNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.i
+.PHONY : cgNode/singleNodes/op/triang/cosNode.cpp.i
+
+cgNode/singleNodes/op/triang/cosNode.s: cgNode/singleNodes/op/triang/cosNode.cpp.s
+
+.PHONY : cgNode/singleNodes/op/triang/cosNode.s
+
+# target to generate assembly for a file
+cgNode/singleNodes/op/triang/cosNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.s
+.PHONY : cgNode/singleNodes/op/triang/cosNode.cpp.s
+
+cgNode/singleNodes/op/triang/sinNode.o: cgNode/singleNodes/op/triang/sinNode.cpp.o
+
+.PHONY : cgNode/singleNodes/op/triang/sinNode.o
+
+# target to build an object file
+cgNode/singleNodes/op/triang/sinNode.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.o
+.PHONY : cgNode/singleNodes/op/triang/sinNode.cpp.o
+
+cgNode/singleNodes/op/triang/sinNode.i: cgNode/singleNodes/op/triang/sinNode.cpp.i
+
+.PHONY : cgNode/singleNodes/op/triang/sinNode.i
+
+# target to preprocess a source file
+cgNode/singleNodes/op/triang/sinNode.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.i
+.PHONY : cgNode/singleNodes/op/triang/sinNode.cpp.i
+
+cgNode/singleNodes/op/triang/sinNode.s: cgNode/singleNodes/op/triang/sinNode.cpp.s
+
+.PHONY : cgNode/singleNodes/op/triang/sinNode.s
+
+# target to generate assembly for a file
+cgNode/singleNodes/op/triang/sinNode.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.s
+.PHONY : cgNode/singleNodes/op/triang/sinNode.cpp.s
 
 cgNode/singleNodes/singleNode.o: cgNode/singleNodes/singleNode.cpp.o
 
@@ -1146,6 +1335,12 @@ help:
 	@echo "... MyException/RangeException/RangeMagException.o"
 	@echo "... MyException/RangeException/RangeMagException.i"
 	@echo "... MyException/RangeException/RangeMagException.s"
+	@echo "... MyException/SolverException/CannotConvergeException.o"
+	@echo "... MyException/SolverException/CannotConvergeException.i"
+	@echo "... MyException/SolverException/CannotConvergeException.s"
+	@echo "... MyException/SolverException/ConditionException.o"
+	@echo "... MyException/SolverException/ConditionException.i"
+	@echo "... MyException/SolverException/ConditionException.s"
 	@echo "... MyException/SolverException/SingleVariableException.o"
 	@echo "... MyException/SolverException/SingleVariableException.i"
 	@echo "... MyException/SolverException/SingleVariableException.s"
@@ -1176,6 +1371,12 @@ help:
 	@echo "... Solvers/Root/singleroot/BisectionRootFinder.o"
 	@echo "... Solvers/Root/singleroot/BisectionRootFinder.i"
 	@echo "... Solvers/Root/singleroot/BisectionRootFinder.s"
+	@echo "... Solvers/Root/singleroot/FixedPointRootFinder.o"
+	@echo "... Solvers/Root/singleroot/FixedPointRootFinder.i"
+	@echo "... Solvers/Root/singleroot/FixedPointRootFinder.s"
+	@echo "... Solvers/Root/singleroot/NewtonsRootFinder.o"
+	@echo "... Solvers/Root/singleroot/NewtonsRootFinder.i"
+	@echo "... Solvers/Root/singleroot/NewtonsRootFinder.s"
 	@echo "... Solvers/Solver.o"
 	@echo "... Solvers/Solver.i"
 	@echo "... Solvers/Solver.s"
@@ -1215,9 +1416,18 @@ help:
 	@echo "... cgNode/singleNodes/op/lnNode.o"
 	@echo "... cgNode/singleNodes/op/lnNode.i"
 	@echo "... cgNode/singleNodes/op/lnNode.s"
+	@echo "... cgNode/singleNodes/op/polyNode.o"
+	@echo "... cgNode/singleNodes/op/polyNode.i"
+	@echo "... cgNode/singleNodes/op/polyNode.s"
 	@echo "... cgNode/singleNodes/op/powNode.o"
 	@echo "... cgNode/singleNodes/op/powNode.i"
 	@echo "... cgNode/singleNodes/op/powNode.s"
+	@echo "... cgNode/singleNodes/op/triang/cosNode.o"
+	@echo "... cgNode/singleNodes/op/triang/cosNode.i"
+	@echo "... cgNode/singleNodes/op/triang/cosNode.s"
+	@echo "... cgNode/singleNodes/op/triang/sinNode.o"
+	@echo "... cgNode/singleNodes/op/triang/sinNode.i"
+	@echo "... cgNode/singleNodes/op/triang/sinNode.s"
 	@echo "... cgNode/singleNodes/singleNode.o"
 	@echo "... cgNode/singleNodes/singleNode.i"
 	@echo "... cgNode/singleNodes/singleNode.s"

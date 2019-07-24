@@ -19,7 +19,8 @@ cgNode *lnNode::clone(cgNode *parent) {
 
 void lnNode::compute() {
     _child->compute();
-    _result = new constNode(this, log(_child->get_result()->get_val()));
+    if (!_result)   _result = new constNode(this, 0);
+    _result->set_val(log(_child->get_result()->get_val()));
 }
 
 void lnNode::diff() {

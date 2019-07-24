@@ -23,6 +23,8 @@ public:
 
     double get_val() override ;
     void set_val(double val) override ;
+
+    bool is_num() override ;
 };
 
 

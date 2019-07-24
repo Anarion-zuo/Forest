@@ -14,24 +14,25 @@
 #include "Solvers/Range.h"
 #include "Solvers/SolverInput.h"
 #include "Solvers/Root/singleroot/BisectionRootFinder.h"
+#include "cgNode/singleNodes/op/triang/sinNode.h"
+#include "cgNode/singleNodes/op/triang/cosNode.h"
+#include "cgNode/multiop/mulNode.h"
+#include "Solvers/Root/singleroot/FixedPointRootFinder.h"
+#include "cgNode/singleNodes/op/powNode.h"
+#include "Solvers/Root/singleroot/NewtonsRootFinder.h"
 
 using namespace std;
 
 int main(){
-    var* x = new var(3);
+    auto x = new var(1);
     auto xn = new varNode(nullptr, x);
-    auto c = new constNode(nullptr, 4);
-    auto y = new sumNode(nullptr, {xn, c});
-    y->set_childs_parents();
-
-    cg* g = new cg(y);
-
-    auto range = new Range(-4.02, -3.9003);
-    map<var*, Range*> m;
-    m.insert(pair<var*, Range*>(x, range));
-    auto input = new SolverInput(m, 1e-8, 1e10, numeric_limits<double>::epsilon() * 100);
-    auto sol = new BisectionRootFinder(g, input);
+    auto po = new powNode(nullptr, xn, 18);
+    auto g = new cg(po);
+    auto range = new Range(-1.3, -0.6);
+    map<var*, Range*> ranges;
+    ranges.insert(pair<var*, Range*>(x, range));
+    auto inp = new SolverInput(ranges, 1e-14, 1000, 1e-16);
+    auto sol = new NewtonsRootFinder(g, inp);
     sol->solve();
-
     while(1);
 }

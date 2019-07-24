@@ -24,10 +24,12 @@ void powNode::compute() {
 void powNode::diff() {
     auto left = new constNode(nullptr, _pow);
     auto right = new powNode(nullptr, _child, _pow - 1);
-    right->set_childs_parents();
     auto ret = new mulNode(nullptr, left, right);
-    ret->set_childs_parents();
-    change_to(this, ret);
+    auto dch = _child->clone(nullptr);
+    auto ret2 = new mulNode(nullptr, ret, dch);
+    ret2->set_childs_parents();
+    dch->diff();
+    change_to(this, ret2);
 }
 
 void powNode::trim() {

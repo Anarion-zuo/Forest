@@ -38,7 +38,7 @@ public:
     size_t number_child();
     cgNode* get_parent();
     void set_parent(cgNode* node);
-    void set_childs_parents();
+    virtual void set_childs_parents();
     std::vector<cgNode*>& get_childs();
     cgNode* get_child(size_t index);
     void set_child(size_t index, cgNode* node);
@@ -57,6 +57,7 @@ public:
     // check
     virtual bool is_single_val();
     virtual bool is_const();
+    virtual bool is_num();
 
 //    // output
 //    virtual std::string&& to_string();

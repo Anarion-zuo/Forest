@@ -17,7 +17,12 @@ public:
     cg* clone() override ;
 
     void compute(var* x);
+    inline void compute() override ;
 };
+
+void dcg::compute() {
+    cg::compute();
+}
 
 
 #endif //CPPFOREST_DCG_H

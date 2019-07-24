@@ -4,4 +4,4 @@
 
 #include "SolverOutput.h"
 
-SolverOutput::SolverOutput(size_t iter, double prec) : _iteration(iter), _precision(prec) {}
+SolverOutput::SolverOutput(size_t iter, double tol) : _iteration(iter), _tolerance(tol) {}

@@ -11,9 +11,9 @@
 class SolverOutput {
 protected:
     size_t _iteration;
-    double _precision;
+    double _tolerance;
 public:
-    SolverOutput(size_t iter, double prec);
+    SolverOutput(size_t iter, double tol);
 };
 
 

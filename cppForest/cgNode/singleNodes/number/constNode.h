@@ -23,6 +23,7 @@ public:
     void set_val(double val) override ;
 
     bool is_const() override ;
+    bool is_num() override ;
 };
 
 

@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5587.18/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.70/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5587.18/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.70/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -538,6 +538,97 @@ CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/SingleVariableException.cpp -o CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.s
 
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.o: ../cgNode/singleNodes/op/polyNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/polyNode.cpp
+
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/polyNode.cpp > CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.i
+
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/polyNode.cpp -o CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.s
+
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.o: ../cgNode/singleNodes/op/triang/sinNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/sinNode.cpp
+
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/sinNode.cpp > CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.i
+
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/sinNode.cpp -o CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.s
+
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.o: ../cgNode/singleNodes/op/triang/cosNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/cosNode.cpp
+
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/cosNode.cpp > CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.i
+
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/cosNode.cpp -o CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.s
+
+CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o: ../MyException/SolverException/ConditionException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/ConditionException.cpp
+
+CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/ConditionException.cpp > CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.i
+
+CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/ConditionException.cpp -o CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.s
+
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../Solvers/Root/singleroot/FixedPointRootFinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/FixedPointRootFinder.cpp
+
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/FixedPointRootFinder.cpp > CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.i
+
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/FixedPointRootFinder.cpp -o CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.s
+
+CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o: ../MyException/SolverException/CannotConvergeException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/CannotConvergeException.cpp
+
+CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/CannotConvergeException.cpp > CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.i
+
+CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/CannotConvergeException.cpp -o CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.s
+
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o: ../Solvers/Root/singleroot/NewtonsRootFinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/NewtonsRootFinder.cpp
+
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/NewtonsRootFinder.cpp > CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.i
+
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/NewtonsRootFinder.cpp -o CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.s
+
 # Object files for target cppForest
 cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/main.cpp.o" \
@@ -576,7 +667,14 @@ cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o" \
 "CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o" \
 "CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o" \
-"CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.o"
+"CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.o" \
+"CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.o" \
+"CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.o" \
+"CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.o" \
+"CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o" \
+"CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o" \
+"CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o" \
+"CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o"
 
 # External object files for target cppForest
 cppForest_EXTERNAL_OBJECTS =
@@ -618,9 +716,16 @@ cppForest: CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o
 cppForest: CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o
 cppForest: CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o
 cppForest: CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.o
+cppForest: CMakeFiles/cppForest.dir/cgNode/singleNodes/op/polyNode.cpp.o
+cppForest: CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/sinNode.cpp.o
+cppForest: CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/cosNode.cpp.o
+cppForest: CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o
+cppForest: CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o
 cppForest: CMakeFiles/cppForest.dir/build.make
 cppForest: CMakeFiles/cppForest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable cppForest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking CXX executable cppForest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppForest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

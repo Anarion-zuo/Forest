@@ -6,6 +6,7 @@
 #define CPPFOREST_CG_H
 
 #include "../cgNode/cgNode.h"
+#include "../cgNode/rootNode.h"
 
 class cg {
     friend class FixedPointRootFinder;
@@ -20,6 +21,5 @@ public:
     virtual void compute();
     cgNode* get_result();
 };
-
 
 #endif //CPPFOREST_CG_H

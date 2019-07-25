@@ -20,19 +20,21 @@
 #include "Solvers/Root/singleroot/FixedPointRootFinder.h"
 #include "cgNode/singleNodes/op/powNode.h"
 #include "Solvers/Root/singleroot/NewtonsRootFinder.h"
+#include "Solvers/Root/singleroot/SecantRootFinder.h"
+#include "Solvers/Root/singleroot/FalsePositionRootFinder.h"
 
 using namespace std;
 
 int main(){
     auto x = new var(1);
     auto xn = new varNode(nullptr, x);
-    auto po = new powNode(nullptr, xn, 18);
+    auto po = new powNode(nullptr, xn, 1);
     auto g = new cg(po);
-    auto range = new Range(-1.3, -0.6);
+    auto range = new Range(-1.3, 26864891);
     map<var*, Range*> ranges;
     ranges.insert(pair<var*, Range*>(x, range));
     auto inp = new SolverInput(ranges, 1e-14, 1000, 1e-16);
-    auto sol = new NewtonsRootFinder(g, inp);
+    auto sol = new FalsePositionRootFinder(g, inp);
     sol->solve();
     while(1);
 }

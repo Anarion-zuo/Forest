@@ -43,6 +43,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o"
   "CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o"
   "CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/Root/singleroot/SecantRootFinder.cpp.o"
+  "CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.o"
   "cppForest.pdb"
   "cppForest"
 )

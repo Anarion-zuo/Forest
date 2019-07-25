@@ -85,6 +85,23 @@ CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/CannotConvergeException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/ConditionException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/SingleVariableException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/FalsePositionRootFinder.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/FalsePositionRootFinder.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Solver.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverInput.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverOutput.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o
@@ -102,6 +119,7 @@ CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/sumNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/varNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/singleNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
@@ -119,6 +137,22 @@ CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/SecantRootFinder.cpp.o
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/CannotConvergeException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/SingleVariableException.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/SecantRootFinder.cpp
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/SecantRootFinder.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Solver.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverInput.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverOutput.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o
@@ -132,6 +166,7 @@ CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.o
@@ -156,6 +191,7 @@ CMakeFiles/cppForest.dir/cg/dcg.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.cpp
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/linearAlg/Array/Array.h
 CMakeFiles/cppForest.dir/cgNode/cgNode.cpp.o
@@ -333,8 +369,10 @@ CMakeFiles/cppForest.dir/main.cpp.o
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/nodeException.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/BisectionRootFinder.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/FalsePositionRootFinder.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/FixedPointRootFinder.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/NewtonsRootFinder.h
+ /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/SecantRootFinder.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Solver.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverInput.h
  /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverOutput.h

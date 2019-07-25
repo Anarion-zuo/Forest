@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.70/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.100/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.70/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.100/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.70/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.100/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.70/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.100/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -582,6 +582,33 @@ Solvers/Root/singleroot/BisectionRootFinder.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.s
 .PHONY : Solvers/Root/singleroot/BisectionRootFinder.cpp.s
 
+Solvers/Root/singleroot/FalsePositionRootFinder.o: Solvers/Root/singleroot/FalsePositionRootFinder.cpp.o
+
+.PHONY : Solvers/Root/singleroot/FalsePositionRootFinder.o
+
+# target to build an object file
+Solvers/Root/singleroot/FalsePositionRootFinder.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.o
+.PHONY : Solvers/Root/singleroot/FalsePositionRootFinder.cpp.o
+
+Solvers/Root/singleroot/FalsePositionRootFinder.i: Solvers/Root/singleroot/FalsePositionRootFinder.cpp.i
+
+.PHONY : Solvers/Root/singleroot/FalsePositionRootFinder.i
+
+# target to preprocess a source file
+Solvers/Root/singleroot/FalsePositionRootFinder.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.i
+.PHONY : Solvers/Root/singleroot/FalsePositionRootFinder.cpp.i
+
+Solvers/Root/singleroot/FalsePositionRootFinder.s: Solvers/Root/singleroot/FalsePositionRootFinder.cpp.s
+
+.PHONY : Solvers/Root/singleroot/FalsePositionRootFinder.s
+
+# target to generate assembly for a file
+Solvers/Root/singleroot/FalsePositionRootFinder.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.s
+.PHONY : Solvers/Root/singleroot/FalsePositionRootFinder.cpp.s
+
 Solvers/Root/singleroot/FixedPointRootFinder.o: Solvers/Root/singleroot/FixedPointRootFinder.cpp.o
 
 .PHONY : Solvers/Root/singleroot/FixedPointRootFinder.o
@@ -635,6 +662,33 @@ Solvers/Root/singleroot/NewtonsRootFinder.s: Solvers/Root/singleroot/NewtonsRoot
 Solvers/Root/singleroot/NewtonsRootFinder.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.s
 .PHONY : Solvers/Root/singleroot/NewtonsRootFinder.cpp.s
+
+Solvers/Root/singleroot/SecantRootFinder.o: Solvers/Root/singleroot/SecantRootFinder.cpp.o
+
+.PHONY : Solvers/Root/singleroot/SecantRootFinder.o
+
+# target to build an object file
+Solvers/Root/singleroot/SecantRootFinder.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/SecantRootFinder.cpp.o
+.PHONY : Solvers/Root/singleroot/SecantRootFinder.cpp.o
+
+Solvers/Root/singleroot/SecantRootFinder.i: Solvers/Root/singleroot/SecantRootFinder.cpp.i
+
+.PHONY : Solvers/Root/singleroot/SecantRootFinder.i
+
+# target to preprocess a source file
+Solvers/Root/singleroot/SecantRootFinder.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/SecantRootFinder.cpp.i
+.PHONY : Solvers/Root/singleroot/SecantRootFinder.cpp.i
+
+Solvers/Root/singleroot/SecantRootFinder.s: Solvers/Root/singleroot/SecantRootFinder.cpp.s
+
+.PHONY : Solvers/Root/singleroot/SecantRootFinder.s
+
+# target to generate assembly for a file
+Solvers/Root/singleroot/SecantRootFinder.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Solvers/Root/singleroot/SecantRootFinder.cpp.s
+.PHONY : Solvers/Root/singleroot/SecantRootFinder.cpp.s
 
 Solvers/Solver.o: Solvers/Solver.cpp.o
 
@@ -1371,12 +1425,18 @@ help:
 	@echo "... Solvers/Root/singleroot/BisectionRootFinder.o"
 	@echo "... Solvers/Root/singleroot/BisectionRootFinder.i"
 	@echo "... Solvers/Root/singleroot/BisectionRootFinder.s"
+	@echo "... Solvers/Root/singleroot/FalsePositionRootFinder.o"
+	@echo "... Solvers/Root/singleroot/FalsePositionRootFinder.i"
+	@echo "... Solvers/Root/singleroot/FalsePositionRootFinder.s"
 	@echo "... Solvers/Root/singleroot/FixedPointRootFinder.o"
 	@echo "... Solvers/Root/singleroot/FixedPointRootFinder.i"
 	@echo "... Solvers/Root/singleroot/FixedPointRootFinder.s"
 	@echo "... Solvers/Root/singleroot/NewtonsRootFinder.o"
 	@echo "... Solvers/Root/singleroot/NewtonsRootFinder.i"
 	@echo "... Solvers/Root/singleroot/NewtonsRootFinder.s"
+	@echo "... Solvers/Root/singleroot/SecantRootFinder.o"
+	@echo "... Solvers/Root/singleroot/SecantRootFinder.i"
+	@echo "... Solvers/Root/singleroot/SecantRootFinder.s"
 	@echo "... Solvers/Solver.o"
 	@echo "... Solvers/Solver.i"
 	@echo "... Solvers/Solver.s"

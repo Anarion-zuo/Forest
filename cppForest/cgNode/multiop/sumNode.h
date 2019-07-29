@@ -6,15 +6,16 @@
 #define CPPFOREST_SUMNODE_H
 
 
-#include "../vectorOp/dotNode.h"
+#include "../vectors/vecNode.h"
 
-class sumNode : public dotNode {
+class sumNode : public vecNode {
 private:
 
 public:
     sumNode(cgNode* parent, const std::vector<cgNode*>& childs);
     cgNode* clone(cgNode* parent) override ;
 
+    void compute() override ;
     void diff() override ;
 
 };

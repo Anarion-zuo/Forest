@@ -6,6 +6,7 @@
 #define CPPFOREST_RANGE_H
 
 #include <vector>
+#include "../cgNode/var.h"
 
 class Range {
 protected:
@@ -22,6 +23,8 @@ public:
 
     double get_left();
     double get_right();
+
+    static void register_var_range(var* x, double left, double right);
 };
 
 

@@ -252,6 +252,12 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/mulNode.h">
 			<Option target="cppForest"/>
 		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/prodNode.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/prodNode.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/sumNode.cpp">
 			<Option target="cppForest"/>
 		</Unit>

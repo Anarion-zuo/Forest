@@ -25,6 +25,8 @@ public:
     SolverInput(std::map<var*, Range*>  ranges, double error, size_t maxiter, double epsi = std::numeric_limits<double>::epsilon(), double forward = std::numeric_limits<double>::epsilon(), double backward = std::numeric_limits<double>::epsilon());
     virtual ~SolverInput() = default;
 
+    static void register_range(std::map<var*, Range*>& map, var* x, double left, double right);
+
     bool equals(double n1, double n2);
     bool is_precise_enough(double n, bool eflag = false);
     bool exceeds_max_iter(size_t n);

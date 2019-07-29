@@ -5,15 +5,10 @@
 #include "sumNode.h"
 #include "../vectors/vecNode.h"
 #include "../singleNodes/number/constNode.h"
+#include "../../MyException/VectorException/singleException/singleException.h"
 
 
-sumNode::sumNode(cgNode *parent, const std::vector<cgNode *> &childs) : dotNode(parent, nullptr, nullptr) {
-    auto left = new vecNode(this, childs);
-    auto right = new vecNode(this, std::vector<cgNode*>(childs.size(), new constNode(nullptr, 1)));
-    right->set_childs_parents();
-    _left = left;
-    _right = right;
-}
+sumNode::sumNode(cgNode *parent, const std::vector<cgNode *> &childs) : vecNode(parent, childs) {}
 
 cgNode *sumNode::clone(cgNode* parent) {
     std::vector<cgNode*> vec(_childs);
@@ -26,7 +21,25 @@ cgNode *sumNode::clone(cgNode* parent) {
 }
 
 void sumNode::diff() {
-    for (auto &child : _childs) {
+    for (auto child : _childs) {
         child->diff();
     }
+}
+
+void sumNode::compute() {
+    for (auto child : _childs){
+        child->compute();
+    }
+    if (!_result){
+        _result = new constNode(this, 0);
+    }
+    double ret = 0;
+    for (auto child : _childs){
+        auto pr =  child->get_result();
+        if (!pr->is_const()){
+            throw singleException(this);
+        }
+        ret += child->get_result()->get_val();
+    }
+    _result->set_val(ret);
 }

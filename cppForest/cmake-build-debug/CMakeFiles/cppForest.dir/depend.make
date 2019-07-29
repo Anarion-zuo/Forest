@@ -72,6 +72,7 @@ CMakeFiles/cppForest.dir/MyException/nullException.cpp.o: ../linearAlg/Array/Arr
 CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: ../MyException/RangeException/RangeMagException.h
 CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: ../Solvers/Range.cpp
 CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: ../Solvers/Range.h
+CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: ../cgNode/var.h
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../MyException/SolverException/ConditionException.h
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../MyException/SolverException/SingleVariableException.h
@@ -106,8 +107,6 @@ CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.o: 
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../MyException/SolverException/CannotConvergeException.h
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../MyException/SolverException/SingleVariableException.h
-CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.h
-CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../Solvers/Range.h
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../Solvers/Root/singleroot/FixedPointRootFinder.cpp
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../Solvers/Root/singleroot/FixedPointRootFinder.h
@@ -122,7 +121,7 @@ CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../cgNode/singleNodes/number/varNode.h
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../cgNode/singleNodes/singleNode.h
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../cgNode/var.h
-CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../cgNode/vectorOp/dotNode.h
+CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../cgNode/vectors/vecNode.h
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../linearAlg/Array/Array.h
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o: ../MyException/SolverException/CannotConvergeException.h
@@ -207,20 +206,33 @@ CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o: ../MyException/VectorExce
 CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o: ../cgNode/multiop/mulNode.cpp
 CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o: ../cgNode/multiop/mulNode.h
+CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o: ../cgNode/multiop/sumNode.h
 CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o: ../cgNode/singleNodes/number/constNode.h
 CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o: ../cgNode/singleNodes/singleNode.h
 CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o: ../cgNode/vectorOp/dotNode.h
 CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o: ../cgNode/vectors/vecNode.h
 CMakeFiles/cppForest.dir/cgNode/multiop/mulNode.cpp.o: ../linearAlg/Array/Array.h
 
-CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.h
+CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.h
+CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../MyException/VectorException/nodeException.h
+CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../MyException/VectorException/singleException/singleException.h
+CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../cgNode/cgNode.h
+CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../cgNode/multiop/mulNode.h
+CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../cgNode/multiop/prodNode.cpp
+CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../cgNode/multiop/prodNode.h
+CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../cgNode/singleNodes/number/constNode.h
+CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../cgNode/singleNodes/singleNode.h
+CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../cgNode/vectorOp/dotNode.h
+CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../cgNode/vectors/vecNode.h
+CMakeFiles/cppForest.dir/cgNode/multiop/prodNode.cpp.o: ../linearAlg/Array/Array.h
+
 CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o: ../MyException/VectorException/nodeException.h
+CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o: ../MyException/VectorException/singleException/singleException.h
 CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o: ../cgNode/cgNode.h
 CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o: ../cgNode/multiop/sumNode.cpp
 CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o: ../cgNode/multiop/sumNode.h
 CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o: ../cgNode/singleNodes/number/constNode.h
 CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o: ../cgNode/singleNodes/singleNode.h
-CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o: ../cgNode/vectorOp/dotNode.h
 CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o: ../cgNode/vectors/vecNode.h
 CMakeFiles/cppForest.dir/cgNode/multiop/sumNode.cpp.o: ../linearAlg/Array/Array.h
 

@@ -21,7 +21,7 @@ void cgNode::set_childs_parents() {
     }
     for (auto i : _childs){
         i->set_parent(this);
-        i->set_childs_parents();
+//        i->set_childs_parents();
     }
 }
 

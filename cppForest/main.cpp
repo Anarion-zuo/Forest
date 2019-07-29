@@ -28,13 +28,16 @@ using namespace std;
 int main(){
     auto x = new var(1);
     auto xn = new varNode(nullptr, x);
-    auto po = new powNode(nullptr, xn, 1);
-    auto g = new cg(po);
-    auto range = new Range(-1.3, 26864891);
+    auto po = new cosNode(nullptr, xn);
+    po->set_childs_parents();
+    auto xn2 = new varNode(nullptr, x);
+    auto mi = new sumNode(nullptr, {po, xn2});
+    auto g = new cg(mi);
+    auto range = new Range(-1.3, -.6);
     map<var*, Range*> ranges;
     ranges.insert(pair<var*, Range*>(x, range));
     auto inp = new SolverInput(ranges, 1e-14, 1000, 1e-16);
     auto sol = new FalsePositionRootFinder(g, inp);
     sol->solve();
-    while(1);
+    cout << x->get_val();
 }

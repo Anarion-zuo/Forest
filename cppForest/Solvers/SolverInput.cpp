@@ -36,6 +36,10 @@ bool SolverInput::exceeds_max_iter(size_t n) {
 size_t SolverInput::var_number() {
     return _ranges.size();
 }
+
+void SolverInput::register_range(std::map<var *, Range *> &map, var *x, double left, double right) {
+    map.insert(std::pair<var*, Range*>(x, new Range(left, right)));
+}
 //
 //const std::map<var *, Range *> &SolverInput::get_ranges() {
 //    return _ranges;

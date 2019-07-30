@@ -6,7 +6,7 @@
 #define CPPFOREST_SOLVEROUTPUT_H
 
 
-#include "../cgNode/var.h"
+#include "../cgNode/_var.h"
 
 class SolverOutput {
 protected:

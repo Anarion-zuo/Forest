@@ -11,7 +11,7 @@
 class SecantRootFinder : public Solver {
 protected:
 public:
-    SecantRootFinder(cg *graph, SolverInput *info);
+    SecantRootFinder(_cg *graph, SolverInput *info);
     ~SecantRootFinder() override = default;
 
     void solve() override ;

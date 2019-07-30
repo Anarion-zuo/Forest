@@ -6,7 +6,7 @@
 #include "../../../MyException/SolverException/SingleVariableException.h"
 #include "../../../MyException/SolverException/ConditionException.h"
 
-BisectionRootFinder::BisectionRootFinder(cg *graph, SolverInput *info) : Solver(graph, info, false) {
+BisectionRootFinder::BisectionRootFinder(_cg *graph, SolverInput *info) : Solver(graph, info, false) {
     if (_input->var_number() != 1){
         throw SingleVariableException("Feeding multiple variables or none to a single root finder");
     }
@@ -16,7 +16,7 @@ void BisectionRootFinder::solve() {
     auto it = _input->_ranges.begin();
     double a = it->second->get_left();
     double b = it->second->get_right();
-    var* x = it->first;
+    _var* x = it->first;
     x->set_val(a);
     _graph->compute();
     double fa = _graph->get_result()->get_val();

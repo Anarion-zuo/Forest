@@ -6,14 +6,14 @@
 #define CPPFOREST_NODEEXCEPTION_H
 
 #include <stdexcept>
-#include "../../cgNode/cgNode.h"
+#include "../../cgNode/_cg_node.h"
 
 
 class nodeException : public std::exception {
 protected:
-    cgNode* _node;
+    _cg_node* _node;
 public:
-    nodeException(cgNode* node);
+    nodeException(_cg_node* node);
     virtual const char* what() const _GLIBCXX_TXN_SAFE_DYN _GLIBCXX_USE_NOEXCEPT override ;
 };
 

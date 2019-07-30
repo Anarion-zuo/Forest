@@ -3,18 +3,18 @@
 //
 
 #include "FixedPointRootFinder.h"
-#include "../../../cgNode/singleNodes/number/varNode.h"
-#include "../../../cgNode/multiop/sumNode.h"
+#include "../../../cgNode/singleNodes/number/_var_node.h"
+#include "../../../cgNode/multiop/_sum_node.h"
 #include "../../../MyException/SolverException/CannotConvergeException.h"
 #include "../../../MyException/SolverException/SingleVariableException.h"
 
-FixedPointRootFinder::FixedPointRootFinder(cg *graph, SolverInput *info) : Solver(graph, info, false) {
+FixedPointRootFinder::FixedPointRootFinder(_cg *graph, SolverInput *info) : Solver(graph, info, false) {
     if (_input->var_number() != 1){
         throw SingleVariableException("Feeding multiple variables or none to a single root finder");
     }
-    var* var = _input->_ranges.begin()->first;
-    auto x = new varNode(nullptr, var);
-    auto add = new sumNode(nullptr, {_graph->_root->get_child(0), x});
+    _var* var = _input->_ranges.begin()->first;
+    auto x = new _var_node(nullptr, var);
+    auto add = new _sum_node(nullptr, {_graph->_root->get_child(0), x});
     add->set_childs_parents();
     graph->_root->set_child(0, add);
     graph->_root->set_childs_parents();
@@ -27,7 +27,7 @@ void FixedPointRootFinder::solve() {
     size_t i = 0;
     double prec = 1e10;
     while (true){
-        var* v = _input->_ranges.begin()->first;
+        _var* v = _input->_ranges.begin()->first;
         v->set_val(x);
         _graph->compute();
         double xp = _graph->get_result()->get_val();

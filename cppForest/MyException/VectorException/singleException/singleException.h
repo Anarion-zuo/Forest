@@ -10,7 +10,7 @@
 
 class singleException : public nodeException {
 public:
-    explicit singleException(cgNode* node);
+    explicit singleException(_cg_node* node);
     virtual const char *what() const _GLIBCXX_TXN_SAFE_DYN _GLIBCXX_USE_NOEXCEPT override ;
 };
 

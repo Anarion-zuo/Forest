@@ -10,7 +10,7 @@
 
 class getnonconstValException : public nodeException {
 public:
-    explicit getnonconstValException(cgNode* node);  // takes the parent
+    explicit getnonconstValException(_cg_node* node);  // takes the parent
     virtual const char *what() const _GLIBCXX_TXN_SAFE_DYN _GLIBCXX_USE_NOEXCEPT override ;
 };
 

@@ -84,6 +84,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_vec.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_vec.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_unit_mat.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_unit_mat.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMNode.cpp">
 			<Option target="cppForest"/>
 		</Unit>
@@ -102,10 +120,10 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/MLParser.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/MatrixException/cnstFormatException/cnstFormatException.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/NumericMatrixException/MatrixShapeException.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/MatrixException/cnstFormatException/cnstFormatException.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/NumericMatrixException/MatrixShapeException.h">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/RangeException/RangeMagException.cpp">
@@ -228,136 +246,136 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverOutput.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/_cg.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/cg.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/_cg.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/_dcg.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/dcg.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/_dcg.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/_cg_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/cgNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/_cg_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/mulNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/_root_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/mulNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/_root_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/prodNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/_var.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/prodNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/_var.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/sumNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/_mul_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/sumNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/_mul_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/_prod_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/rootNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/_prod_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/constNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/_sum_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/constNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/_sum_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/varNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/_single_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/varNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/_single_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/expNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/_const_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/expNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/_const_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/lnNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/_var_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/lnNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/number/_var_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/polyNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/_exp_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/polyNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/_exp_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/powNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/_ln_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/powNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/_ln_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/cosNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/_poly_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/cosNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/_poly_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/sinNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/_pow_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/sinNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/_pow_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/singleNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/_cos_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/singleNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/_cos_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/_sin_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/var.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/_sin_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_dot_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/dotNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_dot_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/nummulNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_nummul_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/nummulNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_nummul_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/vaddNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_vadd_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/vaddNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_vadd_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/matNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_vec_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/matNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_vec_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/vecNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/common.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/vecNode.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/common.h">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/main.cpp">

@@ -10,7 +10,7 @@
 
 class FixedPointRootFinder : public Solver {
 public:
-    FixedPointRootFinder(cg* graph, SolverInput* info);
+    FixedPointRootFinder(_cg* graph, SolverInput* info);
     ~FixedPointRootFinder() override = default;
 
     void solve() override ;

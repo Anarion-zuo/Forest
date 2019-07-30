@@ -10,7 +10,7 @@
 
 class NewtonsRootFinder : public Solver {
 public:
-    NewtonsRootFinder(cg *graph, SolverInput *info);
+    NewtonsRootFinder(_cg *graph, SolverInput *info);
     ~NewtonsRootFinder() override = default;
 
     void solve() override ;

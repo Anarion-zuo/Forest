@@ -10,7 +10,7 @@
 
 class FalsePositionRootFinder : public Solver {
 public:
-    FalsePositionRootFinder(cg *graph, SolverInput *info);
+    FalsePositionRootFinder(_cg *graph, SolverInput *info);
     ~FalsePositionRootFinder() override = default;
 
     void solve() override ;

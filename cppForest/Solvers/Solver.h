@@ -6,22 +6,22 @@
 #define CPPFOREST_SOLVER_H
 
 
-#include "../cg/cg.h"
+#include "../cg/_cg.h"
 #include "SolverInput.h"
 #include "SolverOutput.h"
-#include "../cg/dcg.h"
+#include "../cg/_dcg.h"
 
 class Solver {
 protected:
-    cg* _graph;
+    _cg* _graph;
     SolverInput* _input;
     SolverOutput* _output = nullptr;
-    dcg* _dgraph = nullptr;
+    _dcg* _dgraph = nullptr;
     static const bool _flag_forward_error = false;
     static const bool _flag_backward_error = true;
     static const bool _flag_use_derivative = true;
 public:
-    Solver(cg* graph, SolverInput* info, bool derivative);
+    Solver(_cg* graph, SolverInput* info, bool derivative);
     virtual ~Solver() = default;
 
     virtual void solve() = 0;

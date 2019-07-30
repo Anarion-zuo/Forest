@@ -6,7 +6,7 @@
 #include "../../../MyException/SolverException/SingleVariableException.h"
 #include "../../../MyException/SolverException/CannotConvergeException.h"
 
-SecantRootFinder::SecantRootFinder(cg *graph, SolverInput *info) : Solver(graph, info, false) {
+SecantRootFinder::SecantRootFinder(_cg *graph, SolverInput *info) : Solver(graph, info, false) {
     if (_input->var_number() != 1){
         throw SingleVariableException("Feeding multiple variables or none to a single root finder");
     }
@@ -15,7 +15,7 @@ SecantRootFinder::SecantRootFinder(cg *graph, SolverInput *info) : Solver(graph,
 void SecantRootFinder::solve() {
     double xi = _input->_ranges.begin()->second->get_left(),
     xii = _input->_ranges.begin()->second->get_right();
-    var* v = _input->_ranges.begin()->first;
+    _var* v = _input->_ranges.begin()->first;
     size_t i = 0;
     double fi, fii, xiii;
     while (true) {

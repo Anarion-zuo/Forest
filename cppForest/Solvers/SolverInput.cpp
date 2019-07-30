@@ -6,7 +6,7 @@
 
 #include "SolverInput.h"
 
-SolverInput::SolverInput(std::map<var *, Range *> ranges, double error, size_t maxiter, double epsi, double forward, double backward) : _ranges(std::move(ranges)), _epsilon(epsi), _max_iteration(maxiter), _error(forward, backward) {}
+SolverInput::SolverInput(std::map<_var *, Range *> ranges, double error, size_t maxiter, double epsi, double forward, double backward) : _ranges(std::move(ranges)), _epsilon(epsi), _max_iteration(maxiter), _error(forward, backward) {}
 
 bool SolverInput::equals(double n1, double n2) {
     double ret = n1 - n2;
@@ -37,11 +37,11 @@ size_t SolverInput::var_number() {
     return _ranges.size();
 }
 
-void SolverInput::register_range(std::map<var *, Range *> &map, var *x, double left, double right) {
-    map.insert(std::pair<var*, Range*>(x, new Range(left, right)));
+void SolverInput::register_range(std::map<_var *, Range *> &map, _var *x, double left, double right) {
+    map.insert(std::pair<_var*, Range*>(x, new Range(left, right)));
 }
 //
-//const std::map<var *, Range *> &SolverInput::get_ranges() {
+//const std::map<_x *, Range *> &SolverInput::get_ranges() {
 //    return _ranges;
 //}
 //

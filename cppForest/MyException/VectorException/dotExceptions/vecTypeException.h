@@ -12,7 +12,7 @@ class vecTypeException : public nodeException {
 protected:
     size_t _index;
 public:
-    explicit vecTypeException(cgNode* node, size_t index);  // takes the parent
+    explicit vecTypeException(_cg_node* node, size_t index);  // takes the parent
     virtual const char *what() const _GLIBCXX_TXN_SAFE_DYN _GLIBCXX_USE_NOEXCEPT override ;
 };
 

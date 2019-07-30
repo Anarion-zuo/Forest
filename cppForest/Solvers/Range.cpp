@@ -47,6 +47,6 @@ double Range::get_left() {
     return _left;
 }
 
-void Range::register_var_range(var *x, double left, double right) {
+void Range::register_var_range(_var *x, double left, double right) {
 
 }

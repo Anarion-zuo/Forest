@@ -8,7 +8,7 @@
 
 #include <limits>
 #include "Range.h"
-#include "../cgNode/var.h"
+#include "../cgNode/_var.h"
 
 struct _numer_error_{
     double forw;
@@ -18,14 +18,14 @@ struct _numer_error_{
 
 class SolverInput {
 public:
-    std::map<var*, Range*> _ranges;
+    std::map<_var*, Range*> _ranges;
     double _epsilon;
     size_t _max_iteration;
     _numer_error_ _error;
-    SolverInput(std::map<var*, Range*>  ranges, double error, size_t maxiter, double epsi = std::numeric_limits<double>::epsilon(), double forward = std::numeric_limits<double>::epsilon(), double backward = std::numeric_limits<double>::epsilon());
+    SolverInput(std::map<_var*, Range*>  ranges, double error, size_t maxiter, double epsi = std::numeric_limits<double>::epsilon(), double forward = std::numeric_limits<double>::epsilon(), double backward = std::numeric_limits<double>::epsilon());
     virtual ~SolverInput() = default;
 
-    static void register_range(std::map<var*, Range*>& map, var* x, double left, double right);
+    static void register_range(std::map<_var*, Range*>& map, _var* x, double left, double right);
 
     bool equals(double n1, double n2);
     bool is_precise_enough(double n, bool eflag = false);

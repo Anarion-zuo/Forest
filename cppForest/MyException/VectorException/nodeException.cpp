@@ -8,4 +8,4 @@ const char *nodeException::what() const _GLIBCXX_TXN_SAFE_DYN _GLIBCXX_USE_NOEXC
     return "Exception occurred in a Node.";
 }
 
-nodeException::nodeException(cgNode *node) : _node(node) {}
+nodeException::nodeException(_cg_node *node) : _node(node) {}

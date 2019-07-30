@@ -10,7 +10,7 @@
 
 class BisectionRootFinder : public Solver {
 public:
-    BisectionRootFinder(cg* graph, SolverInput* info);
+    BisectionRootFinder(_cg* graph, SolverInput* info);
     ~BisectionRootFinder() override = default;
 
     void solve() override ;

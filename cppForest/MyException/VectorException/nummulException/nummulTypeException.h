@@ -11,7 +11,7 @@
 class nummulTypeException : public nodeException {
 protected:
 public:
-    explicit nummulTypeException(cgNode* node);  // takes the parent
+    explicit nummulTypeException(_cg_node* node);  // takes the parent
     virtual const char *what() const _GLIBCXX_TXN_SAFE_DYN _GLIBCXX_USE_NOEXCEPT override ;
 };
 

@@ -49,11 +49,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/Matrix/_cnst_vec.cpp.o"
   "CMakeFiles/cppForest.dir/Matrix/_unit_mat.cpp.o"
   "CMakeFiles/cppForest.dir/common/common.cpp.o"
+  "CMakeFiles/cppForest.dir/Matrix/_gaussian_elimination.c.o"
   "cppForest.pdb"
   "cppForest"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/cppForest.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

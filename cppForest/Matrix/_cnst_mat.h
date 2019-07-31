@@ -8,22 +8,29 @@
 
 #include <glob.h>
 #include <string>
+#include <vector>
 
 class _cnst_mat {
+private:
+    _cnst_mat(_cnst_mat&);
 protected:
     double* _mat;
     size_t _width, _height, _size;
 
     // Gaussian
+//    static std::vector<_cnst_mat*>&& _perfect_cond(_cnst_mat* input, const std::vector<_cnst_mat*>& rhs);
 public:
     _cnst_mat();
     _cnst_mat(size_t height, size_t width);
     _cnst_mat(double n, size_t height, size_t width);
     _cnst_mat(double* mat, size_t height, size_t width);
+    _cnst_mat(std::vector<std::vector<double>>&& vec);
     virtual ~_cnst_mat();
     _cnst_mat* clone();
     size_t get_width();
     size_t get_height();
+    void reshape(size_t height, size_t width);
+    static _cnst_mat * arrange(double begin, double end, double step);
 
     // serialize
     std::string to_string();
@@ -47,14 +54,9 @@ public:
 
     void plus_row(size_t srow, size_t drow);
     void plus_col(size_t scol, size_t dcol);
-    
-    // Gaussian
-    static void _eliminate(_cnst_mat* in, size_t rowi, size_t coli);
-    static void _eliminate_with(_cnst_mat* in, _cnst_mat* perm, _cnst_mat *b, size_t rowi, size_t coli);
-    static size_t _largest_row(_cnst_mat* in, size_t rowi, size_t coli);
-    static void _LU_fact(_cnst_mat* in, _cnst_mat *b, _cnst_mat** l, _cnst_mat** u, _cnst_mat** newb, size_t** order);
-    static void _solve_lcpb(_cnst_mat* lm, _cnst_mat* newb, size_t *order, _cnst_mat** c);
-    static void _solve_uxc();
+
+    static std::vector<_cnst_mat*> _perfect_cond(_cnst_mat* input, const std::vector<_cnst_mat*>& rhs);
+
 };
 
 

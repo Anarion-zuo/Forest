@@ -96,6 +96,12 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_vec.h">
 			<Option target="cppForest"/>
 		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_gaussian_elimination.c">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_gaussian_elimination.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_unit_mat.cpp">
 			<Option target="cppForest"/>
 		</Unit>

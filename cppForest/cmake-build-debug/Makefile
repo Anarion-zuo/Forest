@@ -177,6 +177,33 @@ Matrix/_cnst_vec.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_vec.cpp.s
 .PHONY : Matrix/_cnst_vec.cpp.s
 
+Matrix/_gaussian_elimination.o: Matrix/_gaussian_elimination.c.o
+
+.PHONY : Matrix/_gaussian_elimination.o
+
+# target to build an object file
+Matrix/_gaussian_elimination.c.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_gaussian_elimination.c.o
+.PHONY : Matrix/_gaussian_elimination.c.o
+
+Matrix/_gaussian_elimination.i: Matrix/_gaussian_elimination.c.i
+
+.PHONY : Matrix/_gaussian_elimination.i
+
+# target to preprocess a source file
+Matrix/_gaussian_elimination.c.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_gaussian_elimination.c.i
+.PHONY : Matrix/_gaussian_elimination.c.i
+
+Matrix/_gaussian_elimination.s: Matrix/_gaussian_elimination.c.s
+
+.PHONY : Matrix/_gaussian_elimination.s
+
+# target to generate assembly for a file
+Matrix/_gaussian_elimination.c.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_gaussian_elimination.c.s
+.PHONY : Matrix/_gaussian_elimination.c.s
+
 Matrix/_unit_mat.o: Matrix/_unit_mat.cpp.o
 
 .PHONY : Matrix/_unit_mat.o
@@ -1488,6 +1515,9 @@ help:
 	@echo "... Matrix/_cnst_vec.o"
 	@echo "... Matrix/_cnst_vec.i"
 	@echo "... Matrix/_cnst_vec.s"
+	@echo "... Matrix/_gaussian_elimination.o"
+	@echo "... Matrix/_gaussian_elimination.i"
+	@echo "... Matrix/_gaussian_elimination.s"
 	@echo "... Matrix/_unit_mat.o"
 	@echo "... Matrix/_unit_mat.i"
 	@echo "... Matrix/_unit_mat.s"

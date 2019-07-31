@@ -6,6 +6,9 @@
 #include "../MyException/NumericMatrixException/MatrixShapeException.h"
 #include "_unit_mat.h"
 #include "_cnst_vec.h"
+extern "C"{
+    #include "_gaussian_elimination.h"
+}
 
 _cnst_mat::_cnst_mat(size_t height, size_t width) : _mat(new double[height * width]), _width(width), _height(height), _size(height * width){}
 
@@ -35,6 +38,17 @@ _cnst_mat *_cnst_mat::clone() {
 }
 
 _cnst_mat::_cnst_mat(double *mat, size_t height, size_t width) : _mat(mat), _width(width), _height(height), _size(height * width) {}
+
+std::string _cnst_mat::to_string() {
+    std::string ret;
+    for (size_t i = 0; i < _size; ++i){
+        ret += std::to_string(_mat[i]) + ',';
+        if ((i + 1) % _width == 0){
+            ret += '\n';
+        }
+    }
+    return ret;
+}
 
 void _cnst_mat::negative(_cnst_mat *m) {
     double *mat = m->_mat;
@@ -109,61 +123,7 @@ void _cnst_mat::plus_row(size_t srow, size_t drow) {
     }
 }
 
-void _cnst_mat::_eliminate(_cnst_mat* in, size_t rowi, size_t coli) {
-    size_t i = 0, j, rowp = rowi * in->_width;
-    double piv = in->_mat[coli + rowp];
-    for (; i < in->_height; ++i){
-        if (i == rowi){
-            continue;
-        }
-        j = 0;
-        size_t rowd = i * in->_width;
-        double q = in->_mat[coli + rowd] / piv;
 
-        for (; j < in->_width; ++j){
-            in->_mat[j + rowd] -= q * in->_mat[j + rowp];
-        }
-    }
-}
-
-void _cnst_mat::_eliminate_with(_cnst_mat *in, _cnst_mat *perm, _cnst_mat *b, size_t rowi, size_t coli) {
-    size_t i = 0, j, rowp = rowi * in->_width;
-    double piv = in->_mat[coli + rowp];
-    for (; i < in->_height; ++i){
-        if (i == rowi){
-            continue;
-        }
-        j = 0;
-        size_t rowd = i * in->_width;
-        double q = in->_mat[coli + rowd] / piv;
-
-        for (; j < in->_width; ++j){
-            size_t pos1 = j + rowp;
-            double res = q * in->_mat[pos1];
-            size_t pos = j + rowd;
-            in->_mat[pos] -= res;
-            if (perm){
-                res = q * perm->_mat[pos1];
-                perm->_mat[pos] -= res;
-            }
-            if (b) {
-                res = q * b->_mat[pos1];
-                b->_mat[pos] -= res;
-            }
-        }
-    }
-}
-
-std::string _cnst_mat::to_string() {
-    std::string ret;
-    for (size_t i = 0; i < _size; ++i){
-        ret += std::to_string(_mat[i]) + ',';
-        if ((i + 1) % _width == 0){
-            ret += '\n';
-        }
-    }
-    return ret;
-}
 
 size_t _cnst_mat::get_width() {
     return _width;
@@ -173,54 +133,48 @@ size_t _cnst_mat::get_height() {
     return _height;
 }
 
-void _cnst_mat::_LU_fact(_cnst_mat *in, _cnst_mat *b, _cnst_mat **lo, _cnst_mat **uo, _cnst_mat** newb, size_t **order) {
-    in = in->clone();
-    b = b->clone();
-    size_t height = in->_height, width = in->_width;
-    auto stack = new size_t[width];
-    double *mat = in->_mat;
-//    size_t len;
-//    if (in->_width >= in->_height){
-//        len = in->_height;
-//    } else {
-//        len = in->_width;
-//    }
-    auto unit = new _unit_mat(height, width);
-    for (size_t i = 0; i < width; ++i){
-        size_t ri = _largest_row(in, 0, i);
-        stack[i] = ri;
-        _eliminate_with(in, unit, b, ri, i);
-    }
-    *lo = unit;
-    *uo = in;
-    *order = stack;
-    *newb = b;
+
+
+void _cnst_mat::reshape(size_t height, size_t width) {
+    _height = height;
+    _width = width;
 }
 
-size_t _cnst_mat::_largest_row(_cnst_mat *in, size_t rowi, size_t coli) {
-    size_t res = 0;
-    double *mat = in->_mat;
-    double piv = mat[coli];
-    for (size_t i = rowi; i < in->_height; ++i){
-        size_t loc = coli + in->_width * i;
-        double temp = mat[loc];
-        if (temp > piv){
-            piv = temp;
-            res = i;
+_cnst_mat *_cnst_mat::arrange(double begin, double end, double step) {
+    size_t len = (end - begin) / step;
+    auto arr = new double[len];
+    for (size_t i = 0; i < len; ++i){
+        arr[i] = begin;
+        begin += step;
+    }
+    return new _cnst_mat(arr, len, 1);
+}
+
+_cnst_mat::_cnst_mat(std::vector<std::vector<double>> &&vec) : _height(vec.size()), _width(vec[0].size()) {
+    _size = _width * _height;
+    _mat = new double[_size];
+    size_t i = 0;
+    for (auto& row : vec){
+        for (auto col : row){
+            _mat[i] = col;
+            ++i;
         }
     }
-    return res;
 }
 
-void _cnst_mat::_solve_lcpb(_cnst_mat *lm, _cnst_mat *newb, size_t *order, _cnst_mat **c) {
-    size_t width = lm->_width;
-    auto mat = new double[width];
-    for (size_t i = width - 1; i <= width; --i){
-        size_t o = order[i];
-        for (size_t j = i; j < width; ++j){
-
-        }
+std::vector<_cnst_mat *> _cnst_mat::_perfect_cond(_cnst_mat *input, const std::vector<_cnst_mat *>& rhs) {
+    size_t bnum = rhs.size(), width = input->_width, height = input->_height;
+    double *amat = input->_mat, **bmat = new double*[width], ***ans;
+    for (size_t i = 0; i < bnum; ++i){
+        bmat[i] = rhs[i]->_mat;
     }
-    *c = new _cnst_mat(mat, width, 1);
+    _perfect_cond_int(amat, bmat, bnum, ans, width, height);
+    double **an = *ans;
+    std::vector<_cnst_mat*> vec(bnum);
+    for (size_t i = 0; i < bnum; ++i){
+        vec[i] = new _cnst_mat(an[i], height, 1);
+    }
+    return std::move(vec);
 }
+
 

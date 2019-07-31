@@ -24,25 +24,38 @@
 #include "Solvers/Root/singleroot/FalsePositionRootFinder.h"
 #include "Matrix/_cnst_mat.h"
 #include "Matrix/_unit_mat.h"
+#include "Matrix/_cnst_vec.h"
 
 using namespace std;
 
 int main(){
-    auto x = new _var(1);
-    auto xn = new _var_node(nullptr, x);
-    auto po = new _pow_node(nullptr, xn, 2);
-    po->set_childs_parents();
-    auto xn2 = new _const_node(nullptr, -2);
-    auto mi = new _sum_node(nullptr, {po, xn2});
-    auto g = new _cg(mi);
-    auto range = new Range(-.965, 2);
-    map<_var*, Range*> ranges;
-    ranges.insert(pair<_var*, Range*>(x, range));
-    auto inp = new SolverInput(ranges, 1e-14, 1e6, 1e-5);
-    auto sol = new FalsePositionRootFinder(g, inp);
-    sol->solve();
+//    auto x = new _var(1);
+//    auto xn = new _var_node(nullptr, x);
+//    auto po = new _pow_node(nullptr, xn, 2);
+//    po->set_childs_parents();
+//    auto xn2 = new _const_node(nullptr, -2);
+//    auto mi = new _sum_node(nullptr, {po, xn2});
+//    auto g = new _cg(mi);
+//    auto range = new Range(-.965, 2);
+//    map<_var*, Range*> ranges;
+//    ranges.insert(pair<_var*, Range*>(x, range));
+//    auto inp = new SolverInput(ranges, 1e-14, 1e6, 1e-5);
+//    auto sol = new FalsePositionRootFinder(g, inp);
+//    sol->solve();
 //    cout << x->get_val();
 
-    auto pm = new _unit_mat(6, 5);
-    cout << pm->to_string();
+    auto am = new _cnst_mat(
+            {
+                    {4,2,0},
+                    {4,4,2},
+                    {2,2,3}
+            }
+            );
+    auto b = new _cnst_mat({{2},{4},{6}});
+    auto b2 = new _cnst_mat({{4},{8},{12}});
+    cout << am->to_string() << endl;
+    auto ans = _cnst_mat::_perfect_cond(am, {b, b2});
+    for (auto an : ans){
+        cout << an->to_string() << endl;
+    }
 }

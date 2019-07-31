@@ -1,8 +1,17 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "C"
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_gaussian_elimination.c" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Matrix/_gaussian_elimination.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Matrix/_cnst_mat.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_vec.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Matrix/_cnst_vec.cpp.o"

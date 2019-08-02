@@ -1446,6 +1446,33 @@ cgNode/vectors/_vec_node.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/cgNode/vectors/_vec_node.cpp.s
 .PHONY : cgNode/vectors/_vec_node.cpp.s
 
+common/_bit_array.o: common/_bit_array.cpp.o
+
+.PHONY : common/_bit_array.o
+
+# target to build an object file
+common/_bit_array.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/common/_bit_array.cpp.o
+.PHONY : common/_bit_array.cpp.o
+
+common/_bit_array.i: common/_bit_array.cpp.i
+
+.PHONY : common/_bit_array.i
+
+# target to preprocess a source file
+common/_bit_array.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/common/_bit_array.cpp.i
+.PHONY : common/_bit_array.cpp.i
+
+common/_bit_array.s: common/_bit_array.cpp.s
+
+.PHONY : common/_bit_array.s
+
+# target to generate assembly for a file
+common/_bit_array.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/common/_bit_array.cpp.s
+.PHONY : common/_bit_array.cpp.s
+
 common/common.o: common/common.cpp.o
 
 .PHONY : common/common.o
@@ -1656,6 +1683,9 @@ help:
 	@echo "... cgNode/vectors/_vec_node.o"
 	@echo "... cgNode/vectors/_vec_node.i"
 	@echo "... cgNode/vectors/_vec_node.s"
+	@echo "... common/_bit_array.o"
+	@echo "... common/_bit_array.i"
+	@echo "... common/_bit_array.s"
 	@echo "... common/common.o"
 	@echo "... common/common.i"
 	@echo "... common/common.s"

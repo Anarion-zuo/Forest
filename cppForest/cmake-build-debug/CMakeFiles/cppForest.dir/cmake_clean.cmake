@@ -50,6 +50,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppForest.dir/Matrix/_unit_mat.cpp.o"
   "CMakeFiles/cppForest.dir/common/common.cpp.o"
   "CMakeFiles/cppForest.dir/Matrix/_gaussian_elimination.c.o"
+  "CMakeFiles/cppForest.dir/common/_bit_array.cpp.o"
   "cppForest.pdb"
   "cppForest"
 )

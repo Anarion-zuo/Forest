@@ -378,6 +378,12 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_vec_node.h">
 			<Option target="cppForest"/>
 		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/_bit_array.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/_bit_array.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/common.cpp">
 			<Option target="cppForest"/>
 		</Unit>

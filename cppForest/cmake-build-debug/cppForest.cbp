@@ -198,6 +198,12 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/nullException.h">
 			<Option target="cppForest"/>
 		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Other Modeling Algs/GreyModel/GreyModel.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Other Modeling Algs/GreyModel/GreyModel.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.cpp">
 			<Option target="cppForest"/>
 		</Unit>

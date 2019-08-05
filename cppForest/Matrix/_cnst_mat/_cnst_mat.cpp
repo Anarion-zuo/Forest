@@ -10,15 +10,15 @@ extern "C"{
     #include "_gaussian_elimination.h"
 }
 
-_cnst_mat::_cnst_mat(size_t height, size_t width) : _matrix(height, width), _mat(new double[height * width]), _size(height * width){}
+_cnst_mat::_cnst_mat(size_t height, size_t width) : _width(width), _height(height), _mat(new double[height * width]), _size(height * width){}
 
-_cnst_mat::_cnst_mat() : _matrix(), _mat(nullptr), _size(0) {}
+_cnst_mat::_cnst_mat() : _width(0), _height(0), _mat(nullptr), _size(0) {}
 
 _cnst_mat::~_cnst_mat() {
     delete[] _mat;
 }
 
-_cnst_mat::_cnst_mat(double n, size_t height, size_t width) : _matrix(height, width), _mat(new double[height * width]), _size(height * width) {
+_cnst_mat::_cnst_mat(double n, size_t height, size_t width) : _width(width), _height(height), _mat(new double[height * width]), _size(height * width) {
     for (size_t i = 0; i < _size; ++i){
         _mat[i] = n;
     }
@@ -37,7 +37,7 @@ _cnst_mat *_cnst_mat::clone() {
     return new _cnst_mat(newmat, _height, _width);
 }
 
-_cnst_mat::_cnst_mat(double *mat, size_t height, size_t width) : _matrix(height, width), _mat(mat), _size(height * width) {}
+_cnst_mat::_cnst_mat(double *mat, size_t height, size_t width) : _width(width), _height(height), _mat(mat), _size(height * width) {}
 
 std::string _cnst_mat::to_string() {
     std::string ret;
@@ -143,7 +143,7 @@ _cnst_mat *_cnst_mat::arrange(double begin, double end, double step) {
     return new _cnst_mat(arr, len, 1);
 }
 
-_cnst_mat::_cnst_mat(std::vector<std::vector<double>> &&vec) : _matrix(vec.size(), vec[0].size()) {
+_cnst_mat::_cnst_mat(std::vector<std::vector<double>> &&vec) : _width(vec.size()), _height(vec[0].size()) {
     _size = _width * _height;
     _mat = new double[_size];
     size_t i = 0;

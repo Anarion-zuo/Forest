@@ -22,6 +22,17 @@ CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.o: ../Matrix/_cnst_mat/_
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.o: ../Matrix/_cnst_mat/_unit_mat.h
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.o: ../Matrix/_matrix/_matrix.h
 
+CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o: ../Matrix/_col_mat/_col_mat.cpp
+CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o: ../Matrix/_col_mat/_col_mat.h
+CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o: ../Matrix/_entry/_entry.h
+CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o: ../Matrix/_matrix/_matrix.h
+
+CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o: ../Matrix/_col_mat/_num_mat.cpp
+CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o: ../Matrix/_col_mat/_num_mat.h
+
+CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o: ../Matrix/_entry/_entry.cpp
+CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o: ../Matrix/_entry/_entry.h
+
 CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o: ../Matrix/_matrix/_matrix.cpp
 CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o: ../Matrix/_matrix/_matrix.h
 
@@ -370,6 +381,8 @@ CMakeFiles/cppForest.dir/common/common.cpp.o: ../common/common.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../Matrix/_cnst_mat/_cnst_mat.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../Matrix/_cnst_mat/_cnst_vec.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../Matrix/_cnst_mat/_unit_mat.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Matrix/_col_mat/_col_mat.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Matrix/_entry/_entry.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../Matrix/_matrix/_matrix.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../MyException/VectorException/nodeException.h

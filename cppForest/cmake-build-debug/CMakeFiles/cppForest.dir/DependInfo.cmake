@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_gaussian_elimination.c" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.o"
-  "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/read_csv.c" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -18,10 +17,15 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_vec.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_vec.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_unit_mat.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/_col_mat.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o"
+  "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/_num_mat.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o"
+  "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_entry/_entry.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_matrix/_matrix.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMNode.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMTree.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/MLParser.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o"
+  "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/LinearRegressionModel.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o"
+  "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/_l2_lr_cg.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o"
+  "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/Model.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/Model/Model.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/NumericMatrixException/MatrixShapeException.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/MyException/NumericMatrixException/MatrixShapeException.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/RangeException/RangeMagException.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/CannotConvergeException.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o"
@@ -64,6 +68,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_dot_node.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/cgNode/vectorOp/_dot_node.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_nummul_node.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/cgNode/vectorOp/_nummul_node.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_vadd_node.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o"
+  "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_range_node.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_vec_node.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/cgNode/vectors/_vec_node.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/_bit_array.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/common/_bit_array.cpp.o"
   "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/common.cpp" "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles/cppForest.dir/common/common.cpp.o"

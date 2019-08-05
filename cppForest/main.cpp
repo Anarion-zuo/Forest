@@ -25,6 +25,7 @@
 #include "Matrix/_cnst_mat/_cnst_mat.h"
 #include "Matrix/_cnst_mat/_unit_mat.h"
 #include "Matrix/_cnst_mat/_cnst_vec.h"
+#include "Matrix/_col_mat/_col_mat.h"
 
 using namespace std;
 
@@ -44,18 +45,8 @@ int main(){
 //    sol->solve();
 //    cout << x->get_val();
 
-    auto am = new _cnst_mat(
-            {
-                    {4,2,0},
-                    {4,4,2},
-                    {2,2,3}
-            }
-            );
-    auto b = new _cnst_mat({{2},{4},{6}});
-    auto b2 = new _cnst_mat({{4},{8},{12}});
-    cout << am->to_string() << endl;
-    auto ans = _cnst_mat::_perfect_cond(am, {b, b2});
-    for (auto an : ans){
-        cout << an->to_string() << endl;
-    }
+    auto m = new _col_mat("/home/anarion/Documents/CSLearning/AI/Forest/cppForest/1.csv");
+    cout << m->to_str(0, 1);
+    m->to_csv("/home/anarion/Documents/CSLearning/AI/Forest/cppForest/2.csv", 0, 1);
+    system("pause");
 }

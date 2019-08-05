@@ -14,7 +14,7 @@ protected:
 public:
     _matrix();
     _matrix(size_t height, size_t width);
-    virtual ~_matrix() = 0;
+    virtual ~_matrix() = default;
 
     size_t get_width();
     size_t get_height();

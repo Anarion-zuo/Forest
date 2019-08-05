@@ -8,14 +8,23 @@
 
 #include <vector>
 #include "../_matrix/_matrix.h"
+#include "../_entry/_entry.h"
 
-class _col_mat : public _matrix{
+class _col_mat{
 protected:
     std::vector<std::string> _titles;
-    std::vector<std::vector<double>> _cols;
+    std::vector<std::vector<_entry>> _cols;
 public:
     _col_mat();
-    _col_mat(const std::string&& dir);
+    explicit _col_mat(const std::string&& dir);
+
+    size_t width();
+
+    // display
+    std::string to_str(size_t begin, size_t end);
+    void to_csv(const char* dir, size_t begin, size_t end);
+    // encoding
+
 };
 
 

@@ -772,18 +772,83 @@ CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/_col_mat.cpp -o CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.s
 
-CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.o: CMakeFiles/cppForest.dir/flags.make
-CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.o: ../Matrix/_col_mat/read_csv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.o   -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/read_csv.c
+CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o: ../Matrix/_col_mat/_num_mat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/_num_mat.cpp
 
-CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/read_csv.c > CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.i
+CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/_num_mat.cpp > CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.i
 
-CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/read_csv.c -o CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.s
+CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/_num_mat.cpp -o CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.s
+
+CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o: ../Matrix/_entry/_entry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_entry/_entry.cpp
+
+CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_entry/_entry.cpp > CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.i
+
+CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_entry/_entry.cpp -o CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.s
+
+CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../cgNode/vectors/_range_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_range_node.cpp
+
+CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_range_node.cpp > CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.i
+
+CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_range_node.cpp -o CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.s
+
+CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o: ../Model/LinearRegressionModel/LinearRegressionModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/LinearRegressionModel.cpp
+
+CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/LinearRegressionModel.cpp > CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.i
+
+CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/LinearRegressionModel.cpp -o CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.s
+
+CMakeFiles/cppForest.dir/Model/Model.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Model/Model.cpp.o: ../Model/Model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/cppForest.dir/Model/Model.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Model/Model.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/Model.cpp
+
+CMakeFiles/cppForest.dir/Model/Model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Model/Model.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/Model.cpp > CMakeFiles/cppForest.dir/Model/Model.cpp.i
+
+CMakeFiles/cppForest.dir/Model/Model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Model/Model.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/Model.cpp -o CMakeFiles/cppForest.dir/Model/Model.cpp.s
+
+CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o: ../Model/LinearRegressionModel/_l2_lr_cg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/_l2_lr_cg.cpp
+
+CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/_l2_lr_cg.cpp > CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.i
+
+CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/_l2_lr_cg.cpp -o CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.s
 
 # Object files for target cppForest
 cppForest_OBJECTS = \
@@ -842,7 +907,12 @@ cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/Other_Modeling_Algs/GreyModel/GreyModel.cpp.o" \
 "CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o" \
 "CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o" \
-"CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.o"
+"CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o" \
+"CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o" \
+"CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o" \
+"CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o" \
+"CMakeFiles/cppForest.dir/Model/Model.cpp.o" \
+"CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o"
 
 # External object files for target cppForest
 cppForest_EXTERNAL_OBJECTS =
@@ -902,10 +972,15 @@ cppForest: CMakeFiles/cppForest.dir/common/_bit_array.cpp.o
 cppForest: CMakeFiles/cppForest.dir/Other_Modeling_Algs/GreyModel/GreyModel.cpp.o
 cppForest: CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o
 cppForest: CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o
-cppForest: CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.o
+cppForest: CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o
+cppForest: CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Model/Model.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o
 cppForest: CMakeFiles/cppForest.dir/build.make
 cppForest: CMakeFiles/cppForest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Linking CXX executable cppForest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking CXX executable cppForest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppForest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

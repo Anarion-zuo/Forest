@@ -22,9 +22,9 @@
 #include "Solvers/Root/singleroot/NewtonsRootFinder.h"
 #include "Solvers/Root/singleroot/SecantRootFinder.h"
 #include "Solvers/Root/singleroot/FalsePositionRootFinder.h"
-#include "Matrix/_cnst_mat.h"
-#include "Matrix/_unit_mat.h"
-#include "Matrix/_cnst_vec.h"
+#include "Matrix/_cnst_mat/_cnst_mat.h"
+#include "Matrix/_cnst_mat/_unit_mat.h"
+#include "Matrix/_cnst_mat/_cnst_vec.h"
 
 using namespace std;
 

@@ -3,22 +3,22 @@
 //
 
 #include "_cnst_mat.h"
-#include "../MyException/NumericMatrixException/MatrixShapeException.h"
+#include "../../MyException/NumericMatrixException/MatrixShapeException.h"
 #include "_unit_mat.h"
 #include "_cnst_vec.h"
 extern "C"{
     #include "_gaussian_elimination.h"
 }
 
-_cnst_mat::_cnst_mat(size_t height, size_t width) : _mat(new double[height * width]), _width(width), _height(height), _size(height * width){}
+_cnst_mat::_cnst_mat(size_t height, size_t width) : _matrix(height, width), _mat(new double[height * width]), _size(height * width){}
 
-_cnst_mat::_cnst_mat() : _mat(nullptr), _width(0), _height(0), _size(0) {}
+_cnst_mat::_cnst_mat() : _matrix(), _mat(nullptr), _size(0) {}
 
 _cnst_mat::~_cnst_mat() {
     delete[] _mat;
 }
 
-_cnst_mat::_cnst_mat(double n, size_t height, size_t width) : _mat(new double[height * width]), _width(width), _height(height), _size(height * width) {
+_cnst_mat::_cnst_mat(double n, size_t height, size_t width) : _matrix(height, width), _mat(new double[height * width]), _size(height * width) {
     for (size_t i = 0; i < _size; ++i){
         _mat[i] = n;
     }
@@ -37,7 +37,7 @@ _cnst_mat *_cnst_mat::clone() {
     return new _cnst_mat(newmat, _height, _width);
 }
 
-_cnst_mat::_cnst_mat(double *mat, size_t height, size_t width) : _mat(mat), _width(width), _height(height), _size(height * width) {}
+_cnst_mat::_cnst_mat(double *mat, size_t height, size_t width) : _matrix(height, width), _mat(mat), _size(height * width) {}
 
 std::string _cnst_mat::to_string() {
     std::string ret;
@@ -125,13 +125,6 @@ void _cnst_mat::plus_row(size_t srow, size_t drow) {
 
 
 
-size_t _cnst_mat::get_width() {
-    return _width;
-}
-
-size_t _cnst_mat::get_height() {
-    return _height;
-}
 
 
 
@@ -150,7 +143,7 @@ _cnst_mat *_cnst_mat::arrange(double begin, double end, double step) {
     return new _cnst_mat(arr, len, 1);
 }
 
-_cnst_mat::_cnst_mat(std::vector<std::vector<double>> &&vec) : _height(vec.size()), _width(vec[0].size()) {
+_cnst_mat::_cnst_mat(std::vector<std::vector<double>> &&vec) : _matrix(vec.size(), vec[0].size()) {
     _size = _width * _height;
     _mat = new double[_size];
     size_t i = 0;

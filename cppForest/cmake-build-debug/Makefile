@@ -123,113 +123,194 @@ cppForest/fast:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/build
 .PHONY : cppForest/fast
 
-Matrix/_cnst_mat.o: Matrix/_cnst_mat.cpp.o
+Matrix/_cnst_mat/_cnst_mat.o: Matrix/_cnst_mat/_cnst_mat.cpp.o
 
-.PHONY : Matrix/_cnst_mat.o
-
-# target to build an object file
-Matrix/_cnst_mat.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat.cpp.o
-.PHONY : Matrix/_cnst_mat.cpp.o
-
-Matrix/_cnst_mat.i: Matrix/_cnst_mat.cpp.i
-
-.PHONY : Matrix/_cnst_mat.i
-
-# target to preprocess a source file
-Matrix/_cnst_mat.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat.cpp.i
-.PHONY : Matrix/_cnst_mat.cpp.i
-
-Matrix/_cnst_mat.s: Matrix/_cnst_mat.cpp.s
-
-.PHONY : Matrix/_cnst_mat.s
-
-# target to generate assembly for a file
-Matrix/_cnst_mat.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat.cpp.s
-.PHONY : Matrix/_cnst_mat.cpp.s
-
-Matrix/_cnst_vec.o: Matrix/_cnst_vec.cpp.o
-
-.PHONY : Matrix/_cnst_vec.o
+.PHONY : Matrix/_cnst_mat/_cnst_mat.o
 
 # target to build an object file
-Matrix/_cnst_vec.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_vec.cpp.o
-.PHONY : Matrix/_cnst_vec.cpp.o
+Matrix/_cnst_mat/_cnst_mat.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.o
+.PHONY : Matrix/_cnst_mat/_cnst_mat.cpp.o
 
-Matrix/_cnst_vec.i: Matrix/_cnst_vec.cpp.i
+Matrix/_cnst_mat/_cnst_mat.i: Matrix/_cnst_mat/_cnst_mat.cpp.i
 
-.PHONY : Matrix/_cnst_vec.i
+.PHONY : Matrix/_cnst_mat/_cnst_mat.i
 
 # target to preprocess a source file
-Matrix/_cnst_vec.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_vec.cpp.i
-.PHONY : Matrix/_cnst_vec.cpp.i
+Matrix/_cnst_mat/_cnst_mat.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.i
+.PHONY : Matrix/_cnst_mat/_cnst_mat.cpp.i
 
-Matrix/_cnst_vec.s: Matrix/_cnst_vec.cpp.s
+Matrix/_cnst_mat/_cnst_mat.s: Matrix/_cnst_mat/_cnst_mat.cpp.s
 
-.PHONY : Matrix/_cnst_vec.s
+.PHONY : Matrix/_cnst_mat/_cnst_mat.s
 
 # target to generate assembly for a file
-Matrix/_cnst_vec.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_vec.cpp.s
-.PHONY : Matrix/_cnst_vec.cpp.s
+Matrix/_cnst_mat/_cnst_mat.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.s
+.PHONY : Matrix/_cnst_mat/_cnst_mat.cpp.s
 
-Matrix/_gaussian_elimination.o: Matrix/_gaussian_elimination.c.o
+Matrix/_cnst_mat/_cnst_vec.o: Matrix/_cnst_mat/_cnst_vec.cpp.o
 
-.PHONY : Matrix/_gaussian_elimination.o
+.PHONY : Matrix/_cnst_mat/_cnst_vec.o
 
 # target to build an object file
-Matrix/_gaussian_elimination.c.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_gaussian_elimination.c.o
-.PHONY : Matrix/_gaussian_elimination.c.o
+Matrix/_cnst_mat/_cnst_vec.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_vec.cpp.o
+.PHONY : Matrix/_cnst_mat/_cnst_vec.cpp.o
 
-Matrix/_gaussian_elimination.i: Matrix/_gaussian_elimination.c.i
+Matrix/_cnst_mat/_cnst_vec.i: Matrix/_cnst_mat/_cnst_vec.cpp.i
 
-.PHONY : Matrix/_gaussian_elimination.i
+.PHONY : Matrix/_cnst_mat/_cnst_vec.i
 
 # target to preprocess a source file
-Matrix/_gaussian_elimination.c.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_gaussian_elimination.c.i
-.PHONY : Matrix/_gaussian_elimination.c.i
+Matrix/_cnst_mat/_cnst_vec.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_vec.cpp.i
+.PHONY : Matrix/_cnst_mat/_cnst_vec.cpp.i
 
-Matrix/_gaussian_elimination.s: Matrix/_gaussian_elimination.c.s
+Matrix/_cnst_mat/_cnst_vec.s: Matrix/_cnst_mat/_cnst_vec.cpp.s
 
-.PHONY : Matrix/_gaussian_elimination.s
+.PHONY : Matrix/_cnst_mat/_cnst_vec.s
 
 # target to generate assembly for a file
-Matrix/_gaussian_elimination.c.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_gaussian_elimination.c.s
-.PHONY : Matrix/_gaussian_elimination.c.s
+Matrix/_cnst_mat/_cnst_vec.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_vec.cpp.s
+.PHONY : Matrix/_cnst_mat/_cnst_vec.cpp.s
 
-Matrix/_unit_mat.o: Matrix/_unit_mat.cpp.o
+Matrix/_cnst_mat/_gaussian_elimination.o: Matrix/_cnst_mat/_gaussian_elimination.c.o
 
-.PHONY : Matrix/_unit_mat.o
+.PHONY : Matrix/_cnst_mat/_gaussian_elimination.o
 
 # target to build an object file
-Matrix/_unit_mat.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_unit_mat.cpp.o
-.PHONY : Matrix/_unit_mat.cpp.o
+Matrix/_cnst_mat/_gaussian_elimination.c.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.o
+.PHONY : Matrix/_cnst_mat/_gaussian_elimination.c.o
 
-Matrix/_unit_mat.i: Matrix/_unit_mat.cpp.i
+Matrix/_cnst_mat/_gaussian_elimination.i: Matrix/_cnst_mat/_gaussian_elimination.c.i
 
-.PHONY : Matrix/_unit_mat.i
+.PHONY : Matrix/_cnst_mat/_gaussian_elimination.i
 
 # target to preprocess a source file
-Matrix/_unit_mat.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_unit_mat.cpp.i
-.PHONY : Matrix/_unit_mat.cpp.i
+Matrix/_cnst_mat/_gaussian_elimination.c.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.i
+.PHONY : Matrix/_cnst_mat/_gaussian_elimination.c.i
 
-Matrix/_unit_mat.s: Matrix/_unit_mat.cpp.s
+Matrix/_cnst_mat/_gaussian_elimination.s: Matrix/_cnst_mat/_gaussian_elimination.c.s
 
-.PHONY : Matrix/_unit_mat.s
+.PHONY : Matrix/_cnst_mat/_gaussian_elimination.s
 
 # target to generate assembly for a file
-Matrix/_unit_mat.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_unit_mat.cpp.s
-.PHONY : Matrix/_unit_mat.cpp.s
+Matrix/_cnst_mat/_gaussian_elimination.c.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.s
+.PHONY : Matrix/_cnst_mat/_gaussian_elimination.c.s
+
+Matrix/_cnst_mat/_unit_mat.o: Matrix/_cnst_mat/_unit_mat.cpp.o
+
+.PHONY : Matrix/_cnst_mat/_unit_mat.o
+
+# target to build an object file
+Matrix/_cnst_mat/_unit_mat.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.o
+.PHONY : Matrix/_cnst_mat/_unit_mat.cpp.o
+
+Matrix/_cnst_mat/_unit_mat.i: Matrix/_cnst_mat/_unit_mat.cpp.i
+
+.PHONY : Matrix/_cnst_mat/_unit_mat.i
+
+# target to preprocess a source file
+Matrix/_cnst_mat/_unit_mat.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.i
+.PHONY : Matrix/_cnst_mat/_unit_mat.cpp.i
+
+Matrix/_cnst_mat/_unit_mat.s: Matrix/_cnst_mat/_unit_mat.cpp.s
+
+.PHONY : Matrix/_cnst_mat/_unit_mat.s
+
+# target to generate assembly for a file
+Matrix/_cnst_mat/_unit_mat.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.s
+.PHONY : Matrix/_cnst_mat/_unit_mat.cpp.s
+
+Matrix/_col_mat/_col_mat.o: Matrix/_col_mat/_col_mat.cpp.o
+
+.PHONY : Matrix/_col_mat/_col_mat.o
+
+# target to build an object file
+Matrix/_col_mat/_col_mat.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o
+.PHONY : Matrix/_col_mat/_col_mat.cpp.o
+
+Matrix/_col_mat/_col_mat.i: Matrix/_col_mat/_col_mat.cpp.i
+
+.PHONY : Matrix/_col_mat/_col_mat.i
+
+# target to preprocess a source file
+Matrix/_col_mat/_col_mat.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.i
+.PHONY : Matrix/_col_mat/_col_mat.cpp.i
+
+Matrix/_col_mat/_col_mat.s: Matrix/_col_mat/_col_mat.cpp.s
+
+.PHONY : Matrix/_col_mat/_col_mat.s
+
+# target to generate assembly for a file
+Matrix/_col_mat/_col_mat.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.s
+.PHONY : Matrix/_col_mat/_col_mat.cpp.s
+
+Matrix/_col_mat/read_csv.o: Matrix/_col_mat/read_csv.c.o
+
+.PHONY : Matrix/_col_mat/read_csv.o
+
+# target to build an object file
+Matrix/_col_mat/read_csv.c.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.o
+.PHONY : Matrix/_col_mat/read_csv.c.o
+
+Matrix/_col_mat/read_csv.i: Matrix/_col_mat/read_csv.c.i
+
+.PHONY : Matrix/_col_mat/read_csv.i
+
+# target to preprocess a source file
+Matrix/_col_mat/read_csv.c.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.i
+.PHONY : Matrix/_col_mat/read_csv.c.i
+
+Matrix/_col_mat/read_csv.s: Matrix/_col_mat/read_csv.c.s
+
+.PHONY : Matrix/_col_mat/read_csv.s
+
+# target to generate assembly for a file
+Matrix/_col_mat/read_csv.c.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_col_mat/read_csv.c.s
+.PHONY : Matrix/_col_mat/read_csv.c.s
+
+Matrix/_matrix/_matrix.o: Matrix/_matrix/_matrix.cpp.o
+
+.PHONY : Matrix/_matrix/_matrix.o
+
+# target to build an object file
+Matrix/_matrix/_matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o
+.PHONY : Matrix/_matrix/_matrix.cpp.o
+
+Matrix/_matrix/_matrix.i: Matrix/_matrix/_matrix.cpp.i
+
+.PHONY : Matrix/_matrix/_matrix.i
+
+# target to preprocess a source file
+Matrix/_matrix/_matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.i
+.PHONY : Matrix/_matrix/_matrix.cpp.i
+
+Matrix/_matrix/_matrix.s: Matrix/_matrix/_matrix.cpp.s
+
+.PHONY : Matrix/_matrix/_matrix.s
+
+# target to generate assembly for a file
+Matrix/_matrix/_matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.s
+.PHONY : Matrix/_matrix/_matrix.cpp.s
 
 MetaLang/DOMNode.o: MetaLang/DOMNode.cpp.o
 
@@ -1563,18 +1644,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cppForest"
 	@echo "... edit_cache"
-	@echo "... Matrix/_cnst_mat.o"
-	@echo "... Matrix/_cnst_mat.i"
-	@echo "... Matrix/_cnst_mat.s"
-	@echo "... Matrix/_cnst_vec.o"
-	@echo "... Matrix/_cnst_vec.i"
-	@echo "... Matrix/_cnst_vec.s"
-	@echo "... Matrix/_gaussian_elimination.o"
-	@echo "... Matrix/_gaussian_elimination.i"
-	@echo "... Matrix/_gaussian_elimination.s"
-	@echo "... Matrix/_unit_mat.o"
-	@echo "... Matrix/_unit_mat.i"
-	@echo "... Matrix/_unit_mat.s"
+	@echo "... Matrix/_cnst_mat/_cnst_mat.o"
+	@echo "... Matrix/_cnst_mat/_cnst_mat.i"
+	@echo "... Matrix/_cnst_mat/_cnst_mat.s"
+	@echo "... Matrix/_cnst_mat/_cnst_vec.o"
+	@echo "... Matrix/_cnst_mat/_cnst_vec.i"
+	@echo "... Matrix/_cnst_mat/_cnst_vec.s"
+	@echo "... Matrix/_cnst_mat/_gaussian_elimination.o"
+	@echo "... Matrix/_cnst_mat/_gaussian_elimination.i"
+	@echo "... Matrix/_cnst_mat/_gaussian_elimination.s"
+	@echo "... Matrix/_cnst_mat/_unit_mat.o"
+	@echo "... Matrix/_cnst_mat/_unit_mat.i"
+	@echo "... Matrix/_cnst_mat/_unit_mat.s"
+	@echo "... Matrix/_col_mat/_col_mat.o"
+	@echo "... Matrix/_col_mat/_col_mat.i"
+	@echo "... Matrix/_col_mat/_col_mat.s"
+	@echo "... Matrix/_col_mat/read_csv.o"
+	@echo "... Matrix/_col_mat/read_csv.i"
+	@echo "... Matrix/_col_mat/read_csv.s"
+	@echo "... Matrix/_matrix/_matrix.o"
+	@echo "... Matrix/_matrix/_matrix.i"
+	@echo "... Matrix/_matrix/_matrix.s"
 	@echo "... MetaLang/DOMNode.o"
 	@echo "... MetaLang/DOMNode.i"
 	@echo "... MetaLang/DOMNode.s"

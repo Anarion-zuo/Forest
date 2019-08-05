@@ -3,7 +3,7 @@
 //
 
 #include "MatrixShapeException.h"
-#include "../../Matrix/_cnst_mat.h"
+#include "../../Matrix/_cnst_mat/_cnst_mat.h"
 
 const char *MatrixShapeException::what() const _GLIBCXX_USE_NOEXCEPT {
     std::string str("Operating on 2 matrix with shapes not matching each other. ");

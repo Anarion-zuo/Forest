@@ -6,21 +6,65 @@
 
 #IncludeRegexTransform: 
 
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_mat.cpp
+_cnst_mat.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_mat.h
+../../MyException/NumericMatrixException/MatrixShapeException.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/NumericMatrixException/MatrixShapeException.h
+_unit_mat.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_unit_mat.h
+_cnst_vec.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_vec.h
+_gaussian_elimination.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_gaussian_elimination.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_mat.h
 glob.h
 -
 string
 -
 vector
 -
+../_matrix/_matrix.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_matrix/_matrix.h
 
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_vec.h
-_cnst_mat.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_vec.cpp
+_cnst_vec.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_vec.h
 
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_unit_mat.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_vec.h
 _cnst_mat.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_mat.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_gaussian_elimination.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_unit_mat.cpp
+_unit_mat.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_unit_mat.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_unit_mat.h
+_cnst_mat.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_mat.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_matrix/_matrix.cpp
+_matrix.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_matrix/_matrix.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_matrix/_matrix.h
+cstdio
+-
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/NumericMatrixException/MatrixShapeException.cpp
+MatrixShapeException.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/NumericMatrixException/MatrixShapeException.h
+../../Matrix/_cnst_mat/_cnst_mat.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_mat.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/NumericMatrixException/MatrixShapeException.h
+string
+-
+exception
+-
 
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.h
 ../../../cgNode/_cg_node.h
@@ -33,6 +77,16 @@ stdexcept
 -
 ../../cgNode/_cg_node.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/_cg_node.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Other Modeling Algs/GreyModel/GreyModel.cpp
+GreyModel.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Other Modeling Algs/GreyModel/GreyModel.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Other Modeling Algs/GreyModel/GreyModel.h
+glob.h
+-
+vector
+-
 
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.h
 vector
@@ -164,6 +218,14 @@ set
 ../_cg_node.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/_cg_node.h
 
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/_bit_array.cpp
+_bit_array.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/_bit_array.h
+
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/_bit_array.h
+cstddef
+-
+
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/main.cpp
 iostream
 -
@@ -213,10 +275,10 @@ Solvers/Root/singleroot/SecantRootFinder.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/SecantRootFinder.h
 Solvers/Root/singleroot/FalsePositionRootFinder.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/FalsePositionRootFinder.h
-Matrix/_cnst_mat.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat.h
-Matrix/_unit_mat.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_unit_mat.h
-Matrix/_cnst_vec.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_vec.h
+Matrix/_cnst_mat/_cnst_mat.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_mat.h
+Matrix/_cnst_mat/_unit_mat.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_unit_mat.h
+Matrix/_cnst_mat/_cnst_vec.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_vec.h
 

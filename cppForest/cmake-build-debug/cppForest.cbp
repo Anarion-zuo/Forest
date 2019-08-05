@@ -84,28 +84,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_mat.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_mat.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_vec.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_vec.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_vec.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_vec.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_gaussian_elimination.c">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_gaussian_elimination.c">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_gaussian_elimination.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_gaussian_elimination.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_unit_mat.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_unit_mat.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_unit_mat.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_unit_mat.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/_col_mat.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/_col_mat.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/read_csv.c">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/read_csv.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_matrix/_matrix.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_matrix/_matrix.h">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMNode.cpp">

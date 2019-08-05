@@ -9,13 +9,14 @@
 #include <glob.h>
 #include <string>
 #include <vector>
+#include "../_matrix/_matrix.h"
 
-class _cnst_mat {
+class _cnst_mat : public _matrix {
 private:
     _cnst_mat(_cnst_mat&);
 protected:
     double* _mat;
-    size_t _width, _height, _size;
+    size_t _size;
 
     // Gaussian
 //    static std::vector<_cnst_mat*>&& _perfect_cond(_cnst_mat* input, const std::vector<_cnst_mat*>& rhs);
@@ -24,19 +25,18 @@ public:
     _cnst_mat(size_t height, size_t width);
     _cnst_mat(double n, size_t height, size_t width);
     _cnst_mat(double* mat, size_t height, size_t width);
-    _cnst_mat(std::vector<std::vector<double>>&& vec);
-    virtual ~_cnst_mat();
-    _cnst_mat* clone();
-    size_t get_width();
-    size_t get_height();
-    void reshape(size_t height, size_t width);
+    explicit _cnst_mat(std::vector<std::vector<double>>&& vec);
+    ~_cnst_mat() override;
+    _cnst_mat* clone() override;
+
+    void reshape(size_t height, size_t width) override;
     static _cnst_mat * arrange(double begin, double end, double step);
 
     // serialize
-    std::string to_string();
+    std::string to_string() override;
 
     // access matrix
-    double& loc(size_t i, size_t j);
+    double& loc(size_t i, size_t j) override;
 
     // arithmetic
     static void negative(_cnst_mat* m);

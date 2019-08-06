@@ -4,6 +4,9 @@
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.o: ../Matrix/_cnst_mat/_gaussian_elimination.c
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.o: ../Matrix/_cnst_mat/_gaussian_elimination.h
 
+CMakeFiles/cppForest.dir/Data/DataFrame.cpp.o: ../Data/DataFrame.cpp
+CMakeFiles/cppForest.dir/Data/DataFrame.cpp.o: ../Data/DataFrame.h
+
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.o: ../Matrix/_cnst_mat/_cnst_mat.cpp
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.o: ../Matrix/_cnst_mat/_cnst_mat.h
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.o: ../Matrix/_cnst_mat/_cnst_vec.h
@@ -36,14 +39,22 @@ CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o: ../Matrix/_entry/_entry.h
 CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o: ../Matrix/_matrix/_matrix.cpp
 CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o: ../Matrix/_matrix/_matrix.h
 
-CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o: ../MetaLang/DOMNode.cpp
-CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o: ../MetaLang/DOMNode.h
-
-CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o: ../MetaLang/DOMTree.cpp
-CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o: ../MetaLang/DOMTree.h
-
-CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o: ../MetaLang/MLParser.cpp
-CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o: ../MetaLang/MLParser.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../Data/DataFrame.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../Model/LinearModel/L2Linear.cpp
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../Model/LinearModel/L2Linear.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../MyException/VectorException/nodeException.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cg/_cg.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/_cg_node.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/_root_node.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/_var.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/multiop/_mul_node.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/multiop/_sum_node.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/singleNodes/_single_node.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/singleNodes/number/_const_node.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/singleNodes/number/_var_node.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/vectorOp/_dot_node.h
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/vectors/_vec_node.h
 
 CMakeFiles/cppForest.dir/MyException/NumericMatrixException/MatrixShapeException.cpp.o: ../Matrix/_cnst_mat/_cnst_mat.h
 CMakeFiles/cppForest.dir/MyException/NumericMatrixException/MatrixShapeException.cpp.o: ../Matrix/_matrix/_matrix.h
@@ -368,6 +379,14 @@ CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../cgNode/vectorOp/_v
 CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../cgNode/vectorOp/_vadd_node.h
 CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../cgNode/vectors/_vec_node.h
 
+CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../MyException/VectorException/nodeException.h
+CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../MyException/VectorException/singleException/singleException.h
+CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../cgNode/_cg_node.h
+CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../cgNode/singleNodes/_single_node.h
+CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
+CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../cgNode/vectors/_range_node.cpp
+CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../cgNode/vectors/_range_node.h
+
 CMakeFiles/cppForest.dir/cgNode/vectors/_vec_node.cpp.o: ../cgNode/_cg_node.h
 CMakeFiles/cppForest.dir/cgNode/vectors/_vec_node.cpp.o: ../cgNode/vectors/_vec_node.cpp
 CMakeFiles/cppForest.dir/cgNode/vectors/_vec_node.cpp.o: ../cgNode/vectors/_vec_node.h
@@ -378,12 +397,14 @@ CMakeFiles/cppForest.dir/common/_bit_array.cpp.o: ../common/_bit_array.h
 CMakeFiles/cppForest.dir/common/common.cpp.o: ../common/common.cpp
 CMakeFiles/cppForest.dir/common/common.cpp.o: ../common/common.h
 
+CMakeFiles/cppForest.dir/main.cpp.o: ../Data/DataFrame.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../Matrix/_cnst_mat/_cnst_mat.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../Matrix/_cnst_mat/_cnst_vec.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../Matrix/_cnst_mat/_unit_mat.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../Matrix/_col_mat/_col_mat.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../Matrix/_entry/_entry.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../Matrix/_matrix/_matrix.h
+CMakeFiles/cppForest.dir/main.cpp.o: ../Model/LinearModel/L2Linear.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../Solvers/Range.h

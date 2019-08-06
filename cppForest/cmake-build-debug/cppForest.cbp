@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Data/DataFrame.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Data/DataFrame.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_mat.cpp">
 			<Option target="cppForest"/>
 		</Unit>
@@ -132,40 +138,10 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_matrix/_matrix.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMNode.cpp">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearModel/L2Linear.cpp">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMNode.h">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMTree.cpp">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMTree.h">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/MLParser.cpp">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/MLParser.h">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/LinearRegressionModel.cpp">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/LinearRegressionModel.h">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/_l2_lr_cg.cpp">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/_l2_lr_cg.h">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/Model.cpp">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/Model.h">
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearModel/L2Linear.h">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/NumericMatrixException/MatrixShapeException.cpp">

@@ -123,6 +123,33 @@ cppForest/fast:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/build
 .PHONY : cppForest/fast
 
+Data/DataFrame.o: Data/DataFrame.cpp.o
+
+.PHONY : Data/DataFrame.o
+
+# target to build an object file
+Data/DataFrame.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Data/DataFrame.cpp.o
+.PHONY : Data/DataFrame.cpp.o
+
+Data/DataFrame.i: Data/DataFrame.cpp.i
+
+.PHONY : Data/DataFrame.i
+
+# target to preprocess a source file
+Data/DataFrame.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Data/DataFrame.cpp.i
+.PHONY : Data/DataFrame.cpp.i
+
+Data/DataFrame.s: Data/DataFrame.cpp.s
+
+.PHONY : Data/DataFrame.s
+
+# target to generate assembly for a file
+Data/DataFrame.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Data/DataFrame.cpp.s
+.PHONY : Data/DataFrame.cpp.s
+
 Matrix/_cnst_mat/_cnst_mat.o: Matrix/_cnst_mat/_cnst_mat.cpp.o
 
 .PHONY : Matrix/_cnst_mat/_cnst_mat.o
@@ -339,167 +366,32 @@ Matrix/_matrix/_matrix.cpp.s:
 	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.s
 .PHONY : Matrix/_matrix/_matrix.cpp.s
 
-MetaLang/DOMNode.o: MetaLang/DOMNode.cpp.o
+Model/LinearModel/L2Linear.o: Model/LinearModel/L2Linear.cpp.o
 
-.PHONY : MetaLang/DOMNode.o
-
-# target to build an object file
-MetaLang/DOMNode.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o
-.PHONY : MetaLang/DOMNode.cpp.o
-
-MetaLang/DOMNode.i: MetaLang/DOMNode.cpp.i
-
-.PHONY : MetaLang/DOMNode.i
-
-# target to preprocess a source file
-MetaLang/DOMNode.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.i
-.PHONY : MetaLang/DOMNode.cpp.i
-
-MetaLang/DOMNode.s: MetaLang/DOMNode.cpp.s
-
-.PHONY : MetaLang/DOMNode.s
-
-# target to generate assembly for a file
-MetaLang/DOMNode.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.s
-.PHONY : MetaLang/DOMNode.cpp.s
-
-MetaLang/DOMTree.o: MetaLang/DOMTree.cpp.o
-
-.PHONY : MetaLang/DOMTree.o
+.PHONY : Model/LinearModel/L2Linear.o
 
 # target to build an object file
-MetaLang/DOMTree.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o
-.PHONY : MetaLang/DOMTree.cpp.o
+Model/LinearModel/L2Linear.cpp.o:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o
+.PHONY : Model/LinearModel/L2Linear.cpp.o
 
-MetaLang/DOMTree.i: MetaLang/DOMTree.cpp.i
+Model/LinearModel/L2Linear.i: Model/LinearModel/L2Linear.cpp.i
 
-.PHONY : MetaLang/DOMTree.i
-
-# target to preprocess a source file
-MetaLang/DOMTree.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.i
-.PHONY : MetaLang/DOMTree.cpp.i
-
-MetaLang/DOMTree.s: MetaLang/DOMTree.cpp.s
-
-.PHONY : MetaLang/DOMTree.s
-
-# target to generate assembly for a file
-MetaLang/DOMTree.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.s
-.PHONY : MetaLang/DOMTree.cpp.s
-
-MetaLang/MLParser.o: MetaLang/MLParser.cpp.o
-
-.PHONY : MetaLang/MLParser.o
-
-# target to build an object file
-MetaLang/MLParser.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o
-.PHONY : MetaLang/MLParser.cpp.o
-
-MetaLang/MLParser.i: MetaLang/MLParser.cpp.i
-
-.PHONY : MetaLang/MLParser.i
+.PHONY : Model/LinearModel/L2Linear.i
 
 # target to preprocess a source file
-MetaLang/MLParser.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.i
-.PHONY : MetaLang/MLParser.cpp.i
+Model/LinearModel/L2Linear.cpp.i:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.i
+.PHONY : Model/LinearModel/L2Linear.cpp.i
 
-MetaLang/MLParser.s: MetaLang/MLParser.cpp.s
+Model/LinearModel/L2Linear.s: Model/LinearModel/L2Linear.cpp.s
 
-.PHONY : MetaLang/MLParser.s
-
-# target to generate assembly for a file
-MetaLang/MLParser.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.s
-.PHONY : MetaLang/MLParser.cpp.s
-
-Model/LinearRegressionModel/LinearRegressionModel.o: Model/LinearRegressionModel/LinearRegressionModel.cpp.o
-
-.PHONY : Model/LinearRegressionModel/LinearRegressionModel.o
-
-# target to build an object file
-Model/LinearRegressionModel/LinearRegressionModel.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o
-.PHONY : Model/LinearRegressionModel/LinearRegressionModel.cpp.o
-
-Model/LinearRegressionModel/LinearRegressionModel.i: Model/LinearRegressionModel/LinearRegressionModel.cpp.i
-
-.PHONY : Model/LinearRegressionModel/LinearRegressionModel.i
-
-# target to preprocess a source file
-Model/LinearRegressionModel/LinearRegressionModel.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.i
-.PHONY : Model/LinearRegressionModel/LinearRegressionModel.cpp.i
-
-Model/LinearRegressionModel/LinearRegressionModel.s: Model/LinearRegressionModel/LinearRegressionModel.cpp.s
-
-.PHONY : Model/LinearRegressionModel/LinearRegressionModel.s
+.PHONY : Model/LinearModel/L2Linear.s
 
 # target to generate assembly for a file
-Model/LinearRegressionModel/LinearRegressionModel.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.s
-.PHONY : Model/LinearRegressionModel/LinearRegressionModel.cpp.s
-
-Model/LinearRegressionModel/_l2_lr_cg.o: Model/LinearRegressionModel/_l2_lr_cg.cpp.o
-
-.PHONY : Model/LinearRegressionModel/_l2_lr_cg.o
-
-# target to build an object file
-Model/LinearRegressionModel/_l2_lr_cg.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o
-.PHONY : Model/LinearRegressionModel/_l2_lr_cg.cpp.o
-
-Model/LinearRegressionModel/_l2_lr_cg.i: Model/LinearRegressionModel/_l2_lr_cg.cpp.i
-
-.PHONY : Model/LinearRegressionModel/_l2_lr_cg.i
-
-# target to preprocess a source file
-Model/LinearRegressionModel/_l2_lr_cg.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.i
-.PHONY : Model/LinearRegressionModel/_l2_lr_cg.cpp.i
-
-Model/LinearRegressionModel/_l2_lr_cg.s: Model/LinearRegressionModel/_l2_lr_cg.cpp.s
-
-.PHONY : Model/LinearRegressionModel/_l2_lr_cg.s
-
-# target to generate assembly for a file
-Model/LinearRegressionModel/_l2_lr_cg.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.s
-.PHONY : Model/LinearRegressionModel/_l2_lr_cg.cpp.s
-
-Model/Model.o: Model/Model.cpp.o
-
-.PHONY : Model/Model.o
-
-# target to build an object file
-Model/Model.cpp.o:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Model/Model.cpp.o
-.PHONY : Model/Model.cpp.o
-
-Model/Model.i: Model/Model.cpp.i
-
-.PHONY : Model/Model.i
-
-# target to preprocess a source file
-Model/Model.cpp.i:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Model/Model.cpp.i
-.PHONY : Model/Model.cpp.i
-
-Model/Model.s: Model/Model.cpp.s
-
-.PHONY : Model/Model.s
-
-# target to generate assembly for a file
-Model/Model.cpp.s:
-	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Model/Model.cpp.s
-.PHONY : Model/Model.cpp.s
+Model/LinearModel/L2Linear.cpp.s:
+	$(MAKE) -f CMakeFiles/cppForest.dir/build.make CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.s
+.PHONY : Model/LinearModel/L2Linear.cpp.s
 
 MyException/NumericMatrixException/MatrixShapeException.o: MyException/NumericMatrixException/MatrixShapeException.cpp.o
 
@@ -1779,6 +1671,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cppForest"
 	@echo "... edit_cache"
+	@echo "... Data/DataFrame.o"
+	@echo "... Data/DataFrame.i"
+	@echo "... Data/DataFrame.s"
 	@echo "... Matrix/_cnst_mat/_cnst_mat.o"
 	@echo "... Matrix/_cnst_mat/_cnst_mat.i"
 	@echo "... Matrix/_cnst_mat/_cnst_mat.s"
@@ -1803,24 +1698,9 @@ help:
 	@echo "... Matrix/_matrix/_matrix.o"
 	@echo "... Matrix/_matrix/_matrix.i"
 	@echo "... Matrix/_matrix/_matrix.s"
-	@echo "... MetaLang/DOMNode.o"
-	@echo "... MetaLang/DOMNode.i"
-	@echo "... MetaLang/DOMNode.s"
-	@echo "... MetaLang/DOMTree.o"
-	@echo "... MetaLang/DOMTree.i"
-	@echo "... MetaLang/DOMTree.s"
-	@echo "... MetaLang/MLParser.o"
-	@echo "... MetaLang/MLParser.i"
-	@echo "... MetaLang/MLParser.s"
-	@echo "... Model/LinearRegressionModel/LinearRegressionModel.o"
-	@echo "... Model/LinearRegressionModel/LinearRegressionModel.i"
-	@echo "... Model/LinearRegressionModel/LinearRegressionModel.s"
-	@echo "... Model/LinearRegressionModel/_l2_lr_cg.o"
-	@echo "... Model/LinearRegressionModel/_l2_lr_cg.i"
-	@echo "... Model/LinearRegressionModel/_l2_lr_cg.s"
-	@echo "... Model/Model.o"
-	@echo "... Model/Model.i"
-	@echo "... Model/Model.s"
+	@echo "... Model/LinearModel/L2Linear.o"
+	@echo "... Model/LinearModel/L2Linear.i"
+	@echo "... Model/LinearModel/L2Linear.s"
 	@echo "... MyException/NumericMatrixException/MatrixShapeException.o"
 	@echo "... MyException/NumericMatrixException/MatrixShapeException.i"
 	@echo "... MyException/NumericMatrixException/MatrixShapeException.s"

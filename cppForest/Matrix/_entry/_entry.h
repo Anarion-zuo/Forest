@@ -9,11 +9,10 @@
 #include <string>
 
 class _entry {
-protected:
+public:
     std::string _str;
     double _num = 0;
     bool is_num, is_nan;
-public:
     explicit _entry(const std::string& str);
     explicit _entry(double num);
     _entry();
@@ -22,6 +21,9 @@ public:
     static bool check_is_num(const std::string& str);
     _entry & operator= (const std::string& str);
     _entry & operator= (double num);
+
+    double get_num();
+    std::string& get_str();
 
     std::string to_str();
 };

@@ -13,15 +13,16 @@
 class _col_mat{
 protected:
     std::vector<std::string> _titles;
-    std::vector<std::vector<_entry>> _cols;
+    std::vector<std::vector<double>> _cols;
 public:
     _col_mat();
     explicit _col_mat(const std::string&& dir);
 
     size_t width();
+    size_t height();
+    double loc(size_t h, size_t w);
 
     // display
-    std::string to_str(size_t begin, size_t end);
     void to_csv(const char* dir, size_t begin, size_t end);
     // encoding
 

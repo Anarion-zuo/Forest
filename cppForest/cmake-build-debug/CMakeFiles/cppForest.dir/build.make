@@ -304,48 +304,9 @@ CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/_exp_node.cpp -o CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.s
 
-CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o: CMakeFiles/cppForest.dir/flags.make
-CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o: ../MetaLang/MLParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/MLParser.cpp
-
-CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/MLParser.cpp > CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.i
-
-CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/MLParser.cpp -o CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.s
-
-CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o: CMakeFiles/cppForest.dir/flags.make
-CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o: ../MetaLang/DOMTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMTree.cpp
-
-CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMTree.cpp > CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.i
-
-CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMTree.cpp -o CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.s
-
-CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o: CMakeFiles/cppForest.dir/flags.make
-CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o: ../MetaLang/DOMNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMNode.cpp
-
-CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMNode.cpp > CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.i
-
-CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MetaLang/DOMNode.cpp -o CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.s
-
 CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../cgNode/vectorOp/_vadd_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_vadd_node.cpp
 
 CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.i: cmake_force
@@ -358,7 +319,7 @@ CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/MyException/nullException.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/MyException/nullException.cpp.o: ../MyException/nullException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/cppForest.dir/MyException/nullException.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/cppForest.dir/MyException/nullException.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/nullException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/nullException.cpp
 
 CMakeFiles/cppForest.dir/MyException/nullException.cpp.i: cmake_force
@@ -371,7 +332,7 @@ CMakeFiles/cppForest.dir/MyException/nullException.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.o: ../cgNode/multiop/_mul_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/_mul_node.cpp
 
 CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.i: cmake_force
@@ -384,7 +345,7 @@ CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/cgNode/_root_node.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/cgNode/_root_node.cpp.o: ../cgNode/_root_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/cppForest.dir/cgNode/_root_node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cppForest.dir/cgNode/_root_node.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/_root_node.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/_root_node.cpp
 
 CMakeFiles/cppForest.dir/cgNode/_root_node.cpp.i: cmake_force
@@ -397,7 +358,7 @@ CMakeFiles/cppForest.dir/cgNode/_root_node.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/cg/_cg.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/cg/_cg.cpp.o: ../cg/_cg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/cppForest.dir/cg/_cg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/cppForest.dir/cg/_cg.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cg/_cg.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/_cg.cpp
 
 CMakeFiles/cppForest.dir/cg/_cg.cpp.i: cmake_force
@@ -410,7 +371,7 @@ CMakeFiles/cppForest.dir/cg/_cg.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/cg/_dcg.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/cg/_dcg.cpp.o: ../cg/_dcg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/cppForest.dir/cg/_dcg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/cppForest.dir/cg/_dcg.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cg/_dcg.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cg/_dcg.cpp
 
 CMakeFiles/cppForest.dir/cg/_dcg.cpp.i: cmake_force
@@ -423,7 +384,7 @@ CMakeFiles/cppForest.dir/cg/_dcg.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Solvers/Range.cpp.o: ../Solvers/Range.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Range.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Range.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/Range.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Range.cpp
 
 CMakeFiles/cppForest.dir/Solvers/Range.cpp.i: cmake_force
@@ -436,7 +397,7 @@ CMakeFiles/cppForest.dir/Solvers/Range.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o: ../MyException/RangeException/RangeMagException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/RangeException/RangeMagException.cpp
 
 CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.i: cmake_force
@@ -449,7 +410,7 @@ CMakeFiles/cppForest.dir/MyException/RangeException/RangeMagException.cpp.s: cma
 
 CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.o: ../Solvers/SolverInput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverInput.cpp
 
 CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.i: cmake_force
@@ -462,7 +423,7 @@ CMakeFiles/cppForest.dir/Solvers/SolverInput.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o: ../Solvers/SolverOutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/SolverOutput.cpp
 
 CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.i: cmake_force
@@ -475,7 +436,7 @@ CMakeFiles/cppForest.dir/Solvers/SolverOutput.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o: ../Solvers/Solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/Solver.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Solver.cpp
 
 CMakeFiles/cppForest.dir/Solvers/Solver.cpp.i: cmake_force
@@ -488,7 +449,7 @@ CMakeFiles/cppForest.dir/Solvers/Solver.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o: ../Solvers/Root/singleroot/BisectionRootFinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/BisectionRootFinder.cpp
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.i: cmake_force
@@ -501,7 +462,7 @@ CMakeFiles/cppForest.dir/Solvers/Root/singleroot/BisectionRootFinder.cpp.s: cmak
 
 CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.o: ../MyException/SolverException/SingleVariableException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/SingleVariableException.cpp
 
 CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp.i: cmake_force
@@ -514,7 +475,7 @@ CMakeFiles/cppForest.dir/MyException/SolverException/SingleVariableException.cpp
 
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_poly_node.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_poly_node.cpp.o: ../cgNode/singleNodes/op/_poly_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_poly_node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_poly_node.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_poly_node.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/_poly_node.cpp
 
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_poly_node.cpp.i: cmake_force
@@ -527,7 +488,7 @@ CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_poly_node.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o: ../cgNode/singleNodes/op/triang/_sin_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/_sin_node.cpp
 
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.i: cmake_force
@@ -540,7 +501,7 @@ CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.s: cmake_for
 
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o: ../cgNode/singleNodes/op/triang/_cos_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/op/triang/_cos_node.cpp
 
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.i: cmake_force
@@ -553,7 +514,7 @@ CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.s: cmake_for
 
 CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o: ../MyException/SolverException/ConditionException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/ConditionException.cpp
 
 CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.i: cmake_force
@@ -566,7 +527,7 @@ CMakeFiles/cppForest.dir/MyException/SolverException/ConditionException.cpp.s: c
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../Solvers/Root/singleroot/FixedPointRootFinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/FixedPointRootFinder.cpp
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.i: cmake_force
@@ -579,7 +540,7 @@ CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.s: cma
 
 CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o: ../MyException/SolverException/CannotConvergeException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/SolverException/CannotConvergeException.cpp
 
 CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp.i: cmake_force
@@ -592,7 +553,7 @@ CMakeFiles/cppForest.dir/MyException/SolverException/CannotConvergeException.cpp
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o: ../Solvers/Root/singleroot/NewtonsRootFinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/NewtonsRootFinder.cpp
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.i: cmake_force
@@ -605,7 +566,7 @@ CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.s: cmake_
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/SecantRootFinder.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/SecantRootFinder.cpp.o: ../Solvers/Root/singleroot/SecantRootFinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/singleroot/SecantRootFinder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/singleroot/SecantRootFinder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/Root/singleroot/SecantRootFinder.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/SecantRootFinder.cpp
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/SecantRootFinder.cpp.i: cmake_force
@@ -618,7 +579,7 @@ CMakeFiles/cppForest.dir/Solvers/Root/singleroot/SecantRootFinder.cpp.s: cmake_f
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.o: ../Solvers/Root/singleroot/FalsePositionRootFinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Solvers/Root/singleroot/FalsePositionRootFinder.cpp
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.i: cmake_force
@@ -631,7 +592,7 @@ CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FalsePositionRootFinder.cpp.s: 
 
 CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: ../cgNode/multiop/_prod_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/_prod_node.cpp
 
 CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.i: cmake_force
@@ -644,7 +605,7 @@ CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.o: ../Matrix/_cnst_mat/_cnst_mat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_mat.cpp
 
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.i: cmake_force
@@ -657,7 +618,7 @@ CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_mat.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/MyException/NumericMatrixException/MatrixShapeException.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/MyException/NumericMatrixException/MatrixShapeException.cpp.o: ../MyException/NumericMatrixException/MatrixShapeException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/cppForest.dir/MyException/NumericMatrixException/MatrixShapeException.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/cppForest.dir/MyException/NumericMatrixException/MatrixShapeException.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/MyException/NumericMatrixException/MatrixShapeException.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/NumericMatrixException/MatrixShapeException.cpp
 
 CMakeFiles/cppForest.dir/MyException/NumericMatrixException/MatrixShapeException.cpp.i: cmake_force
@@ -670,7 +631,7 @@ CMakeFiles/cppForest.dir/MyException/NumericMatrixException/MatrixShapeException
 
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_vec.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_vec.cpp.o: ../Matrix/_cnst_mat/_cnst_vec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_vec.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_vec.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_vec.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_vec.cpp
 
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_vec.cpp.i: cmake_force
@@ -683,7 +644,7 @@ CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_cnst_vec.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.o: ../Matrix/_cnst_mat/_unit_mat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_unit_mat.cpp
 
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.i: cmake_force
@@ -696,7 +657,7 @@ CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_unit_mat.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/common/common.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/common/common.cpp.o: ../common/common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/cppForest.dir/common/common.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/cppForest.dir/common/common.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/common/common.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/common.cpp
 
 CMakeFiles/cppForest.dir/common/common.cpp.i: cmake_force
@@ -709,7 +670,7 @@ CMakeFiles/cppForest.dir/common/common.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.o: ../Matrix/_cnst_mat/_gaussian_elimination.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.o   -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_gaussian_elimination.c
 
 CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.i: cmake_force
@@ -722,7 +683,7 @@ CMakeFiles/cppForest.dir/Matrix/_cnst_mat/_gaussian_elimination.c.s: cmake_force
 
 CMakeFiles/cppForest.dir/common/_bit_array.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/common/_bit_array.cpp.o: ../common/_bit_array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/cppForest.dir/common/_bit_array.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/cppForest.dir/common/_bit_array.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/common/_bit_array.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/_bit_array.cpp
 
 CMakeFiles/cppForest.dir/common/_bit_array.cpp.i: cmake_force
@@ -735,7 +696,7 @@ CMakeFiles/cppForest.dir/common/_bit_array.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/Other_Modeling_Algs/GreyModel/GreyModel.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Other_Modeling_Algs/GreyModel/GreyModel.cpp.o: ../Other\ Modeling\ Algs/GreyModel/GreyModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/cppForest.dir/Other_Modeling_Algs/GreyModel/GreyModel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/cppForest.dir/Other_Modeling_Algs/GreyModel/GreyModel.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Other_Modeling_Algs/GreyModel/GreyModel.cpp.o -c "/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Other Modeling Algs/GreyModel/GreyModel.cpp"
 
 CMakeFiles/cppForest.dir/Other_Modeling_Algs/GreyModel/GreyModel.cpp.i: cmake_force
@@ -748,7 +709,7 @@ CMakeFiles/cppForest.dir/Other_Modeling_Algs/GreyModel/GreyModel.cpp.s: cmake_fo
 
 CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o: ../Matrix/_matrix/_matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_matrix/_matrix.cpp
 
 CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.i: cmake_force
@@ -761,7 +722,7 @@ CMakeFiles/cppForest.dir/Matrix/_matrix/_matrix.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o: ../Matrix/_col_mat/_col_mat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/_col_mat.cpp
 
 CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.i: cmake_force
@@ -774,7 +735,7 @@ CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o: ../Matrix/_col_mat/_num_mat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/_num_mat.cpp
 
 CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.i: cmake_force
@@ -787,7 +748,7 @@ CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o: ../Matrix/_entry/_entry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_entry/_entry.cpp
 
 CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.i: cmake_force
@@ -800,7 +761,7 @@ CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.s: cmake_force
 
 CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: CMakeFiles/cppForest.dir/flags.make
 CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../cgNode/vectors/_range_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_range_node.cpp
 
 CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.i: cmake_force
@@ -811,44 +772,31 @@ CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_range_node.cpp -o CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.s
 
-CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o: CMakeFiles/cppForest.dir/flags.make
-CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o: ../Model/LinearRegressionModel/LinearRegressionModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/LinearRegressionModel.cpp
+CMakeFiles/cppForest.dir/Data/DataFrame.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Data/DataFrame.cpp.o: ../Data/DataFrame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/cppForest.dir/Data/DataFrame.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Data/DataFrame.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Data/DataFrame.cpp
 
-CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/LinearRegressionModel.cpp > CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.i
+CMakeFiles/cppForest.dir/Data/DataFrame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Data/DataFrame.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Data/DataFrame.cpp > CMakeFiles/cppForest.dir/Data/DataFrame.cpp.i
 
-CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/LinearRegressionModel.cpp -o CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.s
+CMakeFiles/cppForest.dir/Data/DataFrame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Data/DataFrame.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Data/DataFrame.cpp -o CMakeFiles/cppForest.dir/Data/DataFrame.cpp.s
 
-CMakeFiles/cppForest.dir/Model/Model.cpp.o: CMakeFiles/cppForest.dir/flags.make
-CMakeFiles/cppForest.dir/Model/Model.cpp.o: ../Model/Model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/cppForest.dir/Model/Model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Model/Model.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/Model.cpp
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: CMakeFiles/cppForest.dir/flags.make
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../Model/LinearModel/L2Linear.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearModel/L2Linear.cpp
 
-CMakeFiles/cppForest.dir/Model/Model.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Model/Model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/Model.cpp > CMakeFiles/cppForest.dir/Model/Model.cpp.i
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearModel/L2Linear.cpp > CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.i
 
-CMakeFiles/cppForest.dir/Model/Model.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Model/Model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/Model.cpp -o CMakeFiles/cppForest.dir/Model/Model.cpp.s
-
-CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o: CMakeFiles/cppForest.dir/flags.make
-CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o: ../Model/LinearRegressionModel/_l2_lr_cg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o -c /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/_l2_lr_cg.cpp
-
-CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/_l2_lr_cg.cpp > CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.i
-
-CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearRegressionModel/_l2_lr_cg.cpp -o CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.s
+CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/CSLearning/AI/Forest/cppForest/Model/LinearModel/L2Linear.cpp -o CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.s
 
 # Object files for target cppForest
 cppForest_OBJECTS = \
@@ -871,9 +819,6 @@ cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o" \
 "CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.o" \
-"CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o" \
-"CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o" \
-"CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o" \
 "CMakeFiles/cppForest.dir/MyException/nullException.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.o" \
@@ -910,9 +855,8 @@ cppForest_OBJECTS = \
 "CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o" \
 "CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o" \
 "CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o" \
-"CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o" \
-"CMakeFiles/cppForest.dir/Model/Model.cpp.o" \
-"CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o"
+"CMakeFiles/cppForest.dir/Data/DataFrame.cpp.o" \
+"CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o"
 
 # External object files for target cppForest
 cppForest_EXTERNAL_OBJECTS =
@@ -936,9 +880,6 @@ cppForest: CMakeFiles/cppForest.dir/cgNode/vectorOp/_nummul_node.cpp.o
 cppForest: CMakeFiles/cppForest.dir/MyException/VectorException/nummulException/nummulTypeException.cpp.o
 cppForest: CMakeFiles/cppForest.dir/MyException/VectorException/functionCallException/getnonconstValException.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.o
-cppForest: CMakeFiles/cppForest.dir/MetaLang/MLParser.cpp.o
-cppForest: CMakeFiles/cppForest.dir/MetaLang/DOMTree.cpp.o
-cppForest: CMakeFiles/cppForest.dir/MetaLang/DOMNode.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o
 cppForest: CMakeFiles/cppForest.dir/MyException/nullException.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.o
@@ -975,12 +916,11 @@ cppForest: CMakeFiles/cppForest.dir/Matrix/_col_mat/_col_mat.cpp.o
 cppForest: CMakeFiles/cppForest.dir/Matrix/_col_mat/_num_mat.cpp.o
 cppForest: CMakeFiles/cppForest.dir/Matrix/_entry/_entry.cpp.o
 cppForest: CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o
-cppForest: CMakeFiles/cppForest.dir/Model/LinearRegressionModel/LinearRegressionModel.cpp.o
-cppForest: CMakeFiles/cppForest.dir/Model/Model.cpp.o
-cppForest: CMakeFiles/cppForest.dir/Model/LinearRegressionModel/_l2_lr_cg.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Data/DataFrame.cpp.o
+cppForest: CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o
 cppForest: CMakeFiles/cppForest.dir/build.make
 cppForest: CMakeFiles/cppForest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking CXX executable cppForest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking CXX executable cppForest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppForest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

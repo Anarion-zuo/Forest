@@ -9,7 +9,6 @@
 #include "_sum_node.h"
 
 _mul_node::_mul_node(_cg_node *parent, _cg_node* left, _cg_node* right) : _cg_node(parent, {left, right}), _left(_childs[0]), _right(_childs[1]) {
-    set_childs_parents();
 }
 
 _cg_node *_mul_node::clone(_cg_node *parent) {

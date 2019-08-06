@@ -27,8 +27,8 @@ void _sum_node::diff() {
 }
 
 void _sum_node::compute() {
-    for (auto child : _childs){
-        child->compute();
+    for (size_t i = 0; i < _childs.size(); ++i){
+        _childs[i]->compute();
     }
     if (!_result){
         _result = new _const_node(this, 0);

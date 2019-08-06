@@ -50,3 +50,11 @@ std::string _entry::to_str() {
     }
     return _str;
 }
+
+double _entry::get_num() {
+    return _num;
+}
+
+std::string &_entry::get_str() {
+    return _str;
+}

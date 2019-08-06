@@ -1,5 +1,8 @@
 #include <iostream>
 #include <limits>
+#include <zconf.h>
+#include <bits/fcntl-linux.h>
+#include <fcntl.h>
 #include "cgNode/vectorOp/_dot_node.h"
 #include "cgNode/singleNodes/number/_const_node.h"
 #include "cgNode/vectors/_vec_node.h"
@@ -26,6 +29,8 @@
 #include "Matrix/_cnst_mat/_unit_mat.h"
 #include "Matrix/_cnst_mat/_cnst_vec.h"
 #include "Matrix/_col_mat/_col_mat.h"
+#include "Data/DataFrame.h"
+#include "Model/LinearModel/L2Linear.h"
 
 using namespace std;
 
@@ -45,8 +50,15 @@ int main(){
 //    sol->solve();
 //    cout << x->get_val();
 
-    auto m = new _col_mat("/home/anarion/Documents/CSLearning/AI/Forest/cppForest/1.csv");
-    cout << m->to_str(0, 1);
-    m->to_csv("/home/anarion/Documents/CSLearning/AI/Forest/cppForest/2.csv", 0, 1);
-    system("pause");
+    int fd1 = open("/home/anarion/Documents/CSLearning/AI/Forest/cppForest/1.csv", O_CREAT, 777);
+    int fd2 = open("/home/anarion/Documents/CSLearning/AI/Forest/cppForest/2.csv", O_CREAT, 777);
+    for (size_t i = 0; i < 0xffffffffffff; ++i){
+
+    }
+    close(fd1);
+    close(fd2);
+    auto x = new DataFrame("/home/anarion/Documents/CSLearning/AI/Forest/cppForest/1.csv");
+    auto y = new DataFrame("/home/anarion/Documents/CSLearning/AI/Forest/cppForest/2.csv");
+    auto s = new L2Linear(*x, *y);
+    s->fit();
 }

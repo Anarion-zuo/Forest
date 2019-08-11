@@ -13,7 +13,7 @@ _cg_node *_root_node::clone(_cg_node *parent) {
 
 void _root_node::compute() {
     _child->compute();
-    _result = _child->get_result();
+    _val = _child->get_val();
 }
 
 void _root_node::diff() {

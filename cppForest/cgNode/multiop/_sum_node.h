@@ -6,9 +6,9 @@
 #define CPPFOREST__SUM_NODE_H
 
 
-#include "../vectors/_vec_node.h"
+#include "../_cg_node.h"
 
-class _sum_node : public _vec_node {
+class _sum_node : public _cg_node {
 private:
 
 public:
@@ -17,7 +17,7 @@ public:
 
     void compute() override ;
     void diff() override ;
-
+    void trim() override ;
 };
 
 

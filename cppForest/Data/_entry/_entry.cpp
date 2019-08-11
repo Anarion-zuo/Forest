@@ -4,7 +4,9 @@
 
 #include "_entry.h"
 
-_entry::_entry(const std::string &str) : _str(str), is_num(false), is_nan(false) {
+#include <utility>
+
+_entry::_entry(std::string str) : _str(std::move(str)), is_num(false), is_nan(false) {
 
 }
 
@@ -51,10 +53,19 @@ std::string _entry::to_str() {
     return _str;
 }
 
-double _entry::get_num() {
+double & _entry::get_num() {
     return _num;
 }
 
 std::string &_entry::get_str() {
     return _str;
+}
+
+bool _entry::check_is_blank(const std::string &str) {
+    for (char i : str){
+        if (i != ' '){
+            return false;
+        }
+    }
+    return true;
 }

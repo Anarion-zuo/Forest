@@ -8,23 +8,17 @@
 
 #include "../_cg_node.h"
 #include "../../MyException/VectorException/dotExceptions/vecSizeException.h"
+#include "../multiop/_mul_node.h"
+#include "../multiop/_sum_node.h"
 
-class _dot_node : public _cg_node {
+class _dot_node : public _sum_node {
 protected:
     _cg_node*& _left = _childs[0];
     _cg_node*& _right = _childs[1];
 private:
 public:
-    _dot_node(_cg_node* parent, _cg_node* left, _cg_node* right) noexcept(false);
+    _dot_node(_cg_node *parent, std::vector<_cg_node *>& left, std::vector<_cg_node *>& right) noexcept(false);
     virtual ~_dot_node() = default;
-    _cg_node* clone(_cg_node* parent) override ;
-
-    void compute() override ;
-    virtual void diff() override ;
-    void trim() override ;
-
-    size_t get_num_left();
-    size_t get_num_right();
 };
 
 

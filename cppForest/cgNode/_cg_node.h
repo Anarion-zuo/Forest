@@ -16,7 +16,8 @@ class _cg_node {
 protected:
     std::vector<_cg_node*> _childs;
     _cg_node* _parent;
-    _cg_node* _result = nullptr;
+    double _val = 0;
+//    _cg_node* _result = nullptr;
 
     // dust bin
     static std::deque<_cg_node*> _node_bin;
@@ -30,7 +31,8 @@ protected:
     static void _del_as_root_recur(_cg_node*& node);
 
 public:
-    _cg_node(_cg_node* parent, const std::vector<_cg_node*>& childs);
+    _cg_node(_cg_node* parent, std::vector<_cg_node*>  childs);
+    _cg_node(_cg_node* parent, std::vector<_cg_node*>  childs, double val);
     virtual ~_cg_node();
     virtual _cg_node* clone(_cg_node* parent) = 0;
 
@@ -42,7 +44,6 @@ public:
     std::vector<_cg_node*>& get_childs();
     _cg_node* get_child(size_t index);
     void set_child(size_t index, _cg_node* node);
-    _cg_node* get_result();
     size_t find_in_parent();
     virtual double get_val();
     virtual void set_val(double val);

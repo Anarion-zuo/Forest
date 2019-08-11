@@ -17,3 +17,7 @@ _single_node::_single_node(_cg_node *parent, _cg_node *child) : _cg_node(parent,
 bool _single_node::is_single_val() {
     return true;
 }
+
+_single_node::_single_node(_cg_node *parent, _cg_node *child, double val) : _cg_node(parent, std::vector<_cg_node*>(1, child), val) {
+
+}

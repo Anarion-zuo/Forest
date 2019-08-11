@@ -18,7 +18,7 @@ _cg_node *_pow_node::clone(_cg_node *parent) {
 
 void _pow_node::compute() {
     _child->compute();
-    _result = new _const_node(this, pow(_child->get_result()->get_val(), _pow));
+    _val = pow(_child->get_val(), _pow);
 }
 
 void _pow_node::diff() {

@@ -19,7 +19,7 @@ public:
     virtual _cg* clone();
 
     virtual void compute();
-    _cg_node* get_result();
+    double get_val();
 };
 
 #endif //CPPFOREST__CG_H

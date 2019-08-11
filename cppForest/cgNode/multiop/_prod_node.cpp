@@ -7,7 +7,7 @@
 #include "../singleNodes/number/_const_node.h"
 #include "../../MyException/VectorException/singleException/singleException.h"
 
-_prod_node::_prod_node(_cg_node *parent, const std::vector<_cg_node *> &childs) : _vec_node(parent, childs) {}
+_prod_node::_prod_node(_cg_node *parent, const std::vector<_cg_node *> &childs) : _cg_node(parent, childs) {}
 
 _cg_node *_prod_node::clone(_cg_node *parent) {
     std::vector<_cg_node*> vec(_childs);
@@ -42,18 +42,11 @@ void _prod_node::compute() {
     for (auto child : _childs){
         child->compute();
     }
-    if (!_result){
-        _result = new _const_node(this, 0);
-    }
     double ret = 1;
     for (auto child : _childs){
-        auto pr =  child->get_result();
-        if (!pr->is_const()){
-            throw singleException(this);
-        }
-        ret *= child->get_result()->get_val();
+        ret *= child->get_val();
     }
-    _result->set_val(ret);
+    _val = ret;
 }
 
 void _prod_node::diff() {
@@ -62,4 +55,8 @@ void _prod_node::diff() {
     }
     _tree_form->diff();
     change_to(this, _tree_form);
+}
+
+void _prod_node::trim() {
+
 }

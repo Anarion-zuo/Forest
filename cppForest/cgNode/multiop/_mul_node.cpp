@@ -5,7 +5,6 @@
 #include "_mul_node.h"
 #include "../singleNodes/number/_const_node.h"
 #include "../../MyException/VectorException/singleException/singleException.h"
-#include "../vectors/_vec_node.h"
 #include "_sum_node.h"
 
 _mul_node::_mul_node(_cg_node *parent, _cg_node* left, _cg_node* right) : _cg_node(parent, {left, right}), _left(_childs[0]), _right(_childs[1]) {
@@ -23,18 +22,11 @@ void _mul_node::compute() {
     _left->compute();
     _right->compute();
 
-    if (!_result){
-        _result = new _const_node(this, 0);
-    }
     double ret = 1;
     for (auto child : _childs){
-        auto pr =  child->get_result();
-        if (!pr->is_const()){
-            throw singleException(this);
-        }
-        ret *= child->get_result()->get_val();
+        ret *= child->get_val();
     }
-    _result->set_val(ret);
+    _val = ret;
 }
 
 void _mul_node::diff() {

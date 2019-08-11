@@ -23,11 +23,11 @@ void _cg::compute() {
     _root->compute();
 }
 
-_cg_node *_cg::get_result() {
-    return _root->get_result();
-}
-
 _cg::_cg(_cg *graph) : _root(graph->_root->clone(nullptr)) {
     _root->set_childs_parents();
+}
+
+double _cg::get_val() {
+    return _root->get_val();
 }
 

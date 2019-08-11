@@ -30,7 +30,7 @@ void FixedPointRootFinder::solve() {
         _var* v = _input->_ranges.begin()->first;
         v->set_val(x);
         _graph->compute();
-        double xp = _graph->get_result()->get_val();
+        double xp = _graph->get_val();
         prec = x - xp;
         x = xp;
         if (exceeds_max_iter(i)){

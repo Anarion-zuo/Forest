@@ -21,8 +21,7 @@ _cg_node *_sin_node::clone(_cg_node *parent) {
 
 void _sin_node::compute() {
     _child->compute();
-    if (!_result)   _result = new _const_node(this, 0);
-    _result->set_val(sin(_child->get_result()->get_val()));
+    _val = sin(_child->get_val());
 }
 
 void _sin_node::diff() {

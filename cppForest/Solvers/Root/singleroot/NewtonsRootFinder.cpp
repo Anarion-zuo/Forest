@@ -22,9 +22,9 @@ void NewtonsRootFinder::solve() {
         double xii = xi;
         v->set_val(xi);
         _graph->compute();
-        f = _graph->get_result()->get_val();
+        f = _graph->get_val();
         _dgraph->compute();
-        df = _dgraph->get_result()->get_val();
+        df = _dgraph->get_val();
         xi -= f / df;
         if (exceeds_max_iter(i)){
             _var::clear_dvar(vit);

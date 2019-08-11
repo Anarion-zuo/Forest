@@ -3,12 +3,14 @@
 //
 
 #include "_cg_node.h"
+
+#include <utility>
 #include "../MyException/VectorException/functionCallException/getnonconstValException.h"
 #include "../MyException/nullException.h"
 
 std::deque<_cg_node*> _cg_node::_node_bin;
 
-_cg_node::_cg_node(_cg_node *parent, const std::vector<_cg_node *> &childs) : _parent(parent), _childs(childs) {
+_cg_node::_cg_node(_cg_node *parent, std::vector<_cg_node *> childs) : _parent(parent), _childs(std::move(childs)) {
 //    for (auto i : _childs){
 //        i->set_parent(this);
 //    }
@@ -49,10 +51,6 @@ bool _cg_node::is_single_val() {
     return false;
 }
 
-_cg_node *_cg_node::get_result() {
-    return _result;
-}
-
 size_t _cg_node::find_in_parent() {
     auto pc = _parent->get_childs();
     for (size_t i = 0; i < pc.size(); ++i){
@@ -64,7 +62,7 @@ size_t _cg_node::find_in_parent() {
 }
 
 double _cg_node::get_val() {
-    throw getnonconstValException(this);
+    return _val;
 }
 
 void _cg_node::set_val(double val) {
@@ -155,10 +153,14 @@ void _cg_node::_retrieve_bin() {
 }
 
 _cg_node::~_cg_node() {
-    delete _result;
+
 }
 
 bool _cg_node::is_num() {
     return false;
+}
+
+_cg_node::_cg_node(_cg_node *parent, std::vector<_cg_node *> childs, double val) : _parent(parent), _childs(std::move(childs)), _val(val) {
+
 }
 

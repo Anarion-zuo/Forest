@@ -3,12 +3,11 @@
 //
 
 #include "_sum_node.h"
-#include "../vectors/_vec_node.h"
 #include "../singleNodes/number/_const_node.h"
 #include "../../MyException/VectorException/singleException/singleException.h"
 
 
-_sum_node::_sum_node(_cg_node *parent, const std::vector<_cg_node *> &childs) : _vec_node(parent, childs) {}
+_sum_node::_sum_node(_cg_node *parent, const std::vector<_cg_node *> &childs) : _cg_node(parent, childs) {}
 
 _cg_node *_sum_node::clone(_cg_node* parent) {
     std::vector<_cg_node*> vec(_childs);
@@ -27,19 +26,16 @@ void _sum_node::diff() {
 }
 
 void _sum_node::compute() {
-    for (size_t i = 0; i < _childs.size(); ++i){
-        _childs[i]->compute();
-    }
-    if (!_result){
-        _result = new _const_node(this, 0);
+    for (auto & _child : _childs){
+        _child->compute();
     }
     double ret = 0;
     for (auto child : _childs){
-        auto pr =  child->get_result();
-        if (!pr->is_const()){
-            throw singleException(this);
-        }
-        ret += child->get_result()->get_val();
+        ret += child->get_val();
     }
-    _result->set_val(ret);
+    _val = ret;
+}
+
+void _sum_node::trim() {
+
 }

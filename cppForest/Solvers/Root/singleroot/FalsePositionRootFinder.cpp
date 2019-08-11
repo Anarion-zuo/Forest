@@ -20,10 +20,10 @@ void FalsePositionRootFinder::solve() {
     _var* x = it->first;
     x->set_val(a);
     _graph->compute();
-    double fa = _graph->get_result()->get_val();
+    double fa = _graph->get_val();
     x->set_val(b);
     _graph->compute();
-    double fb = _graph->get_result()->get_val();
+    double fb = _graph->get_val();
     if ((fa > 0 && fb > 0) || (fa < 0 && fb < 0)){
         std::string s1("False Position Method got the same sign on both ends. left: ");
         std::string s2("  right: ");
@@ -48,7 +48,7 @@ void FalsePositionRootFinder::solve() {
         c = (b - a * q) / (1 - q);
         x->set_val(c);
         _graph->compute();
-        fc = _graph->get_result()->get_val();
+        fc = _graph->get_val();
         if (equals(fc, 0)){
             delete _output;
             _output = new SolverOutput(i, c);
@@ -64,10 +64,10 @@ void FalsePositionRootFinder::solve() {
         }
         x->set_val(a);
         _graph->compute();
-        fa = _graph->get_result()->get_val();
+        fa = _graph->get_val();
         x->set_val(b);
         _graph->compute();
-        fb = _graph->get_result()->get_val();
+        fb = _graph->get_val();
         ++i;
     }
 

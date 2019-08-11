@@ -19,8 +19,7 @@ _cg_node *_ln_node::clone(_cg_node *parent) {
 
 void _ln_node::compute() {
     _child->compute();
-    if (!_result)   _result = new _const_node(this, 0);
-    _result->set_val(log(_child->get_result()->get_val()));
+    _val = log(_child->get_val());
 }
 
 void _ln_node::diff() {

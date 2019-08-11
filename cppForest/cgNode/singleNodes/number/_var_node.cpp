@@ -12,18 +12,7 @@ _cg_node *_var_node::clone(_cg_node *parent) {
 }
 
 void _var_node::compute() {
-    if (!_result){
-        _result = new _const_node(_parent, _x->get_val());
-    }
-    _result->set_val(_x->get_val());
-}
-
-double _var_node::get_val() {
-    return _x->get_val();
-}
-
-void _var_node::set_val(double val) {
-    _x->set_val(val);
+    _val = _x->get_val();
 }
 
 void _var_node::diff() {

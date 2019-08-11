@@ -19,8 +19,7 @@ _cg_node *_cos_node::clone(_cg_node *parent) {
 
 void _cos_node::compute() {
     _child->compute();
-    if (!_result)   _result = new _const_node(this, 0);
-    _result->set_val(cos(_child->get_result()->get_val()));
+    _val = cos(_child->get_val());
 }
 
 void _cos_node::diff() {

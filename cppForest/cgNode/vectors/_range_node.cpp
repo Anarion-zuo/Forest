@@ -22,15 +22,11 @@ _cg_node *_range_node::clone(_cg_node *parent) {
 
 void _range_node::compute() {
     _child->compute();
-    auto result = _child->get_result();
-    if (result->is_const()){
-        throw singleException(this);
-    }
-    double res = result->get_val();
+    double res = _child->get_val();
     size_t index = choose_op(res, _threash);
     _cg_node* op = _ops[index];
     op->compute();
-    _result = op->get_result();
+    _val = op->get_val();
 }
 
 double _range_node::choose_op(double res, const std::vector<double>& threash) {

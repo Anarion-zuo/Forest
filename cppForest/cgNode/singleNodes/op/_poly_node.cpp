@@ -18,14 +18,10 @@ _cg_node *_poly_node::clone(_cg_node *parent) {
 
 void _poly_node::compute() {
     _child->compute();
-    double x = _child->get_result()->get_val();
+    double x = _child->get_val();
 
     if (_coeffs.size() == 1){
-        if (!_result){
-            _result = new _const_node(this, _coeffs[0]);
-        } else {
-            _result->set_val(_coeffs[0]);
-        }
+        _val = _coeffs[0];
         return;
     }
 
@@ -33,11 +29,7 @@ void _poly_node::compute() {
     for (size_t i = _coeffs.size() - 2; i >= 0; --i){
         cur = x * cur + _coeffs[i];
     }
-    if (!_result){
-        _result = new _const_node(this, cur);
-    } else {
-        _result->set_val(cur);
-    }
+    _val = cur;
 }
 
 void _poly_node::diff() {

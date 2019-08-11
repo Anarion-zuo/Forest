@@ -21,10 +21,10 @@ void SecantRootFinder::solve() {
     while (true) {
         v->set_val(xi);
         _graph->compute();
-        fi = _graph->get_result()->get_val();
+        fi = _graph->get_val();
         v->set_val(xii);
         _graph->compute();
-        fii = _graph->get_result()->get_val();
+        fii = _graph->get_val();
         xiii = xii - fii * (xii - xi) / (fii - fi);
         if (exceeds_max_iter(i)){
             throw CannotConvergeException("Secant Method iteration cannot converge. Check whether the convergence condition is satisfied. The condition is that.");

@@ -79,8 +79,8 @@ set
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_dot_node.h
 
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/_sum_node.h
-../vectors/_vec_node.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_vec_node.h
+../_cg_node.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/_cg_node.h
 
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/singleNodes/_single_node.h
 ../_cg_node.h
@@ -103,8 +103,8 @@ set
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/_cg_node.h
 ../../MyException/VectorException/dotExceptions/vecSizeException.h
 /home/anarion/Documents/CSLearning/AI/Forest/cppForest/MyException/VectorException/dotExceptions/vecSizeException.h
-
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_vec_node.h
-../_cg_node.h
-/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/_cg_node.h
+../multiop/_mul_node.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/_mul_node.h
+../multiop/_sum_node.h
+/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/multiop/_sum_node.h
 

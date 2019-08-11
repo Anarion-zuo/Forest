@@ -19,10 +19,10 @@ void BisectionRootFinder::solve() {
     _var* x = it->first;
     x->set_val(a);
     _graph->compute();
-    double fa = _graph->get_result()->get_val();
+    double fa = _graph->get_val();
     x->set_val(b);
     _graph->compute();
-    double fb = _graph->get_result()->get_val();
+    double fb = _graph->get_val();
 
     if ((fa > 0 && fb > 0) || (fa < 0 && fb < 0)){
         std::string s1("Bisection got the same sign on both ends. left: ");
@@ -47,7 +47,7 @@ void BisectionRootFinder::solve() {
         c = (a + b) / 2;
         x->set_val(c);
         _graph->compute();
-        fc = _graph->get_result()->get_val();
+        fc = _graph->get_val();
         if (equals(fc, 0)){
             delete _output;
             _output = new SolverOutput(i, c);

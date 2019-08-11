@@ -6,9 +6,9 @@
 #define CPPFOREST__PROD_NODE_H
 
 
-#include "../vectors/_vec_node.h"
+#include "../_cg_node.h"
 
-class _prod_node : public _vec_node{
+class _prod_node : public _cg_node{
 protected:
     std::vector<_cg_node*>&& _build_prod_recur(std::vector<_cg_node*>& list);
     _cg_node* _tree_form = nullptr;
@@ -19,6 +19,7 @@ public:
 
     void compute() override ;
     void diff() override ;
+    void trim() override ;
 };
 
 

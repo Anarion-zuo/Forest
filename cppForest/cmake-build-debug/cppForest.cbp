@@ -90,6 +90,18 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Data/DataFrame.h">
 			<Option target="cppForest"/>
 		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Data/FinalData.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Data/FinalData.h">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Data/_entry/_entry.cpp">
+			<Option target="cppForest"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Data/_entry/_entry.h">
+			<Option target="cppForest"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_cnst_mat/_cnst_mat.cpp">
 			<Option target="cppForest"/>
 		</Unit>
@@ -124,12 +136,6 @@
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_col_mat/_num_mat.h">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_entry/_entry.cpp">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_entry/_entry.h">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/Matrix/_matrix/_matrix.cpp">
@@ -384,28 +390,10 @@
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_dot_node.h">
 			<Option target="cppForest"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_nummul_node.cpp">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_nummul_node.h">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_vadd_node.cpp">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectorOp/_vadd_node.h">
-			<Option target="cppForest"/>
-		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_range_node.cpp">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_range_node.h">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_vec_node.cpp">
-			<Option target="cppForest"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/cgNode/vectors/_vec_node.h">
 			<Option target="cppForest"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/CSLearning/AI/Forest/cppForest/common/_bit_array.cpp">

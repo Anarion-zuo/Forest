@@ -54,7 +54,6 @@ CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/singleNodes
 CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/singleNodes/number/_const_node.h
 CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/singleNodes/number/_var_node.h
 CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/vectorOp/_dot_node.h
-CMakeFiles/cppForest.dir/Model/LinearModel/L2Linear.cpp.o: ../cgNode/vectors/_vec_node.h
 
 CMakeFiles/cppForest.dir/MyException/NumericMatrixException/MatrixShapeException.cpp.o: ../Matrix/_cnst_mat/_cnst_mat.h
 CMakeFiles/cppForest.dir/MyException/NumericMatrixException/MatrixShapeException.cpp.o: ../Matrix/_matrix/_matrix.h
@@ -160,7 +159,6 @@ CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../cgNode/multiop/_sum_node.h
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../cgNode/singleNodes/_single_node.h
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../cgNode/singleNodes/number/_var_node.h
-CMakeFiles/cppForest.dir/Solvers/Root/singleroot/FixedPointRootFinder.cpp.o: ../cgNode/vectors/_vec_node.h
 
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o: ../MyException/SolverException/CannotConvergeException.h
 CMakeFiles/cppForest.dir/Solvers/Root/singleroot/NewtonsRootFinder.cpp.o: ../MyException/SolverException/SingleVariableException.h
@@ -249,7 +247,6 @@ CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.o: ../cgNode/multiop/_sum_
 CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.o: ../cgNode/singleNodes/_single_node.h
 CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
 CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.o: ../cgNode/vectorOp/_dot_node.h
-CMakeFiles/cppForest.dir/cgNode/multiop/_mul_node.cpp.o: ../cgNode/vectors/_vec_node.h
 
 CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.h
 CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: ../MyException/VectorException/nodeException.h
@@ -258,10 +255,10 @@ CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: ../cgNode/_cg_node.h
 CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: ../cgNode/multiop/_mul_node.h
 CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: ../cgNode/multiop/_prod_node.cpp
 CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: ../cgNode/multiop/_prod_node.h
+CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: ../cgNode/multiop/_sum_node.h
 CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: ../cgNode/singleNodes/_single_node.h
 CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
 CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: ../cgNode/vectorOp/_dot_node.h
-CMakeFiles/cppForest.dir/cgNode/multiop/_prod_node.cpp.o: ../cgNode/vectors/_vec_node.h
 
 CMakeFiles/cppForest.dir/cgNode/multiop/_sum_node.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/cgNode/multiop/_sum_node.cpp.o: ../MyException/VectorException/singleException/singleException.h
@@ -270,7 +267,6 @@ CMakeFiles/cppForest.dir/cgNode/multiop/_sum_node.cpp.o: ../cgNode/multiop/_sum_
 CMakeFiles/cppForest.dir/cgNode/multiop/_sum_node.cpp.o: ../cgNode/multiop/_sum_node.h
 CMakeFiles/cppForest.dir/cgNode/multiop/_sum_node.cpp.o: ../cgNode/singleNodes/_single_node.h
 CMakeFiles/cppForest.dir/cgNode/multiop/_sum_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
-CMakeFiles/cppForest.dir/cgNode/multiop/_sum_node.cpp.o: ../cgNode/vectors/_vec_node.h
 
 CMakeFiles/cppForest.dir/cgNode/singleNodes/_single_node.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/_single_node.cpp.o: ../MyException/VectorException/singleException/singleException.h
@@ -294,6 +290,7 @@ CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.o: ../MyException/V
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.o: ../cgNode/_cg_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.o: ../cgNode/multiop/_mul_node.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.o: ../cgNode/multiop/_sum_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.o: ../cgNode/singleNodes/_single_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_exp_node.cpp.o: ../cgNode/singleNodes/op/_exp_node.cpp
@@ -304,6 +301,7 @@ CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_ln_node.cpp.o: ../MyException/Ve
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_ln_node.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_ln_node.cpp.o: ../cgNode/_cg_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_ln_node.cpp.o: ../cgNode/multiop/_mul_node.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_ln_node.cpp.o: ../cgNode/multiop/_sum_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_ln_node.cpp.o: ../cgNode/singleNodes/_single_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_ln_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_ln_node.cpp.o: ../cgNode/singleNodes/op/_ln_node.cpp
@@ -321,6 +319,7 @@ CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_pow_node.cpp.o: ../MyException/V
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_pow_node.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_pow_node.cpp.o: ../cgNode/_cg_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_pow_node.cpp.o: ../cgNode/multiop/_mul_node.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_pow_node.cpp.o: ../cgNode/multiop/_sum_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_pow_node.cpp.o: ../cgNode/singleNodes/_single_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_pow_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/_pow_node.cpp.o: ../cgNode/singleNodes/op/_pow_node.cpp
@@ -331,6 +330,7 @@ CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o: ../MyExce
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o: ../cgNode/_cg_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o: ../cgNode/multiop/_mul_node.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o: ../cgNode/multiop/_sum_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o: ../cgNode/singleNodes/_single_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_cos_node.cpp.o: ../cgNode/singleNodes/op/triang/_cos_node.cpp
@@ -342,6 +342,7 @@ CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o: ../MyExce
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o: ../cgNode/_cg_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o: ../cgNode/multiop/_mul_node.h
+CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o: ../cgNode/multiop/_sum_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o: ../cgNode/singleNodes/_single_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
 CMakeFiles/cppForest.dir/cgNode/singleNodes/op/triang/_sin_node.cpp.o: ../cgNode/singleNodes/op/triang/_cos_node.h
@@ -353,31 +354,12 @@ CMakeFiles/cppForest.dir/cgNode/vectorOp/_dot_node.cpp.o: ../MyException/VectorE
 CMakeFiles/cppForest.dir/cgNode/vectorOp/_dot_node.cpp.o: ../MyException/VectorException/dotExceptions/vecTypeException.h
 CMakeFiles/cppForest.dir/cgNode/vectorOp/_dot_node.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/cgNode/vectorOp/_dot_node.cpp.o: ../cgNode/_cg_node.h
+CMakeFiles/cppForest.dir/cgNode/vectorOp/_dot_node.cpp.o: ../cgNode/multiop/_mul_node.h
+CMakeFiles/cppForest.dir/cgNode/vectorOp/_dot_node.cpp.o: ../cgNode/multiop/_sum_node.h
 CMakeFiles/cppForest.dir/cgNode/vectorOp/_dot_node.cpp.o: ../cgNode/singleNodes/_single_node.h
 CMakeFiles/cppForest.dir/cgNode/vectorOp/_dot_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
 CMakeFiles/cppForest.dir/cgNode/vectorOp/_dot_node.cpp.o: ../cgNode/vectorOp/_dot_node.cpp
 CMakeFiles/cppForest.dir/cgNode/vectorOp/_dot_node.cpp.o: ../cgNode/vectorOp/_dot_node.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_dot_node.cpp.o: ../cgNode/vectorOp/_vadd_node.h
-
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_nummul_node.cpp.o: ../MyException/VectorException/nodeException.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_nummul_node.cpp.o: ../MyException/VectorException/nummulException/nummulTypeException.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_nummul_node.cpp.o: ../cgNode/_cg_node.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_nummul_node.cpp.o: ../cgNode/singleNodes/_single_node.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_nummul_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_nummul_node.cpp.o: ../cgNode/vectorOp/_nummul_node.cpp
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_nummul_node.cpp.o: ../cgNode/vectorOp/_nummul_node.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_nummul_node.cpp.o: ../cgNode/vectorOp/_vadd_node.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_nummul_node.cpp.o: ../cgNode/vectors/_vec_node.h
-
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../MyException/VectorException/dotExceptions/vecSizeException.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../MyException/VectorException/dotExceptions/vecTypeException.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../MyException/VectorException/nodeException.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../cgNode/_cg_node.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../cgNode/singleNodes/_single_node.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../cgNode/vectorOp/_vadd_node.cpp
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../cgNode/vectorOp/_vadd_node.h
-CMakeFiles/cppForest.dir/cgNode/vectorOp/_vadd_node.cpp.o: ../cgNode/vectors/_vec_node.h
 
 CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../MyException/VectorException/nodeException.h
 CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../MyException/VectorException/singleException/singleException.h
@@ -386,10 +368,6 @@ CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../cgNode/singleNodes
 CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../cgNode/singleNodes/number/_const_node.h
 CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../cgNode/vectors/_range_node.cpp
 CMakeFiles/cppForest.dir/cgNode/vectors/_range_node.cpp.o: ../cgNode/vectors/_range_node.h
-
-CMakeFiles/cppForest.dir/cgNode/vectors/_vec_node.cpp.o: ../cgNode/_cg_node.h
-CMakeFiles/cppForest.dir/cgNode/vectors/_vec_node.cpp.o: ../cgNode/vectors/_vec_node.cpp
-CMakeFiles/cppForest.dir/cgNode/vectors/_vec_node.cpp.o: ../cgNode/vectors/_vec_node.h
 
 CMakeFiles/cppForest.dir/common/_bit_array.cpp.o: ../common/_bit_array.cpp
 CMakeFiles/cppForest.dir/common/_bit_array.cpp.o: ../common/_bit_array.h
@@ -430,8 +408,5 @@ CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/singleNodes/op/_pow_node.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/singleNodes/op/triang/_cos_node.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/singleNodes/op/triang/_sin_node.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/vectorOp/_dot_node.h
-CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/vectorOp/_nummul_node.h
-CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/vectorOp/_vadd_node.h
-CMakeFiles/cppForest.dir/main.cpp.o: ../cgNode/vectors/_vec_node.h
 CMakeFiles/cppForest.dir/main.cpp.o: ../main.cpp
 
